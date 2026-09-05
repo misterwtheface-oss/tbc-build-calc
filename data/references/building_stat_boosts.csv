@@ -1,0 +1,16 @@
+building_id,upgrade_id,tier,stat,amount,scaling,applies_to
+forge,forge.armorsmith,1,Toughness,5,flat,heroes
+forge,forge.metallurgy,1,Power,1,flat,heroes
+inn,inn.bar,2,Wisdom,1,per_boss_badge,heroes
+inn,inn.bar,3,Endurance,1,per_boss_badge,heroes
+inn,inn.gym,1,Power,5,flat,heroes
+inn,inn.gym,2,Agility,5,flat,heroes
+inn,inn.gym,3,Discipline,5,flat,heroes
+inn,inn.summon,1,Technique,1,per_boss_badge,summons
+inn,inn.summon,2,Power,1,per_boss_badge,summons
+inn,inn.summon,2,Focus,1,per_boss_badge,summons
+lab,lab.computer,2,Focus,5,flat,heroes
+lab,lab.computer,3,Technique,1,per_boss_badge,heroes
+lab,lab.psychology,1,Focus,1,flat,heroes
+nano,nano.armors,2,Speed,5,flat,heroes
+nano,nano.tactical,1,Speed,1,flat,heroes

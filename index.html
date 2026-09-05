@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Time Break Chronicles — Team Builder</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">
+    <span class="glyph">◷</span>
+    <div>
+      <h1>Time Break Chronicles</h1>
+      <p>Team Builder <span class="ver" id="dataVer"></span></p>
+    </div>
+  </div>
+  <div class="topactions">
+    <button class="btn ghost" id="clearTeam">Clear Team</button>
+  </div>
+</header>
+
+<main class="stage">
+  <section class="formation" aria-label="Party formation">
+    <div class="formation-head">
+      <span class="line-label front">◄ FRONT LINE</span>
+      <span class="formation-title">FORMATION</span>
+      <span class="line-label back">BACK LINE ►</span>
+    </div>
+    <div class="grid" id="grid"><!-- 6 slots injected --></div>
+    <p class="hint">Positioning matters — front line (left) draws melee reach; back line (right) is safer but limited. Tap a slot to assign a class.</p>
+  </section>
+
+  <aside class="readout" id="readout" hidden>
+    <!-- selected-slot detail injected -->
+  </aside>
+</main>
+
+<!-- ===== Character selector overlay ===== -->
+<div class="overlay" id="pickerOverlay" hidden>
+  <div class="overlay-scrim" data-close></div>
+  <div class="panel picker" role="dialog" aria-modal="true" aria-label="Select a class">
+    <div class="panel-head">
+      <h2>Select Class <span class="muted" id="pickerSlotLabel"></span></h2>
+      <input type="search" id="pickerSearch" placeholder="Search class or character…" autocomplete="off" />
+      <button class="btn icon" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="picker-grid" id="pickerGrid"></div>
+  </div>
+</div>
+
+<script src="data/data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

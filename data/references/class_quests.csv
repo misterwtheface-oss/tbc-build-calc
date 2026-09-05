@@ -1,0 +1,292 @@
+class_id,quest_id,name,description,limit,reward,gem
+,damage,More Dakka,"Deal 10,000 total damage to enemies with SK04-A, in winning battles.",10000,+2 Skill Points,
+,instability,Neural Net Processor,"Reach 100% instability with SK04-A in the party, and win the battle.",,"+2 Skill Points, HavocAI Coprocessor Relic gains Sprite.infinity_med copies",HavocAI
+,weapons,Heavy Arsenal,Use 3 different weapon skills from SK04-A's Arsenal in a single winning battle.,3,"+2 Skill Points, Biotic Battery Relic gains Sprite.infinity_med copies",BioticBattery
+angel,cleric,Holy Warriors,Win 10 battles with both Asariel and Brand the Cleric in the party.,10,"+2 Skill Points, Asariel's Halo Relic gains Sprite.infinity_med copies",AsarielsTouch
+angel,holy,Divine Wrath,"Deal 4000 total SkillType.Holy damage to enemies with Asariel, in winning battles.",4000,+2 Skill Points,
+angel,nobleed,Blessed Protection,"Win 3 Extreme Danger or Boss battles with Asariel in the party, without any allies bleeding out.",3,"+2 Skill Points, Angel's Feather Relic gains Sprite.infinity_med copies",AngelsWing
+assassin,ambush,From the Shadows,"Deal 1200 total damage with Yukiko while hidden by her Ambush skill, in a single winning battle.",1200,+2 Skill Points,
+assassin,boss,King Slayer,"Strike the final blow on a Boss enemy with Yukiko's Execute skill, and win the battle.",,"+2 Skill Points, Yukiko's Dagger Relic gains Sprite.infinity_med copies",YukikosDagger
+assassin,execute,Executioner,"Strike the final blow on 15 total enemies with Yukiko's Execute skill, in winning battles.",15,"+2 Skill Points, Assassin Spirit Relic gains Sprite.infinity_med copies",AssassinSpirit
+banker,crisis,Once in a Lifetime,Have Graham trigger Financial Crisis twice in a single winning battle.,2,"+2 Skill Points, Graham's Cigar Relic gains Sprite.infinity_med copies",GrahamsCigar
+banker,debt,Diversified Portfolio,Have Graham's Debt effect applied to 6 unique targets at once in a single winning battle.,6,+2 Skill Points,
+banker,loan,Sub Prime Lending,"Use Graham's Loan skill on 9 total unique allies, in winning battles.",9,"+2 Skill Points, Money Bag Relic gains Sprite.infinity_med copies",MoneyBag
+banshee,possess,Revisiting Life,"Use Kiara's Possession skill on 7 total unique allies, in winning battles.",7,"+2 Skill Points, Kiara's Voice Relic gains Sprite.infinity_med copies",KiarasVoice
+banshee,shriek,Mourn the Dead,"Activate Kiara's Shriek skill 10 total times, in winning battles.",10,"+2 Skill Points, Banshee's Wail Relic gains Sprite.infinity_med copies",BansheesWail
+banshee,wisps,Chasing Spirits,"Kill 25 total Will-O-Wisp enemies in winning battles, with Kiara in the party.",25,+2 Skill Points,
+barbarian,overpower,Power Overwhelming,"Hit a Boss enemy with Odrak's Overpower skill, and win the battle.",,"+2 Skill Points, Odrak's Claymore Relic gains Sprite.infinity_med copies",OdraksFury
+barbarian,rage,Savagery,"Activate Odrak's Rage skill 13 total times, in winning battles.",13,+2 Skill Points,
+barbarian,viking,Brothers in Arms,Win 10 battles with both Odrak and Thorg the Viking in the party.,10,"+2 Skill Points, Barbarism Totem Relic gains Sprite.infinity_med copies",Barbarism
+bard,girls,Fair Maidens,Win an Extreme Danger or Boss battle with Seb and 5 female allies alive at the end of the battle.,,"+2 Skill Points, Seb's Lute Relic gains Sprite.infinity_med copies",BardsFocus
+bard,spiders,Facing Fear,"Defeat the Broodmother or Venom Queen Boss with Seb in the party, and kill 5 Spiderling enemies with Seb in the party, in winning battles.",,+2 Skill Points,
+bard,trio,We Merry Three,"Win 5 battles with Seb, Ralf the Jester, and Chuckles the Clown in the party.",5,"+2 Skill Points, Melodic Score Relic gains Sprite.infinity_med copies",MelodicScore
+beastmaster,beast,Pack Leader,"Have Beast allies deal 5000 total damage with Ghalib in the party, in winning battles.",5000,+2 Skill Points,
+beastmaster,stampede,Lead the Charge,"Have 6 total unique allies deal damage with Ghalib's Stampede skill, in winning battles.",6,"+2 Skill Points, Ghalib's Whip Relic gains Sprite.infinity_med copies",GhalibsWhip
+beastmaster,summon,Beasts of Burden,"Summon each of Ghalib's Beasts (Bear, Falcon, Monkey) 5 total times, in winning battles.",,"+2 Skill Points, Trainer's Sigil Relic gains Sprite.infinity_med copies",TrainersSigil
+blacksmith,flamecoat,Flames of the Forge,"Deal 3500 total added damage from Maximus' Flamecoat skill, in winning battles.",3500,+2 Skill Points,
+blacksmith,imbue,Armor Smithing,"Use Maximus' Temper skill on 10 unique allies in total, in winning battles.",10,"+2 Skill Points, Vulcan's Hammer Relic gains Sprite.infinity_med copies",VulcansHammer
+blacksmith,whetstone,Weapon Smithing,"Use Maximus' Whetstone skill on 10 unique allies in total, in winning battles.",10,"+2 Skill Points, Smith's Training Relic gains Sprite.infinity_med copies",SmithTraining
+blood_zealot,block,Protect the Worthy,"Block 3000 total damage with Varyn's Blood Shield skill, in winning battles.",3000,+2 Skill Points,
+blood_zealot,blood,Pain's Reward,"Restore 5000 total HP with Varyn's Blood Essence skill, in winning battles.",5000,"+2 Skill Points, Bloody Cloth Relic gains Sprite.infinity_med copies",BloodyCloth
+blood_zealot,sacrifice,Testing Resolve,Have Varyn sacrifice 2500 total HP in winning battles.,2500,"+2 Skill Points, Martyr's Spike Relic gains Sprite.infinity_med copies",MartyrSpike
+bokor,desecrate,Cursed Ground,"Deal 5000 total damage with Rene's Desecrate skill, in winning battles.",5000,+2 Skill Points,
+bokor,hex,Terrifying Hexes,"Have 4 enemies affected by Rene's Hex effect at once, in a single winning battle.",4,"+2 Skill Points, Voodoo Talisman Relic gains Sprite.infinity_med copies",VoodooTalisman
+bokor,undead,Zombie Whisperer,"Kill 15 total Undead enemies in winning battles, with Rene in the party.",15,"+2 Skill Points, Rene's Cane Relic gains Sprite.infinity_med copies",RenesCane
+boxer,combo,Classic Combo,"Hit 5 total unique enemies with the combination of Curtis' Jab, Uppercut, and Hook skills, in winning battles.",5,"+2 Skill Points, Curtis' Rhythm Relic gains Sprite.infinity_med copies",CurtisRhythm
+boxer,hook,Knockout Punch,"Strike the final blow on 5 total enemies with Curtis' Hook skill, in winning battles.",5,+2 Skill Points,
+boxer,jab,Hit the Speed Bag,Use Curtis' Jab skill 10 or more times in a single winning battle.,10,"+2 Skill Points, Boxing Glove Relic gains Sprite.infinity_med copies",BoxingGlove
+brawler,beatdown,Big Beatdown,"Use Tank's Beat Down skill with 10 stacks of Resolve on a Boss enemy, and win the battle.",,"+2 Skill Points, Brawler's Heart Relic gains Sprite.infinity_med copies",BrawlersHeart
+brawler,bully,Big Bully,"Have Tank strike the final blow on 5 total enemies who have lower Toughness than Tank, in winnning battles.",5,+2 Skill Points,
+brawler,crit,Heavy Blows,"Deal 25 total critical hits with Tank, in winning battles.",25,"+2 Skill Points, Tank's Glove Relic gains Sprite.infinity_med copies",TanksGlove
+cactus,defense,Self Defense,"Kill 20 total Human or Beast enemies in winning battles, with Echinos in the party.",20,"+2 Skill Points, Cactus Trimming Relic gains Sprite.infinity_med copies",CactusTrimming
+cactus,heal,In Bloom,"Restore 3000 total ally or self HP with Echinos while her Take Root skill is active, in winning battles.",3000,"+2 Skill Points, Cerean Salve Relic gains Sprite.infinity_med copies",CereanSalve
+cactus,poison,Toxic Barbs,"Deal 4000 total SkillType.Poison damage to enemies with Echinos, in winning battles.",4000,+2 Skill Points,
+caveman,biker,Rock and Roll,Win 10 battles with both Og and Big Dan the Biker in the party.,10,+2 Skill Points,
+caveman,ka,Ka Krak,"Have Ka strike the final blow on 3 total enemies, in winning battles.",3,"+2 Skill Points, Primal Bond Relic gains Sprite.infinity_med copies",PrimalBond
+caveman,mammoth,Big Game Hunter,"Kill 3 total Mammoth or Sabertooth enemies in winning battles, with Og in the party.",3,"+2 Skill Points, Og's Spear Relic gains Sprite.infinity_med copies",OgsSpear
+chef,food,Bon Appetit,"Use Jaques' Serve Meal skill on 9 total unique allies, in winning battles.",9,"+2 Skill Points, Chef's Toque Relic gains Sprite.infinity_med copies",ChefsToque
+chef,heal,Order Up!,"Restore 5000 total ally HP with Jacques, in winning battles.",5000,+2 Skill Points,
+chef,knife,Damn the Critics,"Stike the final blow on 3 total Human enemies with Jacques' Throw Knife skill, in winning battles.",3,"+2 Skill Points, Jacques' Knife Relic gains Sprite.infinity_med copies",JacquesKnife
+chemist,heal,Organic Chemistry,"Restore 6000 total ally HP by using items with Olive, in winning battles.",6000,"+2 Skill Points, Chemist Beaker Relic gains Sprite.infinity_med copies",ChemistBeaker
+chemist,items,Over the Counter,"Have allies other than Olive use items created by her Mix skill 10 total times, in winning battles.",10,"+2 Skill Points, Brimmed Glasses Relic gains Sprite.infinity_med copies",BrimmedGlasses
+chemist,medbot,AutoMedico's Finest,Win 10 battles with both Olive and MU-21 the Med Bot in the party.,10,+2 Skill Points,
+cleric,boss,Evil Cleansed,Defeat the Spirit Well Boss after using Brand's Consecrate skill in the battle.,,"+2 Skill Points, Holy Water Relic gains Sprite.infinity_med copies",HolyWater
+cleric,healing,Pray for Health,"Restore 9000 total ally HP with Brand, in winning battles.",9000,+2 Skill Points,
+cleric,undead,Banished to Hell,"Kill 25 total Undead enemies in winning battles, with Brand in the party.",25,"+2 Skill Points, Brand's Rosary Relic gains Sprite.infinity_med copies",BrandsRosary
+clown,balloon,We All Float,"Use Chuckles' Balloon skill on 9 total unique allies, in winning battles.",9,"+2 Skill Points, Red Balloon Relic gains Sprite.infinity_med copies",RedBalloon
+clown,pie,A Classic Gag,"Deal SkillType.Stun damage to Boss enemies with 3 total pies from Chuckles' Pie Gun skill, in winning battles.",3,"+2 Skill Points, Antagonist Relic gains Sprite.infinity_med copies",Antagonist
+clown,prank,Check Your Shoelaces,"Use Chuckles' Prank skill 10 total times on Human enemies, in winning battles.",10,+2 Skill Points,
+combat_bot,gadget,Retrofit,"Deal 1000 total damage or healing with EXU-5 via SkillType.Gadget skills other than H4RM Beam, K1-LL Beam or Self-Repair, in winning battles.",1000,"+2 Skill Points, H4RM Emitter Relic gains Sprite.infinity_med copies",H4RMEmitter
+combat_bot,kill,Combat Demo,Strike the final blow on 6 total enemies in winning battles with EXU-5's K1-LL Beam skill.,6,+2 Skill Points,
+combat_bot,medbot,Legacy Platform,Win 10 battles with both EXU-5 and MU-21 the Med Bot in the party.,10,"+2 Skill Points, Combat CPU Relic gains Sprite.infinity_med copies",CombatCPU
+cop,firefighter,Civil Service,Win 10 battles with both Daniela and Charlie the Firefighter in the party.,10,+2 Skill Points,
+cop,protect,Protective Custody,"Use Daniela's Protect skill on 9 total unique allies, in winning battles.",9,"+2 Skill Points, Police Badge Relic gains Sprite.infinity_med copies",PoliceBadge
+cop,resist,Immunity,"Resist 25 total SkillType.Debuff with Daniela, in winning battles.",25,"+2 Skill Points, Daniela's Hat Relic gains Sprite.infinity_med copies",DanielasHat
+dark_knight,boss,Testing the Source,"Hit the Spirit Well Boss with Caleb's Sever Soul skill, and win the battle.",,"+2 Skill Points, Dark Heart Relic gains Sprite.infinity_med copies",DarkHeart
+dark_knight,dark,Darkness Overwhelming,"Deal 10,000 total SkillType.Dark damage to enemies with Caleb, in winning battles.",10000,+2 Skill Points,
+dark_knight,eclipse,Total Blackout,"Deal 1666 total damage with a single use of Caleb's Eclipse skill, and win the battle.",1666,"+2 Skill Points, Caleb's Malice Relic gains Sprite.infinity_med copies",CalebsMalice
+devil,bargain,Collecting Souls,"Use Illia's Bargain skill on 6 total unique allies, in winning battles.",6,+2 Skill Points,
+devil,hellpit,Seeking Promotion,Defeat the Hell Pit Boss with Illia in the party.,,"+2 Skill Points, Devil's Horn Relic gains Sprite.infinity_med copies",DevilsHorn
+devil,words,Whispers from the Dark,"Apply any of Illia's Dark Words skills to enemies 25 total times, in winning battles.",25,"+2 Skill Points, Eldar's Scroll Relic gains Sprite.infinity_med copies",EldarScroll
+diva,heartbreak,Love Will Tear Us Apart,"Strike the final blow on 2 total enemies with Sophia's Heartbreaker skill, in winning battles.",2,"+2 Skill Points, Sophia's Glass Relic gains Sprite.infinity_med copies",SophiasGlass
+diva,medley,Meet Me in the Middle,"Deal 5000 total damage to enemies and restore 2000 total HP to allies with Sophia, in winning battles.",,+2 Skill Points,
+diva,trance,Unfaithful,Have 5 total enemies affected by Sophia's Lover's Trance at once in a single winning battle.,5,"+2 Skill Points, Red Rose Relic gains Sprite.infinity_med copies",DivasInfluence
+doctor,icu,Intensive Care,"Revive 3 total allies with Ramesh's ICU skill, in winning battles.",3,"+2 Skill Points, Booster Shot Relic gains Sprite.infinity_med copies",BoosterShot
+doctor,malpractice,Do no Harm?,"Deal 5000 total damage to enemies with Ramesh's Malpractice skill, in winning battles.",5000,+2 Skill Points,
+doctor,prescribe,Script Writer,"Use any of Ramesh's Prescribe skills on 10 unique allies in total, in winning battles.",10,"+2 Skill Points, Pill Bottle Relic gains Sprite.infinity_med copies",PillBottle
+druid,acolyte,Restoring Balance,"Kill 15 total Acolyte or Avatar enemies in winning battles, with Selyse in the party.",15,"+2 Skill Points, Druidic Staff Relic gains Sprite.infinity_med copies",DruidicStaff
+druid,balance,Destroy and Rebuild,"Deal 4000 total damage to enemies and restore 4000 total HP to allies with Selyse, in winning battles.",,+2 Skill Points,
+druid,double,Nature's Power,Use Selyse's Star Fury or Gaia's Embrace twice in a single winning battle.,2,"+2 Skill Points, Attunement Relic gains Sprite.infinity_med copies",Attunement
+dryad,charm,Forest's Enchantment,"Apply Valeriya's Charm skill to 15 total enemies, in winning battles.",15,"+2 Skill Points, Valerian Root Relic gains Sprite.infinity_med copies",DryadsWill
+dryad,human,Forest's Revenge,"Kill 20 total Human enemies in winning battles, with Valeriya in the party.",20,+2 Skill Points,
+dryad,spear,Forest's Power,"Deal 900 damage with a single use of Valeriya's Vine Spear skill, and win the battle.",900,"+2 Skill Points, Floral Seed Relic gains Sprite.infinity_med copies",FloralSeed
+fallen_angel,angel,Regaining Favor,Win 10 battles with both Eligor and Asariel the Angel in the party.,10,+2 Skill Points,
+fallen_angel,flight,Death from Above,"Deal 10,000 total damage with Eligor while Flight is active, in winning battles.",10000,"+2 Skill Points, Fallen Spear Relic gains Sprite.infinity_med copies",FallenSpear
+fallen_angel,mortal_sin,Contrition,"Dispel 20 or more stacks of Mortal Sin with a single use of Eligor's Penance skill, and win the battle.",20,"+2 Skill Points, Dark Fervor Relic gains Sprite.infinity_med copies",DarkFervor
+fire_mage,combust,Raging Inferno,"Deal 2000 total damage in a single use of Zane's Combust skill, and win the battle.",2000,"+2 Skill Points, Inferno Gem Relic gains Sprite.infinity_med copies",Inferno
+fire_mage,fire,Firestarter,"Deal 10,000 total SkillType.Fire damage to enemies with Zane, in winning battles.",10000,+2 Skill Points,
+fire_mage,turns,Furious Flames,Have Zane take 10 or more turns in a single winning battle.,10,"+2 Skill Points, Zane's Passion Relic gains Sprite.infinity_med copies",ZanesPassion
+fire_spirit_big,firemage,Twin Flames,Win 10 battles with both Igneo and Zane the Fire Mage in the party.,10,"+2 Skill Points, Pot Shard Relic gains Sprite.infinity_med copies",PotShard
+fire_spirit_big,infernal,All Consuming,"Deal 6,000 total SkillType.Fire damage to enemies with Igneo's Infernal Spirit skill, in winning battles.",6000,+2 Skill Points,
+fire_spirit_big,innerfire,Growing Blaze,"Reach 7 stacks of Inner Fire on Igneo, in a single winning battle.",,"+2 Skill Points, Infernal Coal Relic gains Sprite.infinity_med copies",GlowingCoal
+firefighter,demon,Burn Protection,"Kill 25 total Demon enemies in winning battles, with Charlie in the party.",25,"+2 Skill Points, Rebreather Relic gains Sprite.infinity_med copies",Rebreather
+firefighter,inspire,Inspiring Heroism,"Use Charlie's Inspire skill with at least 6 stacks of Heroism in an Extreme Danger or Boss battle, and win the battle.",6,"+2 Skill Points, Safety Manual Relic gains Sprite.infinity_med copies",SafetyBook
+firefighter,protect,First Responder,"Prevent 2000 total damage to allies with Charlie's Protect skill, in winning battles.",2000,+2 Skill Points,
+gambler,dice,Rollin' Doubles,"Roll doubles 13 total times with Chance's Roll Dice skill, in winning battles.",13,+2 Skill Points,
+gambler,dodge_crit,Uncanny Luck,"Dodge 13 total hits and deal 13 total critical hits with Chance, in winning battles.",,"+2 Skill Points, Chance's Vest Relic gains Sprite.infinity_med copies",ChancesVest
+gambler,jinx,"Tough Luck, Pal","Apply Chance's Jinx skill to 13 total unique enemies, in winning battles.",13,"+2 Skill Points, Lucky Joker Relic gains Sprite.infinity_med copies",LuckyJoker
+general,command,Supreme Commander,"Use George's Command skill on 10 total unique allies, in winning battles.",10,"+2 Skill Points, General's Star Relic gains Sprite.infinity_med copies",GeneralsStar
+general,gadget,Supply Chain,"Use 30 total SkillType.Gadget skills in winning battles, with George in the party.",30,+2 Skill Points,
+general,squad,Active Duty,"Win a Boss battle with George, Darius the Marine, and Harry the Medic in the party.",,"+2 Skill Points, Battle Plans Relic gains Sprite.infinity_med copies",BattlePlan
+gladiator,gladius,Viggo the Bold,Strike the final blow with Viggo's Gladius skill on 5 total enemies in winning Extreme Danger or Boss battles.,5,"+2 Skill Points, Viggo's Gladius Relic gains Sprite.infinity_med copies",ViggosGladius
+gladiator,kill,New Challenges,"Kill 25 total non-Human, non-Beast enemies in winning battles, with Viggo in the party.",25,+2 Skill Points,
+gladiator,nodowned,Blood and Sand,"Have Viggo reach critical HP in 5 winning battles, without him being downed.",5,"+2 Skill Points, Roman Cassis Relic gains Sprite.infinity_med copies",RomanCassis
+golem,elite,Crusher,Win 5 Extreme Danger or Boss battles with Rock in the party.,5,"+2 Skill Points, Rock Fist Relic gains Sprite.infinity_med copies",RockFist
+golem,protect,Ultimate Protector,"Prevent 5000 total damage to allies with Rock's Protect skill, in winning battles.",5000,+2 Skill Points,
+golem,spellscreen,Nestled in Magic,"Block 1000 total damage with Rock's Spellscreen skill, in winning battles.",1000,"+2 Skill Points, Runed Stone Relic gains Sprite.infinity_med copies",RunedStone
+gunslinger,leadstorm,Blazing Barrels,"Have Kate's War or Peace trigger 13 or more times in one use of Leadstorm, and win the battle.",13,"+2 Skill Points, Loaded Die Relic gains Sprite.infinity_med copies",LoadedDie
+gunslinger,showdown,Showdown,"Kill a Gunslinger or Lawbringer husk with Kate in the party, and win the battle.",,"+2 Skill Points, Kate's Duster Relic gains Sprite.infinity_med copies",KatesDuster
+gunslinger,war_peace,Ambidextrous,"Deal 5000 total damage with Kate's War and 5000 total damage with Kate's Peace, in winning battles.",,+2 Skill Points,
+guru,balance,Balance,"Deal 10,008 total damage or healing with Sandeep's Doom Prophecy and Nirvana skills, in winning battles.",10008,+2 Skill Points,
+guru,healer,Devotion,"Have Sandeep remove 18 total SkillType.Debuff from allies with his Faith Healing skill, in winning battles.",18,"+2 Skill Points, Incense Relic gains Sprite.infinity_med copies",Incense
+guru,mantra,Mindfulness,Have Sandeep reach 9 stacks of his Mantra passive in a single winning battle.,,"+2 Skill Points, Guru's Beads Relic gains Sprite.infinity_med copies",GurusBeads
+hellbinder,implosion,Natural 20,"Strike the final blow on 2 total enemies with Dave's Implosion skill, in winning battles.",2,"+2 Skill Points, Dark Sigil Relic gains Sprite.infinity_med copies",DarkSigil
+hellbinder,imps,Mighty Summoner,Have Dave Bind all three Imp types in a single winning battle.,3,"+2 Skill Points, Demon Handbook Relic gains Sprite.infinity_med copies",Handbook
+hellbinder,medley,Show Off,"Deal 2000 total SkillType.Physical damage, 2000 total SkillType.Dark damage, and 2000 total SkillType.Energy damage with Dave's Bound Imps in winning battles.",,+2 Skill Points,
+ice_mage,block,Impenetrable Shell,"Block 2500 total damage with Elgeon's Frost Shield skill, in winning battles.",2500,"+2 Skill Points, Mage's Crystal Relic gains Sprite.infinity_med copies",MagesWisdom
+ice_mage,frostbite,Frozen Solid,"Have 3 enemies with at least 5 Frostbite stacks from Elgeon at once, in a single winning battle.",,"+2 Skill Points, Elgeon's Chill Relic gains Sprite.infinity_med copies",ElgeonsChill
+ice_mage,ice,Ice Storm,"Deal 12,000 total SkillType.Ice damage to enemies with Elgeon, in winning battles.",12000,+2 Skill Points,
+immortal,bulwark,Sturdy Shield,"Prevent 5000 total damage to allies with Javed's Bulwark skill, in winning battles.",5000,+2 Skill Points,
+immortal,impale,On a Pike,"Strike the final blow on 2 enemies with Javed's Impale skill, in a single winning battle.",2,"+2 Skill Points, Javed's Spear Relic gains Sprite.infinity_med copies",JavedsSpear
+immortal,replace,The Unstoppable Soldier,"Have Javed bleed out and be replaced via his Replacement skill 5 total times, in winning battles.",5,"+2 Skill Points, Immortal Soul Relic gains Sprite.infinity_med copies",ImmortalSoul
+inquisitor,army,People's Army,Win 3 Extreme Danger or Boss battles with Haven and either Rafael the Sentinel or Cain the Maelstrom in the party.,3,+2 Skill Points,
+inquisitor,dominate,Force of Will,"Apply Haven's Dominate Mind skill to 10 total unique enemies, in winning battles.",10,"+2 Skill Points, Inquisitor's Mask Relic gains Sprite.infinity_med copies",InquisitorsMask
+inquisitor,invigorate,Glorious Purpose,"Restore 1500 total MP to a Fortified ally with Haven's Invigorate skill, in winning battles.",1500,"+2 Skill Points, Pain Limiter Relic gains Sprite.infinity_med copies",PainLimiter
+inventor,gadget,The Tools and the Talent,"Have Otto deal damage with 7 total unique SkillType.Gadget skills, in winning battles.",7,"+2 Skill Points, Otto's Boots Relic gains Sprite.infinity_med copies",OttosBoots
+inventor,invent,Mass Production,"Have allies deal 2500 total damage or healing with skills granted by Otto's Invent skill, in winning battles.",2500,+2 Skill Points,
+inventor,killbot,It's in the Name,"Have Otto's KillBot strike the final blow on 3 total enemies, in winning battles.",3,"+2 Skill Points, Lab Coat Relic gains Sprite.infinity_med copies",LabCoat
+jackal,human,Weighing Hearts,"Kill 25 total Human enemies in winning battles, with Amenemhet in the party.",25,"+2 Skill Points, Ankh Staff Relic gains Sprite.infinity_med copies",AnkhStaff
+jackal,mp,Feeding Souls,"Restore 1500 total MP to allies via Amenemhet's Spirit Nexus skill, in winning battles.",1500,+2 Skill Points,
+jackal,team,Guiding the Flock,"Win battles with Amenemhet in the party, along with 10 other unique allies in total.",10,"+2 Skill Points, Shepherd's Spirit Relic gains Sprite.infinity_med copies",ShepherdsSpirit
+jaguar,bleed,Sharpened Claws,"Deal 2000 total SkillType.Physical damage to enemies via damage over time SkillType.Debuff effects with Eztli, in winning battles.",2000,+2 Skill Points,
+jaguar,captive,Taking Captives,"Win 3 total battles with Eztli in the party, without him scoring a final blow.",3,"+2 Skill Points, Eztli's Mask Relic gains Sprite.infinity_med copies",EztlisMask
+jaguar,pounce,Fearless Hunter,"Use Eztli's Pounce skill on a Human enemy, a Beast enemy, a Mechanical enemy, and a Boss enemy, in winning battles.",4,"+2 Skill Points, Jaguar Claws Relic gains Sprite.infinity_med copies",JaguarClaws
+jester,dodge,Can't Hit Me,"Dodge 20 total hits with Ralf, in winning battles.",20,+2 Skill Points,
+jester,nomiss,Bullseye,"Deal damage to enemies with any of Ralf's skills 33 total times in a row without missing, in winning battles.",33,"+2 Skill Points, Jester's Cap Relic gains Sprite.infinity_med copies",JestersCap
+jester,songs,Jaunty Tunes,"Use any of Ralf's SkillType.Song skills 10 total times, in winning battles.",10,"+2 Skill Points, Ralf's Flute Relic gains Sprite.infinity_med copies",RalfsFlute
+judge,allrise,Oyez Oyez Oyez,"Restore 3000 HP with a single use of Rupert's All Rise skill, and win the battle.",3000,"+2 Skill Points, Judge's Robes Relic gains Sprite.infinity_med copies",JudgesRobes
+judge,debuff,Crime and Punishment,"Apply 50 total SkillType.Debuff to enemies with Rupert, in winning battles.",50,+2 Skill Points,
+judge,judgment,The Hanging Judge,"Strike the final blow on 7 total enemies with Rupert's Judgment skill, in winning battles.",7,"+2 Skill Points, Rupert's Gavel Relic gains Sprite.infinity_med copies",RupertsGavel
+keekuko,freeturn,Faster than Light,"Have Keekuko earn 15 total Free Turns, in winning battles.",15,"+2 Skill Points, Rare Heirloom Relic gains Sprite.infinity_med copies",RareHeirloom
+keekuko,relics,Gimme Gimme,Win a battle with Keekuko in the party while he has 4 Boss Relics equipped.,,+2 Skill Points,
+keekuko,tbreak,Shiny Power,"Use 10 total Time Break Techs while Keekuko is in the party, in winning battles.",10,"+2 Skill Points, Priceless Treasure Relic gains Sprite.infinity_med copies",PricelessTreasure
+knight,chivalry,Chivalrous Duty,"Prevent 4000 total damage to allies with Leon's Protect skill, in winning battles.",4000,+2 Skill Points,
+knight,joust,Strike True,"Strike the final blow on 2 enemies at once with a single use of Leon's Joust skill, and win the battle.",,"+2 Skill Points, Leon's Sword Relic gains Sprite.infinity_med copies",LeonsSword
+knight,slayer,Dragon Slayer,Win 6 Extreme Danger or Boss battles with Leon in the party.,6,"+2 Skill Points, Knight Training Relic gains Sprite.infinity_med copies",KnightTraining
+lich,devour,Your Soul is Mine,"Remove 10 total enemies with Krethik's Devour Soul skill, in winning battles.",10,"+2 Skill Points, Lich Finger Relic gains Sprite.infinity_med copies",LichFinger
+lich,lowmp,Limit Testing,"Have Krethik's MP reach below 5% remaining in a winning battle, without him being downed.",,"+2 Skill Points, Krethik's Ring Relic gains Sprite.infinity_med copies",LichRing
+lich,medley,Terrifying Power,"Deal 3500 total SkillType.Poison damage, 3000 total SkillType.Dark damage, and 2500 total SkillType.Stun damage with Krethik's SkillType.Spell skills in winning battles.",,+2 Skill Points,
+linebacker,blitz,Lay the Lumber,"Deal 5000 total damage to enemies with Paul while using his Blitz Stance, in winning battles.",5000,"+2 Skill Points, Blitzer's Speed Relic gains Sprite.infinity_med copies",BlitzersSpeed
+linebacker,wrestler,Trash Talk Bros,Win 5 Extreme Danger or Boss battles with both Paul and Zeke the Wrestler in the party.,5,+2 Skill Points,
+linebacker,zone,"Bend, don't Break","Prevent 3000 total damage to allies with Paul's Zone Defense skill, in winning battles.",3000,"+2 Skill Points, Padded Helmet Relic gains Sprite.infinity_med copies",PaddedHelmet
+lizardman,egg,Delicioussss Eggs,"Defeat the Broodmother Boss with Seth in the party, after killing 3 of her eggs in the battle.",3,"+2 Skill Points, Lizard Scale Relic gains Sprite.infinity_med copies",LizardScale
+lizardman,poison,Venomoussss,"Deal 3000 SkillType.Poison damage to enemies with Seth, in winning battles.",3000,+2 Skill Points,
+lizardman,spider,Crush the Sssspiders,"Kill 12 total Spiderling enemies in winning battles, with Seth in the party.",12,"+2 Skill Points, Seth's Toxin Relic gains Sprite.infinity_med copies",SethsToxin
+lumian,dodge,Blinding Light,"Dodge 25 total hits with Luna, in winning battles.",25,"+2 Skill Points, Radiant Mote Relic gains Sprite.infinity_med copies",RadiantMote
+lumian,mp,Collective Vitality,"Restore 2000 total MP to allies via Luna's Energize skill, in winning battles.",2000,+2 Skill Points,
+lumian,wave,Radiant Power,"Deal 1000 total damage with a single use of Luna's Energy Wave skill, and win the battle.",1000,"+2 Skill Points, Lumian Battery Relic gains Sprite.infinity_med copies",LumianBattery
+maelstrom,calm,Contain the Chaos,"Win an Extreme Danger or Boss battle with Cain in the party, without activating his Chaos Storm skill.",,"+2 Skill Points, Storm Visor Relic gains Sprite.infinity_med copies",StormVisor
+maelstrom,lightning,Unleash the Storm,"Deal 15,000 total SkillType.Lightning damage with Cain, in winning battles.",15000,+2 Skill Points,
+maelstrom,sentinel,Comrades in Arms,Win 10 battles with both Cain and Rafael the Sentinel in the party.,10,"+2 Skill Points, Ionizer Relic gains Sprite.infinity_med copies",Ionizer
+magician,dodge,Misdirection,"Dodge 15 total hits with Oksana, in winning battles.",15,"+2 Skill Points, Magic Wand Relic gains Sprite.infinity_med copies",MagicWand
+magician,enemy,Stop Hitting Yourself,"Have enemies deal 1000 total damage to each other with Oksana in the party, in winning battles.",1000,+2 Skill Points,
+magician,sleep,Deeper and Deeper,"Put enemies to sleep 10 total times with Oksana in the party, in winning battles.",10,"+2 Skill Points, Pocket Watch Relic gains Sprite.infinity_med copies",Pocketwatch
+marine,buster,Bunker Buster,"Strike the final blow on 2 enemies at once with a single use of any of Darius' SkillType.Gadget skills, and win the battle.",,"+2 Skill Points, Combat Helmet Relic gains Sprite.infinity_med copies",CombatHelmet
+marine,covering,Light 'em Up,"Deal 2500 total damage with Darius' M16 skill during another hero's turn, in winning battles.",2500,+2 Skill Points,
+marine,gadget,The Right Tool,"Have Darius use a SkillType.Gadget skill other than M16, Air Strike, Grenade, or Smoke Grenade, and win the battle.",,"+2 Skill Points, Marine's Rucksack Relic gains Sprite.infinity_med copies",MarinesRucksack
+med_bot,drone,Destroy Competition,"Kill 20 total Drone, Heavy Drone, Sapper Drone or MedBot Husk enemies in winning battles, with MU-21 in the party.",20,"+2 Skill Points, AutoMedico Pamphlet Relic gains Sprite.infinity_med copies",Pamphlet
+med_bot,revive,Primary Directive,"Revive 3 total allies with MU-21's Revive Beam skill, in winning battles.",3,"+2 Skill Points, H34L Emitter Relic gains Sprite.infinity_med copies",H34LEmitter
+med_bot,technician,No Disassemble,"Kill 5 total Technician enemies in winning battles, with MU-21 in the party.",5,+2 Skill Points,
+medic,amputate,Whatever it Takes,"Revive 2 total allies with Harry's Amputate skill, in winning battles.",2,+2 Skill Points,
+medic,nobleed,No Man Left Behind,"Win 3 Extreme Danger or Boss battles with Harry in the party, without any allies bleeding out.",3,"+2 Skill Points, Medic Backpack Relic gains Sprite.infinity_med copies",MedicBackpack
+medic,support,Squad Support,Win 4 Extreme Danger or Boss battles with both Harry and Darius the Marine in the party.,4,"+2 Skill Points, Harry's Medkit Relic gains Sprite.infinity_med copies",HarrysMedkit
+mime,block,Not So Invisible,"Block 3000 total damage with Baptiste's Invisible Wall skill, in winning battles.",3000,"+2 Skill Points, Black Beret Relic gains Sprite.infinity_med copies",BlackBeret
+mime,medley,A Varied Performance,"Have Baptiste deal 2,500 total damage to enemies with SkillType.Spell skills and 2,500 total damage to enemies with SkillType.Attack skills, in winning battles.",,+2 Skill Points,
+mime,mimicry,Sincere Flattery,"Copy skills from 7 total unique allies with Baptiste's Mimicry skill, in winning battles.",7,"+2 Skill Points, Face Paint Relic gains Sprite.infinity_med copies",WhiteFace
+monk,nature,One with Nature,"Deal 1000 total SkillType.Fire damage, 1000 total SkillType.Ice damage, and 1000 total SkillType.Lightning damage with Wensho in winning battles.",,+2 Skill Points,
+monk,path,Teaching the Path,"Win battles with Wensho in the party, along with 13 other unique allies in total.",13,"+2 Skill Points, Shaolin Robe Relic gains Sprite.infinity_med copies",MonksResolve
+monk,peace,Peaceful Spirit,Win 2 battles in which Wensho deals no damage with any SkillType.Attack skill other than his Counter skill.,2,"+2 Skill Points, Wensho's Gift Relic gains Sprite.infinity_med copies",WenshosGift
+morph,assigned,Ruthless Efficiency,"Have Alpha deal 5000 total damage to enemies that have its Assign Target SkillType.Debuff, in winning battles.",5000,+2 Skill Points,
+morph,melee,Expanded Database,"Have Alpha use 15 total unique SkillType.Melee skills, in winning battles.",15,"+2 Skill Points, Morph Core Relic gains Sprite.infinity_med copies",MorphCore
+morph,restore,Unstoppable,"Have Alpha restore 3500 total HP or MP to itself, in winning battles.",3500,"+2 Skill Points, Unobtainium Relic gains Sprite.infinity_med copies",Unobtainium
+musketeer,boss,Au Revoir,"Strike the final blow on a Boss enemy with Alexadre's Coup de Gras skill, and win the battle.",,"+2 Skill Points, Fencer's Riposte Relic gains Sprite.infinity_med copies",FencersRiposte
+musketeer,disarm,Allez,"Hit enemies with Alexandre's Disarm skill 30 total times, in winning battles.",30,+2 Skill Points,
+musketeer,historical,All for One,"Win battles with Alexandre in the party, along with 6 other unique Historical era allies in total.",6,"+2 Skill Points, Musketeer's Musket Relic gains Sprite.infinity_med copies",MusketeersMusket
+necromancer,kill,Bone Collector,"Kill 10 total Human enemies and 10 total Beast enemies in winning battles, with Sovras in the party.",,"+2 Skill Points, Bone Charm Relic gains Sprite.infinity_med copies",BoneCharm
+necromancer,reap,Grim Reaper,"Strike the final blow on 8 total enemies with Sovras' Reap or Grave's Call skills, in winning battles.",8,"+2 Skill Points, Necronomicon Relic gains Sprite.infinity_med copies",Necronomicon
+necromancer,soul,True Master,"Kill 3 total Soul Master enemies in winning battles, with Sovras in the party.",3,+2 Skill Points,
+ninja,caltrops,Watch Your Step,"Strike the final blow on an enemy with Ishikawa's Caltrops skill, and win the battle.",,"+2 Skill Points, Ninja's Ruse Relic gains Sprite.infinity_med copies",NinjasRuse
+ninja,poison,The Silent Killer,"Deal 3000 total SkillType.Poison damage to enemies with Ishikawa, in winning battles.",3000,+2 Skill Points,
+ninja,tools,Tools of the Trade,Win 3 battles while using each of Ishikawa's Ninja Tools at least once.,3,"+2 Skill Points, Ishikawa's Garb Relic gains Sprite.infinity_med copies",IshikawaGarb
+paladin,hand,Hand of the Divine,"Restore 3000 total ally HP and deal 5000 total SkillType.Holy damage with William, in winning battles.",,+2 Skill Points,
+paladin,knight,Crusaders,Win 2 Boss battles with both William and Leon the Knight in the party.,2,"+2 Skill Points, Holy Blade Relic gains Sprite.infinity_med copies",HolyBlade
+paladin,shield,Holy Protection,"Prevent 3000 total damage with William's Divine Shield skill, in winning battles.",3000,"+2 Skill Points, William's Penance Relic gains Sprite.infinity_med copies",WilliamsZeal
+pioneer,beast,Fur Trader,"Kill 25 total Beast enemies in winning battles, with Jed in the party.",25,+2 Skill Points,
+pioneer,track,Master Tracker,"Down 8 total enemies while they have Jed's Track skill SkillType.Debuff applied, in winning battles.",8,"+2 Skill Points, Jed's Cap Relic gains Sprite.infinity_med copies",JedsCap
+pioneer,trap,Master Trapper,"Interrupt 8 total enemy turns with Jed's Bear Trap skill, in winning battles.",8,"+2 Skill Points, Winter Coat Relic gains Sprite.infinity_med copies",WinterCoat
+pirate,beam,Shouldn't Have Hit Me,"Strike the final blow on 2 enemies at once with a single use of Jackson's Hyper Beam skill, and win the battle.",,"+2 Skill Points, Jackson's Dog Tags Relic gains Sprite.infinity_med copies",JacksonsDogTags
+pirate,boss,I'm the Juggernaut,Win 3 Boss battles with Jackson in the party.,3,+2 Skill Points,
+pirate,pirate,Swashbuckler,"Have Jack use SkillType.Melee skills 6 times and SkillType.Ranged skills 5 times in a single winning Extreme Danger or Boss battle, without him being downed.",,"+2 Skill Points, Jack's Rum Relic gains Sprite.infinity_med copies",JacksRum
+pirate,plunder,Plundered Riches,"Hit Husk or Boss enemies with Jack's Plunder skill 8 total times, in winning battles.",8,"+2 Skill Points, Pirate's Guile Relic gains Sprite.infinity_med copies",PiratesGuile
+pirate,rum,Pirate's Best Friend,Use Jack's Rum skill 25 total times in winning battles.,25,+2 Skill Points,
+pirate,shield,"C'mon, Hit Me","Block 3000 total damage with Jackson's Kinetic Barrier skill, in winning battles.",3000,"+2 Skill Points, Kinetic Shield Gen Relic gains Sprite.infinity_med copies",KineticShieldGen
+pixie,fairycurse,Spreading Mischief,"Apply Blueberry's Fairy Curse skill to 9 total unique enemies, in winning battles.",9,"+2 Skill Points, Blueberry Relic gains Sprite.infinity_med copies",Blueberry
+pixie,fairykiss,Spreading Joy,"Use Blueberry's Fairy Kiss skill on 7 total unique allies, in winning battles.",7,"+2 Skill Points, Magic Satchel Relic gains Sprite.infinity_med copies",MagicSatchel
+pixie,pixiedust,Achoo!,"Restore 5000 total HP with Blueberry's Pixie Dust skill, in winning battles.",5000,+2 Skill Points,
+plague_doctor,plague,Outbreak,"Have 3 or more stacks of Ambroise's Plague skill on at least 8 enemies or allies at once, in a single winning battle.",,"+2 Skill Points, Plague Knife Relic gains Sprite.infinity_med copies",PlagueKnife
+plague_doctor,poison,Lesions and Boils,"Deal 10,000 total SkillType.Poison damage to enemies with Ambroise, in winning battles.",10000,+2 Skill Points,
+plague_doctor,spread,Epidemic,"Apply Amboise's Plague skill to 25 total unique enemies, in winning battles.",25,"+2 Skill Points, Aromatic Mask Relic gains Sprite.infinity_med copies",AromaticMask
+priestess,blessing,Blessed Champions,"Use Lydia's Blessing skill on 12 unique allies in total, in winning battles.",12,"+2 Skill Points, Lydia's Ankh Relic gains Sprite.infinity_med copies",LydiasAnkh
+priestess,boss,Divine Protection,"Win a Boss battle with Lydia in the party, without any allies being downed.",,"+2 Skill Points, Priestess Garb Relic gains Sprite.infinity_med copies",PriestessGarb
+priestess,healing,Sisters' Promise,"Restore 7000 total ally HP with Lydia, in winning battles.",7000,+2 Skill Points,
+pursuer,decoy,Decoy Target,"Kill a Wraith husk while Xorkzi is in the party, and win the battle.",,"+2 Skill Points, Xorkzi's Gambit Relic gains Sprite.infinity_med copies",XorkziGambit
+pursuer,missile,Predator,"Strike the final blow on 3 total enemies with Xorkzi's PR3D-Missile skill, in winning battles.",3,"+2 Skill Points, Pursuer Bracer Relic gains Sprite.infinity_med copies",PursuerBracer
+pursuer,wraith,Unlikely Partners,Win a Boss battle with both Xorkzi and Viper the Wraith in the party.,,+2 Skill Points,
+raider,chainsaw,Meat Grinder,Use Buzzard's Chainsaw skill on a Boss enemy three times in a single winning battle.,3,"+2 Skill Points, Buzzard's Saw Relic gains Sprite.infinity_med copies",BuzzardsSaw
+raider,gadget,Big Booms,"Deal 10,000 total damage with any of Buzzard's SkillType.Gadget skills, in winning battles.",10000,+2 Skill Points,
+raider,scrap,Gatherin' Scrap,"Kill 20 total Mechanical enemies in winning battles, with Buzzard in the party.",20,"+2 Skill Points, Raider's Edge Relic gains Sprite.infinity_med copies",RaidersEdge
+ranger,bite,Cana's Bite,Deal 5000 total damage with Cana in winning battles.,5000,+2 Skill Points,
+ranger,justice,Animal Justice,"Kill 10 Beastrager enemies in winning battles, with Iana in the party.",10,"+2 Skill Points, Master Scout's Flag Relic gains Sprite.infinity_med copies",MasterScout
+ranger,pincushion,Rapid Fire,"Strike the final blow on 15 total enemies with Iana's Pincushion skill, in winning battles.",15,"+2 Skill Points, Iana's Bow Relic gains Sprite.infinity_med copies",IanasBow
+rocker,jam,Cranked to Eleven,"Use any of Slade's Jam skills 20 total times with his Amp it Up skill also active, in winning battles.",20,"+2 Skill Points, Slade's Guitar Relic gains Sprite.infinity_med copies",SladesGuitar
+rocker,mosh,Epic Mosh,"Deal 420 total damage with a single use of Slade's Mosh skill, in a winning battle.",420,"+2 Skill Points, Rocker's Intensity Relic gains Sprite.infinity_med copies",RockersIntensity
+rocker,sonic,Sonic Assault,"Deal 7777 total SkillType.Sonic damage to enemies with Slade, in winning battles.",7777,+2 Skill Points,
+rune_scribe,refresh,Maintaining the Guard,"Have Emmy Refresh 5 or more Rune effects at once, in a winning battle.",5,+2 Skill Points,
+rune_scribe,shatter,Shattering their Faith,"Have Emmy dispel 3 SkillType.Buff effects with a single Shatter use, in a winning battle.",3,"+2 Skill Points, Dispelling Wand Relic gains Sprite.infinity_med copies",DispellingWand
+rune_scribe,spellblade,Sisters Extraordinaire,Win 5 Extreme Danger or Boss battles with both Emmy and Gabrielle the Spellblade in the party.,5,"+2 Skill Points, Runed Vestments Relic gains Sprite.infinity_med copies",RunedVestments
+samurai,medley,Sword Mastery,"Block 3000 total damage with Kenjiro's Great Shell skill, deal 3000 total damage to enemies with Kenjiro's Falling Leaf skill, and deal 3000 total damage to enemies with Kenjiro's Foxfire skill, in winning battles.",,+2 Skill Points,
+samurai,samurai,A Matter of Honor,"Kill a Samurai husk with Kenjiro in the party, and win the battle.",,"+2 Skill Points, Mending Spirit Relic gains Sprite.infinity_med copies",MendingSpirit
+samurai,spirit,Way of the Blade,Activate all 3 unique Sword Spirits with Kenjiro in a single winning battle.,3,"+2 Skill Points, Kenjiro's Katana Relic gains Sprite.infinity_med copies",SamuraiBlade
+sasquatch,damage,Korr Crush,"Deal 12,000 total damage with Korr, in winning battles.",12000,+2 Skill Points,
+sasquatch,elite,King of the Mountain,Win 5 Extreme Danger battles with Korr in the party.,5,"+2 Skill Points, Korr's Solitude Relic gains Sprite.infinity_med copies",KorrsSolitude
+sasquatch,toss,Major League Arm,"Strike the final blow on 3 total enemies with Korr's Toss skill, in winning battles.",3,"+2 Skill Points, Sasquatch Grip Relic gains Sprite.infinity_med copies",SasquatchGrip
+secret_service,protect,Get Down!,"Have Agent be downed while using Protect on an ally, and win the battle.",,"+2 Skill Points, Service Kevlar Relic gains Sprite.infinity_med copies",ServiceKevlar
+secret_service,ranged,Marksman,"Deal 6000 total SkillType.Ranged damage to enemies with Agent, in winning battles.",6000,+2 Skill Points,
+secret_service,replace,Replaceable,"Have Agent bleed out and be replaced via his Faceless skill 5 total times, in winning battles.",5,"+2 Skill Points, Agent's Watch Relic gains Sprite.infinity_med copies",AgentsWatch
+sentinel,lance,Lancer,"Deal 800 total damage with a single use of Rafael's Energy Lance skill, and win the battle.",800,"+2 Skill Points, Sentinel Core Relic gains Sprite.infinity_med copies",SentinelCore
+sentinel,shield,Sentinel's Duty,"Block 7500 total damage with Rafael's Forcefield skill, in winning battles.",7500,+2 Skill Points,
+sentinel,unleash,Overloaded,"Deal 2500 total damage with a single use of Rafael's Unleash Force skill, and win the battle.",2500,"+2 Skill Points, Energy Bracer Relic gains Sprite.infinity_med copies",EnergyBracer
+sentrybot,boss,Silence the Voice,Defeat the CENCOM Boss with Warden in the party.,,"+2 Skill Points, Tracking Sensor Relic gains Sprite.infinity_med copies",TrackingSensor
+sentrybot,cultist,Kill Bad Meat,"Kill 25 total Cultist enemies in winning battles, with Warden in the party.",25,+2 Skill Points,
+sentrybot,downed,Be the Hero,"Win an Extreme Danger or Boss battle with Warden in the party, after at least one ally has been downed and Warden has not.",,"+2 Skill Points, Hero's Heart Relic gains Sprite.infinity_med copies",HerosHeart
+shaman,damage,Animal Might,"Deal 6000 total damage to enemies with Lucien's Boar Spirit or Owl Spirit, in winning battles.",6000,"+2 Skill Points, Lucien's Might Relic gains Sprite.infinity_med copies",LuciensMight
+shaman,heal,Elk's Majesty,"Restore 4000 total ally HP with Lucien's Elk Spirit, in winning battles.",4000,"+2 Skill Points, Shamanic Wand Relic gains Sprite.infinity_med copies",ShamanicMind
+shaman,shield,Mental Fortitude,"Block 3000 total damage with Lucien's Spirit Shield skill, in winning battles.",3000,+2 Skill Points,
+siren,drown,Watery Grave,"Strike the final blow on 3 total Human enemies with Raidne's Drown skill, in winning battles.",3,"+2 Skill Points, Shell Charm Relic gains Sprite.infinity_med copies",SirensTouch
+siren,heal,Healing Waves,"Restore 3000 total ally HP with Raidne, in winning battles.",3000,"+2 Skill Points, Waking Water Relic gains Sprite.infinity_med copies",WakingWater
+siren,sleep,Hypnotizing Song,"Put enemies to sleep 20 total times with Raidne in the party, in winning battles.",20,+2 Skill Points,
+snake_charmer,charm,Wrong Side of the Bed,"Deal 3000 total SkillType.Sleep damage to Charmed enemies with Lila, in winning battles.",3000,"+2 Skill Points, Charmer's Veil Relic gains Sprite.infinity_med copies",CharmersVeil
+snake_charmer,poison,Three Step,"Strike the final blow on 3 total enemies with SkillType.Poison damage applied by Lila, in winning battles.",3,"+2 Skill Points, Snake Venom Relic gains Sprite.infinity_med copies",SnakeVenom
+snake_charmer,sleep,Troubled Sleep,"Deal 5000 total SkillType.Poison damage to sleeping enemies with Lila, in winning battles.",5000,+2 Skill Points,
+space_marine,marine,"Once a Marine, Always a Marine",Win 10 battles with both Carmen and Darius the Marine in the party.,10,+2 Skill Points,
+space_marine,squad,Focus Fire,"Deal 2500 total damage with Carmen's Pulse Rifle skill during another hero's turn, in winning battles.",2500,"+2 Skill Points, Nanocarbon Screws Relic gains Sprite.infinity_med copies",NanoCarbonScrews
+space_marine,xeno,Xeno Hunter,"Defeat the King Terror Boss with Carmen in the party, and kill 10 Anomaly type enemies with Carmen in the party, in winning battles.",,"+2 Skill Points, XenoSquad Badge Relic gains Sprite.infinity_med copies",XenoSquadBadge
+spellblade,feedback,My Own Worst Enemy,"Deal 3000 total damage to enemies with Gabrielle's Feedback skill, in winning battles.",3000,"+2 Skill Points, Runic Mail Relic gains Sprite.infinity_med copies",RunicMail
+spellblade,refract,Spell Bending,"Cast 25 SkillType.Spell skills with Gabrielle's Spell Refraction skill, in winning battles.",25,+2 Skill Points,
+spellblade,shatter,Strength to Weakness,"Remove 15 total SkillType.Buff from enemies using Gabrielle's Shatter skill, in winning battles.",15,"+2 Skill Points, Arcane Vision Relic gains Sprite.infinity_med copies",ArcaneVision
+steam_lord,nomech,Gadget Master,Win 3 battles in which Mathias uses only SkillType.Gadget skills and does not enter his Steam Mech.,3,"+2 Skill Points, Utility Belt Relic gains Sprite.infinity_med copies",UtilityBelt
+steam_lord,steammech,Mechanized Assault,"Deal 8000 total damage to enemies with Mathias while he is in his Steam Mech, in winning battles.",8000,+2 Skill Points,
+steam_lord,upgrade,Fully Loaded,Have at least 3 unique Upgrade skills active on Mathias' Steam Mech at once in a single winning battle.,,"+2 Skill Points, Mathias' Hat Relic gains Sprite.infinity_med copies",MathiasHat
+super_soldier,damage,Take the Pain,"Have Carlos take 10,000 total damage in winning battles.",10000,+2 Skill Points,
+super_soldier,dominator,Dominate This,"Hit a Dominator enemy with Carlos' Grenade Punch skill, and win the battle.",,"+2 Skill Points, Alacrity Implant Relic gains Sprite.infinity_med copies",AlacrityImplant
+super_soldier,revive,"Live, Die, Repeat","Have Carlos be downed and revive himself 3 times with his R3GnX skill, in one winning battle.",3,"+2 Skill Points, Revenge Token Relic gains Sprite.infinity_med copies",Revenge
+undead,fire,Burning Sword,"Deal 4000 total SkillType.Fire damage to enemies with Drex, in winning battles.",4000,+2 Skill Points,
+undead,rekindle,Stoke the Flame,Use Drex's Rekindle skill 10 total times in winning battles.,10,"+2 Skill Points, Undead Soul Relic gains Sprite.infinity_med copies",UndeadSoul
+undead,soul,Destroy the Master,"Strike the final blow on a Soul Master enemy with Drex, and win the battle.",,"+2 Skill Points, Drex's Shield Relic gains Sprite.infinity_med copies",DrexsShield
+vampire,execute,The Sweetest Prey,"Strike the final blow on 10 total Human enemies with Edgard's Exsanguinate skill, in winning battles.",10,"+2 Skill Points, Edgard's Cape Relic gains Sprite.infinity_med copies",VampiricTouch
+vampire,restore,Unslakable Thirst,"Have Edgard restore 5000 total HP to himself, in winning battles.",5000,+2 Skill Points,
+vampire,undead,Creatures of the Night,Win 10 battles with both Edgard and another Undead ally (including summons) in the party.,10,"+2 Skill Points, Gnawing Fang Relic gains Sprite.infinity_med copies",GnawingFang
+vampire_hunter,blood,Scent of the Hunt,"End 25 total turns with Abraham under the effect of his Blood Trance skill, in winning battles.",25,"+2 Skill Points, Hunter's Blood Relic gains Sprite.infinity_med copies",HuntersBlood
+vampire_hunter,crit,Deadly Accuracy,"Deal 30 total critical hits to enemies with Abraham, in winning battles.",30,"+2 Skill Points, Abraham's Locket Relic gains Sprite.infinity_med copies",AbrahamsLocket
+vampire_hunter,undead,Solemn Duty,"Kill 25 total Undead enemies in winning battles, with Abraham in the party.",25,+2 Skill Points,
+viking,boss,Unstoppable,"Win a Boss battle with Thorg in the party, without him being downed.",,"+2 Skill Points, Horned Helmet Relic gains Sprite.infinity_med copies",HornedHelmet
+viking,critical,Berserker's Rage,"Strike the final blow on 3 total enemies with Thorg while he is at critical HP, in winning battles.",3,+2 Skill Points,
+viking,elite,Chasing Glory,Win 5 Extreme Danger or Boss combats with Thorg in the party.,5,"+2 Skill Points, Viking Warhorn Relic gains Sprite.infinity_med copies",Warhorn
+vul,cultist,Vulpine Vengeance,"Kill 25 total Human Cultist enemies in winning battles, with Vikki in the party.",25,+2 Skill Points,
+vul,dodge,Vulpine Agility,"Dodge 25 total hits with Vikki, in winning battles.",25,"+2 Skill Points, Vul Cunning Relic gains Sprite.infinity_med copies",VulCunning
+vul,versatile,Vulpine Ingenuity,"Have Vikki deal 2000 total damage to enemies with SkillType.Melee skills, 2000 total damage to enemies with SkillType.Spell skills, and restore 1000 total ally HP, in winning battles.",,"+2 Skill Points, Vikki's Vulstaff Relic gains Sprite.infinity_med copies",VikkisVulstaff
+witch,cauldron,"Bubble, Bubble","Deal 5000 total SkillType.Fire damage, 5000 total SkillType.Dark damage, and 3000 total SkillType.Poison damage with Minerva in winning battles.",,+2 Skill Points,
+witch,plant,Collecting Reagents,"Kill 15 total Plant enemies in winning battles, with Minerva in the party.",15,"+2 Skill Points, Witch's Grimoire Relic gains Sprite.infinity_med copies",WitchsGrimoire
+witch,shroom,Preparing the Sacrifice,"Hit the King Shroom Boss with Minerva's Ritual skill, and win the battle.",,"+2 Skill Points, Minerva's Staff Relic gains Sprite.infinity_med copies",MinervasStaff
+wolfman,beast,Pack Hunting,Win 10 battles with both Michael and another Beast ally (including summons) in the party.,10,"+2 Skill Points, Moonstone Relic gains Sprite.infinity_med copies",MichaelsClaw
+wolfman,curse,Rip and Tear,"Strike the final blow on 5 total enemies with Michael while he is under the effect of Midnight Curse, in winning battles.",5,"+2 Skill Points, Wolf's Fang Relic gains Sprite.infinity_med copies",WolfsFerocity
+wolfman,whiskey,Drown the Pain,"Use Michael's Whiskey skill 25 total times, in winning battles.",25,+2 Skill Points,
+wraith,phantom,A Thousand Cuts,"Deal 1200 damage with a single use of Viper's Phantom Cut skill, and win the battle.",1200,"+2 Skill Points, Wraith Sword Relic gains Sprite.infinity_med copies",WraithSword
+wraith,pursuer,Evading Capture,"Kill a Pursuer husk with Viper in the party, and win the battle.",,"+2 Skill Points, Viper's Suit Relic gains Sprite.infinity_med copies",VipersSuit
+wraith,vendor,Once a Thief,"Break into a Vending Machine while on a mission, with Viper in the party.",,+2 Skill Points,
+wrestler,boss,Cream of the Crop,"Strike the final blow on a Boss enemy with Zeke's Finisher skill, and win the battle.",,"+2 Skill Points, Wrestler's Will Relic gains Sprite.infinity_med copies",WrestlersWill
+wrestler,champ,Five Time Champ,"Win 5 Extreme Danger or Boss battles, while using Zeke's Finisher skill in each.",5,"+2 Skill Points, Zeke's Boots Relic gains Sprite.infinity_med copies",ZekesBoots
+wrestler,taunt,"Come at Me, Bro",Have Zeke take 5000 total damage from Taunted enemies in winning battles.,5000,+2 Skill Points,
+yakuza,extort,Racketeer,"Use Kazuo's Extort skill 15 total times, in winning battles.",15,+2 Skill Points,
+yakuza,intimidate,Fearless,"Hit a Boss enemy with Kazuo's Intimidate skill, and win the battle.",,"+2 Skill Points, Dragon Tattoo Relic gains Sprite.infinity_med copies",DragonTattoo
+yakuza,samurai,Modern Bushido,Win 4 Extreme Danger or Boss battles with both Kazuo and Kenjiro the Samurai in the party.,4,"+2 Skill Points, Honor Code Relic gains Sprite.infinity_med copies",HonorCode

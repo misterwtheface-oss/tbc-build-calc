@@ -1,0 +1,109 @@
+building_id,upgrade_id,track_name,tier,tier_name,price,effect
+forge,forge.furnace,Tinkerer's Shop,1,Improvised Explosives,250,Ally SkillType.Gadget skills deal 20% increased damage to enemies.
+forge,forge.furnace,Tinkerer's Shop,2,Efficiency Tinkering,450,Limited use ally SkillType.Gadget skills have a 20% chance to regain a use after being activated.
+forge,forge.furnace,Tinkerer's Shop,3,Reinforced Bundle Pod,800,Bring an additional item bundle on missions.
+forge,forge.toolsmith,Toolsmithing,1,Quenching Station,100,Critical hit SkillType.Stun damage from SkillType.Melee skills is increased by 50%.
+forge,forge.toolsmith,Toolsmithing,2,Balancing Tools,300,Enemies hit by SkillType.Stun damage have a 25% chance to have their WIS reduced by 25% for 2 turns.
+forge,forge.toolsmith,Toolsmithing,3,Heavy Alloys,500,Critical hit SkillType.Stun damage also deals SkillType.Sleep damage.
+forge,forge.bladesmith,Bladesmithing,1,Grindstone,150,Effects with SkillType.Physical damage over time applied to enemies have their duration increased by 1 turn.
+forge,forge.bladesmith,Bladesmithing,2,Edge Honing,400,Enemies hit by SkillType.Physical damage over time lose 1% Power for 3 turns. Stacks up to 10 times.
+forge,forge.bladesmith,Bladesmithing,3,Bladesmith's Workshop,600,Enemies affected by a SkillType.Physical damage over time effect have a 50% increased chance to be critically hit.
+forge,forge.armorsmith,Armorsmithing,1,Reinforced Armor,200,All heroes gain +5 base Toughness.
+forge,forge.armorsmith,Armorsmithing,2,Improved Armor Padding,400,Allies in the front row take 15% decreased SkillType.Stun damage from enemy SkillType.Melee attacks.
+forge,forge.armorsmith,Armorsmithing,3,Strengthened Shields,600,Allies in the back row have a 50% decreased chance to be critically hit by SkillType.Physical damage.
+forge,forge.gunsmith,Gunsmithing,1,Precision Rifling,100,Ally SkillType.Ranged SkillType.Attack skills gain 25% increased chance to hit when used from the back row.
+forge,forge.gunsmith,Gunsmithing,2,Flechette Rounds,300,Ally SkillType.Ranged SkillType.Attack skills gain 50% increased critical hit chance when used in the front row.
+forge,forge.gunsmith,Gunsmithing,3,Auto Loaders,500,Ally SkillType.Ranged SkillType.Attack skills gain randomly decreased turn delay after use.
+forge,forge.metallurgy,Metallurgy Research,1,Research Level UPGRADE.LEVEL,125,"All heroes gain +1 Power, Toughness, and Endurance. Infinite upgrades available. [Currently: +UPGRADE.LEVEL_M1]"
+inn,inn.kitchen,Kitchen,1,Snack Bar,500,"Begin all missions with +10 extra Stamina, for a total of 110%."
+inn,inn.kitchen,Kitchen,2,Simple Kitchen,800,Gain an additional Reserve Hero slot when starting a mission.
+inn,inn.kitchen,Kitchen,3,Gourmet Kitchen,1000,"Begin all missions with +5 additional Stamina, for a total of 115%."
+inn,inn.bar,Bar,1,Beer Taps,250,Heroes earn 10% increased XP in the Act they were rescued from. Wanderers always earn 10% more.
+inn,inn.bar,Bar,2,Comfy Bar Stools,400,Heroes gain +1 base Wisdom for each Boss Badge they have earned.
+inn,inn.bar,Bar,3,Liquor and Mixers,500,Heroes also gain +1 base Endurance for each Boss Badge they have earned.
+inn,inn.brewery,Brewery,1,Micro Brewery,200,"Unlock mission item bundle: 2 bottles of Ale that restore 15 stamina each, to one ally."
+inn,inn.brewery,Brewery,2,Mead Brewing,500,Mission item bundle now also has 1 bottle of Mead that restores 25 stamina to one ally.
+inn,inn.brewery,Brewery,3,Expanded Brewery,750,Mission item bundle now has 2 bottles of Ale and 2 bottles of Mead.
+inn,inn.stage,Musician's Space,1,Karaoke Machine,100,"SkillType.Sonic damage dealt to enemies is increased by 5% to 20%, randomly."
+inn,inn.stage,Musician's Space,2,Loud Speakers,250,Enemies hit by SkillType.Sonic damage have a 25% chance to have their TGH or DSC reduced by 25% for 2 turns.
+inn,inn.stage,Musician's Space,3,Performance Stage,600,Attribute increases from ally SkillType.Song skills are increased by 15%.
+inn,inn.gym,Gym,1,Weight Bench,200,All heroes gain +5 base Power.
+inn,inn.gym,Gym,2,Cross Training Equipment,300,All heroes also gain +5 base Agility.
+inn,inn.gym,Gym,3,Personal Training,400,All heroes also gain +5 base Discipline.
+inn,inn.summon,Pet Housing,1,Squeaky Chew Toys,100,Ally non-human summons gain +1 base Technique for each Boss Badge their summoner has earned.
+inn,inn.summon,Pet Housing,2,Nutritional Supplements,400,Ally non-human summons gain +1 base Power and Focus for each Boss Badge their summoner has earned.
+inn,inn.summon,Pet Housing,3,Pet Training Equipment,600,Ally non-human summons gain a small amount of turn progress when their summoner finishes a turn.
+inn,inn.storage,Storage Space,1,Small Closet,200,Bring an additional item bundle on missions.
+inn,inn.storage,Storage Space,2,Large Pantry,400,Unlock additional basic item bundle options.
+inn,inn.storage,Storage Space,3,Full Cellar,800,Bring an additional item bundle on missions.
+lab,lab.computer,Lab Computer,1,Efficiency Analysis,200,MP cost of ally SkillType.Attack skills is reduced by 15%.
+lab,lab.computer,Lab Computer,2,Teaching Software,400,All heroes gain +5 base Focus.
+lab,lab.computer,Lab Computer,3,Playback Review,600,Heroes gain +1 base Technique for each Boss Badge they have earned.
+lab,lab.portal,Portal Research,1,Danger Detection,100,Gain the ability to detect dangerous enemy activity through adjacent portals.
+lab,lab.portal,Portal Research,2,Increased Detection Range,300,Extends detection of dangerous enemy activity to three portals away.
+lab,lab.portal,Portal Research,3,Friendly Signal Detection,600,"Detect enemy activity throughout the entire conduit space map, and detect the identity of friendly signals."
+lab,lab.bomb,Bomb Research,1,Incendiary Research,100,Disintegration Bombs deal an additional 80-120 SkillType.Fire damage.
+lab,lab.bomb,Bomb Research,2,Shrapnel Research,300,Disintegration Bombs deal 50% more SkillType.Physical damage.
+lab,lab.bomb,Bomb Research,3,Improved Yield Research,400,Disintegration Bombs now deal 100% more SkillType.Physical and SkillType.Stun damage.
+lab,lab.pharmacy,Undead Research,1,Heat Damage Research,200,Undead enemies take 25% increased SkillType.Fire damage.
+lab,lab.pharmacy,Undead Research,2,Cold Damage Research,400,Undead allies take 25% decreased SkillType.Ice damage.
+lab,lab.pharmacy,Undead Research,3,Banishment Research,800,"Undead enemies hit by SkillType.Holy damage have a 15% chance to gain a 3 turn Death effect, removing them immediately if downed."
+lab,lab.poison,Sleep Research,1,Sedative Research,300,Ally SkillType.Sleep damage dealt is increased by 20%.
+lab,lab.poison,Sleep Research,2,Stimulant Research,400,Ally sleep recovery rate is increased by 25%.
+lab,lab.poison,Sleep Research,3,Hypnosis Research,500,Enemies have their Speed reduced by 15% for 2 turns when they fall asleep.
+lab,lab.drone,Drone Research,1,Basic Drone Fabrication,200,Unlock mission item bundle: 2 Utility Drones that support allies with random skills.
+lab,lab.drone,Drone Research,2,Medical Drone Fabrication,300,Mission item bundle gains 2 Medical drones that heal allies.
+lab,lab.drone,Drone Research,3,Lightweight Materials,600,All deployable drones gain +25% Speed and last 1 turn longer.
+lab,lab.psychology,Psychology Research,1,Research Level UPGRADE.LEVEL,125,"All heroes gain +1 Focus, Wisdom, and Discipline. Infinite upgrades available. [Currently: +UPGRADE.LEVEL_M1]"
+library,lib.bookbinder,Training Library,1,Self Review Guides,300,Completing at least 3 hero Quests now also grants 1 bonus Skill Point. Retroactive.
+library,lib.bookbinder,Training Library,2,Performance Analysis Lessons,500,All heroes earn 20% increased XP.
+library,lib.bookbinder,Training Library,3,Ancient Knowledge Scrolls,1000,"All heroes, including those not yet rescued, gain 1 bonus Skill Point."
+library,lib.bestiary,Bestiary,1,Small Bestiary,100,Hit chance vs beast enemies is increased by 25%.
+library,lib.bestiary,Bestiary,2,Expanded Bestiary,250,Critical hit chance vs beast enemies is increased by 25%.
+library,lib.bestiary,Bestiary,3,Exhaustive Bestiary,500,Critical hit damage vs beast enemies is increased by 25%.
+library,lib.medical,Medical Library,1,First Aid Books,200,MP cost of ally SkillType.Healing skills is decreased by 15%.
+library,lib.medical,Medical Library,2,Medical Journals,300,Limited use ally SkillType.Gadget skills that are also type SkillType.Healing or SkillType.Buff gain +1 use.
+library,lib.medical,Medical Library,3,Preventative Care Texts,500,Giving a SkillType.Buff to an ally has a 25% chance to also add 1 Resist.
+library,lib.martial,Martial Library,1,Hand to Hand Training Books,125,Hit chance of ally SkillType.Melee skills is increased by 25%.
+library,lib.martial,Martial Library,2,Pressure Point Diagrams,250,Critical hit chance of ally SkillType.Melee skills vs human enemies is increased by 25%.
+library,lib.martial,Martial Library,3,Lethal Technique Guides,500,Critical hit damage of ally SkillType.Melee skills vs human enemies is increased by 25%.
+library,lib.poison,Toxicology Lib.,1,Poison Recipes,200,"Enemies take up to 20% increased SkillType.Poison damage, based on missing HP percent."
+library,lib.poison,Toxicology Lib.,2,Compendium of Venoms,400,Enemies hit by SkillType.Poison damage lose 1% Endurance for 3 turns. Stacks up to 10 times.
+library,lib.poison,Toxicology Lib.,3,Acidic Chemistry Texts,600,"Mechanical enemies take 25% SkillType.Poison damage from direct hits, instead of 0%."
+library,lib.apothecary,Apothecary Lib.,1,Herbal Remedy Books,100,The restorative effects of Snacks and Medicine are increased by 50%.
+library,lib.apothecary,Apothecary Lib.,2,Stimulant Research Papers,250,Coffee's effects last 2 additional turns.
+library,lib.apothecary,Apothecary Lib.,3,Nutrition Guides,500,Snacks also restore 3 stamina to the target.
+nano,nano.dispenser,Nanite Dispenser,1,Molecular Botany,200,Plant enemies hit by SkillType.Ice damage have their Photosynthesis passive disabled for 3 turns.
+nano,nano.dispenser,Nanite Dispenser,2,Animal Genetic Mods,400,Beast allies gain 50% additional Speed and Power from the effects of Beast's Rage.
+nano,nano.dispenser,Nanite Dispenser,3,Energizing Nanite Cloud,600,All heroes have their passive MP regeneration rate increased by 50%.
+nano,nano.heat,Adv. Drone AI,1,Emergency Medical AI,300,Medical and Shield Drones gain 100% increased Speed when an ally is at critical HP. Shield drones now target critical HP allies first.
+nano,nano.heat,Adv. Drone AI,2,Enhanced Offensive AI,400,"Volatile Drones no longer use the basic Shoot attack, and Explode deals 50% increased damage."
+nano,nano.heat,Adv. Drone AI,3,Nanite Processors,600,All deployable drones gain a 50% increase to all base attributes.
+nano,nano.armors,Armor Fab,1,Voltaic Coating,300,Allies gain 10% of SkillType.Energy damage taken as restored MP.
+nano,nano.armors,Armor Fab,2,Lightweight Composites,500,All heroes gain +5 base Speed.
+nano,nano.armors,Armor Fab,3,Kinetic Plates,800,Allies in the front row gain a small amount of turn progress when taking critical hit damage from a SkillType.Melee attack.
+nano,nano.weapons,Energy Weapons,1,Feedback Capacitor,300,Allies gain 5% of SkillType.Energy damage dealt as restored MP.
+nano,nano.weapons,Energy Weapons,2,Blinding Brilliance,400,Enemies hit by SkillType.Energy damage have a 25% chance to have their TEC reduced by 25% for 2 turns.
+nano,nano.weapons,Energy Weapons,3,Emitter Overcharging,600,"Ally SkillType.Energy direct damage dealt is increased by up to 20%, based on ally's remaining MP percent."
+nano,nano.medical,Future Medicines,1,Medical Fabricator,300,Unlock mission item bundle: 3 Nano-Meds that restore 100% HP and dispel all SkillType.Debuff for one ally.
+nano,nano.medical,Future Medicines,2,Regenerative Treatments,300,Nano-Meds grant 3 turns of 15% Max HP Regeneration to target ally.
+nano,nano.medical,Future Medicines,3,Auto Defibrillation,600,Nano-Meds HP Regeneration effect ends and revives target ally if they are downed.
+nano,nano.tactical,Tactical Research,1,Research Level UPGRADE.LEVEL,125,"All heroes gain +1 Speed, Technique, and Agility. Infinite upgrades available. [Currently: +UPGRADE.LEVEL_M1]"
+temple,temple.relic,Relic Enchanting,1,Enchanting Table,100,Unlocks relic crafting options.
+temple,temple.relic,Relic Enchanting,2,Soul Orb,200,Skills granted by relics and items become level 2.
+temple,temple.relic,Relic Enchanting,3,Mastery Crystal,400,Skills granted by relics and items become level 3.
+temple,temple.holy,Holy Worship,1,Altar of Vitality,100,Healing from ally SkillType.Holy skills is increased by 15%.
+temple,temple.holy,Holy Worship,2,Altar of Protection,200,Heroes with at least one SkillType.Holy skill take 15% reduced damage from Undead and Demon enemies.
+temple,temple.holy,Holy Worship,3,Altar of Justice,500,SkillType.Holy damage to Cultist enemies is increased by 25%.
+temple,temple.pagan,Pagan Worship,1,Ritual Pyre,200,SkillType.Fire based damage over time to enemies is increased by 15%.
+temple,temple.pagan,Pagan Worship,2,Jupiter's Shrine,300,SkillType.Lightning damage also deals 50% of damage as SkillType.Stun damage to Mechanical enemies.
+temple,temple.pagan,Pagan Worship,3,Boreas' Altar,400,SkillType.Ice damage pierces 25% of enemy defenses.
+temple,temple.ancient,Ancient Rituals,1,Ritual Dagger,100,MP cost of ally SkillType.Dark skills is decreased by 20%.
+temple,temple.ancient,Ancient Rituals,2,Arcane Orb,250,SkillType.Dark damage also deals 20% added SkillType.MP damage to human enemies.
+temple,temple.ancient,Ancient Rituals,3,Bloody Chalice,500,SkillType.Dark damage deals 20% increased damage if the target enemy is at critical HP.
+temple,temple.spells,Meditation Room,1,Crystal Garden,100,MP cost of ally SkillType.Spell skills is decreased by 10%.
+temple,temple.spells,Meditation Room,2,Bubbling Fountain,250,Hit chance of ally SkillType.Spell skills is increased by 25%.
+temple,temple.spells,Meditation Room,3,Focusing Gem,500,Critical hit chance of ally SkillType.Spell skills is increased by 25%.
+temple,temple.winery,Winery,1,Small Winery,100,Unlock mission item bundle: 2 bottles of wine that revive an ally with full HP.
+temple,temple.winery,Winery,2,Winery,200,Mission item bundle is increased to 3 bottles of wine.
+temple,temple.winery,Winery,3,Large Winery,400,Wine grants target a Free Turn when revived.

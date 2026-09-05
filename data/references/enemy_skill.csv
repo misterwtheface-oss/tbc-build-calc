@@ -1,0 +1,77 @@
+skill_id,name,multiplier,scaling_stat,element,target,uses,level_1,level_2,level_3
+absorb,Absorb,,,,,,"Absorbs an adjacent ally and gains 100% of their Endurance, Toughness, Power, and HP.",,
+absorbsoul,Absorb Soul,0.75,Focus,Dark,single enemy,,"Deals 0.75x Focus SkillType.Dark damage to target, heals the caster, gives self a focus bonus, and reduces target's healing received.",,
+annihilate,Annihilate,1,Power,Energy,,,Deals 1x Power SkillType.Energy damage and increases speed and power.,,
+barricade,Barricade,,,,,,"Randomly taunt 3 enemies and nullify up to 8 hits until next turn, reflecting SkillType.Physical damage back to melee attackers. 2 turn charge.",,
+belch,Belch,1,Focus,Poison,,,"Deals 1x Focus SkillType.Poison damage, damage over time, and decreases TGH by 25%. Stacks.",,
+bigslam,Big Slam,,,,single enemy,,"Deals SkillType.Physical and SkillType.Stun damage. Pulls an enemy into its body, where it takes SkillType.Poison damage over time until it is digested or broken out.",,
+blazingslam,Blazing Slam,,,,single enemy,,"Deals SkillType.Fire damage. Pulls an enemy into its body, where it takes SkillType.Poison damage over time until it is digested or broken out.",,
+bloodsuck,Bloodsuck,1.0,Power,Physical,,,"Deals 1.0x Power SkillType.Physical damage, restores HP based on damage dealt, causes bleeding, and decreases target's Healing received by 50%.",,
+boast,Boast,,,,,,Increase Speed and Focus by 15% and taunt the enemy front row.,,
+brewingstorm,Brewing Storm,1,Focus,Lightning,,,"Enemies take 1x Focus SkillType.Lightning damage every turn, but costs MP.",,
+burn,Burn,0.35,Focus,Fire,,,Deals 0.35x Focus SkillType.Fire damage immediately and over time for 3 turns. Max 3 stacks.,Refreshes all stacks on hit,Max 5 stacks
+carnage,Carnage,,,,all allies,,All allies gain 50% turn progress and instability increases. Enemies are confused and gain 100% increased Power.,,
+channel,Channel,,,,,,Channeling the power of the Ancient. Releases a powerful spell if not interrupted by damage.,Channeling the power of the Ancient. Releases a powerful spell if not interrupted by damage.,Channeling the power of the Ancient. Releases a powerful spell if not interrupted by damage.
+chaosspores,Chaos Spores,,,,,,Causes debilitating effects to enemy party.,,
+contrition,Contrition,1,Focus,Dark,,,Target deals 25% less damage with and takes 1x Focus SkillType.Dark damage after using SkillType.Attack skills. Lasts 5 turns.,,
+coresurge,Core Surge,,,,self,,"Grants Free Turn, Doubles POW and SPD, but decreases TGH by 50% and deals 10% max HP self SkillType.Lightning damage. Activates at 50% HP.",,
+cryoshot,Cryo Shot,1,Power,Ice,single enemy,,Deals 1x Power SkillType.Ice damage to target enemy.,Non-boss target becomes frozen and cannot act or dodge for 2 turns,Target takes 30-40 piercing SkillType.Ice damage when hit
+curse,Curse,,,,,,Target's received healing is decreased by 90% for 2 turns.,Target's received healing is decreased by 90% for 2 turns.,Target's received healing is decreased by 90% for 2 turns.
+darkbargain,Dark Bargain,,,,,,"Revives a downed ally, but they take 10% Max HP SkillType.Physical damage over time, and can no longer bleed out.",Ally gains 35% increased Endurance while active,Ally no longer takes SkillType.Physical damage over time
+darkestbargain,Darkest Bargain,,,,,,"Revives all downed allies, but they take 10% Max HP SkillType.Physical damage over time, and can no longer bleed out.",,
+darkprism,Dark Prism,,,,,,"Target cannot act, buffs are dispelled, SkillType.Healing is converted to SkillType.Dark damage. Lasts 3 turns, or until broken by SkillType.Healing taken.",,
+darkshroud,Dark Shroud,,,,,,"Increases ally dodge chance for three turns, while draining MP to restore HP per turn.","Increases ally dodge chance for three turns, while draining MP to restore HP per turn.","Increases ally dodge chance for three turns, while draining MP to restore HP per turn."
+devour,Devour,,,,single enemy,,"Deals SkillType.Physical damage. Pulls an enemy inside Sin, where it loses HP over time until it is digested or broken out.",,
+dokunoken,Dokunoken,1.5,POW,Physical,single enemy,,Deals 1.5x POW SkillType.Physical damage to target row. Targets take 1.5x POW SkillType.Physical and SkillType.Poison damage per turn for 2 turns. Cannot be resisted.,,
+dragunder,Drag Under,,,,single enemy,,"Deals SkillType.Physical and SkillType.Stun damage. Pulls an enemy under the water, where it takes SkillType.Physical damage over time until it is digested or broken out.",,
+drainhusk,Drain Husk,,,,single ally,,"Deals Dark damage to an ally husk, and heals self based on damage dealt. Grants target bonus Toughness.","Deals Dark damage to an ally husk, and heals self based on damage dealt. Grants target bonus Toughness.","Deals Dark damage to an ally husk, and heals self based on damage dealt. Grants target bonus Toughness."
+electrify,Electrify,0.5,Focus,Lightning,,,Adds 0.5x Focus SkillType.Lightning damage with SkillType.Attack skills and melee attackers take 1x SkillType.Lightning damage for 3 turns.,,
+empower,Empower,,,,,,Allies gain 50% increased Speed until their next turn. Two turn charge.,Allies deal 50% more damage their next turn,Allies gain turn 50% progress
+enragebeast,Enrage Beast,,,,,,"Increases Power, Endurance, and Speed for a beast ally. Grants Free Turn.","Increases Power, Endurance, and Speed for a beast ally. Grants Free Turn.","Increases Power, Endurance, and Speed for a beast ally. Grants Free Turn."
+entangle,Entangle,1,Power,Physical,,,"Target becomes rooted, cannot act, and takes 1x Power SkillType.Physical damage after every turn.",,
+enzymes,Enzymes,,,,,,Deals 0.5 SkillType.Physical damage and lowers Toughness by 50% for 3 turns.,,
+flamerush,Flame Rush,1.0,Focus,Fire,,,"Deals 0.5x Power SkillType.Physical and 1.0x Focus SkillType.Fire damage, and deals 0.5x Focus SkillType.Fire damage every turn.",,
+frozenbomb,Frozen Bomb,,,,,,"Deals SkillType.Ice damage to enemies in an area, and decreases their speed.",,
+frozensolid,Frozen Solid,,,,,,"Target cannot act for 2 turns and decreases target Toughness by 50%, and Agility to zero.",,
+gammawave,Gamma Wave,0.5,Focus,Poison,,,"Decreases all enemy Speed and Toughness by 15%, and deals 0.5x Focus SkillType.Poison damage over time for 6 turns. Cannot miss.",,
+gaze,Gaze,,,,single enemy,,Force target enemy to attack an adjacent teammate and take SkillType.Dark damage for 3 turns. Doubles their Power. Channeled.,,
+growl,Growl,,,,all allies,,"Increases Power, Speed, and Technique for all allies.",,
+hotandsteamy,Hot and Steamy,1,Power,Fire,,,Deals 1x Power SkillType.Fire damage and decreases target toughness and discipline.,,
+howl,Howl,,,,all allies,,"Increases Power, Speed, and Technique for all allies.",,
+icygrasp,Icy Grasp,1.0,Power,Ice,,,Target takes 1.0x Power SkillType.Ice damage and can no longer bleed out.,,
+innerfire,Inner Fire,,,,,,"Increases Speed, Power, and Focus by +12. Stacks infinitely.",,
+intangible,Intangible,,,,,,Becomes impervious to damage for 1 turn after being hit.,,
+invademind,Invade Mind,,,,,,"Target cannot heal and attacks an adjacent teammate for 3 turns with Void Strike, if possible.",,
+loverstrance,Lover's Trance,,,,,,Bonus Action. Target cannot directly target OWNER.NAME for 3 turns. Ignores resist.,Target counter attacks allies who target OWNER.NAME,Take 35% less damage from target
+madness,Madness,,,,all allies,,All allies and enemies are fast forwarded to their turn. Enemies are confused and gain 100% increased Power.,,
+nightmare,Nightmare,3,Focus,Dark,,,Deals 3x Focus SkillType.Dark damage to a sleeping enemy and reduces their discipline by 25%. Cannot miss.,,
+nourish,Nourish,,,,,,"Heals target for 1x FCS HP, clears 3 debuffs, and increases target SPD/POW by +25.",,
+ooze,Ooze,,,,,,"Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time.","Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time.","Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time."
+painlash,Pain Lash,0.5,Power,Physical,,,"Deals 0.5x Power SkillType.Physical damage 3 times, and inflicts pain status.",,
+parasiticbond,Parasitic Bond,,,,single enemy,,"Transfers 75% of taken damage to target as piercing Dark damage, steals 90% of healing received, and steals free turns earned.",,
+poisonclaws,Poison Claws,0.75,Power,Poison,,,"Deals 0.75x Power SkillType.Poison damage, and damage over time. Hits 2 times.",,
+poisonsting,Poison Sting,,,,,,"Deals SkillType.Poison damage over time. Can stack infinite times, and as a counter attack.","Deals SkillType.Poison damage over time. Can stack infinite times, and as a counter attack.","Deals SkillType.Poison damage over time. Can stack infinite times, and as a counter attack."
+pupate,Pupate,,,,,,"Decrease incoming damage by 95% until next turn, and then transform into adult form.",,
+queensbite,Queen's Bite,,,,all enemies,,"Deals SkillType.Poison damage to all enemies, and SkillType.Poison damage over time. Increases SkillType.Poison damage taken.",,
+ravenous,Ravenous,,,,single ally,,"Increases Power, Endurance, and Speed for an ally husk, and grants life steal on SkillType.Melee damage.","Increases Power, Endurance, and Speed for an ally husk, and grants life steal on SkillType.Melee damage.","Increases Power, Endurance, and Speed for an ally husk, and grants life steal on SkillType.Melee damage."
+retch,Retch,1.0,Focus,Poison,,,"Deals 1.0x Focus SkillType.Poison damage to targets, and 0.5x Focus SkillType.Poison damage over time for 3 turns. Increases target's SkillType.Poison damage taken by 25%.",,
+showoff,Show Off,0.5,Focus,Energy,,,Deals 0.5x Focus SkillType.Energy damage and decreases target Technique by 20%.,,
+simmeringrage,Simmering Rage,,,,,,Each stack increases Focus by 10. Attackers take SkillType.Fire damage when active.,,
+siphonpunch,Siphon Punch,,,,,,"Deals 1x Power SkillType.Physical and SkillType.MP damage, restoring HP and adding to MP based on damage dealt.",,
+sleepinggiant,Sleeping Giant,,,,,,"Greatly increases Endurance, and restores some HP.",,
+sliceanddice,Slice and Dice,1.0,Power,Physical,,,Deals 1.0x Power SkillType.Physical damage to random enemies until out of MP.,,
+slimebomb,Slime Bomb,,,,,,"Deals SkillType.Physical and SkillType.Stun damage to enemies in an area, and decreases their speed.","Deals SkillType.Physical and SkillType.Stun damage to enemies in an area, and decreases their speed.","Deals SkillType.Physical and SkillType.Stun damage to enemies in an area, and decreases their speed."
+smog,Smog,,,,all enemies,,Deals SkillType.Poison damage over time to all enemies and lowers their Technique.,,
+solidify,Solidify,,,,,,Increases Toughness. Stacks infinitely.,Increases Toughness. Stacks infinitely.,Increases Toughness. Stacks infinitely.
+spiderlingbite,Spiderling Bite,,,,,,Deals SkillType.Poison damage over time.,,
+strangespores,Strange Spores,,,,,,Force a non-Boss enemy to attack their ally next turn.,,
+terrorbite,Terror Bite,1.5,Power,Physical,,,Deals 1.5x Power SkillType.Physical damage. Pierces 50% of defenses and causes bleeding.,Damage increased by 15%,Damage increased by additional 15%
+toxicbomb,Toxic Bomb,,,,,,"Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time.","Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time.","Deals SkillType.Poison damage to enemies in an area, and causes SkillType.Poison damage over time."
+toxicmist,Toxic Mist,,,,,,Deals SkillType.Poison damage over time to everyone in the battle.,Deals SkillType.Poison damage over time to everyone in the battle.,Deals SkillType.Poison damage over time to everyone in the battle.
+toxicslam,Toxic Slam,,,,single enemy,,"Deals SkillType.Poison damage. Pulls an enemy into its body, where it takes SkillType.Poison damage over time until it is digested or broken out.",,
+toxicspores,Toxic Spores,,,,,,Deals SkillType.Poison damage over time and reduces healing received.,Deals SkillType.Poison damage over time and reduces healing received.,Deals SkillType.Poison damage over time and reduces healing received.
+tuneup,Tune Up,,,,,,"Increases Power, Endurance, and Speed for a mechanical ally and grants them a free turn.","Increases Power, Endurance, and Speed for a mechanical ally and grants them a free turn.","Increases Power, Endurance, and Speed for a mechanical ally and grants them a free turn."
+undeath,Undeath,,,,,3,Revives all Undead allies. Endurance is decreased every time resurrected. 3 uses per ally.,,
+venomspray,Venom Spray,0.4,Focus,Poison,,,"Deals 0.4x Focus SkillType.Poison damage to targets, and 0.2x Focus SkillType.Poison damage over time for 3 turns. Increases target's SkillType.Poison damage taken by 25%.",,
+voidbite,Void Bite,1,Power,Dark,,,Deals 1x Power SkillType.Dark damage and target cannot heal for 3 turns,,
+warmup,Warm Up,,,,,,Bonus Action. Increases Speed and Focus by +15. Stacks infinitely.,,

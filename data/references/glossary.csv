@@ -1,0 +1,54 @@
+term,definition
+Agility,"Agility increases the chance of evading attacks, and reduces the chance of being critically hit."
+Aspect,Skills that change available default skills used by certain heroes.
+Attack,Direct attacks against an enemy.
+Attribute Caps,"After an attribute is increased by more than 100% of base, additional increases will have less and less effect."
+Attributes,Attributes determine the strength and weakness of a character. Hero attributes will vary somewhat from mission to mission.
+Bonus Actions,"Each character can use one Bonus Action per turn, without losing their turn. However, they can still trigger most turn-related effects."
+Booze,"Skills related to getting drunk, usually increasing attributes in exchange for losing control."
+Buff,"Skills that provide buffs to allies, helping them."
+Buffs,"Some skills, items, or relics can apply buffs to a character. Buffs are beneficial, and increase stats or activate special effects. Buff skills are denoted by a SkillType.Buff icon."
+Damage Types,"There are several damage types, wich are resisted in different ways, and apply different effects to enemies."
+Dark,Skills related to the Ancient realm. Dark skills often steal HP or damage MP.
+Debuff,"Skills that provide debuffs to enemies, hindering them."
+Discipline,"Discipline is non-physical resistance. Discipline reduces damage taken from SkillType.Holy SkillType.Dark and SkillType.Energy attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
+Endurance,"Endurance determines maximum HP. If endurance is modified in battle, the character's current HP will be adjusted to a matching percentage of max HP."
+Enemy Types,"There are seven main enemy types in Time Break Chronicles. Various skills and town upgrades will affect your ability to fight each type, so make sure to check descriptions for more info."
+Energy,"Usually the skills of future-era heroes, often dealing Energy damage."
+Fire,"Flame-based skills, most often attacks that deal Fire damage."
+Focus,Focus determines damage done by non-physical attacks. Most spells and utility attacks use Focus.
+Gadget,"Gadgets are usually limited-use skills, which can only be replenished by certain skills or leaving battle. Gadget attacks often have fixed-value damage."
+Healing,Usually skills that restore HP or provide other buffs.
+Hero Quests,"Every hero has a list of unique quests, which are objectives they would like to complete in order to improve their abilities. Usually, these quests are completed by meeting goals in battle."
+Hero Rescue,"During your adventures, you will come across heroes who are in need of rescue. If you can help them escape their captors, they will be unlocked forever, and may be used in future missions."
+Holy,"Skills that have a divine source, often dealing Holy damage or healing allies."
+Ice,"Cold-based skills, most often attacks that deal Ice damage."
+Infinite Relics,"By completing certain Hero Quests, relics can become Infinite. This will allow you bind the Infinite Relic to as many heroes as you would like for free."
+Lightning,"Electrical skills, most often attacks that deal Lightning damage."
+MP,Skills related to the manipulation of MP.
+MP Healing,MP restoration. Sometimes reduced by certain effects.
+Melee,Usually attacks that hit enemies in melee range.
+Mission Failure,"A mission is failed if all of your allies are dead or downed at the same time, not including summons."
+Passive,"Innate traits or passive abilities, which cannot be actively selected for use in battle."
+Physical,Skills that deal or block Physical damage.
+Piercing,Skills that ignore a percentage of Toughness and Discipline reductions when calculating damage. Piercing can range from 0% (no piercing) to 100% (ignores 100% of TGH/DSC).
+Poison,Often skills that apply Poison damage over time.
+Power,Power determines the damage done by physical attacks. Most melee attacks use Power.
+Quinn Particles,"Particles are the basic currency of Time Break Chronicles, and manifest objects in its universe."
+Ranged,Usually non-magical attacks that hit enemies in any position.
+Redirect,Skills that redirect damage from one source to another.
+Relics,"Relics are powerful items you may find during your adventures, and heroes you rescue come equipped with two relics."
+Resist,"Characters will sometimes gain stacks of Resist, denoted by a EffectIcon.resist icon. Each stack of Resist will block one incoming dispellable SkillType.Debuff, before being consumed."
+Skill Types,"All skills have at least one type, denoted by the icons in the skills menu. Some effects or skills will only apply to skills with a particular type."
+Sleep,"Damage that slowly makes the target fall asleep, causing them to lose their turn. Characters with higher Wisdom fall asleep more slowly. Taking damage reduces the current sleep timer, and the timer also falls over time. Sleep damage is decreased by 50% for each time a character has already fallen asleep."
+Song,Battle hymns and the like. Only one song can be active at a time for the entire party.
+Sonic,Sound based skills. Attacks of this type usually deal Sonic damage.
+Speed,Speed determines how often a character can act in battle. A high-speed character will gain turn progress more quickly than a low-speed character.
+Spell,Magical abilities. Attacks of this type can usually hit enemies in any position.
+Stamina,"As you traverse through portals in a mission, heroes other than Claire will lose stamina."
+Stance,Stance changing skills used by certain heroes. Only one Stance can be active at time per hero.
+Stun,Skills that deal or mitigate Stun damage.
+Summon,Skills that summon a pet or other character into a hero's summon slot. Only one Summon can be active at a time.
+Technique,Technique increases the chance of landing attacks and the chance that they will be a critical hit.
+Toughness,"Toughness is physical resistance. It reduces damage taken from SkillType.Physical  SkillType.Poison and SkillType.Sonic attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
+Wisdom,"Wisdom determines maximum MP. If wisdom is modified in battle, the character's current MP will be adjusted to a matching percentage of max MP."

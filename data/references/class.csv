@@ -1,0 +1,107 @@
+class_id,class_name,character_name,source_act,pow,foc,spd,tgh,dsc,agi,end,wis,tec,hp_override,mp_override,sprite_path,data_version
+genius,Physicist,Claire,Start,70,101,81,81,111,81,81,131,81,,,assets/class/genius_sprite.png,0.9.2
+genius_tank,Armor,Claire,Start,111,50,70,142,81,70,162,50,81,,,assets/class/genius_tank_sprite.png,0.9.2
+genius_scavenger,Scavenger,Claire,Post Prologue,111,131,111,81,50,101,70,50,111,,,assets/class/genius_scavenger_sprite.png,0.9.2
+genius_frozen,Frozen,Claire,Post Act 1,81,131,50,131,111,50,81,70,111,,,assets/class/genius_frozen_sprite.png,0.9.2
+genius_inscriber,Inscriber,Claire,Post Act 2,40,162,50,50,142,40,70,162,111,,,assets/class/genius_inscriber_sprite.png,0.9.2
+genius_occultist,Occultist,Claire,Post Act 3,131,142,70,70,142,40,81,81,111,,,assets/class/genius_occultist_sprite.png,0.9.2
+genius_hacker,Hacker,Claire,Post Act 4,81,101,111,70,111,111,81,81,70,,,assets/class/genius_hacker_sprite.png,0.6.14
+wrestler,Wrestler,Zeke,Start,131,40,101,131,70,70,131,70,101,,,assets/class/wrestler_sprite.png,0.6.14
+monk,Monk,Wensho,Start,101,81,101,70,81,131,101,81,101,,,assets/class/monk_sprite.png,0.6.14
+knight,Knight,Leon,Start,131,70,50,142,81,70,111,40,131,,,assets/class/knight_sprite.png,0.9.2
+ranger,Ranger,Iana,Start,101,70,101,70,101,101,70,70,162,,,assets/class/ranger_sprite.png,0.6.14
+fire_mage,Fire Mage,Zane,Start,40,223,101,40,101,40,40,162,101,,,assets/class/fire_mage_sprite.png,0.6.14
+priestess,Priestess,Lydia,Start,40,101,131,40,192,70,70,162,40,,,assets/class/priestess_sprite.png,0.9.2
+assassin,Assassin,Yukiko,Act 1,81,50,142,40,81,131,50,70,162,,,assets/class/assassin_sprite.png,0.9.2
+biker,Biker,Big Dan,Act 1,131,50,81,162,81,70,131,50,70,,,assets/class/biker_sprite.png,0.9.2
+blacksmith,Blacksmith,Maximus,Act 1,101,111,50,111,81,50,131,50,111,,,assets/class/blacksmith_sprite.png,0.9.2
+immortal,Immortal,Javed,Act 1,101,70,50,131,70,111,101,70,131,,,assets/class/immortal_sprite.png,0.9.2
+jackal,Jackal Priest,Amenemhet,Act 1,50,111,81,70,111,70,81,162,81,,,assets/class/jackal_sprite.png,0.9.2
+lawbringer,Lawbringer,Samuel,Act 1,111,50,111,101,70,81,101,70,131,,,assets/class/lawbringer_sprite.png,0.9.2
+lizardman,Lizardman,Seth,Act 1,131,50,111,111,70,111,131,40,81,,,assets/class/lizardman_sprite.png,0.9.2
+marine,Marine,Darius,Act 1,131,70,70,70,111,111,50,50,162,,,assets/class/marine_sprite.png,0.9.2
+medic,Medic,Harry,Act 1,101,81,101,101,101,111,81,81,70,,,assets/class/medic_sprite.png,0.6.14
+pirate,Pirate,Jack,Act 1,101,50,101,111,50,111,81,101,111,,,assets/class/pirate_sprite.png,0.6.14
+plague_doctor,Plague Doctor,Ambroise,Act 1,20,111,50,81,162,40,101,70,111,,,assets/class/plague_doctor_sprite.png,0.9.2
+raider,Raider,Buzzard,Act 1,111,50,111,131,50,101,101,50,111,,,assets/class/raider_sprite.png,0.6.14
+rocker,Rocker,Slade,Act 1,101,81,131,101,50,111,81,40,131,,,assets/class/rocker_sprite.png,0.9.2
+sentinel,Sentinel,Rafael,Act 1,101,101,40,131,162,50,131,50,70,,,assets/class/sentinel_sprite.png,0.9.2
+super_soldier,Super Soldier,Carlos,Act 1,131,40,131,142,70,101,131,40,101,,,assets/class/super_soldier_sprite.png,0.9.2
+linebacker,Linebacker,Paul,Post Act 1,131,40,111,142,81,70,131,40,81,,,assets/class/linebacker_sprite.png,0.9.2
+clown,Clown,Chuckles,Post Act 1,40,111,70,81,111,142,70,101,101,,,assets/class/clown_sprite.png,0.9.2
+maelstrom,Maelstrom,Cain,Post Act 1,40,131,131,50,111,81,70,131,101,,,assets/class/maelstrom_sprite.png,0.9.2
+banshee,Banshee,Kiara,Act 2,40,131,111,50,131,81,50,162,70,,,assets/class/banshee_sprite.png,0.9.2
+barbarian,Barbarian,Odrak,Act 2,162,40,70,131,70,50,192,40,81,,,assets/class/barbarian_sprite.png,0.9.2
+caveman,Caveman,Og,Act 2,162,20,70,162,101,70,142,20,101,,,assets/class/caveman_sprite.png,0.9.2
+cleric,Cleric,Brand,Act 2,101,101,101,131,131,40,101,70,70,,,assets/class/cleric_sprite.png,0.6.14
+undead,Cursed,Drex,Act 2,142,40,111,131,50,101,131,40,81,,,assets/class/undead_sprite.png,0.9.2
+dark_knight,Dark Knight,Caleb,Act 2,111,131,40,142,111,40,81,101,70,,,assets/class/dark_knight_sprite.png,0.9.2
+general,General,George,Act 2,50,50,70,81,101,40,70,162,131,,,assets/class/general_sprite.png,0.9.2
+ice_mage,Ice Mage,Elgeon,Act 2,20,192,40,70,172,20,40,203,101,,,assets/class/ice_mage_sprite.png,0.9.2
+med_bot,Med Bot,MU-21,Act 2,20,284,131,81,81,40,70,81,40,,,assets/class/med_bot_sprite.png,0.9.2
+necromancer,Necromancer,Sovras,Act 2,20,111,70,81,162,101,70,162,50,,,assets/class/necromancer_sprite.png,0.9.2
+ninja,Ninja,Ishikawa,Act 2,111,81,131,40,81,162,70,50,101,,,assets/class/ninja_sprite.png,0.9.2
+pioneer,Pioneer,Jed,Act 2,101,70,101,131,70,101,101,40,131,,,assets/class/pioneer_sprite.png,0.6.14
+sasquatch,Sasquatch,Korr,Act 2,223,20,50,162,81,50,192,50,70,,,assets/class/sasquatch_sprite.png,0.9.2
+viking,Viking,Thorg,Act 2,131,81,81,111,50,70,111,40,111,,,assets/class/viking_sprite.png,0.9.2
+vul,Vul,Vikki,Act 2,70,70,131,70,81,142,70,81,111,,,assets/class/vul_sprite.png,0.9.2
+angel,Angel,Asariel,Post Act 2,70,101,101,70,101,101,70,131,101,,,assets/class/angel_sprite.png,0.6.14
+boxer,Boxer,Curtis,Post Act 2,162,40,131,101,70,101,101,40,101,,,assets/class/boxer_sprite.png,0.9.2
+jester,Jester,Ralf,Post Act 2,101,50,162,50,70,162,50,70,111,,,assets/class/jester_sprite.png,0.9.2
+lich,Lich,Krethik,Post Act 2,20,192,50,50,131,50,40,162,131,,,assets/class/lich_sprite.png,0.9.2
+bard,Bard,Seb,Act 3,40,81,70,50,101,81,40,101,192,,,assets/class/bard_sprite.png,0.9.2
+druid,Druid,Selyse,Act 3,40,172,70,40,142,40,40,192,101,,,assets/class/druid_sprite.png,0.9.2
+dryad,Dryad,Valeriya,Act 3,40,131,101,70,131,81,70,131,81,,,assets/class/dryad_sprite.png,0.9.2
+musketeer,Musketeer,Alexandre,Act 3,101,70,111,111,70,101,101,40,131,,,assets/class/musketeer_sprite.png,0.9.2
+paladin,Paladin,William,Act 3,142,131,40,142,131,40,70,81,70,,,assets/class/paladin_sprite.png,0.9.2
+pursuer,Pursuer,Xorkzi,Act 3,81,50,142,40,81,131,50,70,162,,,assets/class/pursuer_sprite.png,0.9.2
+samurai,Samurai,Kenjiro,Act 3,111,70,70,101,111,50,81,101,131,,,assets/class/samurai_sprite.png,0.9.2
+shaman,Shaman,Lucien,Act 3,40,131,101,70,162,70,70,162,40,,,assets/class/shaman_sprite.png,0.9.2
+siren,Siren,Raidne,Act 3,20,131,111,40,101,111,50,131,131,,,assets/class/siren_sprite.png,0.9.2
+spellblade,Spellblade,Gabrielle,Act 3,81,111,101,81,101,70,101,81,111,,,assets/class/spellblade_sprite.png,0.6.14
+vampire_hunter,Vampire Hunter,Abraham,Act 3,101,71,81,81,81,81,81,81,162,,,assets/class/vampire_hunter_sprite.png,0.6.14
+witch,Witch,Minerva,Act 3,40,192,70,40,162,70,40,192,40,,,assets/class/witch_sprite.png,0.6.14
+wolfman,Woodsman,Michael,Act 3,142,40,81,162,40,101,111,40,111,,,assets/class/wolfman_sprite.png,0.9.2
+wraith,Wraith,Viper,Act 3,131,70,131,40,50,162,50,40,162,,,assets/class/wraith_sprite.png,0.9.2
+yakuza,Yakuza,Kazuo,Act 3,131,70,101,101,101,101,101,40,101,,,assets/class/yakuza_sprite.png,0.6.14
+doctor,Doctor,Ramesh,Post Act 3,40,101,70,70,101,70,50,162,101,,,assets/class/doctor_sprite.png,0.9.2
+jaguar,Jaguar,Eztli,Post Act 3,111,50,101,81,70,111,101,50,131,,,assets/class/jaguar_sprite.png,0.9.2
+secret_service,Secret Service,Agent,Post Act 3,101,50,81,131,81,101,101,50,131,,,assets/class/secret_service_sprite.png,0.6.14
+pixie,Pixie,Blueberry,Post Act 3,20,131,142,40,111,192,40,101,50,,,assets/class/pixie_sprite.png,0.9.2
+morph,Morph,Alpha,Post Act 3,142,50,50,111,81,50,101,81,142,,,assets/class/morph_sprite.png,0.9.2
+banker,Banker,Graham,Act 4,131,101,50,101,101,70,111,81,81,,,assets/class/banker_sprite.png,0.9.2
+blood_zealot,Blood Mage,Varyn,Act 4,40,131,101,131,70,70,131,70,101,,,assets/class/blood_zealot_sprite.png,0.6.14
+bokor,Bokor,Rene,Act 4,40,162,81,70,131,81,70,142,50,,,assets/class/bokor_sprite.png,0.9.2
+snake_charmer,Charmer,Lila,Act 4,131,20,111,50,81,142,50,70,162,,,assets/class/snake_charmer_sprite.png,0.9.2
+chef,Chef,Jacques,Act 4,111,70,101,81,131,70,101,81,111,,,assets/class/chef_sprite.png,0.9.2
+chemist,Chemist,Olive,Act 4,20,131,70,50,142,40,40,142,111,,,assets/class/chemist_sprite.png,0.9.2
+devil,Devil,Illia,Act 4,101,101,101,81,101,50,70,101,131,,,assets/class/devil_sprite.png,0.9.2
+fallen_angel,Fallen,Eligor,Act 4,131,81,111,101,70,81,81,40,131,,,assets/class/fallen_angel_sprite.png,0.9.2
+firefighter,Firefighter,Charlie,Act 4,101,50,70,131,131,70,111,81,81,,,assets/class/firefighter_sprite.png,0.9.2
+golem,Golem,Rock,Act 4,233,131,40,233,40,40,131,40,70,,,assets/class/golem_sprite.png,0.6.14
+gunslinger,Gunslinger,Kate,Act 4,131,50,162,70,50,111,70,50,131,,,assets/class/gunslinger_sprite.png,0.9.2
+hellbinder,Hellbinder,Dave,Act 4,40,131,111,70,142,70,70,162,40,,,assets/class/hellbinder_sprite.png,0.9.2
+rune_scribe,Rune Scribe,Emmy,Act 4,50,111,101,50,111,70,81,142,101,,,assets/class/rune_scribe_sprite.png,0.9.2
+steam_lord,Steam Engineer,Mathias,Act 4,50,142,81,81,101,81,70,81,142,,,assets/class/steam_lord_sprite.png,0.9.2
+vampire,Vampire,Edgard,Act 4,142,101,131,111,111,111,101,101,142,,,assets/class/vampire_sprite.png,0.6.14
+diva,Diva,Sophia,Post Act 4,40,131,101,70,70,81,70,101,172,,,assets/class/diva_sprite.png,0.9.2
+mime,Mime,Baptiste,Post Act 4,81,81,101,50,111,111,50,81,142,,,assets/class/mime_sprite.png,0.9.2
+fire_spirit_big,Fire Spirit,Igneo,Post Act 4,101,101,70,162,111,50,70,70,101,,,assets/class/fire_spirit_big_sprite.png,0.9.2
+brawler,Brawler,Tank,Act 5,192,40,70,131,70,81,142,50,50,,,assets/class/brawler_sprite.png,0.9.2
+cactus,Cerean,Echinos,Act 5,111,101,50,111,50,40,192,50,111,,,assets/class/cactus_sprite.png,0.9.2
+combat_bot,Combat Bot,EXU-5,Act 5,111,111,111,111,81,50,70,81,81,,,assets/class/combat_bot_sprite.png,0.6.14
+cop,Cop,Daniela,Act 5,81,70,101,81,101,111,101,70,111,,,assets/class/cop_sprite.png,0.6.14
+cyborg,Cyborg,SK-04A,Act 5,142,70,81,131,70,70,111,50,101,,,assets/class/cyborg_sprite.png,0.6.14
+gambler,Gambler,Chance,Act 5,81,81,111,50,70,162,50,70,142,,,assets/class/gambler_sprite.png,0.9.2
+gladiator,Gladiator,Viggo,Act 5,111,20,111,101,81,111,101,50,131,,,assets/class/gladiator_sprite.png,0.9.2
+guru,Guru,Sandeep,Act 5,20,101,70,81,131,101,81,131,111,,,assets/class/guru_sprite.png,0.9.2
+inquisitor,Inquisitor,Haven,Act 5,20,111,81,50,172,50,81,131,111,,,assets/class/inquisitor_sprite.png,0.9.2
+inventor,Inventor,Otto,Act 5,20,131,81,50,81,101,40,101,162,,,assets/class/inventor_sprite.png,0.9.2
+judge,Judge,Rupert,Act 5,40,70,101,50,101,70,40,131,50,,,assets/class/judge_sprite.png,0.9.2
+juggernaut,Juggernaut,Jackson,Act 5,162,20,40,162,131,40,111,50,111,,,assets/class/juggernaut_sprite.png,0.9.2
+lumian,Lumian,Luna,Act 5,50,111,142,70,70,131,111,50,81,,,assets/class/lumian_sprite.png,0.9.2
+sentrybot,Sentry Bot,Warden,Act 5,70,70,131,70,70,70,81,70,131,,,assets/class/sentrybot_sprite.png,0.6.14
+space_marine,Space Marine,Carmen,Act 5,101,70,101,111,131,70,70,50,131,,,assets/class/space_marine_sprite.png,0.9.2
+beastmaster,Beastmaster,Ghalib,,101,50,50,111,131,111,70,81,111,,,assets/class/beastmaster_sprite.png,0.9.2
+keekuko,Keekuko,Keekuko,,81,131,81,50,101,101,50,111,111,,,assets/class/keekuko_sprite.png,0.9.2
+magician,Magician,Oksana,,40,101,111,50,111,131,50,111,111,,,assets/class/magician_sprite.png,0.9.2

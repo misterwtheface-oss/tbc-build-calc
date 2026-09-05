@@ -1,0 +1,230 @@
+Relic Name,Effect Description,Granted Skill,Source,,
+,,,Method,Class,Availability
+Abraham's Locket,Decreases taken damage based on current HP up to 50%.,-,Class Quest,Vampire Hunter,Act 3
+Agent's Watch,Decreases turn delay of [Attack] skills by 10%. Grants Disarm skill.,Disarm,Class Quest,Secret Service,Post Act 3
+Alacrity Implant,Increases Technique by 0.35x Speed. Grants Frenzy skill.,Frenzy,Class Quest,Super Soldier,Act 1
+Angel's Feather,"Prevents being downed and casts Holy Shield on self when critical, once per battle.",-,Class Quest,Angel,Post Act 2
+Ankh Staff,Increases Bleedout time for allies by 2 turns.,-,Class Quest,Jackal Priest,Act 1
+Antagonist,Heal for 10% of maximum HP whenever you deal [Stun] damage.,-,Class Quest,Clown,Post Act 1
+Apollo's Token,Increases Focus and Discpline by +5 and +15%.,-,Mission Reward,-,-
+Arcane Vision,Increases Technique by 0.5x Focus.,-,Class Quest,Spellblade,Act 3
+Ares Gem,Increases Power and Toughness by +5 and +15%.,-,Mission Reward,-,-
+Aromatic Mask,Gain 3 Resist before every turn.,-,Class Quest,Plague Doctor,Act 1
+Artemis Gem,Increases Agility and Technique by +5 and +15%.,-,Mission Reward,-,-
+Asariel's Halo,Healed allies receive 15% increased healing for 3 turns. Grants Mend skill.,Mend,Class Quest,Angel,Post Act 2
+Assassin Spirit,"When an enemy is downed, 35% chance to gain a Free Turn.",-,Class Quest,Assassin,Act 1
+Athena Token,Increases Power and Wisdom by +5 and +15%.,-,Mission Reward,-,-
+Attunement,Adds up to 1x MP cost to [Spell] hits. Grants Moonbeam skill.,Moonbeam,Class Quest,Druid,Act 3
+AutoMedico Pamphlet,Increases Particles gained from battle by 10%.,-,Class Quest,Med Bot,Act 2
+Banshee's Wail,[Sonic] skill damage pierces additional defenses. Grants Wail skill.,Wail,Class Quest,Banshee,Act 2
+Barbarism Totem,Decreases MP cost of [Attack] skills by 50% but decreases Wisdom by 25%.,-,Class Quest,Barbarian,Act 2
+Battle Plans,Increases Wisdom by +15 and 25%. Grants Strategize skill.,Strategize,Class Quest,General,Act 2
+Biotic Battery,"Self [Healing] received also creates a shield, blocking up to 35% Max HP damage. Grants Reserve Battery.",Reserve Battery,Class Quest,Cyborg,Act 5
+Black Beret,"Increases all attributes by +1 for every 20 damage blocked by this hero's skills, up to +50.",-,Class Quest,Mime,Post Act 4
+Blitzer's Speed,Gain 15% increased Speed for the first three turns of battle. Grants Blitz Stance skill.,Blitz Stance,Class Quest,Linebacker,Post Act 1
+Bloody Cloth,"Sacrificing HP increases Endurance based on percent sacrificed, up to +150.",-,Class Quest,Blood Mage,Act 4
+Blueberry,Increases MP Healing output by 40%.,-,Class Quest,Pixie,Post Act 3
+Bone Charm,Reduces [MP] and [Dark] damage received by 25%.,-,Class Quest,Necromancer,Act 2
+Booster Shot,Increases [Healing] skill strength by 10% for each Resist stack on target.,-,Class Quest,Doctor,Post Act 3
+Boxing Glove,Deal 30% added [Stun] damage with [Attack] skills.,-,Class Quest,Boxer,Post Act 2
+Brand's Rosary,"Increases Power by 0.35x Focus, and Focus by 0.35x Power.",-,Class Quest,Cleric,Act 2
+Brawler's Heart,Toughness and [Healing] received increased by 50% when at critical HP.,-,Class Quest,Brawler,Act 5
+Brimmed Glasses,"Increases Speed by 0.5x Focus, but decreases Technique by 10%.",-,Class Quest,Chemist,Act 4
+Burning Ember,Deal 25% added [Fire] with [Melee] skill hits. Grants Burning Skin.,Burning Skin,Boss Reward,-,-
+Buzzard's Saw,20% chance to gain a Free Turn after using a [Gadget] skill. Grants Chainsaw skill.,Chainsaw,Class Quest,Raider,Act 1
+Cactus Trimming,"Deal 5% increased [Attack] damage for each [Debuff] on target, up to 50%. Grants Needle Volley skill.",Needle Volley,Class Quest,Cerean,Act 5
+Caleb's Malice,Returns 50% of direct damage taken as [Dark] damage to attacker.,-,Class Quest,Dark Knight,Act 2
+CENCOM Manual,Increases [Lightning] damage dealt by 15%. Grants isolate.exe skill.,isolate.exe,Boss Reward,CENCOM,-
+Cerean Salve,"Increases Toughness by +15 when hit by [Attack] skills, up to +150.",-,Class Quest,Cerean,Act 5
+Chance's Vest,Grants Gambler's Luck passive.,Gambler's Luck,Class Quest,Gambler,Act 5
+Charmer's Veil,Increases [Sleep] and [Stun] damage dealt by 25%. Grants Charm skill.,Charm,Class Quest,Charmer,Act 4
+Chef's Toque,"When channeling, reduce damage taken by 25%.",-,Class Quest,Chef,Act 4
+Chemist Beaker,Increases damage and healing of items by 25%. Grants Mix.,Mix,Class Quest,Chemist,Act 4
+Combat CPU,"Converts 50% of Focus into Power, but automatically acts in battle.",-,Class Quest,Combat Bot,Act 5
+Combat Helmet,Damage taken cannot be critical damage.,-,Class Quest,Marine,Act 1
+Curtis' Rhythm,Every other [Attack] skill deals 50% increased damage.,-,Class Quest,Boxer,Post Act 2
+Dan's Bottle,Hits with [Attack] skills deals up to 5% Current HP [Physical] damage over time for 3 turns. Grants Whiskey skill.,Whiskey,Class Quest,Biker,Act 1
+Daniela's Hat,Heal self for 20% Max HP when Resisting a [Debuff]. ,-,Class Quest,Cop,Act 5
+Dark Fervor,Gain turn progress equal to half of sacrificed HP percent.,-,Class Quest,Fallen,Act 4
+Dark Heart,Dealing [Dark] damage heals you for 35% of the damage. Grants Darkblade passive.,Darkblade,Class Quest,Dark Knight,Act 2
+Dark Sigil,Converts 35% of healing received into MP healing. Grants Soultap.,Soultap,Class Quest,Hellbinder,Act 4
+Demon Handbook,Gain 3 stacks of Demon Shield at start of battle.,-,Class Quest,Hellbinder,Act 4
+Devastator Core,Boss Relic. Grants Core Surge passive.,Core Surge,Boss Reward,-,-
+Devil's Horn,Prevents being downed and gain Haste when critical once per battle.,-,Class Quest,Devil,Act 4
+Diana's Gem,"Increase Technique by +10 and +25%, but decrease Agility by 10%.",-,Mission Reward,-,-
+Dionysus' Staff,Increases Focus and Agility by +5 and +15%.,-,Mission Reward,-,-
+Dispelling Wand,Increases [Energy] and [Sonic] damage dealt by 25%. Grants Shatter skill.,Shatter,Class Quest,Rune Scribe,Act 4
+Dragon Tattoo,Increases [Fire] and [Stun] damage dealt by 25%. Grants Intimidate skill.,Intimidate,Class Quest,Yakuza,Act 3
+Drex's Shield,"Reduces damage taken based on missing MP, up to 50%. Grants Bone Shield skill.",Bone Shield,Class Quest,Cursed,Act 2
+Druidic Staff,Increases damage and healing of [Spell] skills by 15%.,-,Class Quest,Druid,Act 3
+Edgard's Cape,Prevents applied [Debuff] effects from being dispelled. Grants Dark Bond skill.,Dark Bond,Class Quest,Vampire,Act 4
+Eldar's Scroll,Decreases MP cost of [Debuff] skills by 35%. Grants Dark Words.,Dark Words,Class Quest,Devil,Act 4
+Eldritch Hourglass,Increase instability at the start of your turn. Grants Telekinesis.,Telekinesis,Boss Reward,-,-
+Elgeon's Chill,Increases [Ice] damage by 15%. Grants Blizzard skill.,Blizzard,Class Quest,Ice Mage,Act 2
+Energy Bracer,"Gain 20% of [MP] damage taken as Discipline, up to +150.",-,Class Quest,Sentinel,Act 1
+Eztli's Mask,Increases [Healing] power on self by 25%. Grants Bloodthirsty passive.,Bloodthirsty,Class Quest,Jaguar,Post Act 3
+Face Paint,Heal self for 25% Max HP after interrupting an enemy. Grants Prank skill.,Prank,Class Quest,Mime,Post Act 4
+Fallen Spear,Sacrifice 20% HP on every turn and increases all attributes based on missing HP up to +50.,-,Class Quest,Fallen,Act 4
+Fencer's Riposte,Pierce 50% more defenses against enemies you have Taunted.,-,Class Quest,Musketeer,Act 3
+Floral Seed,Your [Buff] skills last an extra turn on allies. Grants Regrowth skill.,Regrowth,Class Quest,Dryad,Act 3
+Frozen Fist,Deal 25% added [Ice] with [Melee] skill hits. Grants Cold Crush.,Cold Crush,Boss Reward,-,-
+Gamma Shard,Increases [Poison] damage dealt by 20%. Grants Gamma Wave skill.,Gamma Wave,Boss Reward,-,-
+Gelatinous Goo,Boss Relic. Converts 80% of Toughness and Discipline into Endurance.,-,Boss Reward,-,-
+General's Star,Automatically gain Protect from front row ally.,-,Class Quest,General,Act 2
+Gnawing Fang,Deal 25% added [Physical] damage with [Attack] skill hits.,-,Class Quest,Vampire,Act 4
+Graham's Cigar,"Take 5% reduced damage for each [Debuff] on enemy, up to 50%.",-,Class Quest,Banker,Act 4
+Guru's Beads,Grants Mantra passive.,Mantra,Class Quest,Guru,Act 5
+H34L Emitter,Increases [Healing] output of [Gadget] skills by 35%. Grants Heal Beam skill.,Heal Beam,Class Quest,Med Bot,Act 2
+H4RM Emitter,"Increases Focus by +10 after each hit with a [Gadget] skill, up to 10 stacks. Grants H4RM Beam skill.",H4RM Beam,Class Quest,Combat Bot,Act 5
+Hades Gem,Increases Focus and Toughness by +5 and +15%.,-,Mission Reward,-,-
+Hardened Stone,Boss Relic. Converts 80% of Speed and Agility into Toughness.,-,Boss Reward,-,-
+Harry's Medkit,Increases [Healing] skill strength by 7.5% for each [Debuff] on target. Grants Medkit skill.,Medkit,Class Quest,Medic,Act 1
+HavocAI Coprocessor,Increases Wisdom by 50% of battle Instability percentage.,-,Class Quest,Cyborg,Act 5
+Hera's Diadem,Increases Discipline and Wisdom by +5 and +15%.,-,Mission Reward,-,-
+Hero's Heart,Increases all attributes by 15% for each currently downed ally or empty party slot.,-,Class Quest,Sentry Bot,Act 5
+Hestia's Flame,Increases Endurance and Wisdom by +5 and +15%.,-,Mission Reward,-,-
+Holy Blade,Increases [Holy] damage by 15% and deal an additional 25% [Holy] damage [Attack] skills.,-,Class Quest,Paladin,Act 3
+Holy Water,Damage taken from Undead decreased by 35%. Grants Consecrate skill.,Consecrate,Class Quest,Cleric,Act 2
+Honor Code,"Decreases damage taken by 35%, but die when downed instead of bleeding out.",-,Class Quest,Yakuza,Act 3
+Horned Helmet,[Attack] skills gain 35% increased Toughness and Discipline piercing.,-,Class Quest,Viking,Act 2
+Hunter's Blood,Increases damage dealt by up to 50% based on missing HP. Grants Blood Trance skill.,Blood Trance,Class Quest,Vampire Hunter,Act 3
+Iana's Bow,"Increases Technique by +15 after each hit with [Attack], up to 10 stacks. Grants Eagle Eye skill.",Eagle Eye,Class Quest,Ranger,Start
+Immortal Soul,Decreases damage taken based on missing HP up to 50%.,-,Class Quest,Immortal,Act 1
+Incense,Increases Wisdom by 0.25x Focus.,-,Class Quest,Guru,Act 5
+Infernal Coal,Gain 35% piercing with [Fire] damage from skills. Grants Flame Jet skill.,Flame Jet,Class Quest,Fire Spirit,Post Act 4
+Inferno Gem,Converts 35% of damage taken into [Fire] damage.,-,Class Quest,Fire Mage,Start
+Inquisitor's Mask,"Increases Wisdom by +10 after applying a [Debuff], up to 10 stacks. Grants Strike Fear skill.",Strike Fear,Class Quest,Inquisitor,Act 5
+Ionizer,Adds up to 25% bonus piercing [Energy] damage when you deal [Fire] [Ice] or [Lightning] damage.,-,Class Quest,Maelstrom,Post Act 1
+Iron Gut,Using a [Booze] skill also restores 10% Max HP.,-,Class Quest,Biker,Act 1
+Ishikawa's Garb,Gain up to 50% increased Agility based on turn progress. Grants Acrobatics passive.,Acrobatics,Class Quest,Ninja,Act 2
+Jack's Rum,Increases all attributes by 15% when under the effects of [Booze] skills. Grants Rum skill.,Rum,Class Quest,Pirate,Act 1
+Jackson's Dog Tags,Deal 25% increased damage to enemies with lower HP.,-,Class Quest,Juggernaut,Act 5
+Jacques' Knife,Critical hits gain 35% piercing. Grants Throw Knife skill.,Throw Knife,Class Quest,Chef,Act 4
+Jaguar Claws,"Increases all damage by up to 50%, based on target's missing HP. ",-,Class Quest,Jaguar,Post Act 3
+Javed's Spear,Increases Toughness and Technique by 20%. Grants Bulwark skill.,Bulwark,Class Quest,Immortal,Act 1
+Jed's Cap,Increases Technique by +15 and 25%. Grants Track skill.,Track,Class Quest,Pioneer,Act 2
+Jester's Cap,Damage and healing dealt are randomly multiplied by either 0.5x or 2x.,-,Class Quest,Jester,Post Act 2
+Judge's Robes,Heal self for 10% Max HP whenever you apply a [Debuff] to an enemy.,-,Class Quest,Judge,Act 5
+Kate's Duster,Dispel one [Debuff] effect after dodging. Grants Combat Roll.,Combat Roll,Class Quest,Gunslinger,Act 4
+Kenjiro's Katana,Dealing [MP] damage heals MP equal to 35% of the damage. Grants Sever Soul skill.,Sever Soul,Class Quest,Samurai,Act 3
+Kiara's Voice,[Sonic] damage hits decrease enemy Toughness by 10% for three turns.Stacks.,-,Class Quest,Banshee,Act 2
+Kinetic Shield Gen,Grants Kinetic Barrier skill.,Kinetic Barrier,Class Quest,Juggernaut,Act 5
+Knight Training,"Increases Power, Toughness, and Technique by 15%.",-,Class Quest,Knight,Start
+Korr's Solitude,Grants level 3 Lone Wolf passive.,Lone Wolf,Class Quest,Sasquatch,Act 2
+Kraken Hide,Boss Relic. Decrease taken damage by 5% for each living ally without this relic.,-,Boss Reward,-,-
+Krethik's Ring,Increases Wisdom by 0.35x Endurance.,-,Class Quest,Lich,Post Act 2
+Lab Coat,Adds up to .5x Wisdom to [Gadget] damage.,-,Class Quest,Inventor,Act 5
+Leon's Sword,Hits with [Attack] skills have a 33% chance to taunt non-boss enemies. Grants Guard Strike skill.,Guard Strike,Class Quest,Knight,Start
+Lich Finger,Decreases turn delay of [Spell] skills by 10%. Grants Wither skill.,Wither,Class Quest,Lich,Post Act 2
+Lizard Scale,Increases [Healing] received by 25%. Grants Shed Skin skill.,Shed Skin,Class Quest,Lizardman,Act 1
+Loaded Die,Increases hit chance and critical hit chance by 50%.,-,Class Quest,Gunslinger,Act 4
+Lucien's Might,Summons gain an additional 50% of your attributes.,-,Class Quest,Shaman,Act 3
+Lucky Joker,Increases critical hit chance by 25% for each [Debuff] on the target.,-,Class Quest,Gambler,Act 5
+Lumian Battery,[Energy] damage dealt gains 25% piercing.,-,Class Quest,Lumian,Act 5
+Lydia's Ankh,"Healing allies increases your Discipline by 20% of the healing done, up to +150. Grants Renewal skill.",Renewal,Class Quest,Priestess,Start
+Mage's Crystal,"Increases Focus by 65%, but can no longer gain Free Turn.",-,Class Quest,Ice Mage,Act 2
+Magic Satchel,Converts 25% of Toughness to Agility. Grants Pixie Dust skill.,Pixie Dust,Class Quest,Pixie,Post Act 3
+Marine's Rucksack,Increases [Gadget] skill uses by 1. Grants Grenade skill.,Grenade,Class Quest,Marine,Act 1
+Mars' Gem,"Increase Power by +10 and +25%, but decrease Endurance by 10%.",-,Mission Reward,-,-
+Martyr's Spike,Increases healing output by up to 50% based on missing HP. Grants Blood Shield skill.,Blood Shield,Class Quest,Blood Mage,Act 4
+Mathias' Hat,Adds up to .5x Technique to [Gadget] damage.,-,Class Quest,Steam Engineer,Act 4
+Medic Backpack,Heals supported ally every turn for 0.65x Focus. Grants Support skill.,Support,Class Quest,Medic,Act 1
+Melodic Score,Increases Technique by 25% with an active [Song]. Grants Melody skill.,Melody,Class Quest,Bard,Act 3
+Mending Spirit,MP healing received also restores 35% as HP.,-,Class Quest,Samurai,Act 3
+Mercury's Caduceus,"Increase Speed by +10 and +25%, but decrease Toughness by 10%.",-,Mission Reward,-,-
+Minerva's Icon,"Increase Wisdom by +10 and +25%, but lowers Discipline by 10%.",-,Mission Reward,-,-
+Minerva's Staff,Converts 50% of Discipline into Wisdom.,-,Class Quest,Witch,Act 3
+Money Bag,Damage dealt gains 5% piercing for each [Debuff] on you. Max 50%. Grants Bash.,Bash,Class Quest,Banker,Act 4
+Moonstone,Increases damage dealt by up to 25% with an active [Aspect] skill.,-,Class Quest,Woodsman,Act 3
+Morph Core,Negates first 2 instances of damage taken each battle. Resets if downed and revived.,-,Class Quest,Morph,Post Act 3
+Musketeer's Musket,Converts 25% of Speed into Power. Grants Musket skill.,Musket,Class Quest,Musketeer,Act 3
+Nanocarbon Screws,Decreases turn delay of [Gadget] skills by 20%. Grants Pulse Grenade skill.,Pulse Grenade,Class Quest,Space Marine,Act 5
+Necronomicon,Increases [Dark] damage dealt by 25%. Grants Grave's Call skill.,Grave's Call,Class Quest,Necromancer,Act 2
+Ninja's Ruse,"Chance to reduce damage by 50%, equal to dodge chance.",-,Class Quest,Ninja,Act 2
+Oakheart,"Boss Relic. Reduces maximum HP, damage taken, and healing received by 50%.",-,Boss Reward,-,-
+Odrak's Claymore,Increases [Physical] damage dealt by 25%. Grants Cleave skill.,Cleave,Class Quest,Barbarian,Act 2
+Og's Spear,Adds up to .5x Power to [Ranged] damage. Grants Throw Spear skill.,Throw Spear,Class Quest,Caveman,Act 2
+Otto's Boots,Decreases [Lightning] and [Poison] damage taken by 25%. Grants Spring Boots skill.,Spring Boots,Class Quest,Inventor,Act 5
+Padded Helmet,Converts 35% of damage taken into [Stun] damage.,-,Class Quest,Linebacker,Post Act 1
+Pain Limiter,"Sacrificing HP increases Focus based on percent sacrificed, up to +100.",-,Class Quest,Inquisitor,Act 5
+Pill Bottle,Increases damage and healing by 25% when under the effect of [Booze] skills.,-,Class Quest,Doctor,Post Act 3
+Pirate's Guile,"Increases Speed and Agility based on missing HP, up to double.",-,Class Quest,Pirate,Act 1
+Plague Knife,Hits with [Attack] skills decrease target's [Healing] received by 25% for 2 turns. Grants Incision skill.,Incision,Class Quest,Plague Doctor,Act 1
+Police Badge,Damage taken decreased by 10% for each Protected ally. Grants Protect skill.,Protect,Class Quest,Cop,Act 5
+Poseidon's Trident,Increases Power and Focus by +5 and +15%.,-,Mission Reward,-,-
+Pot Shard,Take 5% less damage for each [Buff] on you. Up to 35%.,-,Class Quest,Fire Spirit,Post Act 4
+Priestess Garb,"Increases [Healing] power by 10%, and decreases [Dark] damage taken by 25%.",-,Class Quest,Priestess,Start
+Primal Bond,Gain 25% of the attributes from your summon.,-,Class Quest,Caveman,Act 2
+Pursuer Bracer,Increases hit chance of [Ranged] skills by 50%. Grants Wrist Laser skill.,Wrist Laser,Class Quest,Pursuer,Act 3
+Radiant Mote,Increases dodge chance by up to 50% based on missing HP. Grants Blind skill.,Blind,Class Quest,Lumian,Act 5
+Raider's Edge,Heal for 20-25% of Max HP when an enemy is Downed.,-,Class Quest,Raider,Act 1
+Ralf's Flute,20% chance to gain a Free Turn after a skill deals critical damage. Grants Anthem skill.,Anthem,Class Quest,Jester,Post Act 2
+Rebreather,Gain turn progress from redirected damage. Grants Protect.,Protect,Class Quest,Firefighter,Act 4
+Red Balloon,Negates first direct damage taken after each turn. Grants Balloon skill.,Balloon,Class Quest,Clown,Post Act 1
+Red Rose,Taunt effects from this hero last until dispelled.,-,Class Quest,Diva,Post Act 4
+Rene's Cane,Increases Focus by 0.35x Discipline.,-,Class Quest,Bokor,Act 4
+Revenge Token,"Increases Power by 20%, but decreases Endurance by 10%, after being revived. Stacks up to 10 times.",-,Class Quest,Super Soldier,Act 1
+Rock Fist,Increases Power by 0.35x Toughness.,-,Class Quest,Golem,Act 4
+Rocker's Intensity,"Increases all damage by 25%, but also increases MP costs by 50%.",-,Class Quest,Rocker,Act 1
+Roman Cassis,"Increase Power by +10 whenever Owner dodges, up to 15 stacks.",-,Class Quest,Gladiator,Act 5
+Runed Stone,Increases maximum MP by 50%.,-,Class Quest,Golem,Act 4
+Runed Vestaments,Converts 35% of damage taken into [MP] damage.,-,Class Quest,Rune Scribe,Act 4
+Runic Mail,Decreases damage taken from [Spell] hits by 35%. Grants Spellscreen skill.,Spellscreen,Class Quest,Spellblade,Act 3
+Rupert's Gavel,[Attack] skill hits decrease enemy Power by 5% for three turns. Stacks. Grants Judgement skill.,Judgement,Class Quest,Judge,Act 5
+Safety Manual,Reduces MP cost of [Buff] skills by 50%.,-,Class Quest,Firefighter,Act 4
+Samuel's Sixgun,Damage is increased by 20% for each critical HP ally.,-,Class Quest,Lawbringer,Act 1
+Sasquatch Grip,Halves chance to miss with [Attack] skills. Grants Toss skill.,Toss,Class Quest,Sasquatch,Act 2
+Scout's Flag,Gain 100% increased Speed for the first turn of battle.,-,Class Quest,Ranger,Start
+Seb's Lute,Increases Technique by up to 50% based on current HP.,-,Class Quest,Bard,Act 3
+Sentinel Core,Increases Discipline based on missing MP. Grants Energy Lance skill.,Energy Lance,Class Quest,Sentinel,Act 1
+Service Kevlar,Limits HP damage taken per hit to 25% of Max HP.,-,Class Quest,Secret Service,Post Act 3
+Seth's Toxin,"When hit by an [Attack] skill, attacker takes 5% Max HP [Poison] damage over time for 3 turns. Stacks.",-,Class Quest,Lizardman,Act 1
+Shamanic Wand,"When channeling, gain 25% of Max MP at start of turn.",-,Class Quest,Shaman,Act 3
+Shaolin Robe,Decreases damage taken from hits by 0.15x Discipline.,-,Class Quest,Monk,Start
+Shattered Vanity,Boss Relic. Grants Mirror Image skill. Decreases all attributes by 15%.,Mirror Image,Boss Reward,-,-
+Shell Charm,[Sleep] damage dealt gains 50% piercing.,-,Class Quest,Siren,Act 3
+Shephard's Spirit,Increases MP healing received by 25%. Grants Locust Swarm skill.,Locust Swarm,Class Quest,Jackal Priest,Act 1
+Sheriff Badge,Take 5% less damage for each [Debuff] on you. Up to 35%. Grants Shake Off skill.,Shake Off,Class Quest,Lawbringer,Act 1
+Shield Fragment,Boss Relic. Grants Barricade skill.,Barricade,Boss Reward,-,-
+Shredder Saw,Use Spinning Blade at start of turn. Grants Spinning Blade.,Spinning Blade,Boss Reward,-,-
+Shroom Cap,Boss Relic. Deals 2.5x Focus [Sleep] damage when hit by [Attack] skills.,-,Boss Reward,-,-
+Sinner's Mask,"Boss Relic. Grants Boast, Claim, and Show Off skills.","Boast, Claim, Show Off",Boss Reward,-,-
+Slade's Guitar,[Sonic] skills have reduced turn delay and reset [Sleep] counter on all enemies and allies. Grants Power Ballad skill. ,Power Ballad,Class Quest,Rocker,Act 1
+Smith's Training,Increases Toughness by 15% for 3 turns when using a [Buff] skill. Grants Whetstone skill.,Whetstone,Class Quest,Blacksmith,Act 1
+Snake Venom,Increases [Poison] damage by 15% and piercing by 50%.,-,Class Quest,Charmer,Act 4
+Sol's Gem,"Increase Focus by +10 and +25%, but decrease Wisdom by 10%.",-,Mission Reward,-,-
+Sophia's Glass,Adds up to .5x Technique to [Sonic] damage. Grants Screech skill.,Screech,Class Quest,Diva,Post Act 4
+Soul Conduit,Boss Relic. Gain 20% of the attributes from Downed allies.,-,Boss Reward,-,-
+Spider Egg,Boss Relic. Automatically summon a Spiderling in battle.,-,Boss Reward,-,-
+Storm Visor,Increases hit chance of [Spell] skills by 50%. Grants Ball Lightning skill.,Ball Lightning,Class Quest,Maelstrom,Post Act 1
+Swiftness Totem,Using a [Attack] skill has a 15% chance to grant a Free Turn.,-,Mission Reward,-,-
+Tank's Glove,Gain +25 Power for 3 turns when missing with a [Attack] skill hit. Grants Clobber skill.,Clobber,Class Quest,Brawler,Act 5
+Terror Hide,Decreases [Poison] damage taken by 50%. Grants Carapace.,Carapace,Boss Reward,-,-
+Tracking Sensor,Damage dealt by counter attacks increased by 25%. Grants Motion Tracker skill.,Motion Tracker,Class Quest,Sentry Bot,Act 5
+Undead Soul,"Reduce Stamina loss by 35%, but also receive 50% less healing.",-,Class Quest,Cursed,Act 2
+Unobtainium,Heal MP for 10% of [Melee] skill hit damage dealt.,-,Class Quest,Morph,Post Act 3
+Utility Belt,"The first [Gadget] skill used per battle does not consume a use, and counts as a Bonus Action. Grants Smoke Bomb.",Smoke Bomb,Class Quest,Steam Engineer,Act 4
+Valerian Root,Decreases turn delay of [Debuff] skills by 35%.,-,Class Quest,Dryad,Act 3
+Venom Spray,Boss Relic. Grants Venom Spray skill.,Venom Spray,Boss Reward,-,-
+Viggo's Gladius,"Increases Discipline by +15 after each hit with [Melee] skill, up to 10 stacks. Grants Martial Prodigy passive.",Martial Prodigy,Class Quest,Gladiator,Act 5
+Viking Warhorn,Increases Max HP by 20%. Grants Battle Cry skill.,Battle Cry,Class Quest,Viking,Act 2
+Vikki's Vulstaff,Increases Agility based on missing HP. Grants Retreat skill.,Retreat,Class Quest,Vul,Act 2
+Viper's Suit,"When hidden, gain 25% of Max MP at start of turn. Grants Ambush skill.",Ambush,Class Quest,Wraith,Act 3
+Voodoo Talisman,Reduces MP cost of [Spell] skills by 25%. Grants Haunt skill.,Haunt,Class Quest,Bokor,Act 4
+Vul Cunning,"Increases damage to enemies based on their chance to miss you, up to 100%.",-,Class Quest,Vul,Act 2
+Vulcan's Hammer,Gain +10 Power for each [Buff] on you.,-,Class Quest,Blacksmith,Act 1
+Vulcan's Obsidian,"Increase Toughness by +10 and +25%, but decrease Power by 10%.",-,Mission Reward,-,-
+Waking Water,Healing also removes Sleep counter from allies. Grants Healing Rain skill.,Healing Rain,Class Quest,Siren,Act 3
+Wensho's Gift,Increases [Healing] skill power by 25%. Grants Meditate skill.,Meditate,Class Quest,Monk,Start
+William's Penance,Increases all attributes by 5% (up to 25%) for each [Buff] skill used. Grants Divine Shield skill.,Divine Shield,Class Quest,Paladin,Act 3
+Winter Coat,Decreases [Ice] damage taken by 50%.,-,Class Quest,Pioneer,Act 2
+Witch's Grimoire,Your [Debuff] skills last twice as long. Grants Curse skill.,Curse,Class Quest,Witch,Act 3
+Wolf's Fang,Adds up to 5% of target's current HP to [Melee] damage. Grants Howl skill.,Howl,Class Quest,Woodsman,Act 3
+Wraith Sword,Deal 25% added [Energy] damage with [Attack] skill hits.,-,Class Quest,Wraith,Act 3
+Wrestler's Will,Reduce the duration of [Debuff] effects on you by 1 turn. Minimum of 1 turn.,-,Class Quest,Wrestler,Start
+XenoSquad Badge,Increases critical hit chance and critical hit damage vs non-human enemies by 50%.,-,Class Quest,Space Marine,Act 5
+Xorkzi's Gambit,"Critical hits deal 50% increased damage, but non-critical hits deal 35% decreased damage.",-,Class Quest,Pursuer,Act 3
+Yukiko's Dagger,Increases Power by 0.25x Technique. Grants Execute skill.,Execute,Class Quest,Assassin,Act 1
+Zane's Passion,[Spell] skills have a 20% chance to grant a Free Turn. Grants the Fire Blast skill.,Fire Blast,Class Quest,Fire Mage,Start
+Zeke's Boots,Increases [Stun] damage by 35%. Grants Dropkick skill.,Dropkick,Class Quest,Wrestler,Start
+Zeus Gem,Increase all attributes by +5 and +5%,-,Mission Reward,-,-

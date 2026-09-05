@@ -1,0 +1,2411 @@
+Skill Name,Effect,,,Shared Effect,,Relic
+,Target,Cost,Description,Skill 1,Skill 2,
+Laser Pistol,Single - Any,-,"Level 1: Deal 1x Focus [Energy] damage to target
+Level 2: Also deals 0.3x Focus [Fire] Damage
+Level 3: Decreases Target Technique by 20% for 3 Turns",-,-,-
+Quantum Mechanics,Passive,-,"Level 1: Gain a free turn when using transform.
+Level 2: Decreases the turn delay after Transform
+Level 3: Increases Speed by +10 every turn",-,-,-
+String Theory,Passive,-,"Level 1: Refunds 33% of Particles used for Time Break techs
+Level 2: Less turn delay after Time Break techs
+Level 3: One free Time Break per battle",-,-,-
+Displacement,Single - Melee,-,"Level 1: Swap position and grant ally a Free Turn. Charges over time.
+Level 2: Automatically Support target
+Level 3: Decreased turn delay",-,-,-
+Powerfirst,Single - Melee,36,"Level 1: Deals 1x Power [Physical] damage. Shift to front row.
+Level 2: Deals 25% more damage in front row.
+Level 3: Hits enemy behind target for 0.6x Power",Lunge,-,-
+Life Support System,Passive,-,"Level 1: Regenerate 10% of missing HP at the start of every turn.
+Level 2: Removes one debuff
+Level 3: Lingers when using Transform",-,-,-
+Adaptive Armor,Passive,-,"Level 1: Decreases damage from the highest damage type taken by 35%
+Level 2: Gain turn progress when taking damage, based on damage dealt
+Level 3: Adds up to highest damage taken to [Attack] hits",-,-,-
+Hydraulic Suit,Passive,-,"Level 1: Increase Power by +25 for each [Attack] use.
+Level 2: 50% increased chance to hit with [Attack] skills
+Level 3: Reduce turn delay with [Attack] skill by 35%",-,-,-
+Reflector Shield,Self,-,"Level 1: Uses MP to reflect [Ranged] damage at enemies. Can be Toggled.
+Level 2: Automatically activates after Transform
+Level 3: Drains 65% less MP",-,-,-
+Wrench,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Damage increased by 35%
+Level 3: Deals critical damage to Mechanical enemies",-,-,-
+Scavenge,Passive,-,"Level 1: Up to 50% chance to restore one [Gadget] use when an enemy is Downed. Decreased chance each trigger.
+Level 2: Restore Ally [Gadget] use as well
+Level 3: Gain an extra item from battle rewards",-,-,-
+Demolition,Passive,-,"Level 1: Deal 50% more damage against Mechanical enemies.
+Level 2: Increases [Fire] damage dealt by 35%
+Level 3: Critical hits deal 25% increased damage",-,-,-
+Engineering,Passive,-,"Level 1: Restores [Gadget] skills on Transform.
+Level 2: Decreases turn delay of [Gadget] skills by 35%
+Level 3: Increases skill level of non-passive [Gadget] skills by +1",-,-,-
+Timed Charge,All - Party,-,"Level 1: After two turns, deals 200-250 [Physical] damage to all enemies. One use.
+Level 2: Also deals [Stun] damage to enemies
+Level 3: Decreased turn delay",-,-,-
+Junk Armor,Passive,-,"Level 1: Negates [Physical] damage taken. Three uses.
+Level 2: Regain full uses after Transform
+Level 3: Restores other [Gadget] skills on use",-,-,-
+Icicle,Column - Any,-,"Level 1: Deals 1x Focus [Ice] damage to target.
+Level 2: Hits enemies in a column
+Level 3: Ignores 50% of target Toughness and Discipline",-,-,-
+Cooling Systems,Passive,-,"Level 1: Hits deal an extra 50% [Ice] damage.
+Level 2: Applies to allies at half strength
+Level 3: Added damage ignores 50% of Toughness and Discipline",-,-,-
+Flash Freeze,Passive,-,"Level 1: Once per battle, prevents all damage and heals 50% of HP. Activates when at critical HP. 
+Level 2: Deals 0.5x Focus damage when hit by [Attack] skills
+Level 3: Grants Free Turn on end",-,-,-
+Snow Drone,Self,84,"Level 1: Summon a drone that casts Blizzard. Lasts 3 turns.
+Level 2: Drone has 100% increased Speed
+Level 3: Drone always hits",-,-,-
+Analyze,Single - Any,-,"Level 1: Target's HP, MP, and Attributes become visible in the status menu.
+Level 2: Deal 25% increased damage to target
+Level 3: Always hit target with skills",-,-,-
+Master of Magic,Passive,-,"Level 1: MP cost of [Spell] skills decreased by 50%.
+Level 2: Chance to hit with [Spell] skills increased by 50%
+Level 3: Skill level of non-passive [Spell] skills increased by +1",-,-,-
+Arcane Glyphs,N/A,?,"Level 1: Gain access to Spell modifying Glyph skills. Three uses.
+Level 2: Four uses
+Level 3: Five uses",-,-,-
+Booming,Self,?,"Level 1: Next [Spell] skill this turn deals 25% increased damage/healing to adjacent targets.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Piercing,Self,?,"Level 1: Next [Spell] skill this turn gains 50% more piercing.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Echoing,Self,?,"Level 1: Next [Spell] skill this turn repeats on a second target.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Elemental Magic,Self,?,"Level 1: Access basic Elemental Magic.
+Level 2: Elemental Magic spells become level 2.
+Level 3: Elemental Magic spells become level 3.",-,-,-
+Flame,Single - Any,?,"Level 1: Deals 1.5 Focus [Fire] damage to target enemy. 
+Level 2: Always hits with Piercing Glyph
+Level 3: Hits adjacent enemies with Booming Glyph",-,-,-
+Shock,Single - Any,?,"Level 1: Deals 1.5 Focus [Lightning] damage to target enemy. 
+Level 2: Deals critical damage with Booming Glyph
+Level 3: Hits an extra adjacent enemy target with Echoing Glyph",-,-,-
+Ice,Single - Any,?,"Level 1: Deals 1.5 Focus [Ice] damage to target enemy. 
+Level 2: Also deals 1x Focus [Stun] Damage with Echoing Glyph
+Level 3: Deals 50% more damage with Piercing Glyph",-,-,-
+Wizzar Drone,Self,-,"Level 1: Automatically summon a drone that records usable enemy [Spell] skills, which Claire may then cast.
+Level 2: Recorded spells cost 0 MP
+Level 3: Recorded spells have 35% reduced turn delay",-,-,-
+Rake,Single - Melee,-,"Level 1: Deals 0.45x Power [Physical] damage. Hits 3 times.
+Level 2: 50% increased critical hit chance
+Level 3: Hits 4 times.",-,-,-
+Dark Guest,Passive,-,"Level 1: Deal 1.25x Focus [Dark] damage to a random enemy at start of turn. Cannot miss.
+Level 2: Sacrifice 15% current HP and gain Demon Shield at start of turn
+Level 3: Dispel 1 [Buff] effect on target for each hit with skills",-,-,-
+Demonology,Passive,-,"Level 1: Deal 25% increased damage against Demon and Boss enemies.
+Level 2: Damage always critical against Demon and Boss
+Level 3: Damage gains 35% piercing against Demon and Boss",-,-,-
+Undeterred,Passive,-,"Level 1: Increases all attributes by 10% for every active [Debuff] on you.
+Level 2: Heal for 8% Max HP when hit by a [Debuff]
+Level 3: Attributes cannot be reduced below base",-,-,-
+Ritual,Single - Any,36,"Level 1: Deals 1x Focus [Dark] damage and heals all allies based on damage dealt.
+Level 2: Heals twice as much
+Level 3: Heals three times as much",-,-,-
+Smart Pistol,Single - Any,-,"Level 1: Deals 25-40 [Physical] damage 3 times. Damage cannot miss this target until after Claire's next turn. Reload after 3 uses.
+Level 2: Lasts through 2 turns
+Level 3: Follow-up [Ranged] damage is always a critical hit",-,-,-
+RAM,Passive,-,"Level 1: Gain one stack for each [Buff] or [Debuff] dispelled by Hack or Reprogram, lasting 3 turns. Increases Focus by +10 per stack.
+Level 2: Increases Speed by +10 per stack
+Level 3: Gain one stack before every turn",-,-,-
+Firewall,Passive,-,"Level 1: Start battle with 3 Resist and gain 1 Resist every turn.
+Level 2: Gain 1 stack of RAM when resisting a [Debuff]
+Level 3: Deal 1x Focus [Fire] damage to attacker when resisting a [Debuff]",-,-,-
+Hack,Single - Any,90,"Level 1: Target enemy takes 2x Focus [Stun] damage and non-Boss loses 50% of current turn progress. Double damage vs Mechanical.
+Level 2: Dispel 1 [Buff] on target, +1 for each stack of RAM
+Level 3: Deal .75x Focus [Lightning] damage for each [Buff] dispelled",-,-,-
+Reprogram,Single - Any,38,"Level 1: One [Debuff] on target ally is converted to a random [Buff] instead.
+Level 2: Convert one additional [Debuff] for each stack of RAM
+Level 3: Target is healed for 0.25x Focus for each [Debuff] converted",-,-,-
+Clothesline,Single - Melee,-,"Level 1: Deals 1x Power [Physical] and [Stun] damage.
+Level 2: Decreases target's Toughness by 15% for 3 turns. Max 3 stacks.
+Level 3: Decreases target's Speed by 15%",-,-,-
+Taunt,Single - Any,-,"Level 1: Bonus Action. Forces enemy to target you for 3 turns. No effect on Bosses.
+Level 2: Target deals 50% decreased damage to other allies
+Level 3: 15% chance that target stumbles in rage",-,-,-
+No-Sell,Passive,-,"Level 1: The first time Zeke is critical, blocks up to 50% Max HP damage from hits.
+Level 2: Dispels all [Debuff]
+Level 3: Fully charges Finisher",-,-,-
+Feud,Passive,-,"Level 1: Taunt also hits adjacent enemies.
+Level 2: Gain +50 Power for each Taunted enemy.
+Level 3: Always hit Taunted enemies",-,-,-
+Finisher,Single - Any,-,"Level 1: Deals 5x Power [Physical] damage. Charges on taken damage. Cannot miss.
+Level 2: Gain HP equal to damage dealt
+Level 3: Gain Free Turn on use",-,-,-
+Dropkick,Single - Melee,75,"Level 1: Deals 2x Power [Physical] damage to target enemy. Damages self.
+Level 2: Also deals [Stun] damage
+Level 3: Knocks target into back row",Headbutt,-,Zeke's Boots
+Pander,Self,95,"Level 1: Heals self for 35% of Max HP.
+Level 2: 50% chance to Taunt enemy front row
+Level 3: Doubles next Finisher damage",-,-,-
+Shake Off,Self,38,"Level 1: Bonus Action. Dispels three [Debuff] effects on you.
+Level 2: Gain 15% increased attributes for each [Debuff] removed
+Level 3: Heals for 15% of missing HP for each [Debuff] removed",-,-,Sheriff Badge
+Flurry,Single - Melee,-,"Level 1: Deals 0.3x Power [Physical] damage to an enemy three times.
+Level 2: Hits 4 times
+Level 3: Hits 5 times",Rip,-,-
+Zen Trance,Self,-,"Level 1: Stance. Increases damage and healing by 50% while active. Decreases Speed by 35%.
+Level 2: Decreases damage taken by 35%
+Level 3: Increases all attributes by 15%",-,-,-
+Inner Peace,Passive,-,"Level 1: Regenerate 5-10% of max HP at the start of every turn.
+Level 2: [MP] damage taken decreased by 75%
+Level 3: Lose 25% less Stamina when traveling through conduit space portals",-,-,-
+Acrobatics,Passive,-,"Level 1: Agility increased by 25% when hit. Stackable. All stacks are lost when you dodge.
+Level 2: Adds an extra chance to try to dodge
+Level 3: Gain 15% turn progress when you dodge",Nimble,-,Ishikawa's Garb
+Counter,Passive,-,"Level 1: Counterattack for 0.65x Power after being targeted by a [Melee] skill.
+Level 2: Counterattack cannot miss
+Level 3: Counterattack always critical",-,-,-
+Four Pillars,Self,?,"Level 1: Access the Four Elemental Pillar skills. Requires Zen Ttance.
+Level 2: Pillars become level 2
+Level 3: Pillars become level 3",-,-,-
+Burning Fist,Single - Melee,?,"Level 1: Deals 0.8x Power [Physical] and [Fire] damage to target enemy.
+Level 2: Deals 0.4x Power [Fire] damage over time for 3 turns
+Level 3: Damage over time increased to 0.6x Power damage",-,-,-
+Frozen Kick,Single - Melee,?,"Level 1: Deals 1.2x Power [Physical] and [Ice] damage to target enemy.
+Level 2: Decreases target's Toughness by 35% for 3 turns
+Level 3: Increases [Fire] [Lightning] and [Ice] damage taken by target by 35%",-,-,-
+Whirlwind,All - Melee,?,"Level 1: Deals 0.5x Power [Lightning] damage to enemies in an area.
+Level 2: Shifts target randomly
+Level 3: Hits all enemies",-,-,-
+Stoneskin,Self,?,"Level 1: [Physical] damage taken decreased by 1x Focus, up to 75%. Lasts 3 turns.
+Level 2: Also decreases [Fire] [Lightning] and [Ice] damage
+Level 3: Now decreases all damage types",-,-,-
+Chakra,Self,47,"Level 1: Heals other allies for 1.25x Focus. Long turn delay.
+Level 2: Restores 1.25x Focus MP for allies
+Level 3: Removes one [Debuff]",-,-,-
+Meditate,Self,-,"Level 1: Restores 15% of Max HP and MP and dispel 3 [Debuff] effects. Charges over time.
+Level 2: Increases damage and healing of next skill used by 25%
+Level 3: Your next skill counts a a Bonus Action",-,-,Wensho's Gift
+Guard Strike,Single - Melee,-,"Level 1: Deals 0.66x Power [Physical] damage and decreases damage taken by 25% for 1 turn.
+Level 2: Lasts 2 turns
+Level 3: Counter attack incoming [Melee] skills while active",-,-,Leon's Sword
+Protect,Single - Melee,-,"Level 1: Bonus Action. Redirect 35% of damage taken by ally from hits to yourself.
+Level 2: Ally takes 25% decreased damage
+Level 3: Redirects 50% of damage",-,-,Police Badge
+Honor,Passive,-,"Level 1: Taking redirect damage increases damage dealt by 10%. Loses some stacks each turn.
+Level 2: Increases Power by +10 per stack
+Level 3: Increases Technique by +10 per stack",-,-,-
+Chivalry,Passive,-,"Level 1: Automatically Protects the weakest adjacent ally.
+Level 2: Protect now redirects 50% more damage
+Level 3: Reduces redirected damage by 50%",One For All,-,-
+Valor,Passive,-,"Level 1: Damage taken is reduced by 25% if attacker has more HP than Leon.
+Level 2: 25% increased damage against enemies with more HP
+Level 3: 25% increased attributes against Bosses",-,-,-
+Joust,Column - Any,-,"Level 1: Deals 2x Power [Physical] damage to enemies in a line. Charges over time.
+Level 2: Miss chance reduced by 10% for each stack of Honor
+Level 3: Deals 10% more damage for each stack of Honor",-,-,-
+Shield Bash,Single - Melee,57,"Level 1: Deals 1x Power [Physical] and [Stun] damage to an enemy.
+Level 2: 25% increased damage
+Level 3: 25% further increased damage",-,-,-
+Quick Shot,Single - Any,-,"Level 1: Deals 0.75x Tech [Physical] damage to target enemy. Short turn delay.
+Level 2: Shorter turn delay
+Level 3: 50% increased damage",-,-,-
+Eagle Eye,Self,-,"Level 1: Your next [Attack] skill cannot miss and deals 35% more damage.
+Level 2: Next [Attack] skill is always a critical hit
+Level 3: Turn delay decreased by 35%",-,-,Iana's Bow
+Cana,Passive,-,"Level 1: Automatically summon Cana in battle.
+Level 2: Cana gains the effect of your Eagle Eye
+Level 3: Cana gains copies of your equipped relics",-,-,-
+Strike as One,Passive,-,"Level 1: Cana gains a free turn after Iana uses [Attack] skills.
+Level 2: Cana's next Bite does 50% increased damage
+Level 3: Cana's next Bite is always a critical hit",-,-,-
+Snake Bite Coating,Passive,-,"Level 1: Iana's [Attack] skills cause 10% HP [Poison] damage over time for 3 turns. Stacks 3 times.
+Level 2: Decreases target Agility by 15% per stack
+Level 3: Decreases target Speed by 15% per stack",-,-,-
+Pincushion,Single - Any,58,"Level 1: Deals 0.45x Tech [Physical] damage to target enemy 6 times. Requires Eagle Eye. Increased turn delay.
+Level 2: Decreased turn delay
+Level 3: Each hit deals 10% more damage",-,-,-
+Split Arrow,All - Any,44,"Level 1: Deals 0.75x Tech [Physical] damage to target enemies.
+Level 2: 25% increased damage
+Level 3: Hits all enemies",-,-,-
+Sic 'em,Single - Any,22,"Level 1: Directs Cana to target an enemy and grants Cana a Free Turn.
+Level 2: Increases Cana's damage by 35% against target
+Level 3: Cana's ignores target's defense",-,-,-
+Ember Bolt,Single - Any,-,"Level 1: Deals 0.6x Focus [Physical] damage and regenerates MP on hit.
+Level 2: Deals extra damage based on missing MP, up to double
+Level 3: Consumes one Overheat to double damage dealt",-,-,-
+Flame Shield,Self,-,"Level 1: Blocks up to 0.35x Focus [Fire] damage taken for each stack of Overheat. Consumes Overheat.
+Level 2: Deals 0.5x Focus [Fire] damage to attackers
+Level 3: Blocking damage gains Overheat",-,-,-
+Overheat,Passive,-,"Level 1: [Fire] skills sometimes increase your damage by 15% per stack, but take 10% Max HP [Fire] damage over time. Stacks 10 times.
+Level 2: Take 50% less [Fire] damage over time
+Level 3: Increases Speed by 10% per stack",-,-,-
+Flash Fire,Passive,-,"Level 1: Increases [Fire] damage by 15% but skills cost 25% more MP.
+Level 2: Increases [Fire] damage the lower your MP, up to double
+Level 3: Decreases MP cost the lower your MP",-,-,-
+Combust,Passive,-,"Level 1: Deals 0.4x Focus [Fire] damage for each Overheat stack to all enemies when Downed. Consumes Overheat. Cannot Miss.
+Level 2: Deal 0.1x Focus [Fire] damage over time for each Overheat stack, after both Zane and enemy turns
+Level 3: Revive when an enemy is Downed",-,-,-
+Melt Armor,Single - Any,104,"Level 1: Deals 0.45x Focus [Fire] damage to target enemy. Damage increased based on target's Toughness. Lasts 3 turns.
+Level 2: Target takes same [Fire] damage when hit by [Physical] damage 
+Level 3: Refreshes duration and stacks up to 3 times",-,-,-
+Flame Jet,Column - Any,78,"Level 1: Deals 1x Focus [Fire] damage to target enemies.
+Level 2: Also deals 0.5x Focus [Fire] damage over time for 2 turns
+Level 3: Increases [Fire] damage taken by 35%",-,-,Infernal Coal
+Fire Blast,Row - Party,104,"Level 1: Deals 0.65x Focus [Fire] damage to enemies in the front row.
+Level 2: Also deals [Stun] damage
+Level 3: Deals 50% extra damage to all enemies",-,-,Zane's Passion
+Pray,All - Party,-,"Level 1: Heals all party members for 0.15x Focus.
+Level 2: Regenerate MP on use
+Level 3: Use random [Holy] skill for free",-,-,-
+Blessing,Single - Any,-,"Level 1: Bonus Action. Increases attributes of target ally by 20%. Limit one.
+Level 2: Target receives 20% increased healing
+Level 3: Target gains 1 Resist after their turn",-,-,-
+Piety,Passive,-,"Level 1: Each [Holy] skill increases Focus by 10% of Discipline. Max 5 stacks.
+Level 2: Each [Holy] skill use increases Discipline by 20%
+Level 3: Each cast counts twice",-,-,-
+Humility,Passive,-,"Level 1: [Healing] output increased by 0.25x Discipline. Cannot target self.
+Level 2: Healing allies also heals yourself for 33% of health restored
+Level 3: Also heals for Blessing target for 33% of health restored",-,-,-
+Healing Word,Single - Any,36,"Level 1: Heals an ally for a 0.8x Focus.
+Level 2: Also heals a second random ally
+Level 3: Decreased turn delay",-,-,-
+Renewal,Single - Any,45,"Level 1: Heals target for 0.5x Focus every turn for 3 turns.
+Level 2: Healing increased by 25% every turn 
+Level 3: Transfers to another ally and renews duration on end",-,-,Lydia's Ankh
+Cleanse,Single - Any,54,"Level 1: Dispel all [Poison] debuffs.
+Level 2: Removes one additional non-poison [Debuff]
+Level 3: Heals target for 0.2x Focus HP for each [Debuff] dispelled",-,-,-
+Hide,Self,35,"Level 1: Cannot be directly targeted by enemies and decreases damage taken by 50% for 1 turn.
+Level 2: Decreases damage taken by 75%
+Level 3: Dispels all [Debuff] on use",-,-,-
+Kunai,Single - Any,-,"Level 1: Deals 0.8x Power [Physical] damage to target enemy.
+Level 2: Hits 2 times
+Level 3: Hits 3 times",-,-,-
+Ambush,Self,-,"Level 1: Next skill deals 60% increased damage. Cannot be targeted by enemies.
+Level 2: Increases Technique by 25%
+Level 3: Increases critical damage by 120%",Stalk,-,Viper's Suit
+Merciless,Passive,-,"Level 1: Deal 50% increased damage against critical HP enemies.
+Level 2: Deal 10% increased damage for each [Debuff] on target
+Level 3: 35% chance to reduce critical HP non-Boss target HP to one",-,-,-
+Opportunist,Passive,-,"Level 1: Gain Free Turn the first time an enemy is at critical HP.
+Level 2: Remove all [Debuff] when triggered
+Level 3: Gain Ambush when triggered",-,-,-
+Sense Weakness,Passive,-,"Level 1: Can view enemy HP, MP, and Attributes in the status menu.
+Level 2: Critical HP enemies take 25% more damage
+Level 3: Critical HP enemies cannot dodge",-,-,-
+Execute,Single - Any,42,"Level 1: Deals 2.5x Power [Physical] damage to target critical enemy.
+Level 2: Always deals critical damage 
+Level 3: Cannot miss",Takedown,Coup de Gras,Yukiko's Dagger
+Wound,Single - Melee,56,"Level 1: Deals 1.35x Power [Physical] damage and decreases target's [Healing] received by 40% for 3 turns.
+Level 2: Stacks three times
+Level 3: Decreases target's Endurance by 15%",Tear,-,-
+Track,Single - Any,-,"Level 1: Bonus Action. Increases your chance to hit target by 50%. Refunds when downed.
+Level 2: 15% increased damage to target
+Level 3: 25% increased critical damage to target",-,-,Jed's Cap
+Haymaker,Single - Melee,-,"Level 1: Deals 1.35x Power [Physical] damage to an enemy, with a 10% decreased chance to hit.
+Level 2: 35% increased damage
+Level 3: Also deals 4x the damage dealt as [Stun] damage",-,-,-
+Fighting Spirit,Passive,-,"Level 1: Take 50% decreased damage when at critical HP.
+Level 2: Regenerate 10-20% of Max HP when critical, regenerating more when at lower HP
+Level 3: Dispel one [Debuff] when critical",-,-,-
+Boozer,Passive,-,"Level 1: Automatically use Whiskey at start of turn. [Booze] skills have no stack limit.
+Level 2: Using [Booze] skills Taunts an enemy
+Level 3: Using [Booze] skills charged Hell Ride",-,-,-
+Whiskey,Self,-,"Level 1: Bonus Action. Increases Power and Toughness by 15%, but hero has a 35% chance to lose control. Stackable 5 times.
+Level 2: Decreases [Stun] damage taken by 25%
+Level 3: Gain 3 Resist on use",-,-,Dan's Bottle
+Hell Ride,Column - Any,-,"Level 1: Deals 1.5x Power [Physical] and [Fire] damage to enemies in a line. Charges over time.
+Level 2: Each use increases damage by 50%
+Level 3: Begins battle charged",-,-,-
+Pummel,Single - Melee,141,"Level 1: Deals 0.45x Power [Physical] damage to target enemy 3-5 times. Long turn delay. 
+Level 2: Consecutive hits deal [Stun] damage
+Level 3: Number of hits increased to 5-10",-,-,-
+Break Bones,Single - Melee,56,"Level 1: Deals 1.35x Power [Physical] damage and lowers target's highest Attribute by 25% for 3 turns. 
+Level 2: Decreases healing received by 25% 
+Level 3: Lasts entire battle",-,-,-
+Smash,Single - Melee,-,"Level 1: Deals 1.35x Power [Physical] and [Stun] damage to an enemy.
+Level 2: Deals [Stun] damage over time for 3 turns
+Level 3: [Stun] damage always deals a critical hit",-,-,-
+Smithing Tools,Self,?,"Level 1: Access Smithing Tool skills.
+Level 2: Tools become level 2
+Level 3: Tools become level 3",-,-,-
+Whetstone,Single - Any,?,"Level 1: Increases the damage of ally's [Attack] skills by 35% for 3 turns.
+Level 2: Increases [Attack] critical chance by 50%
+Level 3: Increases [Attack] piercing by 50%",-,-,Smith's Training
+Flamecoat,Single - Any,?,"Level 1: Adds 0.5x Focus [Fire] damage with [Attack] skills for 3 turns.
+Level 2: Attackers take 0.5x Focus [Fire] damage 
+Level 3: Increases all [Fire] damage dealt by target by 35%",-,-,-
+Temper,Single - Any,?,"Level 1: [Physical] damage taken by target decreased by 0.5x [Power], up to 75%. Effect decays when hit.
+Level 2: Decays at a slower rate
+Level 3: Affects all damage types",-,-,-
+Forgeborn,Passive,-,"Level 1: Decreases [Fire] damage taken by 90%.
+Level 2: Convert [Fire] damage taken into restored MP
+Level 3: Convert [Fire] damage taken into a bonus to all attributes, up to 200%",-,-,-
+Artisan,Passive,-,"Level 1: Reduce cost of [Buff] skills by 50%.
+Level 2: Smithing Tools become Bonus Actions
+Level 3: Smithing Tools affect whole party",-,-,-
+Sturdy Frame,Passive,-,"Level 1: Stamina has 50% decreased effect on Endurance
+Level 2: 50% effect on Toughness
+Level 3: 50% effect on Power",-,-,-
+Cauterize,Single - Any,-,"Level 1: Dispells all [Debuff] from target ally. Deals 10% Max HP [Fire] damage to target for each [Debuff] dispelled.
+Level 2: Increases target's Toughness by 15% for 3 turns
+Level 3: Increases target's Endurance by 15% for 3 turns",-,-,-
+Charge,Column - Any,-,"Level 1: Deals 1x Power [Physical] damage to enemies in a line.
+Level 2: Also deals [Stun] damage
+Level 3: 50% increased damage against one target",-,-,-
+Bulwark,Self,-,"Level 1: Redirects 25% of damage taken by allies onto yourself until your next turn.
+Level 2: Reduces ally damage taken from hits by 20%
+Level 3: Increases redirect to 35% ",-,-,Javed's Spear
+Replacement,Passive,-,"Level 1: On Death, be replaced by another Immortal up to 3 times, as long as at least one other ally is alive and not downed.
+Level 2: Reduces Bleed Out to one turn
+Level 3: Gain Free Turn when replaced",Faceless,-,-
+Rallying Presence,Passive,-,"Level 1: When entering battle, increases all allies' Speed and Technique by 25% for 3 turns. 
+Level 2: Increases Power and Toughness by 25% 
+Level 3: Heals allies for 10% of Max HP after every turn",-,-,-
+Imperial Guard,Passive,-,"Level 1: Automatically use Bulwark at start of turn.
+Level 2: Deal 25% increased damage during Bulwark
+Level 3: Gain 5% turn progress when taking redirect damage",-,-,-
+Impale,Single - Melee,-,"Level 1: Deals 3x Power [Physical] damage to target. Ignores defenses. Charges over time. 
+Level 2: Deals extra damage up to 10% of target's current HP
+Level 3: Always deals critical damage",-,-,-
+Adrenaline Rush,Self,-,"Level 1: Bonus Action. Staggers 50% of damage taken until next turn. 
+Level 2: Increases Power by 50%
+Level 3: Increases Toughness by 50%",-,-,-
+Locust Swarm,All - Party,-,"Level 1: Deals 0.35x Focus [Physical] and [MP] damage to enemies.
+Level 2: Steals MP based on damage dealt
+Level 3: Always hits",-,-,Shephard's Spirit
+Spirit Shield,Self,-,"Level 1: Bonus Action. 50% of damage taken is converted to [MP] damage.
+Level 2: 50% decreased MP damage taken
+Level 3: Increases MP healing received by 50%",-,-,-
+Weigh Heart,Passive,-,"Level 1: Restores MP by 20% Max MP when an enemy is Downed.
+Level 2: Restores MP by 20% Max MP when an ally is Downed
+Level 3: Downed enemies are instantly killed, instead of bleeding out",-,-,-
+Spirit Nexus,Passive,-,"Level 1: While at maximum MP, Spirit Shield gives received MP to allies.
+Level 2: Spirit Shield increases MP healing received by 25%
+Level 3: Spirit Shield increases maximum MP by 50%",-,-,-
+Guide Souls,Passive,-,"Level 1: Amenemhet and Spirit allies share 35% of attributes with each other.
+Level 2: Deal 25% increased damage for each Spirit ally
+Level 3: Take 25% decreased damage for each Spirit ally",-,-,-
+Draw Soul,Single - Any,133,"Level 1: Revive ally as an uncontrollable Spirit. Spirit is immune to damage and can't be targeted. Take [MP] damage on Ally's turn.
+Level 2: Decreased MP damage taken
+Level 3: Now a Bonus Action",-,-,-
+Entomb,Single - Any,83,"Level 1: Deals 0.45x Focus [Physical] damage and decreases Speed and Agility by 50%. Costs MP every turn. Limit one. Cannot miss.
+Level 2: Also deals [Stun] damage
+Level 3: MP cost decreased by 35%",-,-,-
+Sandstorm,All - Party,62,"Level 1: Deals 0.45x Focus [Physical] damage every turn and decreases target Technique by 35% while active. Toggleable.
+Level 2: Enemies have a 35% chance to miss
+Level 3: Enemies cannot critically hit",-,-,-
+Revolver,Single - Any,-,"Level 1: Deals 145-195 [Physical] damage. Cannot be countered. Reload after 6 uses.
+Level 2: Also deals [Stun] damage
+Level 3: Deals critical damage against Lawbreakers",-,-,-
+Justice,Passive,-,"Level 1: Gain 50% increased Speed if an ally is critical.
+Level 2: Gain 50% increased Technique if an ally is critical
+Level 3: Damage gains 50% piercing if an ally is critical",-,-,-
+Lawman,Passive,-,"Level 1: Enemies become Lawbreakers after targeting your party.
+Level 2: Adds up to 0.5x Samuel's TEC to damage on hits against Lawbreakers
+Level 3: Allies always hit Lawbreakers",-,-,-
+Posse,Single - Any,-,"Level 1: Allies attack target enemy Lawbreaker. Charges from Lawbreakers dealing damage. 
+Level 2: Refunds some charge on use
+Level 3: Gains charge twice as fast",-,-,-
+Observe,Self,42,"Level 1: Stance. Automatically counter Lawbreakers after their turn.
+Level 2: Take 50% reduced damage from Lawbreakers
+Level 3: Revolver gains ammo when Lawbreakers act",-,-,-
+Duel,Single - Any,56,"Level 1: Samuel and enemy can only target each other for 3 turns. Cannot be dispelled or resisted.
+Level 2: Deal 35% increased damage to target
+Level 3: Target deals 50% reduced damage",-,-,-
+Venom Bite,Single - Melee,-,"Level 1: Deals 0.5x Power [Physical] damage, and [Poison] damage over time for 3 turns. Stacks.
+Level 2: Stacks increase [Poison] damage taken by 15% 
+Level 3: Trigger [Poison] damage for all stacks when hit by [Attack] skills",-,-,-
+Shed Skin,Passive,-,"Level 1: Dispel one [Debuff] at the start of turn and heal for 20% of missing HP for each removed.
+Level 2: Dispel 2 debuffs
+Level 3: Dispel 3 debuffs",-,-,Lizard Scale
+Mutating DNA,Passive,-,"Level 1: Every turn, gain +25 to a random attribute for 3 turns. Stacks.
+Level 2: Increases 3 attributes
+Level 3: Increases 5 attributes",-,-,-
+Snapback,Passive,-,"Level 1: Counter with Venom Bite after being targeted by a [Melee] skill.
+Level 2: Counter with Thrash if possible
+Level 3: Counters cannot miss",Strike Back,-,-
+Predator,Passive,-,"Level 1: Increases Power by up to 100% based on current health.
+Level 2: Increases Technique by up to 100%
+Level 3: Increases Speed by up to 100%",-,-,-
+Thrash,Cross - Melee,- ,"Level 1: Deals 0.75x Power [Physical] damage to enemies in an area.
+Level 2: Also deals [Stun] damage
+Level 3: Primary target is also hit with Venom Bite",Pirouette,-,-
+Hibernate,Self,-,"Level 1: Fall asleep, but regain 50% of max HP and MP. Automatically wake up at turn start if full HP. 3 turn charge.
+Level 2: Gain Ambush after use
+Level 3: Automatically activate when critical",-,-,-
+M16,Single - Any,-,"Level 1: Deals 40-70 [Physical] damage 3 times. Reload after 3 uses. 
+Level 2: 50% increased hit chance
+Level 3: Last hit deals 50% more damage",-,-,-
+Specialist,Passive,-,"Level 1: Turn delay of [Gadget] skills decreased by 25%.
+Level 2: Damage increased by 20% for [Gadget] skills
+Level 3: [Gadget] skills always critical hit",-,-,-
+Covering Fire,Passive,-,"Level 1: Automatically attacks front row ally's target, if possible, whenever they act.
+Level 2: Ally deals 15% more damage
+Level 3: Ally always hits",-,-,-
+First to Fight,Passive,-,"Level 1: Gain 50% turn progress at start of battle.
+Level 2: 25% increased damage for first turn
+Level 3: Cannot miss during first turn",-,-,-
+Air Strike,All - Party,-,"Level 1: Deals 100-125 [Physical] and [Fire] damage to random enemies 4 times. One use. Five turn charge. Cannot miss.
+Level 2: Hits 6 random enemies
+Level 3: 50% faster charge rate",-,-,-
+Grenade,Cross - Any,-,"Level 1: Deals 100-150 [Physical] and 50-70 [Fire] damage to target enemies. One use.
+Level 2: Two uses
+Level 3: Three uses",-,-,Marine's Rucksack
+Smoke Grenade,All - Party,-,"Level 1: Attacks against allies have a 35% chance to miss for two turns. One use.
+Level 2: Lasts three turns
+Level 3: Lasts four turns",Smoke Bomb,-,-
+Shoot,Single - Any,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Damage increased by 15%
+Level 3: Damage increased by additional 15% ",-,-,-
+Medkit,Single - Any,-,"Level 1: Heals an ally for 400-500. Three uses per battle.
+Level 2: 35% chance not to consume a use
+Level 3: Removes all [Debuff]",-,-,Harry's Medkit
+Squad Support,Passive,-,"Level 1: Automatically Supports adjacent allies, sharing 25% of your attributes with them. 
+Level 2: Supported allies deal 15% more damage
+Level 3: Heals Supported allies for 10% Max HP after every turn",-,-,-
+Non-Combatant,Passive,-,"Level 1: Cannot be directly targeted by enemies for 5 turns or until targeting an enemy.
+Level 2: 25% increased Toughness while active
+Level 3: 25% increased Discipline while active",-,-,-
+Emergency Care,Passive,-,"Level 1: 50% increased [Healing] strength and Speed when an ally is critical.
+Level 2: Heals Supported allies for 0.2x Focus every turn
+Level 3: Free Turn when ally is downed",-,-,-
+Amputate,Single - Any,98,"Level 1: Revives an ally with 35% Max HP, but reduces target's attributes by 25% for the rest of battle.
+Level 2: Only lasts 3 turns
+Level 3: Can be dispelled",-,-,-
+Syrette,Single - Any,-,"Level 1: Decreases damage taken by 50% for an ally. Three uses.
+Level 2: Cannot be removed
+Level 3: 50% chance to prevent being downed",-,-,-
+Suppressing Fire,Single - Any,-,"Level 1: Deals 0.65x Power [Physical] damage and decreases target's Technique by 15%. Always hits. 
+Level 2: Also deals [Stun] damage 
+Level 3: Target's Agility and Speed decreased by 25%",-,-,-
+Swordplay,Self,-,"Level 1: Access melee Swordplay skills.
+Level 2: Swordplay skills become level 2
+Level 3: Swordplay skills become level 3",-,-,-
+Flourish,Single - Melee,?,"Level 1: Deals 1.25x Power [Physical] damage to target enemy, with 10% decreased chance to hit.
+Level 2: Increases dodge chance by 25% until next turn 
+Level 3: Damage increased by 10% for each stack of [Booze] on Jack",-,-,-
+Gunplay,Self,-,"Level 1: Access ranged Gunplay skills.
+Level 2: Gunplay skills become level 2
+Level 3: Gunplay skills become level 3",-,-,-
+Flintlock,Single - Any,?,"Level 1: Deals 1x Power [Physical] damage to target enemy.
+Level 2: Damage increased by .35x Technique
+Level 3: Turn delay decreased by 5% for each stack of [Booze] on Jack, max 25%",-,-,-
+Grapeshot,Cross - Any,?,"Level 1: Deals 0.75x Power [Physical] damage up to 4 times in an area.
+Level 2: Hits up to 5 times
+Level 3: Hits up to 6 times",Unload,-,-
+Adaptable,Passive,-,"Level 1: Using [Melee] and [Ranged] attacks increases the damage of each other by 20%. Stacks up to 5 times.
+Level 2: Each stack increases piercing by 15%
+Level 3: Each stack decreases turn delay by 15%",-,-,-
+Warm Glow,Passive,-,"Level 1: Restore 2% Max HP every turn for each stack of [Booze] on Jack.
+Level 2: Also restore 2% Max MP per stack
+Level 3: Speed increased by 5% per stack",-,-,-
+Rum,Self,-,"Level 1: Bonus Action. Increases Toughness and Agility by 15%, but hero has a 35% chance to lose control. Stackable 5 times.
+Level 2: Increases dodge chance by 15% 
+Level 3: Increases critical hit damage by 15%",-,-,Jack's Rum
+Plunder,Single - Melee,-,"Level 1: Deals 3x Power [Physical] damage and steals turn progress. Uses all Adaptable stacks.
+Level 2: Steals all dispellable [Buff] if possible
+Level 3: Heals for 50% of damage dealt",-,-,-
+Incision,Single - Melee,-,"Level 1: Deals 0.85x Power [Physical] damage and lowers target's Endurance by 20% for 3 turns.
+Level 2: Increases all damage target takes by 25%
+Level 3: Nullifies [Healing] on target",-,-,Plague Knife
+Bloodlet,Single - Any,-,"Level 1: Target ally takes 30% Max HP [Physical] damage and loses all [Debuff] effects.
+Level 2: Heals target after every turn for amount equal to 50% of initial damage dealt. Lasts 3 turns.
+Level 3: Negates Plague damage",-,-,-
+Resistant,Passive,-,"Level 1: Gain 1 Resist before every turn.
+Level 2: Gain 1 Resist after receiving [Debuff]
+Level 3: [Debuff] last half as long",-,-,-
+Plaguebearer,Passive,-,"Level 1: Each turn, randomly spread 5 stacks of Plague.
+Level 2: Spread 5 stacks of Plague when attacked
+Level 3: Allies start with 5 stacks of Plague",-,-,-
+Plague,Passive,-,"Level 1: Deals 0.25x Focus [Poison] damage over time for 3 turns. Affects additional target every turn.
+Level 2: Affects additional target every turn
+Level 3: Lasts until dispelled",-,-,-
+Healing Vapours,Self - Party,72,"Level 1: Reduces [Poison] damage taken by 80% for all allies for 3 turns.
+Level 2: After Ambroise's turn, allies gain 3 Resist
+Level 3: After Ambroise's turn, heals allies for 5% Max HP per Plague",-,-,-
+Bubo Burst,Single - Any,48,"Level 1: Removes all Plague stacks from ally. Spreads Plague stacks to enemies.
+Level 2: Heals ally for 5% Max HP for each stack
+Level 3: No longer removes Plague",-,-,-
+Unload,Cross - Any,-,"Level 1: Deals 0.75x Power [Physical] damage up to 4 times in an area.
+Level 2: Hits up to 5 times
+Level 3: Hits up to 6 times",Grapeshot,-,-
+Chainsaw,Single - Melee,-,"Level 1: Deals 200-250 [Physical] damage to an enemy. Ignores Toughness. Three uses per battle.
+Level 2: Damage increased randomly up to 5-10% of target's current HP
+Level 3: Halves target's healing received",-,-,Buzzard's Saw
+Erratic,Passive,-,"Level 1: 35% chance to lose control on turn start. Lasts 3 turns. 
+Level 2: 35% increased direct damage dealt while active
+Level 3: Decreased turn delay while active",-,-,-
+Wasteborn,Passive,-,"Level 1: [Poison] damage taken is decreased by 75%.
+Level 2: Gain 1 resist every turn
+Level 3: Attributes cannot be lowered past base",-,-,-
+Boomkit,Self,-,"Level 1: Bonus action. Access explosive gadgets.
+Level 2: Booms become level 2
+Level 3: Booms become level 3",-,-,-
+Molotov,All - Party,-,"Level 1: Deals 100-150 [Fire] damage and half as much each turn for 3 turns. Always hits. Two uses per battle.
+Level 2: Damage over time deals full damage
+Level 3: Hits all enemies",-,-,-
+Biobomb,All - Party,-,"Level 1: Deals 75-125 [Poison] damage, and 75-125 per turn for 5 turns. Always hits. One use per battle.
+Level 2: Reduces enemy healing by 50%
+Level 3: Enemies take 15% more damage",-,-,-
+Shotgun Blast,Front Row - Party,-,"Level 1: Deals 1.25x Power [Physical] damage to enemies in the front row. Two uses. 
+Level 2: Also deals [Stun] damage 
+Level 3: Deals 50% increased damage ",-,-,-
+Jam,Self ,-,"Level 1: Bonus Action. Use damaging [Sonic] skills for three turns. 
+Level 2: Can use Riff skill
+Level 3: Can use Guitar Solo skill",-,-,-
+Power Chord,Column - Any,?,"Level 1: Deals 1.2x Tech [Sonic] damage.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Riff,Cross - Any,?,"Level 1: Deals 1x Tech [Sonic] damage to enemies in an area.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Guitar Solo,All - Party,?,"Level 1: Deals 0.65x Tech [Sonic] damage to random enemies up to 10 times.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Whammy Bar,Passive,-,"Level 1: Adds up to 0.5x Power to hits with [Sonic] skills.
+Level 2: Also adds [Stun] damage
+Level 3: Added damage gains 50% more piercing",-,-,-
+Battle Axe,Passive,-,"Level 1: [Physical] attacks also deal an additional 50% [Sonic] damage.
+Level 2: Also deals additional [Stun] damage
+Level 3: Added [Sonic] damage hits other nearby enemies",-,-,-
+Amp it Up,Self,-,"Level 1: Increases [Sonic] damage by 35% for 5 turns. One use.
+Level 2: Decreases turn delay for [Sonic] skills
+Level 3: Automatically use at battle start",-,-,-
+Mosh,All - Melee,69,"Level 1: Deals 0.5x Power [Physical] damage to enemies in an area.
+Level 2: Shifts targets randomly
+Level 3: Hits all enemies",-,-,-
+Power Ballad,All - Party,57,"Level 1: Song. Increases Power and Toughness by 20% of [Character]'s TEC for all allies.
+Level 2: Allies gain 1 Resist after their turn
+Level 3: Decreases damage taken by 15%",Ballad,-,Slade's Guitar
+Energy Lance,Column - Any,-,"Level 1: Deals 2.5x Focus [Energy] damage by converting 35% of current MP into damage.
+Level 2: MP conversion 50% more effective
+Level 3: Cannot miss",-,-,Sentinel Core
+Forcefield,Self - Party,-,"Level 1: Converts [Ranged] to [MP] damage for three turns for entire party. Channeled. Requires at least 50% MP to use.
+Level 2: Also redirects [Spell] damage
+Level 3: Take 25% less damage while active",-,-,-
+Matrix Capacitor,Passive,-,"Level 1: Increases Maximum MP by 300%.
+Level 2: Adds +20% to maximum MP increase every tirn
+Level 3: 25% decreased [MP] damage taken",-,-,-
+Infinity Generator,Passive,-,"Level 1: Restore 10% Max MP every turn.
+Level 2: Increases all MP healing received by 35%
+Level 3: Works during Forcefield",-,-,-
+Staff of Supremacy,Passive,-,"Level 1: Adds up to 10% Max MP [Energy] damage to [Spell] hits.
+Level 2: Adds damage to ally [Spell] hits during Forcefield
+Level 3: Also adds [MP] damage",-,-,-
+Unleash Force,Passive,-,"Level 1: When Forcefield ends, deals 2.5x Focus [Energy] damage to all enemies.
+Level 2: Also deals [Stun] damage
+Level 3: 50% increased damage",-,-,-
+Edict,All - Party,-,"Level 1: Non-boss enemies' next skills cannot target your party. Charges over time.
+Level 2: Steals 50% of target's MP for allies when effect ends
+Level 3: Remove all of target's [Buff] when effect ends",-,-,-
+Grenade Punch,Cross - Melee,-,"Level 1: Deals 150-200 + 1x Power [Physical] and 75-100 [Fire] damage to enemies. Also hits self.
+Level 2: Punch deals 25% more damage
+Level 3: Grenade hits twice",-,-,-
+Frenzy,Self,-,"Level 1: Bonus Action. Increases Speed by 50% and damage dealt by 35%, but lose control.
+Level 2: Immune to [Stun] and [Sleep] damage
+Level 3: Cannot be downed while active",-,-,Alacrity Implant
+R3gn-X,Passive,-,"Level 1: Restores up to 13% Max HP every turn based on missing HP, even if downed. Prevents Bleedout.
+Level 2: Increases Endurance every turn based on amount healed
+Level 3: Increases Toughness every turn based on amount healed",-,-,-
+Blood Rage,Passive,-,"Level 1: Increases Speed and Power by 50% when at critical HP.
+Level 2: Adds up to 1x Power to hits when at critical HP
+Level 3: Always deal critical damage when at critical HP",-,-,-
+Altered Genes,Passive,-,"Level 1: Enhanced base attributes.75% reduced [Healing] received from sources other than R3gnX.
+Level 2: [Poison] damage taken reduced by 75%
+Level 3: Attributes cannot be reduced below base",-,-,-
+Protonetics,Passive,-,"Level 1: Lose 25% less Stamina when traveling through conduit space. Take 10% Max HP [Physical] damage every turn.
+Level 2: Decreases [Stun] and [Sleep] damage taken by 25%
+Level 3: Reduces duration of [Debuff] to 1 turn",-,-,-
+Chastise,Single - Any,-,"Level 1: Deals 1.2x Focus [Holy] damage to target. Always hits.
+Level 2: Deals 0.6x Focus [Holy] damage after target's next turn
+Level 3: Prevents target from targeting your party for one turn",-,-,-
+Salvation,Single - Any,-,"Level 1: Revive an ally at 35% Max HP next turn. Channeled.
+Level 2: Revives ally with 65% Max HP
+Level 3: Ally gains Free Turn",-,-,-
+Ascension,Passive,-,"Level 1: Die immediately if Downed, instead of bleeding out, but fully heals party, reviving other Downed allies.
+Level 2: Automatically cast Holy Blast before dying
+Level 3: Allies gain 50% of Asariel's attributes for the rest of battle",-,-,-
+Divine Voice,Passive,-,"Level 1: Heal allies for 0.25x Focus every turn while Channeling.
+Level 2: Reduce damage taken by 25% while Channeling
+Level 3: While Channeling, hit random enemy with Chastise",-,-,-
+Holy Blast,All - Party,-,"Level 1: Deals 2x Focus [Holy] damage to all enemies. Charges over time.
+Level 2: Enemies are also hit by Chastise
+Level 3: Allies gain Holy Shield",-,-,-
+Holy Shield,Single - Any,71,"Level 1: Blocks up to 1x Focus damage taken by target ally.
+Level 2: Heals for 1x the damage blocked
+Level 3: Increases all target attributes by 25% while active",-,-,-
+Mend,Single - Any,45,"Level 1: Heals an ally for 50% of their missing HP.
+Level 2: Also restores 50% of missing MP
+Level 3: Dispel all [Debuff] on target",-,-,Asariel's Halo
+Safeguard,Single - Any,-,"Level 1: Prevents target from being Downed for 3 turns. Channeled.
+Level 2: Ally gains 25% of your attributes
+Level 3: Asariel gains Holy Shield while Channeling",-,-,-
+Jab,Single - Melee,-,"Level 1: Bonus Action. Deals 0.75x Power [Physical] damage.
+Level 2: Next [Attack] deals 35% increased damage.
+Level 3: Next [Attack] always hits",-,-,-
+Block,Self,-,"Level 1: The next three times you take damage from [Attack] skills, the damage is negated.
+Level 2: Lasts through four times taking damage
+Level 3: Lasts through five times taking damage",-,-,-
+Combo Hitter,Passive,-,"Level 1: Gain Combo stack after using [Attack] skills. Each stack increases [Attack] damage by 10%. Max 5 stacks. 
+Level 2: Each stack increases Technique by +10
+Level 3: Each stack increases Speed by +10",-,-,-
+Uppercut,Single - Melee,-,"Level 1: Deals 1.5x Power [Physical] and [Stun] damage. Charges when gaining Combo.
+Level 2: 50% increased critical chance
+Level 3: Gain 2 Combo on critical hit",-,-,-
+Hook,Single - Melee,-,"Level 1: Deals 0.5x Power [Physical] and [Stun] damage per Combo. Consumes Combo. Charges when gaining Combo.
+Level 2: Always deal critical damage
+Level 3: Target loses all turn progress",-,-,-
+Throw Blade,Single - Any,-,"Level 1: Deals 1x Power [Physical] damage to target. Consumes one Blade stack.
+Level 2: Deals 50% more critical damage
+Level 3: Always hits",-,-,-
+Juggle,All - Party,-,"Level 1: Deal 0.35x Technique [Stun] damage to enemies. Gain 3 stacks of Blade.
+Level 2: Damage now ignores Toughness
+Level 3: Automatically Throw Blade after use at full Blade stacks.",-,-,-
+Concealed Blades,Passive,-,"Level 1: Each Blade stack decreases turn delay of Blade skills. Gain 1 stack at start of turn. Stacks 4 times. Start battle with max stacks.
+Level 2: Stacks 6 times
+Level 3: Gain 2 stacks per turn",-,-,-
+Entertainer,Passive,-,"Level 1: Gain +10 Technique after every skill use.
+Level 2: Allies regenerate MP after getting a critical hit
+Level 3: Allies are healed for 5% of their Max HP after getting a critical hit",-,-,-
+Fan of Blades,All - Party,42,"Level 1: Deals 1x Power [Physical] damage to a random enemy per Blade stack. Consumes all Blade stacks.
+Level 2: Deals 15% more damage per remaining Blade
+Level 3: 35% chance not to consume each Blade",-,-,-
+Anthem,All - Party,71,"Level 1: Song. Increases Speed and Agility by 20% of [Character]'s Technique for all allies.
+Level 2: Increases critical hit damage by 25% 
+Level 3: Increases chance to dodge by 15%",-,-,Ralf's Flute
+Wither,Single - Melee,-,"Level 1: Target takes 1x Focus [Dark] damage over time for 3 turns. Deals +30% damage vs Undead and Plants.
+Level 2: Target's Power and Focus decreased by 20% 
+Level 3: Target's received [Healing] is reduced by 90%",-,-,Lich Finger
+Sorcery,Self,-,"Level 1: Access Lich Spells.
+Level 2: Can use Frost Ray and Chain Lightning skills
+Level 3: Sorcery skill MP cost decreased by 25%",-,-,-
+Acid Cloud,Cross - Any,?,"Level 1: Deals 0.33x Focus [Poison] damage over time for 3 turns. Stackable. Cannot miss.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Firestorm,Single - Any,?,"Level 1: Deals 1.5x Focus [Fire] damage to target and dispels 3 [Buff].
+Level 2: N/A
+Level 3: N/A",-,-,-
+Frost Ray,Single - Any,?,"Level 1: Deals 1.2x Focus [Ice] damage and decreased Speed by 50% for 1 turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Chain Lightning,Cross - Any,?,"Level 1: Deals 1x Focus [Lightning] damage to target, jumping to adjacent targets up to 3 times for 50% damage.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Soulless,Passive,-,"Level 1: When Downed, sacrifice 10% Stamina and skip next turn to revive at full HP. HP and MP cannot be healed, except by Devour Soul.
+Level 2: Immune to [Stun] and [Sleep] damage
+Level 3: Prevents Stamina loss through conduit space",-,-,-
+Mana Shield,Passive,-,"Level 1: 100% of damage taken is converted into [MP] damage, unless MP is too low.
+Level 2: MP regen rate is increased by 4x
+Level 3: Speed increased by 100% when MP is below 25% remaining",-,-,-
+Desiccated,Passive,-,"Level 1: Max HP set to 6. Non [Holy] damage taken is reduced to 1. [Holy] damage reduced to 5. Cannot be critically hit.
+Level 2: Max HP set to 12.
+Level 3: Immune to [Poison] damage and effects from [Poison] skills",-,-,-
+Cantrip,Passive,-,"Level 1: All [Spell] skills can be used as a Bonus Action, but cannot gain Free Turns.
+Level 2: Counter with Wither after being targeted by a [Melee] skill
+Level 3: Whenever you would gain a Free Turn, increase Focus by 20% instead",-,-,-
+Terrify,Front Row - Party,-,"Level 1: Deals 2x Focus [Stun] damage to enemies in the front row. 2 turn charge.
+Level 2: Targets have a 50% chance to shift to the back row
+Level 3: Deals 50% extra damage to all enemies",-,-,-
+Devour Soul,Single - Any,-,"Level 1: Target downed enemy immediately bleeds out and is removed from battle. Fully restores Krethik's HP.
+Level 2: Restores 75% of Krethik's MP
+Level 3: Automatically trigger when HP is critical or MP below 25%, if possible",-,-,-
+Screech,Single - Any,-,"Level 1: Deals 1x Focus [Sonic] damage and increases MP cost of target's next skill by 250%. Cannot miss.
+Level 2: 35% chance for target's next skill with an MP cost to miss
+Level 3: 35% chance for target's next skill with an MP cost to fail",High Note,-,Sophia's Glass
+Mourn,Self,-,"Level 1: Restore 15% of your health for each Downed ally.
+Level 2: Dispel one [Debuff] for each Downed ally
+Level 3: Turn delay decreased by 15%for each Downed ally",-,-,-
+Shriek,Passive,-,"Level 1: When an ally is Downed, deals 1x Focus [Sonic] damage to all enemies.
+Level 2: Restore 25% Max HP after using Shriek
+Level 3: Deals 50% more damage for each downed ally",-,-,-
+Incorporeal,Passive,-,"Level 1: Takes 50% increased damage from [Spell] skills, but 50% less from other sources.
+Level 2: No longer take extra [Spell] damage
+Level 3: Automatically Fade after being hit",-,-,-
+Manifestation,Passive,-,"Level 1: Increases Toughness and Endurance by 35% each time an ally is Downed. Max 5 stacks. 
+Level 2: Heal 20% Max HP when an ally is Downed
+Level 3: Max 10 stacks",-,-,-
+Fade,Self,36,"Level 1: Cannot be directly targeted by enemies and decreases damage taken by 50% for 1 turn.
+Level 2: Decreases damage taken by 75%
+Level 3: All [Attack] skills miss",-,-,-
+Wail,All - Party,130,"Level 1: Deals 0.25x Focus [Sonic] damage to all enemies 3 times.
+Level 2: Each hit deals 35% more damage
+Level 3: Last hit ignores Toughness",-,-,Banshee's Wail
+Possession,Single - Any,-,"Level 1: Share 50% of all attributes with target non-undead ally for three turns. Kiara cannot take damage while active. Charges over time. 
+Level 2: Ally deals bonus 35% [Sonic] damage with hits
+Level 3: Grants Free Turn to ally ",-,-,-
+Reckless Attack,Single - Melee,-,"Level 1: Deals 1.5x Power [Physical] damage, but increases damage taken by 35%. Damage debuff stacks.
+Level 2: Turn delay reduced by 25%
+Level 3: Always deal critical damage",-,-,-
+Cleave,Row - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target. Row takes 0.5x Power [Physical] damage.
+Level 2: Enemies bleed for 50% [Physical] damage taken for 1 turn
+Level 3: Bleed now lasts 2 turns",-,-,Odrak's Claymore
+Ancestral Bond,Passive,-,"Level 1: Allies gain 15% of Odrak's Endurance.
+Level 2: Allies gain 15% of Toughness
+Level 3: Allies gain 15% of Power",-,-,-
+Primal Roar,Passive,-,"Level 1: Deals 1x Power [Stun] damage to all enemies at start of battle. Always hits.
+Level 2: Gain 1 Reckless Attack stack on use
+Level 3: Gain 2 Reckless Attack stacks on use",-,-,-
+Rage,Passive,-,"Level 1: At 3 Reckless Attack stacks, gain 35% increased Power and Toughness for 3 turns, and remove all Reckless Attack stacks.
+Level 2: All taken damage is converted to [Physical] damage
+Level 3: Increases damage dealt by 25%",-,-,-
+Overpower,Single - Melee,70,"Level 1: Deals 2x Power [Physical] damage and steals turn progress. Requires Rage.
+Level 2: Hits twice if target it critical
+Level 3: Always deals critical damage",-,-,-
+Intimidate,Single - Any,46,"Level 1: Deals 1.5x Power [Stun] damage to an enemy. Always hits. 
+Level 2: 50% more damage to enemies with lower HP
+Level 3: Damage ignores defenses",-,-,Dragon Tattoo
+Thick Skin,Passive,-,"Level 1: 35% chance to dispel one [Debuff] at the start of turn.
+Level 2: Toughness increased by 25%
+Level 3: Endurance increased by 25%",-,-,-
+Bash,Single - Melee,-,"Level 1: Deals 1.35x Power [Physical] and [Stun] damage to an enemy.
+Level 2: [Stun] damage increased by 50%
+Level 3: [Physical] damage increased by 15%",-,-,Money Bag
+Throw Spear,Single - Any,-,"Level 1: Deals 1.35x Power [Physical] damage to target enemy. 3 uses.
+Level 2: Deals 50% increased critical damage
+Level 3: Always hits",Javelin,-,Og's Spear
+Sabretooth,Passive,-,"Level 1: Automatically summon Ka the Sabretooth in battle. 
+Level 2: Ka gains Maul skill
+Level 3: Ka gains Takedown skill",-,-,-
+Thick Skull,Passive,-,"Level 1: Immune to [Stun] damage.
+Level 2: Toughness increased by 25%
+Level 3: Endurance increased by 25%",-,-,-
+Big Game Hunter,Passive,-,"Level 1: Deal 50% increased damage against Beast enemies.
+Level 2: Deal 50% increased damage against Boss enemies
+Level 3: Always deal critical damage against Beast and Boss enemies",-,-,-
+Tar Pit,All - Party,-,"Level 1: Deals 1x Power [Physical] damage to enemies and resets their turn progress. Half effect on Boss enemies. Five turn charge.
+Level 2: Decrease enemy Speed by 50% 
+Level 3: 50% chance to interrupt non-boss enemy's next action",-,-,-
+Headbutt,Single - Melee,19,"Level 1: Deals 2x Power [Physical] damage to target enemy. Damages self.
+Level 2: Also deals [Stun] damage
+Level 3: Knocks target into back row",Dropkick,-,-
+Shield of Faith,Passive,-,"Level 1: Reduces [Dark] and [Energy] damage taken by 50%.
+Level 2: Reduces duration of [Debuff] to 1 turn
+Level 3: Gain 5x stronger Holy Shield at start of battle",-,-,-
+Blessed Mace,Passive,-,"Level 1: Deal up to 1x Focus extra [Holy] damage with [Attack] skills.
+Level 2: Damage dealt by [Attack] skills heals all allies
+Level 3: Cast Holy Shield on self after using [Attack] skills ",-,-,-
+Holy Writ,Passive,-,"Level 1: Deal 25% more damage against Undead enemies.
+Level 2: Damage always critical against Undead
+Level 3: Automatically cast Last Rites when Undead are downed",-,-,-
+Last Rites,All - Party,76,"Level 1: All Downed enemies are removed from battle.
+Level 2: Restore 25% Max MP per enemy removed
+Level 3: Restore 25% Max HP per enemy removed",-,-,-
+Flash Heal,Single - Any,-,"Level 1: Bonus Action. Heals an ally for 1.5x Focus. Charges over time.
+Level 2: Heals up to double, based on target's missing HP
+Level 3: Recharges when cast on a critical ally",-,-,-
+Consecrate,All - Party,44,"Level 1: Enemies take 1x Focus [Holy] damage every turn but costs MP.
+Level 2: Enemies deal 35% less damage
+Level 3: Costs 25% less MP per turn",-,-,Holy Water
+Falchion,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Damage gains 50% more piercing
+Level 3: Deals 100% more damage during Rekindle",-,-,-
+Bone Shield,Self,-,"Level 1: Blocks up to 2.5x Toughness damage taken. Sacrifice 10% of current HP.
+Level 2: Attackers take 1x Toughness [Physical] damage
+Level 3: No longer cost HP",-,-,Drex's Shield
+Reassemble,Passive,-,"Level 1: When Downed, sacrifice 10% Stamina and skip your next turn to revive at full HP.
+Level 2: No longer skip turn after revive
+Level 3: Activate Rekindle after revive",-,-,-
+Undead Curse,Passive,-,"Level 1: Prevents Stamina loss through conduit space. Cannot be healed.
+Level 2: Immune to [Stun] and [Sleep] damage
+Level 3: Decrease [Physical] damage taken by 50%",-,-,-
+Extinguished Soul,Passive,-,"Level 1: Maximum MP is set to 300 and skills cost 0 MP. Lose 50 MP every turn.
+Level 2: Lose 50% less MP every turn
+Level 3: Maximum MP is now 450",-,-,-
+Rekindle,Self,-,"Level 1: [Attack] skills gain [Fire] damage up to 1x current MP. Set MP to maximum, Charges over time. Ends if MP reaches zero.
+Level 2: Increases Speed by MP while active
+Level 3: Always hit with [Attack] skills while active",-,-,-
+Throw Skull,Single - Any,-,"Level 1: Deals 0.8x Power [Physical] damage to an enemy. Costs 5% of current HP on hit.
+Level 2: Bounces 2x when Rekindle is active
+Level 3: No longer costs HP during Rekindle.",-,-,-
+Gather Shadows,Self,-,"Level 1: Unleashes a Shadow Driver after 1 turn. Channeled. Damage taken from hits while channeling is decreased by 50% and is added to Shadow Driver's damage. 
+Level 2: Shadow Driver also damages adjacent enemies for 50%
+Level 3: Shadow Driver always hits",-,-,-
+Shadow Driver,Single - Melee,-,"Level 1: Deals 1.5x Power [Physical] damage and returns damage taken while channeling as [Dark] damge.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Drain Life,Single - Any,-,"Level 1: Deals 1.5x Focus [Dark] damage to target and heals caster for damage dealt.
+Level 2: Also restores half of damage done as MP
+Level 3: Up to 100% more damage based on missing HP",-,-,-
+Nullify,Passive,-,"Level 1: Reduces [Fire] [Lightning] and [Ice] damage taken by 60%.
+Level 2: Also reduces [MP] [Stun] and [Sleep] damage
+Level 3: Applies to allies at half strength",-,-,-
+Darkblade,Passive,-,"Level 1: Sacrifice up to 15% Current HP with [Attack] skills to deal an equal amount of [Dark] damage.
+Level 2: Damage gains 50% increased piercing
+Level 3: Damage uses Max HP instead of current",-,-,Dark Heart
+Soul Eater,Passive,-,"Level 1: Drain Life steals Power equal to 0.5x Focus. Limit One. Weaker vs Boss.
+Level 2: Also steals Toughness
+Level 3: Also steals Endurance",-,-,-
+Eclipse,All - Party,-,"Level 1: Sacrifice 30% of current HP to deal 0.25x Max HP + 1.5x Focus [Dark] damage to enemies. Charges on sacrificed HP. 
+Level 2: Damage pierces 50% of defenses
+Level 3: Deals 50% more damage to Soul Eater target",-,-,-
+Crush Armor,Single - Melee,69,"Level 1: Deals 1.35x Power [Physical] damage to target. Ignores Toughness.
+Level 2: Decreases target's Toughness by 75% for one turn
+Level 3: Target takes 50% increased [Physical] damage for one turn",-,-,-
+Sever Soul,Single - Melee,51,"Level 1: Deals 1.35x Power [MP] damage to target. Always hits.
+Level 2: Decreases target Discipline by 35% for three turns
+Level 3: Target dies instantly if downed, instead of bleeding out. Lasts three turns.",Soulflay,-,Kenjiro's Katana
+Mark,Single - Any,-,"Level 1: Increases target's damage taken by 15% Limit of one Mark.
+Level 2: Target's Agility decreased by 35% 
+Level 3: Target's damage taken increased by additional 15%",-,-,-
+Command,Single - Any,-,"Level 1: Command an ally to use one of their skills. Ally loses current turn progress. Charges over time.
+Level 2: Ally no longer loses turn progress
+Level 3: Gain Free Turn after use",-,-,-
+Conscription,Passive,-,"Level 1: On Ally Death, sacrifice 25% of George's Stamina ti replace them with a random reserve party member, if available.
+Level 2: Conscript gains Free Turn
+Level 3: Conscript gains up to 25% Stamina",-,-,-
+Bunker,Passive,-,"Level 1: Blocks up to 5x Wisdom direct [Ranged] damage taken by the party.
+Level 2: Also blocks 50% of direct [Melee] damage
+Level 3: Blocks 25% of all direct damage",-,-,-
+Tactical Advantage,Passive,-,"Level 1: Whenever George would gain a Free Turn, increase Wisdom by 25% instead. Stacks.
+Level 2: Adjacent allies lose one [Debuff]
+Level 3: Adjacent allies gain 25% turn progress",-,-,-
+Supply Drop,Self,533,"Level 1: Restores one [Gadget] use for allies.
+Level 2: Allies gain Medkit skill for the battle
+Level 3: Allies gain Grenade skill for the battle",-,-,-
+Strategize,All - Party,205,"Level 1: Song. Increases Speed and Technique by 20% of [Character]'s Wisdom for all allies.
+Level 2: Allies take 25% decreased [Sleep] damage
+Level 3: Allies take 25% decreased [Stun] damage",-,-,Battle Plans
+Chill,Single - Any,-,"Level 1: Deals 1x Focus [Ice] damage to an enemy.
+Level 2: Decreases target's Speed by 25%
+Level 3: Adds 3 Frostbite",-,-,-
+Frigid Armor,Passive,-,"Level 1: Use a [Ice] skill automatically casts Frost Shield on self.  
+Level 2: Damage taken decreased by 25% when Frost Shield active
+Level 3: Frost Shield applies Frostbite to attacker when hit by [Attack] skills",-,-,-
+Frostbite,Passive,-,"Level 1: Apply Frostbite with [Ice] damage. Each stack deals up to 15 [Ice] damage whenever target is hit by [Physical] damage. Max 10 stacks.
+Level 2: Each stack decreases Toughness by 10%
+Level 3: At max stacks, all damage taken is critical",-,-,-
+Frost Shield,Single - Any,48,"Level 1: Blocks up to 2x Focus damage on target ally.
+Level 2: Ally is immune to [Stun] damage
+Level 3: Ally gains Focus equal to 20% of Elgeon's Focus",-,-,-
+Break Ice,Single - Any,243,"Level 1: Deals 0.75x Focus damage per Frostbite stack. Consumes Frostbite.
+Level 2: Always hits
+Level 3: Consumed Frostbite stacks are spread to other enemies with Frostbite",-,-,-
+Ice Spike,Cross - Any,72,"Level 1: Deals 0.8x Focus [Ice] damage to target then half damage in area.
+Level 2: Pierces 50% of defenses
+Level 3: Always deals critical damage",-,-,-
+Blizzard,All - Party,170,"Level 1: Deals 0.5x Focus [Ice] damage to random enemy targets up to 8 times. 
+Level 2: Hits up to 10 times
+Level 3: Hits up to 12 times",-,-,Elgeon's Chill
+Heal Beam,Single - Any,-,"Level 1: Heals critical ally with lowest HP for 1x Focus.
+Level 2: Heals for 0.5x Focus for three turns
+Level 3: Reduced turn delay after use",-,-,H34L Emitter
+Standby,Self,-,"Level 1: Gain a Free Turn when an ally is critical.
+Level 2: 35% chance to not end on trigger
+Level 3: Stacks 3 times",-,-,-
+Surge Protector,Passive,-,"Level 1: Blocks up to 500 [Lightning] damage per battle.
+Level 2: Blocks up to 1000 [Lightning] damage per battle
+Level 3: Halves [Lightning] damage taken",-,-,-
+AutoAid,Passive,-,"Level 1: Automatically acts in battle. Immune to [Stun] and [Sleep] damage.
+Level 2: Increases Speed by 100% when an ally is critical HP
+Level 3: Gain Free Turn after Revive Beam",-,-,-
+Robotic,Passive,-,"Level 1: Prevents Bleddout.
+Level 2: Reduces [Physical] damage taken by 50%
+Level 3: 65% reduced Stamina loss",-,-,-
+MU-N8,Passive,-,"Level 1: Allies lose one [Debuff] effect every turn.
+Level 2: [Poison] damage taken by allies reduced by 50%
+Level 3: Allies gain 1 Resist after their turn",-,-,-
+Self-Repair,Self,-,"Level 1: Restores 50% of HP on self when at critical HP. One use per battle.
+Level 2: Dispels all [Debuff] effects 
+Level 3: Reduced turn delay after use",-,-,-
+Revive Beam,Single - Any,-,"Level 1: Revives a Downed ally with 20% Max HP. One use per battle.
+Level 2: Two uses per battle
+Level 3: Three uses per battle",-,-,-
+Curse,Single - Any,-,"Level 1: Target's received [Healing] is reduced by 90% for 2 turns.
+Level 2: Removes all [Buff] from target
+Level 3: Lasts until removed",-,-,Witch's Grimoire
+Undying Soul,Passive,-,"Level 1: Fatal damage converted to [MP] damage, unless MP is too low.
+Level 2: Recuces [MP] damage taken by 25%
+Level 3: Regenerate MP when low on MP",-,-,-
+Death's Embrace,Passive,-,"Level 1: During Death Shroud, spend 25 MP to prevent allies being downed, but cannot restore MP.
+Level 2: Death Shroud converts 80% of Endurance into Wisdom
+Level 3: Death Shroud uses Dark Bargain on allies before they bleed out",-,-,-
+Pale Servants,Passive,-,"Level 1: Automatically summon Zombies that block 50% of damage Sovras takes.
+Level 2: Zombies gain increased Endurance
+Level 3: Zombies gain life steal when attacking",-,-,-
+Death Shroud,Self,-,"Level 1: Bonus Action. Gain Lv. 3 Reap and Dark Bargain skills. Ends at 0 MP. Charges over time.
+Level 2: Gain 100% of Wisdom as Focus while active
+Level 3: Always hit while active",-,-,-
+Reap,Row - Melee,?,"Level 1: Deals 1x Focus [Dark] damage to targets.
+Level 2: Up to 100% more damage based on target's missing HP
+Level 3: Critical non-boss enemies are killed and removed",-,-,-
+Dark Bargain,Single - Any,?,"Level 1: Revives a downed ally, but they take 10% Max HP damage over time, and can no longer bleed out.
+Level 2: Ally gains 35% increased Endurance while active
+Level 3: Ally no longer takes [Physical] damage over time",-,-,-
+Grave's Call,Single - Any,49,"Level 1: Deals up to 5.5x Focus [Dark] damage to an enemy, based on target's missing HP.
+Level 2: Deals up to 2x Focus [Dark] damage over time for 2 turns
+Level 3: Target is instantly killed, instead of bleeding out, if Downed",-,-,Necronomicon
+Shuriken,Row - Any,-,"Level 1: Deals 0.45x Power [Physical] damage up to 3x enemies.
+Level 2: Hits 4x
+Level 3: Hits 5x",-,-,-
+Envenom,Passive,-,"Level 1: [Attack] skills deal up to 10% Max HP [Poison] damage each turn for 3 turns. Stacks 3 times.
+Level 2: Decreases target Technique by 15% per stack
+Level 3: Decreases target Power by 15% per stack",-,-,-
+Subterfuge,Passive,-,"Level 1: Automatically Hide after using [Debuff] skills, if not already active.
+Level 2: Heal for 25% Max HP after using Hide
+Level 3: Deal 50% increased indirect damage while Hide is active",-,-,-
+Ninja Tools,Self,-,"Level 1: Access Ninja Tools.
+Level 2: Tools become level 2
+Level 3: Tools become level 3",-,-,-
+Caltrops,Self,?,"Level 1: Deals 100-125 [Physical] damage when enemies use [Melee] skills. Ends after being triggered 5 times.
+Level 2: 50% chance to interrupt non-boss enemy's skill when triggered
+Level 3: Adds a stack of Envenom when triggered",-,-,-
+Grappling Hook,Single - Any,?,"Level 1: Pulls enemy into front row.
+Level 2: Also deals 1x Power [Stun] damage
+Level 3: Also triggers Caltrops, even if not active",-,-,-
+Smoke Bomb,All - Party,?,"Level 1: Attacks against allies have a 35% chance to miss for two turns. One use.
+Level 2: Lasts three turns
+Level 3: Lasts four turns",Smoke Grenade,-,Utility Belt
+Blinding Powder,Single - Melee,?,"Level 1: Decreases target's chance to hit with next skill by 80%.
+Level 2: Lasts for three skills
+Level 3: Lasts for five skills",-,-,-
+Disarm,Single - Melee,24,"Level 1: Bonus Action. Deals 0.75x Power [Physical] damage and decreases target's Power by 50% for 1 turn.
+Level 2: Also deals [Stun] damage
+Level 3: Lasts 3 turns",-,-,Agent's Watch
+Sweep Kick,Single - Melee,18,"Level 1: Deals 2x Power [Stun] damage to an enemy.
+Level 2: Turn delay decreased by 50%
+Level 3: Up to 100% more damage based on turn progress",-,-,-
+Musket,Single - Any,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Damage increased by 15%
+Level 3: Damage increased by addiitonal 15%",-,-,-
+Prepare,Self,-,"Level 1: Gain a Free Turn at the end of next turn.
+Level 2: Gain 25% increased Technique until Free Turn
+Level 3: Gain 50% increased Critical Damage until Free Turn",-,-,-
+Black Powder,Passive,-,"Level 1: Deal 150% extra damage with [Ranged] skills, but takes a turn to reload.
+Level 2: [Ranged] skills ignore 50% of target's Toughness
+Level 3: [Ranged] skills gain 50% increased critical damage",-,-,-
+Survivalist,Passive,-,"Level 1: Lose 25% less stamina when traveling through portals in conduit space.
+Level 2: Healing items heal 50% more
+Level 3: Gain an extra item from battle rewards",-,-,-
+Bear Trap,Single - Any,-,"Level 1: Target's next turn is interrupted. Cannot be resisted. One use. No effect on Bosses.
+Level 2: Target takes 35% HP [Physical] damage when turn is interrupted by trap
+Level 3: 50% chance to not be removed",-,-,-
+Aimed Shot,Single - Any,89,"Level 1: Deals 2x Power [Physical] damage. Cannot miss. Long turn delay.
+Level 2: 25% increased damage
+Level 3: Always critical hit",Musket,-,-
+Toss,Single - Any,-,"Level 1: Throw a random ally. Deals 2.5x Korr's Power [Physical] damage to target.
+Level 2: Also deals 1.5x Power of thrown ally
+Level 3: Always throw ally with highest Power",-,-,Sasquatch Grip
+Thick Fur,Passive,-,"Level 1: Decreases [Physical] and [Ice] damage taken by 30%.
+Level 2: Gain 1 Resist before every turn
+Level 3: 35% chance for incoming [Attack] skills to miss",-,-,-
+Lone Wolf,Passive,-,"Level 1: Acts on his own in battle.
+Level 2: Increases all attributes by 20%
+Level 3: 35% reduced Stamina loss when traveling through conduit space",-,-,Korr's Solitude
+Bestial Rage,Passive,-,"Level 1: When being hit, 15% chance to activate Enrage.
+Level 2: Gain 15% increased Power while Enraged
+Level 3: Doubles critical chance while Enraged",-,-,-
+Enrage,Self,20,"Level 1: Increases [Physical] damage that you deal and take by 50% for 5 turns.
+Level 2: Increases Speed by 25%
+Level 3: Damage taken penalty reduced to 25%",-,-,-
+Throw Axe,Single - Any,-,"Level 1: Deals 0.75x Power [Physical] damage to target enemy.
+Level 2: Apply 50% of damage dealt as [Physical] damage over time for 3 turns.
+Level 3: Stacks 3 times and refreshes duration on hit",-,-,-
+Berserker,Passive,-,"Level 1: Sacrifice 10% current HP and taunts a random enemy every turn during Frenzy.
+Level 2: Gain 20% turn progress when being hit or missing with [Attack] during Frenzy
+Level 3: Also increases Power and Endurance by 20% for 3 turns. Stacks.",-,-,-
+Raider,Passive,-,"Level 1: Gain 10% Turn Progress when dealing damage over time.
+Level 2: Deal 50% increased damage to enemies with lower Power
+Level 3: Frenzy lasts 5 turns",-,-,-
+Battle Cry,All - Party,60,"Level 1: Increase ally maximum HP by 350 for 5 turns.
+Level 2: Restore MP cost to allies on end
+Level 3: Heals allies for 350 HP on effect end",-,-,Viking Warhorn
+Thunder Hammer,Single - Melee,47,"Level 1: Deals 1.0x Power [Physical] and [Lightning] damage. Always hit with [Lightning] damage.
+Level 2: Deals 2.0x Power [Stun] damage 
+Level 3: Deals 0.65x Power [Lightning] damage over time for 3 turns",-,-,-
+Lunge,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage. Shift to front row.
+Level 2: Deals 25% more damage in front row.
+Level 3: Hits enemy behind target for 0.6x Power",Powerfirst,-,-
+Retreat,Self,-,"Level 1: Heals for 20% Max HP. Shift to back row.
+Level 2: Restores 50% of missing MP
+Level 3: Also heals adjacent allies",-,-,Vikki's Vulstaff
+Hunter Stance,Passive,-,"Level 1: Stance. Counterattack for 1x Power when targeted by [Melee] skills. Active while in front row.
+Level 2: Adds up to 1x Technique to hits with [Attack] skills
+Level 3: Increases defense piercing by 50% for [Attack] skills while active",-,-,-
+Tranquil Stance,Passive,-,"Level 1: Stance. Regenerate 1x Focus HP every turn. Active while in back row.
+Level 2: Adds up to 1x Technique to hits with [Spell] skills
+Level 3: Gain Free Turn when changing stances",-,-,-
+Vulstaff,Self,-,"Level 1: Access Vulstaff skills. Requires Hunter Stance.
+Level 2: Can use Cyclone Staff skill
+Level 3: Can use Takedown skill",-,-,-
+Sweep,Row - Melee,?,"Level 1: Deals 1x Power damage to target. Row takes 0.5x Power [Physical] damage.
+Level 2: Enemies bleed for 50% [Physical] damage taken for 1 turn
+Level 3: Bleed now lasts 2 turns",-,-,-
+Cyclone Staff,Cross - Melee,?,"Level 1: Deals 0.65x Power [Physical] damage to enemies in an area.
+Level 2: Shifts target randomly
+Level 3: Deals double damage to target",-,-,-
+Takedown,Single - Any,?,"Level 1: Deals 2.5x Power [Physical] damage to target critical enemy.
+Level 2: Always deals critical damage
+Level 3: Cannot miss",Execute,Coup de Gras,-
+Winter's Gift,Self,-,"Level 1: Access Winter's Gift skills. Requires Tranquil Stance.
+Level 2: Can use White Wind skill
+Level 3: Can use Blizzard skill",-,-,-
+White Wind,All - Party,?,"Level 1: Heals all party members for 0.25x Focus + 25% of their missing HP.
+Level 2: Removes Sleep and Stun from allies
+Level 3: Removes one [Debuff] from allies",-,-,-
+Clown Hammer,Single - Melee,-,"Level 1: Deals 250-350 [Stun] damage to an enemy.
+Level 2: Damage increased by 100
+Level 3: 50% chance to gain Free Turn if miss",-,-,-
+Balloon,Single - Any,-,"Level 1: Next damage missed target ally. Heals target for 10% Max HP when Balloon ends.
+Level 2: Enemy takes [Stun] damage equal to healing
+Level 3: 50% chance to remain active",-,-,Red Balloon
+Honk,Passive,29,"Level 1: When targeted, 50% chance to use MP to interrupt non-boss enemy skill.
+Level 2: Heal random ally for 10% Max HP when triggered
+Level 3: 25% chance to interrupt all non-boss enemy skills",-,-,-
+Comic Relief,Passive,-,"Level 1: Heals three random allies for 5% Max HP after every skill use.
+Level 2: Allies regenerate MP when triggered
+Level 3: Triggers when an enemy is interrupted",-,-,-
+Nuisance,Passive,-,"Level 1: Redirects 50% of damage taken to strongest nearby ally.
+Level 2: Taunt interrupted enemies for one turn
+Level 3: 50% chance to dodge taunted enemies",Celebrity,-,-
+Pie Gun,All - Party,-,"Level 1: Deals 400-500 [Stun] damage to random enemies 4 times. One use. Four turn charge. Cannot miss.
+Level 2: Hits 6 random enemies
+Level 3: 100% faster charge rate",-,-,-
+Pratfall,Self,43,"Level 1: Step forward, then fall down.
+Level 2: Turn delay decreased by 35%
+Level 3: 35% chance to gain a free turn",Stumble,-,-
+Prank,Single - Any,103,"Level 1: Target's next turn is interrupted. Once per enemy.
+Level 2: Decreases target Technique by 20%
+Level 3: Gain 20% turn progress when target is interrupted",-,-,Face Paint
+High Note,Single - Any,-,"Level 1: Deals 1x Focus [Sonic] damage and increases MP cost of target's next skill by 250%. Cannot miss.
+Level 2: 35% chance for target's next skill with an MP cost to miss
+Level 3: 35% chance for target's next skill with an MP cost to fail",Screech,-,-
+Celebrity,Passive,-,"Level 1: Redirects 50% of damage taken to strongest nearby ally.
+Level 2: Taunt interrupted enemies for one turn
+Level 3: 50% chance to dodge taunted enemies",Nuisance,-,-
+Heartbreaker,Passive,-,"Level 1: Deals 5x Technique [Sonic] damage when Lover's Trance ends.
+Level 2: Gain 35% turn progress when triggered
+Level 3: Gain HP equal to 50% of damage dealt",-,-,-
+Hypnotic Presence,Passive,-,"Level 1: Enemies take 1.75x Technique [Sleep] damage before every turn.
+Level 2: Decreases dodge chance by up to 50% based on Sleep
+Level 3: Increases damage taken by up to 35% based on Sleep",-,-,-
+Vocal Training,Passive,-,"Level 1: Turn delay of [Sonic] skills decreased by 25%.
+Level 2: Damage and healing increased by 20% for [Sonic] skills
+Level 3: [Sonic] skills always critical hit",-,-,-
+Lover's Trance,Single - Any,-,"Level 1: Bonus Action. Target cannot directly target Sophia for 3 turns. Ignores resist.
+Level 2: Target counter attacks allies who target Sophia
+Level 3: Take 35% less damage from target",-,-,-
+Healing Aria,All - Party,86,"Level 1: Song. Heals allies for 0.35x [Character] Technique at the end of [Character]'s turn.
+Level 2: Dispels one [Debuff] when healing
+Level 3: Heals weakest ally twice",-,-,-
+Treat,Single - Any,-,"Level 1: Heals an ally for 50% of their missing HP.
+Level 2: Removes one [Debuff]
+Level 3: Adds 1 Resist",-,-,-
+Prescribe,Self,-,"Level 1: Access Prescription skills. Limit 1 per ally.
+Level 2: Prescription skills heal target for 10% HP every turn
+Level 3: Adds 50% of healing to Insurance",-,-,-
+Antibiotics,Single - Any,?,"Level 1: Dispels all [Debuff] on target every turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Steroids,Single - Any,?,"Level 1: Increases Power and Speed by 35%, but 25% chance to lose control.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Stimulants,Single - Any,?,"Level 1: Increases Focus and Speed by 35%, but 25% chance to lose control.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Insurance,Passive,-,"Level 1: Gain Direct Billing healing as a shield, up to 1x Max MP.
+Level 2: Shield takes 35% less damage
+Level 3: Start battle at max shield",-,-,-
+Direct Billing,Passive,-,"Level 1: Converts up to 15% of target ally MP into extra healing.
+Level 2: Healing is increased by 35%
+Level 3: Converts up to 100% more based on missing HP",-,-,-
+Medical Degree,Passive,-,"Level 1: Increases [Healing] from skills by 25%.
+Level 2: Increases Wisdom by 35%
+Level 3: Increases Max MP by 25%",-,-,-
+Malpractice,Single - Any,-,"Level 1: Deals [Physical] damage equal to Insurance shield. Consumes Insurance.
+Level 2: Pierces 50% of defenses
+Level 3: Only consumes half of Insurance",-,-,-
+ICU,Single - Any,-,"Level 1: Revive an ally at 35% Max HP after 2 turns. Requires and removes Nurse.
+Level 2: Revive ally with 65% Max HP
+Level 3: Ally gains Free Turn",-,-,-
+Call Nurse,Self,214,"Level 1: Summon a Nurse that uses Treat at the same level as Ramesh. Lasts 5 turns.
+Level 2: Nurse healing adds to Insurance
+Level 3: Automatically cast at the start of battle",-,-,-
+Burning Fist,Single - Melee,-,"Level 1: Deals 0.8x Power [Physical] and [Fire] damage to target enemy.
+Level 2: Deals 0.4x Power [Fire] damage over time for 3 turns
+Level 3: Damage over time increased to 0.6x Power damage",-,-,-
+Endless Embers,Passive,-,"Level 1: Gain one stack of Inner Fire at the end of every turn. Cannot act without Inner Fire.
+Level 2: Deals 5% increased damage for each stack of Inner Fire
+Level 3: Inner Fire cannot be dispelled",-,-,-
+Infernal Spirit,Passive,-,"Level 1: With 4 or more stacks of Inner Fire, deal 1x Focus [Fire] damage to everyone at the end of your turn.
+Level 2: Consumes 10% of current MP to increase damage
+Level 3: Damage gains 35% piercing",-,-,-
+Grant Wish,Passive,-,"Level 1: At start of Igneo's turn, a random ally gains a Free Turn.
+Level 2: Ally gains 50% of missing MP
+Level 3: Igneo also gains the ally's restored MP",Read Omen,-,-
+Fireball,Cross - Any,76,"Level 1: Deals 1.2x Focus [Fire] damage to target enemies.
+Level 2: Pierces 50% of defenses
+Level 3: Deals 0.6x Focus [Fire] damage over time for 2 turns",-,-,-
+Inner Fire,Passive,-,"Level 1: Increases Speed, Power, and Focus by +12. Stacks infinitely.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Stalk,Self,-,"Level 1: Next skill deals 60% increased damage. Cannot be targeted by enemies.
+Level 2: Increases Technique by 25%
+Level 3: Increases critical damage by 120%",Ambush,-,-
+Macuahuitl,Passive,-,"Level 1: Hits with [Attack] skills cause 50% [Physical] damage over 3 turns. Stacks.
+Level 2: Deals 5% more damage per stack
+Level 3: Damage can critically hit",-,-,-
+Bloodthirsty,Passive,-,"Level 1: Heal self for 15% of [Physical] damage dealt.
+Level 2: Healing increased by up to 50% based on missing HP
+Level 3: Converts 10% of overhealing from Bloodthirsty into Power for 1 turn",-,-,Eztli's Mask
+Pounce,Single - Any,-,"Level 1: Prevent a non-boss enemy from acting and Rake them for 3 turns. Cannot be targeted while active. Requires Stalk. 3 turn charge.
+Level 2: Dispel a [Buff] on target for each hit while active
+Level 3: Increases damage by 25% while active",-,-,-
+Tackle,Single - Melee,-,"Level 1: Deals 0.7x Power [Physical] and [Stun] damage to an enemy.
+Level 2: Damge increased based on Speed
+Level 3: Damage increased up to 50% vs targets with higher current Turn Progress",-,-,-
+Football Pads,Passive,-,"Level 1: 50% chance to negate [Physical] hits taken.
+Level 2: Reduces HP damage taken by 20%
+Level 3: Cannot be critically hit",-,-,-
+Athletic Training,Passive,-,"Level 1: Increases Endurance by 50%.
+Level 2: Agility increased by 25%
+Level 3: Speed increased by 25%",-,-,-
+Trash Talker,Passive,-,"Level 1: Steal 25% Speed from all Taunted enemies.
+Level 2: Take 25% less damage from Taunted enemies
+Level 3: Deal 35% increased damage to Taunted enemies",-,-,-
+Hype Up,Self - Party,-,"Level 1: Allies gain 50% increased Speed until their next turn. Charges over time.
+Level 2: Allies deal 50% more damage their next turn
+Level 3: Allies gain turn 50% progress",-,-,-
+Zone Defense,Self - Adjacent,34,"Level 1: Stance. Automatically Protect adjacent allies. Decreases damage by 35%.
+Level 2: Take 50% less redirected damage
+Level 3: Gain turn progress from redirected damage",-,-,-
+Blitz Stance,Self,34,"Level 1: Stance. Adds up to 0.5x Speed damage to [Attack] skill damage. Disables Bonus Actions.
+Level 2: Increases Technique by 35% of Speed
+Level 3: [Attack] skills have 35% less turn delay",-,-,Blitzer's Speed
+Lightning,Single - Any,-,"Level 1: Deals 1.2x Focus [Lightning] damage to target.
+Level 2: Hits twice for 0.8x Focus
+Level 3: Always hits",-,-,-
+Calm,Self,-,"Level 1: Bonus Action. Prevents Chaos Storm and increases Technique by 50%.
+Level 2: Increases Wisdom by 50%
+Level 3: Doubles MP regeneration",-,-,-
+Mental Fortress,Passive,-,"Level 1: Allies gain 50% of Cain's Wisdom.
+Level 2: Reduces MP damage taken by 50% for allies
+Level 3: Doubles MP regeneration for allies",-,-,-
+Volatile Capacitor,Passive,-,"Level 1: Reduces maximum MP by 75%. Start battle at 0 MP.
+Level 2: Increases MP regeneration by up to 50% based on current MP
+Level 3: Increases damage dealt by up to 50% based on current MP",-,-,-
+Unstable Generator,Passive,-,"Level 1: Regenerate MP when dealing [Lightning] damage. MP healing received is reduced by 75%.
+Level 2: After each turn, a random enemy takes 0.5x Focus [Lightning] damage for every 100 MP you have
+Level 3: Increases Speed by 25% of your current MP",-,-,-
+Chaos Storm,Passive,-,"Level 1: When at maximum MP, drains 100% of MP to deal [Lightning] damage to all enemies based on MP. Prevents MP gain until next turn.
+Level 2: Take 35% less damage while exhausted
+Level 3: Retain 25% of MP",-,-,-
+Ball Lightning,Cross - Any,9,"Level 1: Deals 0.75x Focus [Lightning] damage that jumps to an adjacent enemy two times.
+Level 2: Jumps 3 times
+Level 3: Jumps 4 times",-,-,Storm Visor
+Stasis Net,Single - Any,-,"Level 1: Deals 150-200 [Lightning] and [MP] damage over time for 3 turns. Three uses. Cannot miss.
+Level 2: Steals MP from target
+Level 3: Target cannot dodge",-,-,-
+Pull Rope,Single - Any,-,"Level 1: Deals 100 [Stun] damage and pulls target enemy into front row.
+Level 2: Damage gains 100% piercing
+Level 3: Always critically hits",-,-,-
+Invisible Wall,All - Party,-,"Level 1: Bonus Action. Blocks up to 1.5x Technique direct damage taken by the party.
+Level 2: Consume 25% of MP to increase shield
+Level 3: Shield blocks 15% more damage",-,-,-
+Mime Master,Passive,-,"Level 1: Gain 5% attributes from characters of currently copied Mimicry skills.
+Level 2: Invisible Wall no longer consumes MP
+Level 3: Pull Rope now applies Prank effect",-,-,-
+Stunning Mockery,Passive,-,"Level 1: Adds up to 1x Technique [Stun] damage to hits from skills.
+Level 2: Deals 50% more added damage from Mimicry skills
+Level 3: Damage can critically hit",-,-,-
+Mimicry,Self,90,"Level 1: Copies the last copyable skill used by each ally. Cannot copy Bonus Actions or passive skills. 
+Level 2: Copied skills cost 0 MP
+Level 3: Copied skills have 35% reduced turn delay",-,-,-
+Stumble,Self,37,"Level 1: Step forward, then fall down.
+Level 2: Turn delay decreased by 35%
+Level 3: 35% chance to gain a free turn",Pratfall,-,-
+Slash,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to an enemy.
+Level 2: Apply 25% of damage dealt as [Physical] damage over time for 3 turns
+Level 3: 50% increased critical hit chance",-,-,-
+Regenerate,Self,-,"Level 1: Restores 33% Max HP on self.
+Level 2: Restores 50% Max MP
+Level 3: Dispels up to 3 [Debuff]",-,-,-
+Liquid Metal,Passive,-,"Level 1: Take 60% decreased [Physical] and [Stun] damage, but 2x damage from [Fire] and [Ice].
+Level 2: When hit by a [Melee] attack, return 2x TGH [Stun] damage to attacker
+Level 3: Stamina loss decreased by 75%",-,-,-
+Imitation,Passive,-,"Level 1: Whenever an ally uses a skill copied by Martial Database, Alpha has a 50% chance to use the same skill if possible.
+Level 2: Target enemy with Assign Target effect if possible
+Level 3: Skill no longer costs MP",-,-,-
+Relentless,Passive,-,"Level 1: Gain Free Turn the first time an enemy is at critical HP or downed.
+Level 2: Deal 25% increased damage against critical HP enemies
+Level 3: Speed increased by 50% when any living enemy is at critical HP",-,-,-
+Reform,Passive,-,"Level 1: Once per battle, skip the turn after being downed to revive self at 33% HP
+Level 2: Revive at 66% HP
+Level 3: Activate twice per battle",-,-,-
+Martial Database,Self,-,"Level 1: Use [Melee] [Attack] skills from other allies at level 1, except [Gadget].
+Level 2: Martial DB skills become level 2
+Level 3: Martial DB skills become level 3",-,-,-
+Assign Target,Single - Any,45,"Level 1: Increases target's damage taken from Alpha by 25%. Limit of one Assigned Target.
+Level 2: Attacks target with Slash after it acts, if possible
+Level 3: If the target gains a Free Turn, gain one as well",-,-,-
+Pixie Dust,Self - Adjacent,-,"Level 1: Bonus Action. Heals adjacent allies for 0.5x Focus HP.
+Level 2: Also restores 0.15x Focus MP
+Level 3: Dispels a random [Debuff] and removes [Sleep] and [Stun] damage",-,-,Magic Satchel
+Flit,Single - Any,-,"Level 1: Swap position and grant target ally 10% Turn Progress.
+Level 2: Target gains double dodge chance for 1 turn
+Level 3: Activates Pixie Dust after shifting",-,-,-
+Fae Magic,Passive,-,"Level 1: [Buff] effects applied by Blueberry cannot be dispelled.
+Level 2: [Debuff] cannot be dispelled
+Level 3: [Buff] and [Debuff] last one extra turn",-,-,-
+Nature's Shroud,Passive,-,"Level 1: Lose 25% less stamina when traveling through portals in conduit space.
+Level 2: Start battle with 3 Resist
+Level 3: Take 35% decreased damage from [Spell] skills",-,-,-
+Spritely,Passive,-,"Level 1: Agility increased by 25% when hit. Stackable. All stacks are lost when you dodge.
+Level 2: Immune to [Sleep] damage
+Level 3: Agility cannot be reduced below base",-,-,-
+Mischievous,Passive,-,"Level 1: After Blueberry applies [Debuff] to an enemy, add 1 turn to another random [Debuff] duration on the same target.
+Level 2: Restores 0.75x Focus HP after applying [Debuff]
+Level 3: 10% chance to gain Free Turn after an ally applies [Debuff] to an enemy",-,-,-
+Fairy Curse,Single - Any,61,"Level 1: Target enemy's technique decreased by 50% for 2 turns.
+Level 2: Target cannot dodge
+Level 3: Target's [Healing] received decreased by 90%",-,-,-
+Fairy Kiss,Single - Melee,45,"Level 1: Target ally's skills cannot miss for 1 turn.
+Level 2: Target gains +10% to all attributes 
+Level 3: Other [Buff] effects on target gain +1 turn duration",-,-,-
+Faceless,Passive,-,"Level 1: On Death, be replaced by another Immortal up to 3 times, as long as at least one other ally is alive and not downed.
+Level 2: Reduces Bleed Out to one turn
+Level 3: Gain Free Turn when replaced",Replacement,-,-
+Bodyguard,Passive,-,"Level 1: Increases Protect damage redirect up to 100%, based on ally's missing HP. Limit 1 Protect.
+Level 2: Ally cannot take critical damage
+Level 3: Ally cannot be downed by direct hits",-,-,-
+Return Fire,Passive,60,"Level 1: Use MP to counterattack with your Primary skills when Protected ally is targeted.
+Level 2: Decreases MP cost by 35%
+Level 3: Counterattack gains 25% piercing",-,-,-
+Detect Threats,Passive,-,"Level 1: When entering battle, decrease enemy damage dealt by 35% for 1 turn.
+Level 2: Affected enemies have 50% reduced chance to hit
+Level 3: Affected enemies cannot critically hit",-,-,-
+Support,Single - Melee,-,"Level 1: Target ally gains 25% of your attributes. Limit one.
+Level 2: Attributes given increased to 33%
+Level 3: Gain a free turn when target ally is downed",-,-,Medic Backpack
+Inspirational,Passive,-,"Level 1: Allies affected by [Song] skills gain 0.1x Seb's Technique as MP every turn.
+Level 2: Adds up to 0.20x Technique damage to ally skills
+Level 3: Ally skills have 10% decreased turn delay",-,-,-
+Master of Song,Passive,-,"Level 1: Seb's different [Song] skills can stack with each other. Technique decreased by 10% for each song past the first.
+Level 2: Technique penalty reduced to 5%
+Level 3: Turn delay decreased bt 25% for [Song] skills",-,-,-
+Coward,Passive,-,"Level 1: 35% chance to automatically Hide after being hit.
+Level 2: 50% chance to dodge hits while hidden
+Level 3: Always Hide while critical",-,-,-
+Lute,Self,-,"Level 1: Access learned Song skills.
+Level 2: Songs become level 2
+Level 3: Songs become level 3",-,-,-
+Ballad,All - Party,?,"Level 1: Song. Increases Power and Toughness by 20% of [Character]'s TEC for all allies.
+Level 2: Allies gain 1 Resist after their turn
+Level 3: Decreases damage taken by 15%",Power Ballad,-,-
+Melody,All - Party,?,"Level 1: Song. Increases Focus and Discipline by 20% of [Character]'s Technique for all allies.
+Level 2: Doubles MP regeneration for all allies
+Level 3: Allies take 50% less [MP] damage",-,-,Melodic Score
+Nature Affinity,Passive,-,"Level 1: Gain Nature stack after using Nature Magic. Stacks decrease turn delay for Astral Magic. Max 5 stacks.
+Level 2: Each stack increases Toughness by 10
+Level 3: Each stack increases Endurance by 10",-,-,-
+Astral Affinity,Passive,-,"Level 1: Gain Astral stack after using Astral Magic. Stacks increase healing and damage of Nature Magic by 10%. Max 5 stacks.
+Level 2: Each stack increases Discipline by 10
+Level 3: Each stack increases Speed by 10",-,-,-
+Nature Magic,Self,-,"Level 1: Access Nature Magic skills. Each use grants Nature stack.
+Level 2: Nature Magic skills become level 2
+Level 3: Nature Magic skills become level 3",-,-,-
+Regrowth,Single - Any,?,"Level 1: Heals an ally for 0.75x Focus, then 0.3x Focus per turn for 3 turns.
+Level 2: Increases target Endurance by 35%
+Level 3: Heals up to 50% more based on target's missing HP",-,-,Floral Seed
+Healing Rain,Self - Party,?,"Level 1: All allies heal for 0.75x Focus for three turns.
+Level 2: Removes one [Debuff] per heal
+Level 3: Lasts 5 turns",-,-,Waking Water
+Vine Grasp,Single - Any,?,"Level 1: Deals 0.75x Focus [Physical] and [Stun] damage to target. Lasts 3 turns.
+Level 2: Decreases Agility by 35%
+Level 3: Decreases Speed by 35%",-,-,-
+Astral Magic,Self,-,"Level 1: Access Astral Magic skills. Each use grants Astral stack.
+Level 2: Astral Magic skills become level 2
+Level 3: Astral Magic skills become level 3",-,-,-
+Sunbeam,Single - Any,?,"Level 1: Deals 0.35x Focus [Fire] damage to target five times.
+Level 2: Each miss increases chance to hit by 25%
+Level 3: Each hit increases damage by 50%",-,-,-
+Moonbeam,Cross - Any,?,"Level 1: Deals 0.45x Focus [Energy] damage to enemies up to 5 times.
+Level 2: 25% increased damage
+Level 3: Hts up to 7 times",-,-,Attunement
+Mirage,Single - Any,?,"Level 1: Target ally cannot be directly targeted by enemies for 3 turns.
+Level 2: Target takes 50% decreased damage
+Level 3: Hits have 35% chance to miss",-,-,-
+Star Fury,All - Party,-,"Level 1: Deals 1.5x Focus [Physical] damage to enemies 3 times. Requires and consumes 5 Nature stacks.
+Level 2: Each hit deals 35% more damage
+Level 3: Last hit ignores Toughness",-,-,-
+Gaia's Embrace,Self - Party,-,"Level 1: Heals allies for 5x Focus. Requires and consumes 5 Astral stacks.
+Level 2: Restores 5x Focus MP for allies
+Level 3: Removes all [Debuff] from allies",-,-,-
+Vine Spear,Single - Any,-,"Level 1: Deals 1.35x Power [Physical] damage to target enemy.
+Level 2: Deals 50% increased critical damage
+Level 3: Always hits",-,-,-
+Charm,Single - Any,-,"Level 1: Force a non-Boss enemy to attack an adjacent teammate next turn with a basic attack, if possible.
+Level 2: Attack deals 50% increased damage
+Level 3: Effect has 25% chance to persist",Subpoena,-,Charmer's Veil
+Enchant Spear,Passive,-,"Level 1: After using a [Spell] skill, gain a stack of Enchant Spear, max 5. Next Vine Spear consumes all stacks to deal 1x FCS [Energy] damage per stack.
+Level 2: Added damage ignores defenses
+Level 3: Each stack has 50% chance to not be consumed",-,-,-
+Vine Armor,Passive,-,"Level 1: Increases Toughness by 50% of Focus.
+Level 2: Reduces [Physical] damage taken by 35%
+Level 3: Toughness cannot be reduced below base",-,-,-
+Ageless,Passive,-,"Level 1: Decreases Stamina loss by 35% and [Buff] last 1 turn longer.
+Level 2: Gain 5% increased attributes for each [Buff]
+Level 3: Gain 10% increased damage and healing for each [Buff]",-,-,-
+Healing Wisp,Self,-,"Level 1: Summon a wisp that casts Regrowth. Lasts 5 turns.
+Level 2: Wisp gains 50% of your Focus
+Level 3: Automatically cast at start of battle",-,-,-
+Arboreal Aid,Self,-,"Level 1: Access Arboreal Aid skills.
+Level 2: Arboreal Aid skills become level 2
+Level 3: Arboreal Aid skills become level 3",-,-,-
+Barkskin,Single - Any,?,"Level 1: [Physical] damage taken by target decreased by 0.5x Focus, up to 75%. Lasts 3 turns.
+Level 2: Decreases [Poison] damage taken by 50%
+Level 3: Heals for 0.5x Focus every turn",-,-,-
+All For One,Passive,-,"Level 1: Gain 5% of all attributes from all allies
+Level 2: Gain up to 5% more attributes based on ally HP percent
+Level 3: Gain up to 5% more attributes based on your missing HP",-,-,-
+One For All,Passive,-,"Level 1: Automatically Protects the weakest adjacent ally.
+Level 2: Protect now redirects 50% more damage
+Level 3: Reduces redirected damage by 50%",Chivalry,-,-
+En Garde,Passive,-,"Level 1: Automatically Taunt target after using Disarm.
+Level 2: Taunted enemies have a 50% chance to miss you
+Level 3: Automatically Lunge after Taunted targets' turns",-,-,-
+Coup de Gras,Single - Any,33,"Level 1: Deals 2.5x Power [Physical] damage to target critical enemy.
+Level 2: Always deals critical damage 
+Level 3: Cannot miss",Execute,Takedown,-
+Smite,Single - Melee,-,"Level 1: Deals 1x Power [Physical] and 0.5x Focus [Holy] damage.
+Level 2: Holy damage is now always critical
+Level 3: Deals up to 50% more damage based on target's HP",-,-,-
+Devotion,Passive,-,"Level 1: Skills granted by Oath are level 1.
+Level 2: Skills are level 2
+Level 3: Skills are level 3",-,-,-
+Sacred Duty,Passive,-,"Level 1: Reduces damage taken from Cultists, Undead, and Bosses by 60%.
+Level 2: Reduces duration of [Debuff] effects to 1 turn
+Level 3: Increases all attributes by 15% of Discipline",-,-,-
+Divine Shield,Single - Any,-,"Level 1: Blocks all damage taken by ally until your next turn. Limit one.
+Level 2: Increases target's healing received by 50% while active
+Level 3: Dispels all [Debuff] effects on end",-,-,William's Penance
+Lay On Hands,Single - Any,-,"Level 1: Heals another ally for 100% of William's maximum HP. One use.
+Level 2: Ally also regains 50% of William's maximum MP
+Level 3: Ally gains a Free Turn",-,-,-
+Holy Wrath,Cross - Melee,-,"Level 1: Deals 1x Power [Physical] and [Holy] damage to enemies in an area.
+Level 2: Pierces 35% of defenses
+Level 3: Always hits",-,-,-
+Oath of Justice,Self,-,"Level 1: Gain access to Justice skills and Holy Wrath charges faster. Limit one Oath.
+Level 2: Increases [Holy] damage by 35%
+Level 3: Decreases turn delay of Holy Wrath by 25%",-,-,-
+Oath of Protection,Self,-,"Level 1: Gain access to Protection skills and Divine Shield now charges over time. Limit one Oath.
+Level 2: Divine Shield lasts an extra turn on self
+Level 3: Taunt enemies when gaining Divine Shield",-,-,-
+Oath of Restoration,Self,-,"Level 1: Gain access to Restoration skills and Lay On Hands now charges over time. Limit one Oath.
+Level 2: Increases healing by up to 50% based on missing HP
+Level 3: Overheal heals all allies for 15% of amount",-,-,-
+Wrist Laser,Single - Any,-,"Level 1: Deals 1x Power [Energy] damage to target.
+Level 2: Turn delay decreased by 35%
+Level 3: Also deals 0.3x Power [Fire] damage",-,-,Pursuer Bracer
+Marked Target,Passive,-,"Level 1: Random enemy becomes Marked. Can only target that enemy but deal 50% more damage.
+Level 2: Counterattack Marked enemy after every turn
+Level 3: Always hit Marked enemy",-,-,-
+Claim Bounty,Passive,-,"Level 1: Fully restores HP and MP when Marked enemy is downed. Prevents Bleedout.
+Level 2: Restores [Gadget] skills when Marked enemy is downed
+Level 3: Gain Free Turn when Marked enemy is downed",-,-,-
+PR3D-Missile,Single - Any,-,"Level 1: Deals 450-500 [Physical] damage to an enemy. Charges in 4 turns.
+Level 2: Charges in 3 turns
+Level 3: Charges in 2 turns",-,-,-
+Katana,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to an enemy.
+Level 2: Apply 25% of damage dealt as [Physical] damage over time for 3 turns
+Level 3: Ignores 50% of target Toughness and Discipline",-,-,-
+Iaido,Passive,-,"Level 1: Deals 1x Power [Physical] damage to a random enemy at start of turn.
+Level 2: Restore 20% of MP when triggered
+Level 3: Uses Kenjiro's first skill instead when triggered",-,-,-
+Lucid Mind,Passive,-,"Level 1: Spirit Shield cannot be dispelled and activates at start of battle.
+Level 2: Discipline increased by 35% of Wisdom
+Level 3: Wisdom and Discipline cannot be reduced below base",-,-,-
+Sword Spirit,Self,-,"Level 1: Bonus Action. Access the Sword Spirits. Charges over time.
+Level 2: Sword Spirits become level 2
+Level 3: Sword Spirits become level 3",-,-,-
+Tengu,Self,-,"Level 1: Replace Katana with Wind Cutter. Cast Falling Leaf on end.
+Level 2: Gain 50% of Discipline as Power and Focus while active
+Level 3: Adds up to 0.5x Discipline to damage with hits",-,-,-
+Kappa,Self,-,"Level 1: Replace Katana with Goading Strike. Cast Great Shell on end.
+Level 2: Gain 50% of Discipline as Power and Toughness while active
+Level 3: Reduces damage taken by 0.5x Discipline, up to 75%",-,-,-
+Kitsune,Self,-,"Level 1: Replace Katana with Rising Flame. Cast Foxfire on end.
+Level 2: Gain 50% of Discipline as Power and Agility while active
+Level 3: Discipline % increases dodge chance",-,-,-
+Spirit Walk,Self,-,"Level 1: All damage taken is converted into [MP] damage for 1 turn.
+Level 2: Restore 25% of missing MP on end
+Level 3: Gain 3 Resist stacks on use",-,-,-
+Commune,Self,-,"Level 1: Access the Animal Spirit skills. Requires Spirit Walk.
+Level 2: Animal Spirits become level 2
+Level 3: Animal Spirits become level 3",-,-,-
+Elk Spirit,Self,-,"Level 1: Summon an Elk Spirit that casts Regrowth on allies.
+Level 2: Allies heal for 5% Max HP every turn
+Level 3: Cast Healing Rain when expiring",-,-,-
+Boar Spirit,Self,-,"Level 1: Summon a Boar Spirit that uses Gore on enemies. 
+Level 2: Allies take 15% less damage while active
+Level 3: Cast Bulwark when expiring",-,-,-
+Owl Spirit,Self,-,"Level 1: Summon a Boar Spirit that uses Gore on enemies. 
+Level 2: Allies restore 15% Max MP every turn
+Level 3: Cast Wail when expiring",-,-,-
+Duality of Being,Passive,-,"Level 1: Being healed also restores 35% as MP.
+Level 2: Gain 25% of Wisdom as Endurance
+Level 3: Gain 25% of Endurance as Wisdom",-,-,-
+Spirit Channeling,Passive,-,"Level 1: Sustains your Animal Spirit while active. Lasts 3 turns. Channeled.
+Level 2: Animal Spirits gain all stats equal to 35% of Lucien's Wisdom
+Level 3: Animal Spirits gain a copy of Lucien's relics",-,-,-
+Read Omen,Passive,-,"Level 1: At start of [Character]'s turn, a random ally gains a Free Turn.
+Level 2: Ally gains 50% of missing MP
+Level 3: [Character] also gains the ally's restored MP",Grant Wish,-,-
+Shamanic Path,Passive,-,"Level 1: Automatically Spirit Walk at the start of battle.
+Level 2: Automatically Meditate when critical
+Level 3: Turn delay decreased by 35% while Channeling",-,-,-
+Splash,Single - Any,-,"Level 1: Deals 1x Focus [Physical] and [Stun] damage.
+Level 2: Decreases target's Technique by 15%
+Level 3: Decreases target's Speed by 15%",-,-,-
+Submerge,Passive,-,"Level 1: After taking 10% of HP damage from hits, reduce all damage by 90% until next turn.
+Level 2: Restore 25% of Max MP when activated
+Level 3: Remove all [Debuff] effects when activated",-,-,-
+Lullaby,Single - Any,53,"Level 1: Damage taken by target does not decrease Sleep counter for 3 turns.
+Level 2: Damage taken gains 50% piercing if sleeping
+Level 3: Damage taken always critical if sleeping",-,-,-
+Arctic Jet,Column - Any,-,"Level 1: Deals 1.5x Focus [Physical] and [Ice] damage to enemies. Charges over time.
+Level 2: Also deals [Stun] damage
+Level 3: 50% increased damage against one target",-,-,-
+Drown,Single - Any,-,"Level 1: Deals 2.5x Focus [Physical] damage to a sleeping enemy.
+Level 2: Always deals critical damage
+Level 3: Cannot miss",-,-,-
+Rune Strike,Single - Melee,-,"Level 1: Deals 0.8x Power [Physical] damage. Gain 25% of Max MP.
+Level 2: Allies gain half as much MP
+Level 3: Cast Spellscreen on self after use",-,-,-
+Spellscreen,Single - Any,-,"Level 1: Blocks up to 1x Focus damage from [Spell] skills.
+Level 2: Restores MP for 1x the damage blocked
+Level 3: Deals [Energy] damage to attackers for 1x damage blocked",-,-,Runic Mail
+Enchanted Blade,Passive,-,"Level 1: Deal up to current MP as [Energy] damage with [Attack] skills but lose 10% MP.
+Level 2: Damage pierces 50% of defenses
+Level 3: Gain permanent True Strike",-,-,-
+Spell Refraction,Passive,-,"Level 1: Whenever an ally uses a [Spell] skill, Gabrielle has a 50% chance to use the same skill if possible.
+Level 2: Gabrielle gains 35% turn progress after use
+Level 3: Skill no longer costs MP",-,-,-
+Arcane Conduit,All - Party,120,"Level 1: While active, force enemy [Spell] skills to target you. Last 3 turns.
+Level 2: Enemies deal 50% less damage with [Spell] skills
+Level 3: Enemies take 1x Focus [Energy] damage on [Spell] use",-,-,-
+Shatter,Single - Any,40,"Level 1: Dispels 1 [Buff] effect and deals 0.75x Focus [Energy] damage for each removed.
+Level 2: Dispels up to 2 [Buff] effects
+Level 3: Dispels up to 3 [Buff] effects",-,-,Dispelling Wand
+Feedback,Single - Any,40,"Level 1: Target takes 1x Focus [Energy] damage after using [Attack] skills. Lasts 3 turns. Only targets enemies that have [Attack] skills. Stacks.
+Level 2: Target deals 25% less damage with [Attack] skills
+Level 3: Now lasts 5 turns",-,-,-
+True Strike,Single - Any,33,"Level 1: Target always hits with next 3 [Attack] skills.
+Level 2: Reduces MP cost of [Attack] skills by 50%
+Level 3: Target ignores defenses with [Attack] skills",-,-,-
+Stakebolt,Single - Any,-,"Level 1: Deals 1.5x Power [Physical] damage. Instantly removes Undead that are downed by Stakebolt.
+Level 2: Deals 50% increased damage to Undead
+Level 3: Always critically hit Undead",-,-,-
+Blood Trance,Self,-,"Level 1: Sacrifice 20% HP every turn and increase damage with [Attack] skills by 35%. Toggleable.
+Level 2: Heal by 25% of damage dealt with [Attack] skills
+Level 3: Activates at start of battle",-,-,Hunter's Blood
+Bloodline,Self,-,"Level 1: Base attributes are increased by 25%, but prevents healing from sources other than self.
+Level 2: Regenerate 20% of missing HP every turn
+Level 3: Lose 50% less Stamina when traveling through conduit space",-,-,-
+Daywalker,Passive,-,"Level 1: Take 50% decreased [Holy] damage.
+Level 2: Immune to [Stun] to [Sleep] damge
+Level 3: Bloodline only prevents 50% of healing",-,-,-
+Anatomical Study,Passive,-,"Level 1: Second chance for damage dealt to be critical.
+Level 2: Critical damage increased by 50% 
+Level 3: Critical damage has 50% more piercing",-,-,-
+Hunter Tools,Self,-,"Level 1: Access Vampire Hunter Tools.
+Level 2: Tools become level 2
+Level 3: Tools become level 3",-,-,-
+Silver Net,Single - Any,?,"Level 1: Deals 100-150 [Stun] for 3 turns. Undead and Beasts also take 100-150 [Holy] damage. One use.
+Level 2: 35% chance for non-boss target's turn to be interrupted
+Level 3: Target cannot dodge",-,-,-
+Blessed Water,Single - Melee,?,"Level 1: Deals 15% Max HP [Holy] damage to Undead enemy.
+Level 2: Prevents [Healing] on target Undead enemy
+Level 3: Target Undead enemy dies immediately if Downed",-,-,-
+Crucifix,Row - Any,?,"Level 1: Deals 150-200 [Stun] damage to enemies in the front row. One use.
+Level 2: Also deals 100-150 [Holy] damage
+Level 3: All Downed enemies are removed from battle",-,-,-
+Whip Shot,Single - Any,?,"Level 1: Deals 0.75x Power [Physical] damage and shifts target to the back row.
+Level 2: Also deals 1x Power [Stun] damage
+Level 3: Also deals 66% of damage to back row target",-,-,-
+Auto Crossbow,Single - Any,-,"Level 1: Deals 0.65x Power [Physical] damage up to 6 times. Charges during Blood Trance.
+Level 2: Deals 33% increased damage to Undead
+Level 3: Each hit increases damage by 10%",-,-,-
+Witchcraft,Passive,-,"Level 1: Gain 20% current MP as Technique, but lose 15% current MP after casting a [Spell] skill.
+Level 2: MP regeneration increased by 50%
+Level 3: MP cost of [Spell] skills reduced by 50%",-,-,-
+Dark Arts,Passive,-,"Level 1: Adds up to 10% of current MP to damage of [Spell] hits, but sacrifice 15% of current HP after casting a [Spell] skill.
+Level 2: Gain the lost HP as MP
+Level 3: Deal up to 35% increased damage based on missing HP",-,-,-
+Cauldron,Self,-,"Level 1: Cast various spells by using Reagents.
+Level 2: Cauldron Spells become level 2
+Level 3: Cauldron Spells become level 3",-,-,-
+Dark Flame,Single - Any,?,"Level 1: Deals 1x Focus [Dark] and [Fire] damage. Uses all Newt Eye and Bat's Fur.
+Level 2: Hits extra target for each Bat's Fur
+Level 3: Deals 25% more damage for each Newt Eye",-,-,-
+Acid Burn,Column - Any,?,"Level 1: Deals 0.6x Focus [Poison] and [Fire] damage. Uses all Newt Eye and Toad Cap.
+Level 2: Targets lose 1 dispellable [Buff] for each Toad Cap
+Level 3: Gains 25% piercing for each Newt Eye",-,-,-
+Pestilence,All - Party,?,"Level 1: Deals 0.35x Focus [Poison] and [Dark] damage over time. Uses all Bat's Fur and Toad Cap.
+Level 2: Lasts 1 extra turn for each Bat's Fur
+Level 3: Decreases target attributes by 5% for each Toad Cap",-,-,-
+Reagents,Self,-,"Level 1: Reagents used to cast spells. Gain 1 random reagent per turn.
+Level 2: Gain 2 per turn
+Level 3: Gain 3 per turn",-,-,-
+Newt Eye,Single - Any,?,"Level 1: Deals 50-75 [Fire] damage to target enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Toad Cap,Single - Any,?,"Level 1: Deals 50-75 [Poison] damage to target enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Bat's Fur,Single - Any,?,"Level 1: Deals 50-75 [Dark] damage to target enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Love Potion,Single - Any,-,"Level 1: Redirect 50% of damage taken by self to target ally.
+Level 2: Redirect damage reduced by 50%
+Level 3: Redirects up to 100% based on missing HP",-,-,-
+Chop,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target. Deals 50% increased damage to Plants.
+Level 2: Damage gains 50% more piercing
+Level 3: Damage increased by 30%",-,-,-
+Midnight Curse,Self,-,"Level 1: Lose control, but gain Rip and Tear skills and 50% increased attributes, after 3 turns.
+Level 2: 35% chance to repeat [Attack] skills
+Level 3: Gain Free Turn when activated",-,-,-
+Rip,Single - Melee,?,"Level 1: Deals 0.3x Power [Physical] damage to an enemy three times.
+Level 2: Hits 4 times
+Level 3: Hits 5 times",Flurry,-,-
+Tear,Single - Melee,?,"Level 1: Deals 1.35x Power [Physical] damage and decreases target's [Healing] received by 40% for 3 turns.
+Level 2: Stacks three times
+Level 3: Decreases target's Endurance by 15%",Wound,-,-
+Wolfblood,Passive,-,"Level 1: Reduces healing received by 50%.
+Level 2: Gain 15% of [Attack] damage as healing
+Level 3: Automatically use Howl at start of turn",-,-,-
+Howl,All - Party,55,"Level 1: Increases Power, Speed, and Technique by 25% for all allies.
+Level 2: Reduces damage taken by 50% while critical
+Level 3: Allies gain 35% turn progress",-,-,Wolf's Fang
+Wraith Strike,Single - Melee,-,"Level 1: Deals 0.75x Power [Physical] damage to target enemy. Short turn delay.
+Level 2: Damage restores MP
+Level 3: Always hits",-,-,-
+ExoSuit,Passive,-,"Level 1: Reduces MP cost of [Attack] skills by 35%
+Level 2: Adds an extra chance to try to dodge
+Level 3: Gain 1 Resist every turn",-,-,-
+Cloaking Module,Passive,-,"Level 1: Ambush lasts for 3 skills but reduces max MP by 25%.
+Level 2: Ambush has 50% reduced turn delay
+Level 3: Always hit while Ambush active",-,-,-
+Phantom Cut,All - Party,18,"Level 1: Deals 0.45x Power [Physical] damage until out of MP, up to 25 times. Requires and expends Mirror Image.
+Level 2: MP cost decreased by 25%
+Level 3: Each hit has 20% chance to be free",-,-,-
+Mirror Image,Self,83,"Level 1: Bonus Action. Summon clone that copies your next 3 skills a 65% damage.
+Level 2: MP cost decreased by 35%
+Level 3: Clone deals full damage",-,-,Shattered Vanity
+Dragon Blade,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target enemy.
+Level 2: Also deals 0.5x Focus [Fire] damage
+Level 3: Cannot miss",-,-,-
+Racketeer,Passive,-,"Level 1: Kazuo steals 10% of all attributes from allies he Protects.
+Level 2: Kazuo steals 10% of all attributes from enemies he Extorts
+Level 3: Take 50% less damage from Extorted enemies",-,-,-
+Uzi,Passive,-,"Level 1: Deals 75-125 [Physical] damage to random enemies at start of turn.
+Level 2: Hits 6 times
+Level 3: Hits 8 times",-,-,-
+Extort,Single - Any,-,"Level 1: Target enemy has a 35% chance for their turn to be interrupted. Lasts until dispelled. No effect on Bosses.
+Level 2: Steals one dispellable [Buff] on interrupt
+Level 3: Gain 25% turn progress on interrupt",-,-,-
+Dragon Rush,Column - Melee,139,"Level 1: Deals 2x Power [Physical] and [Fire] damage, but decreases Kazuo's attributes by 35% and cannot be used again for 3 turns.
+Level 2: Take 50% decreased damage while exhausted
+Level 3: Always deal critical damage",-,-,-
+Laugh,Self,-,"Level 1: Up to 3 random enemies gain Debt and are Taunted. Charges over time.
+Level 2: Dispel 1 [Debuff] effect for each enemy hit
+Level 3: Heal for 5% Max HP for each enemy hit",-,-,-
+Debt,Passive,-,"Level 1: Deals 0.5x Power [Sonic] damage every turn to affected target. Cannot be resisted. Ends if graham is downed.
+Level 2: Decreases target's damage dealt by 5% for each stack
+Level 3: Pierces 50% more defenses",-,-,-
+Financial Crisis,Passive,-,"Level 1: After inflicting 8 stacks of Debt, automatically inflict all enemies and allies with Debt.
+Level 2: Skips allies 50% of the time
+Level 3: Enemies have 35% chance to gain extra Debt",-,-,-
+Interest,Passive,-,"Level 1: Gain 25% of damage done by Debt as healing.
+Level 2: Gain 25% of the healing gained as Toughness up to +100
+Level 3: Gain 25% of the healing gained as Power up to +100",-,-,-
+Bankrupt,Single - Any,60,"Level 1: Remove all Debt stacks from enemy. Deals damage equal to 3 turns of Debt.
+Level 2: Deals damage equal to 4 turns
+Level 3: Deals damage equal to 5 turns",-,-,-
+Loan,Single - Any,90,"Level 1: Grant ally a Free Turn, but ally gains Debt every turn for 3 turns.
+Level 2: Ally gains 100% increased Speed
+Level 3: Ally deals 20% increased damage",-,-,-
+Offering,Self,-,"Level 1: Bonus Action. Sacrifice 20% of current HP.
+Level 2: Increase damage and healing of next skill by 25%
+Level 3: Dispel 3 [Debuff] effects",-,-,-
+Phylactery,Passive,-,"Level 1: Sacrificed HP charges Blood Essence skill.
+Level 2: Increases Focus by Blood Essence charge percent
+Level 3: Cast Blood Essence automatically of fully charged when Downed",-,-,-
+Scarred Flesh,Passive,-,"Level 1: Decreases damage taken by up to 80% based on missing HP.
+Level 2: Stamina has 50% decreased effect on Endurance
+Level 3: Decreases duration of [Debuff] to 1 turn",-,-,-
+Tainted Blood,Passive,-,"Level 1: Decreases Endurance and healing received by 5% per stack. Max 10 stacks. Gain stack when healed for 10% of Max HP.
+Level 2: Each stack increases damage and healing dealt by 10%
+Level 3: Heals for 5% Max HP when removed",-,-,-
+Blood Essence,Self,-,"Level 1: Heals self for up to Max HP, based on charge.
+Level 2: Allies gain 10% of healing done 
+Level 3: Retain 25% of charge after use",-,-,-
+Coagulate,Single - Any,21,"Level 1: Target enemy takes up to 0.5x Focus added [Dark] damage when hit.
+Level 2: Damage taken by enemy gains 50% more piercing
+Level 3: Damage taken by enemy charges Blood Essence",-,-,-
+Blood Shield,Single - Any,40,"Level 1: Create a shield that blocks up to 2.5x Focus damage taken by target ally. Sacrifice HP when shield blocks damage.
+Level 2: Shield strength gains 10% of current HP when cast
+Level 3: Ally gains 3 resist stacks",-,-,Martyr's Spike
+Hex,Single - Any,-,"Level 1: Bonus Action. Target takes 25% more damage from damage over time effects. Cannot be resisted.
+Level 2: Removes all resist stacks
+Level 3: Deals 3x Focus [Dark] damage if dispelled",-,-,-
+Dark Words,Self,-,"Level 1: Bonus Action. Access Dark Word skills.
+Level 2: Skills become level 2
+Level 3: Skills become level 3",-,-,Eldar's Scroll
+Dk Word: Fragility,Single - Any,?,"Level 1: Bonus Action. Increases target's damage taken by 15% for 3 turns.
+Level 2: Hits pierce 25% more of target's defenses
+Level 3: Adds up to 0.1x Focus damage to hits taken",-,-,-
+Dk Word: Weakness,Single - Any,?,"Level 1: Bonus Action. Decreases target's damage dealt by 15% for 3 turns.
+Level 2: Target has a 25% chance to miss
+Level 3: Target cannot critically hit",-,-,-
+Dk Word: Sloth,Single - Any,?,"Level 1: Bonus Action. Decreases target's Speed by 25% for 3 turns.
+Level 2: Decreases target's Agility by 25%
+Level 3: Target has 25% chance to be interrupted",-,-,-
+Devouring Soul,Passive,-,"Level 1: Reduces MP cost of [Dark] skills by 50% but converts half of healing received into MP.
+Level 2: [Dark] damage gains 25% more piercing
+Level 3: Increases [Dark] damage by up to 50% based on current MP",-,-,-
+Desecrate,All - Party,19,"Level 1: Enemies take 1x Focus [Dark] damage every turn but costs MP.
+Level 2: Enemies take 15% more damage
+Level 3: Costs 25% less MP per turn",-,-,-
+Haunt,Single - Any,22,"Level 1: Deals 0.5x Focus [Dark] damage every turn for 3 turns.
+Level 2: Damage increases by 25% every turn
+Level 3: Transfers to another enemy on end",-,-,Voodoo Talisman
+Sleep Bomb,All - Party,-,"Level 1: Deals 275-325 [Sleep] damage to all enemies. One use.
+Level 2: Two uses
+Level 3: Damage increased to 400-500",-,-,-
+Dancer,Passive,-,"Level 1: All [Attack] skills can be used as a Bonus Action.
+Level 2: Gain +10 Technique after every skill use
+Level 3: Damage no longer reduces Sleep",-,-,-
+Strike Back,Passive,-,"Level 1: Counter with Venom Bite after being targeted by a [Melee] skill.
+Level 2: Counter with Pirouette if possible
+Level 3: Counters cannot miss",Snapback,-,-
+Pirouette,Cross - Melee,84,"Level 1: Deals 0.75x Power [Physical] damage to enemies in an area.
+Level 2: Also deals [Stun] damage
+Level 3: Primary target is also hit with Venom Bite",Thrash,-,-
+Snake Oil,Single - Any,-,"Level 1: Fully heals target ally! (Disclaimer: this product not intended to diagnose, treat, cure or prevent any disease.)
+Level 2: Dispels all debuffs!
+Level 3: Grants full resistance!",-,-,-
+Prepare Food,Self,-,"Level 1: Channeled. Spend turn preparing a meal for Serve Meal. Stacks up to 10 meals.
+Level 2: Decreases damage taken by 35% while active
+Level 3: Counter with Throw Knife after being hit",-,-,-
+Serve Meal,Single - Any,-,"Level 1: Bonus Action. Heal target for 50% of missing HP.
+Level 2: Also restores 50% of missing MP
+Level 3: Dispel all [Debuff] on target",-,-,-
+Hearty Meal,Passive,-,"Level 1: Served Meals heal target ally for 25% missing HP for three turns.
+Level 2: Ally gains 25% increased attributes
+Level 3: Ally gains +350 Max HP",-,-,-
+Culinary Arts,Passive,-,"Level 1: Gain 15% turn progress after using [Attack] skills.
+Level 2: [Attack] skills damage increased by current turn progress
+Level 3: [Attack] skills have a 35% chance to repeat",-,-,-
+Throw Knife,Single - Any,30,"Level 1: Deals 1x Power [Physical] damage to target. Cannot be countered.
+Level 2: Deals 50% more critical damage
+Level 3: Damage gains 25% piercing",-,-,Jacques' Knife
+Soulflay,Single - Melee,45,"Level 1: Deals 1.35x Power [MP] damage to target. Always hits.
+Level 2: Decreases target Discipline by 35% for three turns
+Level 3: Target dies instantly if downed, instead of bleeding out. Lasts three turns.",Sever Soul,-,-
+Mix,Self,-,"Level 1: Bonus Action. Create one temporary healing Item for use.
+Level 2: Creates two items
+Level 3: Creates three items",-,-,Chemist Beaker
+Pharmaceuticals,Passive,-,"Level 1: Adds up to 1x Focus MP Healing from items used by Olive.
+Level 2: Healing items also dispel one [Debuff]
+Level 3: Gain an extra item from battle rewards",-,-,-
+Auto-Potion,Passive,-,"Level 1: Automatically use a random Potion on self when critical. Once per turn.
+Level 2: Automatically use strongest Potion
+Level 3: Potion is not consumed when used",-,-,-
+Patented Use,Self,-,"Level 1: Hits adjacent allies with a Potion item. Charges over time.
+Level 2: Item isn't consumed on use
+Level 3: Items affect all allies",-,-,-
+Painkillers,Single - Any,-,"Level 1: Decreases taken damage by 50% for an ally. Three uses.
+Level 2: Cannot be removed
+Level 3: 50% chance to prevent being downed",-,-,-
+Instruct,Single - Any,-,"Level 1: Command ally with Bargain to use one of their skills, if possible.
+Level 2: Ally can also use Illia's skills other than Dark Words and Instruct
+Level 3: Decreased turn delay by 35%",-,-,-
+Devil's Mark,Passive,-,"Level 1: After applying [Debuff], target takes 0.5x Focus [Dark] damage next turn. Max 3 stacks.
+Level 2: Max stacks increased to 5
+Level 3: Each stack increases Devil's Mark damage by 10%",-,-,-
+Dark Mandate,Passive,-,"Level 1: Whenever Illia would gain a Free Turn, she heals for 35% Max HP instead.
+Level 2: Dispel up to three [Debuff] effects
+Level 3: Gain 35% turn progress",-,-,-
+Bargain,Single - Any,-,"Level 1: Bonus action. Share 35% of Illia attributes with target ally, but ally skips their turns. One use.
+Level 2: Ally deals 25% more damage and healing
+Level 3: Ally has 50% chance to not be downed",-,-,-
+Hellclaws,Row - Melee,102,"Level 1: Deals 0.35x Power [Physical] damage to enemies three times.
+Level 2: Second hit always hits
+Level 3: Third hit always crits",-,-,-
+Banish,Single - Any,31,"Level 1: Target cannot act, but all damage and healing received are nullified for 3 turns. Not dispellable. Only one active at a time.
+Level 2: Removes all [Buff] effects from target
+Level 3: Deals 1.5x Focus [Dark] damage on end",-,-,-
+Penance,Self - Party,-,"Level 1: Heals all allies for 0.1x Focus for each Sin. Removes all Sin.
+Level 2: Dispel 1 [Debuff] from self for each Sin
+Level 3: Gain 1 Resist for each Sin",-,-,-
+Mortal Sin,Passive,-,"Level 1: Gain 2 Sin after using [Attack] skills. Each stack adds up to 0.15x Focus [Dark] damage to [Attack] hits, but increases damage taken by 10%.
+Level 2: Each stack increases [Attack] damage by 5%
+Level 3: Each stack increases Speed by +5",-,-,-
+Fallen Grace,Passive,-,"Level 1: Gain 5 Sin after using [Holy] skills, but sacrifice 15% of current HP.
+Level 2: Converts all [Holy] damage dealt into [Dark]
+Level 3: Decreases [Holy] skill MP cost to 0",-,-,-
+Flight,Self,-,"Level 1: Replace Guard Strike and Penance with Strafe and Grab. Become untargetable for 3 turns. Charges over time.
+Level 2: Increases Speed by 50%
+Level 3: Increases Power by 50%",-,-,-
+Strafe,Row - Any,?,"Level 1: Bonus Action. Deals 1x Power [Physical] damage to target. Row takes 0.5x Power [Physical] damage.
+Level 2: Enemies bleed for 50% [Physical] damage taken for 1 turn
+Level 3: Bleed now lasts 2 turns",-,-,-
+Grab,Single - Any,-,"Level 1: Pick up a non-boss target. Target cannot act and is dropped on Eligor's next turn, or when Flight ends, for 1x Speed [Physical] damge.
+Level 2: Also deals [Stun] damage
+Level 3: Deals 25% increased damage",-,-,-
+Fatal Spear,Single - Any,-,"Level 1: Deals 2.0x Power [Physical] damage to target critical enemy. Deals double damage if used while in Flight.
+Level 2: Always deals critical damage
+Level 3: Cannot miss",-,-,-
+Heroism,Passive,-,"Level 1: Gain +10 increased attributes after every skill use. When ally is downed, 50% chance to lose each stack.
+Level 2: Each stack reduces MP cost by 5%
+Level 3: Each stack reduces damage taken by 5%",-,-,-
+Fire Safety,Passive,-,"Level 1: Allies have 50% chance to dodge [Fire] damage.
+Level 2: Taken [Fire] damage cannot critically hit
+Level 3: Decreases taken [Fire] damage by 35%",-,-,-
+Firehose,Column - Any,-,"Level 1: Deals 1.5x Power [Physical] and [Ice] damage to enemies. Charges over time.
+Level 2: Also deals [Stun] damage
+Level 3: 50% increased damage against one target",-,-,-
+Inspire,Self  - Allies,57,"Level 1: Bonus Action. Share 2% of Charlie's attributes with all allies for each stack of Heroism, until Charlie's next turn.
+Level 2: Allies gain turn progress for each stack of Heroism
+Level 3: Heals allies by 1% missing HP for each stack of Heroism",-,-,-
+Protection Runes,Passive,-,"Level 1: Automatically Protects all adjacent allies.
+Level 2: Adjacent allies gain Spellscreen on Rock's turn
+Level 3: Prevents protected allies being downed 25% of the time",-,-,-
+Runic Stones,Passive,-,"Level 1: HP ratio always equal to MP ratio. Lose increasing MP after every turn.
+Level 2: Decrease MP loss by 25%
+Level 3: Increase Max MP by 10% every turn",-,-,-
+Enchanted Core,Passive,-,"Level 1: Regenerate MP while downed and resurrect when at full MP. Gain Free Turns when last alive.
+Level 2: Gain 10% of MP cost from [Spell] skills used by allies while downed
+Level 3: MP regenerates at 5x rate",-,-,-
+Inorganic,Passive,-,"Level 1: Cannot be controlled. Immune to damage and healing, and prevents Bleedout. Always Rooted.
+Level 2: Attributes cannot be lowered
+Level 3: Resist all [Debuff] effects",-,-,-
+Rupture,Passive,-,"Level 1: Deals 2.5x FCS [Energy] damage to all enemies when Downed.
+Level 2: Damage increased by 50% Max MP
+Level 3: Damage gains 50% piercing",-,-,-
+War,Single - Any,-,"Level 1: Deals 155-205 [Physical] damage. Deals critical damage. Reload after 6 uses.
+Level 2: 50% increased hit chance
+Level 3: Deals 35% increased damage",-,-,-
+Peace,Single - Any,-,"Level 1: Deals 135-185 [Physical] damage. Cannot be countered. Reload after 6 uses.
+Level 2: 50% increased hit chance
+Level 3: Also deals [Stun] damage",-,-,-
+Deadeye,Passive,-,"Level 1: Increase hit chance with [Ranged] skills by 100%.
+Level 2: Critical damage increased by 35% of hit chance
+Level 3: Pierce defenses equal to 25% of hit chance",-,-,-
+Warmonger,Self,36,"Level 1: Stance. Automatically use Peace after using War.
+Level 2: War and Peace have a 25% chance to not cost ammo
+Level 3: Damage increased by up to 35% based on target's missing HP",-,-,-
+Overwatch,Self,36,"Level 1: Stance. Automatically counter with Peace when an ally is targeted by an enemy stance.
+Level 2: Counter has a 35% chance to interrupt non-boss enemy's skill
+Level 3: Combat Roll reloads War and Peace",-,-,-
+Leadstorm,All - Party,-,"Level 1: Use War until out of ammo. Tech is halved. Charges after using War or Peace.
+Level 2: Deal 25% increased damage while active
+Level 3: Increases Tech by 5% for every shot fired",-,-,-
+Combat Roll,Single - Any,-,"Level 1: Bonus Action. Swap position with an ally and gain a Free Turn. Charges over time and charge time increases with each use.
+Level 2: Dispel 2 [Debuff] effects
+Level 3: Heal for 25% of missing HP",-,-,Kate's Duster
+Order Imp,Single - Any,-,"Level 1: Command a bound Imp to use one of their skills.
+Level 2: Imps gain an additional skill
+Level 3: Imps gain an additional skill",-,-,-
+Binding Ritual,Self,-,"Level 1: Access the Imp Binding skills.
+Level 2: Increase Imp attributes by 35% of Dave's Wisdom.
+Level 3: Imps always hit with skills",-,-,-
+Red Imp,Self,-,"Level 1: Channel to bind a Red Imp next turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Dark Imp,Self,-,"Level 1: Channel to bind a Dark Imp next turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Mage Imp,Self,-,"Level 1: Channel to bind a Mage Imp next turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Guard Imp,Passive,-,"Level 1: Bound Imp takes 35% of incoming damage.
+Level 2: Imp takes 50% of incoming damage
+Level 3: Imp counter attacks when hit",-,-,-
+Impetus,Passive,-,"Level 1: Bound Imp gains 50% turn progress at the end of Dave's turn.
+Level 2: Increases Imp's Speed by 100 for 1 turn
+Level 3: Imp heals for 25% of missing HP",-,-,-
+Hellish Vigor,Passive,-,"Level 1: Adds up to 1x Dave's Focus to Bound Imp's damage for 3 turns after binding. 
+Level 2: Imp deals 50% increased damage
+Level 3: Imp always deals critical damage",-,-,-
+Sulfuric Residue,Passive,-,"Level 1: Gain 1 stack of Demon Shield after binding an Imp.
+Level 2: Gain 2 stacks
+Level 3: Gain 3 stacks",-,-,-
+Implosion,Self,-,"Level 1: Bonus Action. Sacrifice Bound Imp to deal damage to all enemies. Cannot have Hellish Vigor.
+Level 2: Heal for 25% of your Imp's HP
+Level 3: Dispel all [Debuff] effects",-,-,-
+Soultap,Self,-,"Level 1: Converts MP into restored missing HP.
+Level 2: Converts at 35% improved rate
+Level 3: Conversion doubled when critical",-,-,Dark Sigil
+Shape Rune,Self,-,"Level 1: Bonus Action. Create a Rune, ready to Imbue with an effect.
+Level 2: Imbued effect power increased by 10% for each Rune applied to ally
+Level 3: Damage dealt by ally with Rune gains 35% piercing",-,-,-
+Sword Rune,Self,?,"Level 1: Triggers after using an [Attack] skill. Hits one target for 1.5x Imbued effect.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Shield Rune,Self,?,"Level 1: Triggers after being hit. Hits adjacent allies or enemies for 1.5x Imbued effect.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Swift Rune,Self,?,"Level 1: Triggers at start of turn. Hits one target for 2x Imbued effect.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Cloak Rune,Self,?,"Level 1: Triggers after dodging. Hits adjacent allies or enemies for 1.5x Imbued effect.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Imbue Rune,Single - Any,-,"Level 1: Add an effect to current Rune, and apply to an ally. Effect loses 25% strength on trigger.
+Level 2: Only loses 20% strength on trigger
+Level 3: Always at least 35% effective",-,-,-
+Heal,Single - Any,?,"Level 1: Heals self for 1.5x Focus when triggered.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Energy,Single - Any,?,"Level 1: Deals 1.5x Focus [Energy] damage to an enemy when triggered.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Sonic,Single - Any,?,"Level 1: Deals 1.5x Focus [Sonic] damage to an enemy when triggered.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Stun,Single - Any,?,"Level 1: Deals 1.5x Focus [Stun] damage to an enemy when triggered.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Arcane Wisdom,Passive,-,"Level 1: Adds 25% of Wisdom to Focus. Adds up to 0.5x Wisdom [Energy] damage to [Spell] hits.
+Level 2: Adds 25% of Wisdom to Discipline
+Level 3: Damage ignores defenses",-,-,-
+Infused Robe,Passive,-,"Level 1: Gain Spellscreen at the start of Emmy's turn.
+Level 2: Spellscreen has 2x absorption on Emmy
+Level 3: Emmy's Spellscreen now blocks damage from all hit types",-,-,-
+Runecarving,Passive,-,"Level 1: Rune effects last forever and cannot be dispelled.
+Level 2: Runes decrease damage taken by 10%
+Level 3: Runes increase all attributes by 15%",-,-,-
+Refresh,Self - Party,-,"Level 1: Bonus Action. Restores strength of Rune effects. Charges over time.
+Level 2: Restores 1x Focus MP for each Rune
+Level 3: Heals 1x Focus for each Rune",-,-,-
+Gadget Kit,Self,-,"Level 1: Access Gadget Kit.
+Level 2: Kit's Gadgets become level 2
+Level 3: Kit's Gadgets become level 3",-,-,-
+Dynamite,Cross - Any,?,"Level 1: Deals 100-150 [Physical] and 50-70 [Fire] damage to target enemies. One use.
+Level 2: Three uses
+Level 3: Hits all enemies",-,-,-
+Glue Bomb,Single - Any,?,"Level 1: Decreases target Speed and Agility by 50% and target is Rooted for 3 turns. 1 use.
+Level 2: Non-boss target loses all current turn progress
+Level 3: 35% chance to interrupt target's skills",-,-,-
+Healing Tonic,Single - Any,?,"Level 1: Heals target for 50% Max HP, but target has a 35% chance to lose control. Three uses.
+Level 2: Decreases [Stun] damage taken by 25%
+Level 3: Increases Power and Toughness by 15%",-,-,-
+Upgrade Mech,Self,-,"Level 1: Access skills that improve your Steam Mech.
+Level 2: Can use Pneumatics skill
+Level 3: Can use Polishing skill",-,-,-
+Multi Shot,Self,?,"Level 1: Boltgun hits enemies in an area while in Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Sharpen,Self,?,"Level 1: Boltgun gains 50% piercing while in Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Heavy Armor,Self,?,"Level 1: Grants shield equal to 5x Focus when in Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Pneumatics,Self,?,"Level 1: Adds Speed equal to 50% of current MP while in Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Polishing,Self,?,"Level 1: Only lose 150 MP per turn while in Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Steam Tanks,Passive,-,"Level 1: Maximum MP is set to 750, and gain 250 MP per turn when not in Steam Mech. Negates MP damage and healing.
+Level 2: Max MP increased to 900, and gain 300 MP per turn
+Level 3: Increases Speed by up to 25% based on current MP when not in Steam Mech",-,-,-
+Ingenuity,Passive,-,"Level 1: Reduces MP cost of all skills to 0.
+Level 2: Damage and healing increased by 20% for all [Gadget] skills
+Level 3: Decreases turn delay of [Gadget] skills by 15%.",-,-,-
+Analysis Goggles,Passive,-,"Level 1: Can view enemy HP, MP, and Attributes in the status menu.
+Level 2: Increases critical hit chance of [Gadget] skills by 50%
+Level 3: Increases hit chance of [Gadget] skills by 50%",-,-,-
+Steam Mech,Self,0,"Level 1: Bonus Action. Enter Mech and Gain Boltgun and Eject skills, but lose 250 MP every turn. Requires max MP.
+Level 2: Damage taken decreased by 35% while in Steam Mech
+Level 3: All attributes increased by 50% while in Mech",-,-,-
+Boltgun,Single - Any,-,"Level 1: Deals 0.66x MP [Power] damage to target enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Eject,Single - Any,-,"Level 1: Bonus Action. Exit your Steam Mech.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Stoke Fire,Self,-,"Level 1: Restore 100 MP and Increases Max MP by 100 for 3 turns. Stacks.
+Level 2: Restore 25 MP per turn per stack
+Level 3: Becomes a Bonus Action",-,-,-
+Vent Steam,Self,-,"Level 1: Lose 100 MP. Heal self for 50% Max HP.
+Level 2: Dispel three [Debuff] effects on self
+Level 3: Extend duration of self-applied [Buff] effects by 1 turn",-,-,-
+Bite,Single - Melee,-,"Level 1: Deals 0.5x Power [Physical] damage 3 times.
+Level 2: Each hit deals 0.5x Power [Physical] damage over time for 2 turns. Stacks.
+Level 3: Each hit decreases [Healing] received by 35% for 2 turns",-,-,-
+Bat Swarm,All - Party,-,"Level 1: Deals 0.45x Power [Physical] damage to enemies. Charges over time.
+Level 2: 35% chance to hit again
+Level 3: 35% chance to hit again",-,-,-
+Exsanguinate,Single - Any,58,"Level 1: Deals 2.5x Power [Physical] damage to target critical enemy. Fully restore HP if target is downed by Exsanguinate.
+Level 2: Always deals critical damage
+Level 3: Cannot miss",-,-,-
+Dark Bond,Single - Any,83,"Level 1: Transfers 50% of taken damage to target as Dark damage. Only one active at a time.
+Level 2: Steals 35% of healing received from target
+Level 3: Damage transferred increased by 25%",-,-,Edgard's Cape
+Clobber,Single - Melee,-,"Level 1: Deals 1.5x Power [Physical] and [Stun] damage to target enemy, and 1x Power [Stun] damage to self. 20% decreased chance to hit.
+Level 2: Deals 35% increased damage to targets with lower HP
+Level 3: Deals 50% increased damage on a critical hit",-,-,Tank's Glove
+Resolve,Passive,-,"Level 1: Toughness increased by +15 when hit or taking self damage. Stacks up to 1- times.
+Level 2: Endurance increased by +10 per stack
+Level 3: Critical hit chance increased by 25% per stack",-,-,-
+Lead Fists,Passive,-,"Level 1: Gain a stack of Resolve when missing with a [Melee] skill hit.
+Level 2: [Melee] skills deal 35% increased critical hit damage
+Level 3: Adds up to 0.35x Toughness to [Melee] skill hits",-,-,-
+Heavyweight,Passive,-,"Level 1: Cannot be shifted by enemy skills.
+Level 2: Healing received increased by 25%
+Level 3: 25% increased damage dealt against enemies with lower Toughness",-,-,-
+Body Blows,Single - Melee,36,"Level 1: Deals 0.75x Power [Physical] damage to target enemy 2 times.
+Level 2: Also deals [Stun] damage
+Level 3: Reset target's current turn progress to zero if both hits land",-,-,-
+Beat Down,Single - Melee,90,"Level 1: Deals 0.6x Power [Physical] damage to target enemy. Hits once for each stack of Resolve. Lose all Resolve stacks.
+Level 2: Also deals 0.6x Power [Stun] damage per hit
+Level 3: Lose all but 3 stacks of Resolve",-,-,-
+Swipe,Single - Melee,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Ignores 50% of target Toughness and Discipline
+Level 3: 50% chance to apply additional Neurotoxin [Debuff]",-,-,-
+Take Root,Self,-,"Level 1: Become Rooted, unable to be shifted. Increases TGH by 40%, but cannot dodge. Can be toggled.
+Level 2: Restores 15% Max HP after each turn
+Level 3: Becomes a Bonus Action",-,-,-
+Cerean DNA,Passive,-,"Level 1: Healing from sources other than Echinos is reduced by 90%.
+Level 2: Immune to [Poison] damage and effects from [Poison] skills
+Level 3: Dispel up to 3 [Debuff] at the start of turn",-,-,-
+Neurotoxin,Passive,-,"Level 1: Apply stack to target on [Attack] skill hits. Target takes 10% Max HP [Poison] damage after each turn for 3 turns.
+Level 2: Target agility reduced by 15% per stack
+Level 3: Target speed reduced by 15% per stack",-,-,-
+Sharp Needles,Passive,-,"Level 1: When hit by a [Melee] attack, return 1.25x Toughness [Physical] damage to attacker.
+Level 2: Returned damage can critically hit
+Level 3: Apply Neurotoxin [Debuff] to attacker",-,-,-
+Bloom,Self,30,"Level 1: Taunts a random enemy, forcing them to target Echinos for 3 turns.
+Level 2: Heals all allies' HP and MP for 0.25x Focus
+Level 3: If Take Root is active, MP cost 0 and triggers automatically at end of turn",-,-,-
+Needle Volley,Single - Any,48,"Level 1: Deals 0.45x Toughness [Physical] damage 2 times to target.
+Level 2: Damage ignores defenses
+Level 3: Hits 3 times",-,-,Cactus Trimming
+Needle Barrage,All - Party,-,"Level 1: Deals 1x Toughness [Physical] damage to all enemies. Four turn charge. Cannot miss.
+Level 2: Charges twice as fast if Take Root is active
+Level 3: Damage ignores defenses",-,-,-
+H4RM Beam,Single - Any,-,"Level 1: Deals 0.75x POW and 0.75x FCS [Physical] damage to the lowest health enemy.
+Level 2: Deals 50% as [Physical] damage over time for three turns
+Level 3: Reduced turn delay after use",-,-,H4RM Emitter
+Overclock,Self,-,"Level 1: Restores 20% Max HP and increases Speed by 100% for 2 turns. 3 turn charge.
+Level 2: Increases damage and healing of next skill used by 25%
+Level 3: EXU-5's next skill counts as a Bonus Action",-,-,-
+AutoDestroy,Passive,-,"Level 1: Automatically acts in battle. Immune to [Stun] and [Sleep] damage.
+Level 2: Increases Speed by 100% when an enemy is critical HP
+Level 3: 50% chance to gain a Free Turn when an enemy is Downed",-,-,-
+Legacy Code,Passive,-,"Level 1: Skills granted by Relics deal 25% increased damage and healing.
+Level 2: Increases [Gadget] skill uses by 1
+Level 3: Skills granted by Relics have 25% reduced turn delay",-,-,-
+K1-LL Beam,Single - Any,45,"Level 1: Deals 2.5x Power [Energy] damage to target critical HP enemy. Cannot miss.
+Level 2: Always a critical hit
+Level 3: Ignores target defenses",-,-,-
+Service Pistol,Single - Any,-,"Level 1: Deals 135-170 [Physical] damage to target. Reload after 9 uses.
+Level 2: Damage always critical when 3 or fewer shots remain
+Level 3: Deals 50% increased damage to critical HP enemies",-,-,-
+First Responder,Passive,-,"Level 1: Gain 50% increased Speed if an ally is critical HP.
+Level 2: Automatically use Protect on critical HP allies, if possible
+Level 3: Gain a Free Turn when an non-summon ally is Downed",-,-,-
+Serve,Passive,-,"Level 1: Protected allies gain 20% of Daniela's attributes.
+Level 2: Protected allies gain 25% increased [Healing]
+Level 3: Use MP to counter with Pistol when Protected ally is targeted.",-,-,-
+Incorruptible,Passive,-,"Level 1: Resist all Taunt and Charm enemy effects.
+Level 2: Immune to [Sleep] damage
+Level 3: Start battle with 3 Resist",-,-,-
+Stun Gun,Single - Any,-,"Level 1: Deals 250-350 [Stun] damage to target enemy.
+Level 2: Deals 50% of [Stun] damage dealt as damage over time for 3 turns
+Level 3: Also deals 100-150 [Lightning] damage",-,-,-
+Call Backup,Self,112,"Level 1: Summon a random reserve party member with full stamina for 3 turns.
+Level 2: MP cost decreased by 25%
+Level 3: Lasts 5 turns",-,-,-
+Weapons Platform,Passive,-,"Level 1: Arms Chain Laser automatically at start of battle.
+Level 2: [Attack] skills deal 25% increased damage
+Level 3: Critical hits deal 50% increased damage",-,-,-
+Arsenal,Self,-,"Level 1: Activate various integrated weapons, replacing primary attack skill.
+Level 2: Can use Missile Pod and Rail Cannon weapons
+Level 3: Arming a weapon becomes a Bonus Action",-,-,-
+Arm Chain Laser,Self,?,"Level 1: Arms a Chain Laser that deals [Energy] damage with reduced turn delay per use.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Arm Flmthrower,Self,?,"Level 1: Arms a Flamethrower that deals [Fire] damage and adds burning to enemies in a column.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Arm Missile Pod,Self,?,"Level 1: Arms a Missile Pod that deals [Physical] damage randomly 8-12 times.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Arm Rail Cannon,Self,?,"Level 1: Arms a Rail Cannon that deals piercing [Physical] damage.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Cybernetics,Passive,-,"Level 1: 50% reduced [Healing] and MP healing received from sources other than self.
+Level 2: Adds up to 10% current MP [Energy] damage to hits with [Attack] skills
+Level 3: 50% reduced Stamina loss when traveling through conduit space",-,-,-
+Titanium Bones,Passive,-,"Level 1: Reduce [Physical] and [Stun] damage taken by 50%
+Level 2: Endurance increased by 25%
+Level 3: Power and Toughness cannot be reduced below base",-,-,-
+Targeting Systems,Passive,-,"Level 1: Can view enemy HP, MP, and Attributes in the status menu.
+Level 2: Cannot miss enemy targets who are in the front row
+Level 3: Critical hit chance doubled",-,-,-
+Reserve Battery,Passive,-,"Level 1: Doubles MP Regeneration per turn.
+Level 2: Restores 5-10% Max HP at the start every turn
+Level 3: Once per battle, skip the turn after being downed to revive self at 50% HP",-,-,Biotic Battery
+Chain Laser,Cross - Any,-,"Level 1: Deals 0.5x Power [Energy] damage up to 4 times in an area. Reload after 6 uses.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Flamethrower,Column - Any,-,"Level 1: Deals 1x Power [Fire] damage and 0.5x Power [Fire] damage every turn for 3 turns.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Missile Pod,All - Party,-,"Level 1: Deals 0.35x Power [Physical] damage ro random enemy targets 8-12 times. Long turn delay.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Rail Cannon,Single - Any,-,"Level 1: Deals 2x Power [Physical] damage to target, ignoring defenses. Cannot miss.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Wind Cutter,Single - Any,-,"Level 1: Deals 1x Power [Physical] damage to target enemy.
+Level 2: Also deals 1x Focus [Lightning] damage
+Level 3: Always hits",-,-,-
+Goading Strike,Single - Melee,-,"Level 1: Deals 1.35x Power [Physical] damage and Taunts target.
+Level 2: Damage increased by 15%
+Level 3: Damage increased by an additional 15%",-,-,-
+Rising Flame,Single - Any,-,"Level 1: Deals 1x Power [Physical] damage to target.
+Level 2: Also deals 1x Agility [Fire] damage
+Level 3: Turn delay decreased by 50%",-,-,-
+Falling Leaf,All - Party,-,"Level 1: Deals 1.35x Discipline [Physical] damage to random enemy targets 8 times
+Level 2: Also deals [Lightning] damage
+Level 3: N/A",-,-,-
+Great Shell,All - Party,-,"Level 1: Blocks up to 5x Discipline damage taken from hits for party.
+Level 2: Reduced damage taken by 35% while active
+Level 3: Hits have a 35% chance to miss allies while active",-,-,-
+Foxfire,Single - Any,-,"Level 1: Strongest enemy takes 1x Discipline + 75% missing HP [Fire] damage.
+Level 2: Heals allies for 75% of missing HP
+Level 3: Restores 50% of allies' mising MP",-,-,-
+Card Throw,Single - Any,-,"Level 1: Deals 1.0x Technique [Physical] damage to target enemy. More effects based on chosen suit.
+Level 2: Deals 50% of damage as [Physical] damage over time for 3 turns, up to 3 stacks
+Level 3: Deals double critical hit damage",-,-,-
+Clubs,Single - Any,?,"Level 1: Damage dealt increased by 50%.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Diamonds,Single - Any,?,"Level 1: Turn delay decreased by 50%.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Hearts,Single - Any,?,"Level 1: Heal self for 50% of damage dealt.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Spades,Row - Any,?,"Level 1: Damage decreased by 50%, but hits all targets in the row.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Roll Dice,Self,-,"Level 1: Bonus Action. Trust in fate and roll the dice for a random effect. Damage output based on Technique.
+Level 2: Damage and healing from roll effects increased by 25%
+Level 3: Heal self for 25% max HP when either die is a 6",-,-,-
+Nine Lives,Passive,-,"Level 1: 100% chance to survive fatal damage with 1 HP. Chance decreased by 10% each time it triggers.
+Level 2: Restores 50% Max HP when revived
+Level 3: Bleedout time increased by 2 turns",-,-,-
+Nimble,Passive,-,"Level 1: Agility increased by 25% when hit. Stackable. All stacks are lost when you dodge.
+Level 2: Adds an extra chance to try to dodge
+Level 3: Gain 15% turn progress when you dodge",Acrobatics,-,-
+Gambler's Luck,Passive,-,"Level 1: Critical hit chance increased by 25% when dealing non-crit damage. Stackable. All stacks lost when landing a crit.
+Level 2: Increased to 35% per stack
+Level 3: Critical hit damage increased by 50%",-,-,Chance's Vest
+Quick Hands,Passive,-,"Level 1: [Attack] and [Gadget] skills cannot miss.
+Level 2: Landing a critical hit has a 20% chance to grant a Free Turn
+Level 3: Speed increased by 25% of Technique",-,-,-
+Stun Grenade,Cross - Any,-,"Level 1: Deals 250-350 [Stun] damage to target enemies. One use.
+Level 2: 2 uses
+Level 3: 3 uses",-,-,-
+Jinx,Single - Any,30,"Level 1: Target's chance to hit decreased by 50% for 3 turns.
+Level 2: Target cannot dodge
+Level 3: All hits on target become critical",-,-,-
+Set Dice,Self,-,"Level 1: Set outcome of next use of Roll Dice.
+Level 2: 25% decreased turn delay
+Level 3: MP cost decreased by 25%",-,-,-
+3: Smiling Fortune,Self,-,"Level 1: Heals all allies for 50% max HP, or revive them at 25% if downed.
+Level 2: N/A
+Level 3: N/A",-,-,-
+4: Luck's Blessing,Self,-,"Level 1: Restore 100% of a random ally's HP and MP and grant them a Free Turn.
+Level 2: N/A
+Level 3: N/A",-,-,-
+5: Lucky Charm,Self,-,"Level 1: Restore 50% of lowest HP pct ally's HP and MP.
+Level 2: N/A
+Level 3: N/A",-,-,-
+6: Feeling Lucky,Self,-,"Level 1: Heal self for 50% HP and MP.
+Level 2: N/A
+Level 3: N/A",-,-,-
+7: Hard Luck,Self,-,"Level 1: Deals 1.25x Technique [Dark] damage to a random enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+8: Cursed Luck,Self,-,"Level 1: Casts Lv 3 Curse on 2 random enemies.
+Level 2: N/A
+Level 3: N/A",-,-,-
+9: Break a Leg,Self,-,"Level 1: Uses Lv 3 Break Bones on 2 random enemies.
+Level 2: N/A
+Level 3: N/A",-,-,-
+10: Knock em Dead,Self,-,"Level 1: Deals 3x Technique [Dark] damage to a random enemy.
+Level 2: N/A
+Level 3: N/A",-,-,-
+11: Big Break,Self,-,"Level 1: Casts Void Blast on all enemies.
+Level 2: N/A
+Level 3: N/A",-,-,-
+12: Shooting Star,Self,-,"Level 1: Casts Meteor Strike on all enemies.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Gladius,Single - Melee,-,"Level 1: Deals 1.25x Power [Physical] damage to target. Increases AGI by 25% for one turn. Shift to front row.
+Level 2: Damage gains 50% piercing 
+Level 3: Decreases target's [Healing] received by 50% for 3 turns.",-,-,-
+Disengage,Self,-,"Level 1: Heals self for 40% Max HP and shift to back row. Must be in front row.
+Level 2: The next incoming hit always misses
+Level 3: Restores 1 use of Javelin and Rete",-,-,-
+Parmula,Passive,-,"Level 1: 50% chance to use MP to negate [Physical] hits taken.
+Level 2: Counter with Gladius if Parmula negates damage
+Level 3: Counter with Gladius if any hit is dodged",-,-,-
+Martial Prodigy,Passive,-,"Level 1: Viggo's first [Attack] skill hit on a target cannot miss and is always critical.
+Level 2: Adds 50% of Technique to Discipline
+Level 3: Adds up to 0.5x Discipline damage to [Attack] hits",-,-,Viggo's Gladius
+Iron Will,Passive,-,"Level 1: Take 50% decreased damage when at critical HP.
+Level 2: Take 50% decreased [Stun] and [Sleep] damage
+Level 3: Once per battle, revive self at 50% HP the turn after being downed",-,-,-
+Vitality,Passive,-,"Level 1: Start battle with 3 Resist stacks.
+Level 2: Stamina has 50% decreased effect on Toughness
+Level 3: Stamina has 50% decreased effect on Endurance",-,-,-
+Javelin,Single - Any,-,"Level 1: Deals 1.35x Power [Physical] damage to target enemy. 3 uses.
+Level 2: Deals 50% increased critical damage
+Level 3: Always hits",Throw Spear,-,-
+Rete,Single - Any,-,"Level 1: Deals 150-200 [Stun] damage for 3 turns. One use.
+Level 2: 35% chance for non-boss target's turn to be interrupted
+Level 3: Target cannot dodge",-,-,-
+Doom Prophecy,Self,-,"Level 1: A random enemy takes 3x Focus [Holy] damage after 3 turns. Stackable 10 times.
+Level 2: Enemy's [Healing] received decreased by 10% per stack
+Level 3: Enemy takes 0.2x Focus [Holy] damage per turn per stack",-,-,-
+Nirvana,Single - Any,-,"Level 1: Target ally is healed for 3x Focus HP after 3 turns. Stackable 5 times.
+Level 2: Target is healed for 0.25x Focus per turn
+Level 3: If target takes fatal damage, remove stack and survive with 1 HP",-,-,-
+Pacifist,Passive,-,"Level 1: Cannot directly target enemies.
+Level 2: Applies a stack of Doom Prophecy to enemies that hit Sandeep
+Level 3: Applies a stack of Nirvana to allies that directly heal Sandeep",-,-,-
+Mantra,Passive,-,"Level 1: Increases Focus by +15 before every turn.
+Level 2: Restores 5% of max HP at the start of urn
+Level 3: Gain 1 Resist every turn",-,-,Guru's Beads
+Samadhi,Passive,-,"Level 1: Stamina does not affect Focus or Discipline.
+Level 2: Gain 25% of Focus as Discipline
+Level 3: Gain 25% of Discipline as Focus",-,-,-
+Third Eye,Passive,-,"Level 1: Can view enemy HP, MP, and Attributes in the status menu.
+Level 2: Dodge chance increased by 35%
+Level 3: Applies 2 stacks of Doom Prophecy to enemy after dodging",-,-,-
+Faith Healing,Single - Any,56,"Level 1: Dispels up to 3 [Debuff] on target.
+Level 2: Heals target for 0.5x Focus HP for each [Debuff] dispelled
+Level 3: Target gains 1 stack of Nirvana for each [Debuff] dispelled",-,-,-
+Strike Fear,Single - Any,-,"Level 1: Deals 1.5x Focus [Stun] damage to target.
+Level 2: Target non-boss loses 50% of current turn progress
+Level 3: Target is shifted to the back row",-,-,Inquisitor's Mask
+Imperative,Single - Any,-,"Level 1: Sacrifice 20% of current HP. Fortified ally gains a Free Turn. 4 turn charge.
+Level 2: Ally restores 20% Max MP
+Level 3: 3 turn charge",-,-,-
+Psionic Shield,Passive,-,"Level 1: Immune to [MP] damage.
+Level 2: Start battle with 1 Resist and gain 1 Resist every turn
+Level 3: Wisdom and Discipline cannot be reduced below base",-,-,-
+Fortify,Passive,-,"Level 1: Ally directly in front of Haven gains 35% of Haven's attributes.
+Level 2: Ally's MP regen is doubled
+Level 3: Ally gains 1 Resist per turn",-,-,-
+The Greater Good,Passive,-,"Level 1: When Haven sacrifices HP, restore .25x Focus MP to all allies.
+Level 2: Heal all allies for .5x Focus HP
+Level 3: Fortified ally gains 20% turn progress",-,-,-
+Venerated,Passive,-,"Level 1: Fatal direct enemy damage taken by Haven is redirected to Fortified ally, if possible.
+Level 2: 25% of all damage taken is redirected, if possible
+Level 3: If downed, all allies restore 50% of HP and MP",-,-,-
+Dominate Mind,Single - Any,161,"Level 1: Sacrifice 20% of current HP. Target non-boss enemy cannot act for 3 turns. Long turn delay.
+Level 2: Target takes 25% increased damage
+Level 3: Nullifies [Healing] on target",-,-,-
+Invigorate,Single - Any,182,"Level 1: Restores 1.5x Focus MP to target ally. +50% to Fortified ally.
+Level 2: Also restores 1.5x Focus HP
+Level 3: Dispels all [Debuff]",-,-,-
+Directive,Single - Any,-,"Level 1: Directs KillBot to target an enemy and grants it a Free Turn.
+Level 2: Increases KillBot damage by 35% against target
+Level 3: KillBot ignores target's defense",-,-,-
+Invent,Single - Any,-,"Level 1: Bonus Action. Target ally gains a random single use [Gadget] skill.
+Level 2: Granted skill has 2 uses
+Level 3: Granted skill has 3 uses",-,-,-
+KillBot,Passive,-,"Level 1: Automatically summon KillBot in battle.
+Level 2: KillBot gains Eye Laser skill
+Level 3: KillBot gains copies of your equipped relics",-,-,-
+Haywire Protocol,Passive,-,"Level 1: KillBot Power is increased by 100% if Otto is Downed.
+Level 2: Speed increased by 50%
+Level 3: KillBot gains a free turn immediately",-,-,-
+Device Refits,Passive,-,"Level 1: [Gadget] skills granted by Relics gain +1 use.
+Level 2: 50% chance for [Gadget] skills to not consume a use
+Level 3: Decreases turn delay of [Gadget] skills by 35%",-,-,-
+Tinker,Single - Any,51,"Level 1: Target ally deals 25% increased damage or healing with [Gadget] skills for 3 turns.
+Level 2: Restores one use for all of target's [Gadget] skills
+Level 3: Also hits adjacent targets",-,-,-
+Freeze Ray,Single - Any,-,"Level 1: Deals 90-120 [Ice] damage to target enemy. 1 use.
+Level 2: Non-boss target becomes frozen and cannot act or dodge for 2 turns
+Level 3: Target takes 30-40 piercing [Ice] damage when hit",-,-,-
+Enfeebling Ray,Single - Any,-,"Level 1: Decreases target enemy's Power by 50% for 2 turns. 2 uses.
+Level 2: Decreases target Toughness by 50%
+Level 3: Decreases target Speed by 35%",-,-,-
+Spring Boots,Self,-,"Level 1: Become untargetable and deal 300-400 [Physical] damage to a random target next turn. One use.
+Level 2: 2 uses
+Level 3: 3 uses",-,-,Otto's Boots
+Musket,Single - Any,-,"Level 1: Deals 2x Power [Physical] damage. Cannot miss. Long turn delay.
+Level 2: 25% increased damage
+Level 3: Always critical hit",Aimed Shot,-,Musketeer's Musket
+Gavel,Single - Melee,-,"Level 1: Deals 200-300 [Stun] damage to an enemy.
+Level 2: Damage increased by 100
+Level 3: Deals 50 additional damage for each [Debuff] on the target",-,-,-
+Subpoena,Single - Any,-,"Level 1: Force a non-Boss enemy to attack an adjacent teammate next turn with a basic attack, if possible.
+Level 2: Attack deals 50% increased damage
+Level 3: Effect has 25% chance to persist",Charm,-,-
+Erudite,Passive,-,"Level 1: Increases Wisdom by up to +100 based on current HP pct.
+Level 2: Increases Discipline by up to +100 
+Level 3: Increases Focus by up to +50 ",-,-,-
+Air of Authority,Passive,-,"Level 1: Cannot be directly targeted for the first 3 turns of battle.
+Level 2: All enemy attributes decreased by 10% for 3 turns
+Level 3: All ally attributes increased by 10% for 3 turns",-,-,-
+Judgement,Single - Any,201,"Level 1: Deals 2.0x Focus [Dark] damage to target critical HP enemy. Cannot miss.
+Level 2: Instantly removes target if it is downed by Judgement
+Level 3: Deals 25% increased damage for each [Debuff] on target",-,-,Rupert's Gavel
+All Rise,Self  - Allies,398,"Level 1: Fully heal all allies. One use.
+Level 2: Dispel all [Debuff]
+Level 3: Revives all downed allies",-,-,-
+Injunction,Single - Any,216,"Level 1: Target's next turn is interrupted. Once per enemy.
+Level 2: Resets target's current turn progress if not resisted
+Level 3: Deals 0.35x Focus [MP] damage if not resisted",-,-,-
+Restraining Order,Single - Any,216,"Level 1: Target enemy cannot directly target Rupert for 2 turns.
+Level 2: Decreases target's speed by 35%
+Level 3: 50% of direct damage dealt by this enemy is redirected back to them",-,-,-
+Ion Blast,Single - Any,-,"Level 1: Deals 0.75x Power [Energy] damage to target enemy. Hits adjacent targets if Nuclear Battery charge is at least 25%.
+Level 2: Hits all enemies if Nuclear Battery charge is at least 50%
+Level 3: Also deals 2x Power [Stun] damage if if Nuclear Battery charge is at least 50%",-,-,-
+Kinetic Barrier,Single - Any,-,"Level 1: Bonus Action. Blocks up to 200 damage on target ally until after their next turn. 
+Level 2: Also shields self
+Level 3: Damage exceeding barrier's remaining block is nullified",-,-,Kinetic Shield Gen
+Nuclear Battery,Passive,-,"Level 1: Gains 1% of charge for every 10 damage blocked by Kinetic Barrier.
+Level 2: Increases damage dealt by [Attack] hits by up to 100%, based on charge
+Level 3: Gain 10% charge passively before turn",-,-,-
+Meltdown,Passive,-,"Level 1: Die immediately if downed, but deal 2x-3x Power [Energy] damage to all enemies based on Nuclear Battery. Not as a summon.
+Level 2: Damage increased to 3x-6x Power
+Level 3: Damage increased to 4x-8x Power",-,-,-
+Power Armor,Passive,12,"Level 1: Use MP to nullify incoming damage under 15% of current HP.
+Level 2: Decreases damage from highest damage type take by 30%
+Level 3: The first fatal damage received after every turn is nullified",-,-,-
+Powered Servos,Passive,-,"Level 1: Agility is increased by up to +100, based on Nuclear Battery charge.
+Level 2: Speed increases by up to +100
+Level 3: Critical hit chance increased  by up to +200%",-,-,-
+Hyper Beam,All - Party,-,"Level 1: Drains all Nuclear Battery charge and deals 2x Power [Energy] damage to all enemies. 3 turn charge. Cannot miss.
+Level 2: Only lose half of current Nuclear Battery charge
+Level 3: Gains 100% piercing",-,-,-
+Light Beam,Single - Any,-,"Level 1: Deals 1x Focus [Energy] damage to target.
+Level 2: Decreases target Technique by 15% for 3 turns
+Level 3: Damage increased by 25%",-,-,-
+Blind,Single - Any,-,"Level 1: Target enemy's next direct hit damage always misses.
+Level 2: Next 2 hits
+Level 3: Next 3 hits",-,-,Radiant Mote
+Energy Body,Passive,-,"Level 1: Immune to [Energy] damage and effects from [Energy] skills.
+Level 2: Take 50% decreased damage from [Fire] [Lightning] and [Ice]
+Level 3: When hit by a [Melee] attack, return 1x FCS [Energy] damage back to attacker",-,-,-
+Luminous,Passive,-,"Level 1: Dodge chance increased by 50%.
+Level 2: Increases hit chance and critical hit chance by 35%
+Level 3: Adjacent allies' dodge chance increased by 25%",-,-,-
+Flickering,Passive,-,"Level 1: Sacrifices 10% of current HP at start of turn.
+Level 2: Passive MP regen rate tripled
+Level 3: Gain +10 Focus whenever Luna sacrifices HP. Stacks up to 10 times.",-,-,-
+Brilliance,Passive,-,"Level 1: Increases Speed by up to 100% based on current HP pct.
+Level 2: Increases Agility by up to 100%
+Level 3: Stamina does not affect Focus",-,-,-
+Energy Wave,Row - Party,60,"Level 1: Sacrifice 20% of current HP. Deals 1.3x Focus [Energy] damage to enemies in the front row.
+Level 2: Decreases target Technique by 25% for 2 turns
+Level 3: Hits all enemies",-,-,-
+Energize,Self - Allies,41,"Level 1: Sacrifice 20% of current HP. Restore 0.5x Focus MP to all allies. Increased turn delay.
+Level 2: Allies gain 15% tuirn progress
+Level 3: Allies' next skill deals 25% increased damage or healing",-,-,-
+Mini Laser,Single - Any,-,"Level 1: Deals 80-100 piercing [Energy] damage to target.
+Level 2: Turn delay decreased by 35%
+Level 3: Gain 10% Turn Progress when used as a counter attack",-,-,-
+Rogue AI,Passive,-,"Level 1: Automatically acts in battle. Prevents Bleedout.
+Level 2: Deal 50% increased damage against critical HP enemies
+Level 3: 25% increased attributes against Extreme Danger and Bosses",-,-,-
+Short Circuit,Passive,-,"Level 1: Gain 10% Turn Progress when directly hit by an enemy.
+Level 2: 20% Turn Progress if damage taken is [Lightning] or [Energy]
+Level 3: Gain 10% Turn Progress when directly healed by an ally",-,-,-
+Defense Protocols,Passive,-,"Level 1: Use MP to counter with Mini Laser when Warden's party is targeted by an enemy skill.
+Level 2: Counter cannot miss
+Level 3: Counter has 25% chance to interrupt non-boss enemy's skill",-,-,-
+Threat Scanner,Passive,-,"Level 1: Can view enemy HP, MP, and Attributes in the status menu.
+Level 2: Increase critical hit chance by 50%
+Level 3: Gain a Free Turn if an enemy is summoned mid-battle",-,-,-
+Alarm,Self,-,"Level 1: Grants a random ally a Free Turn. Three turn charge, starts charged.
+Level 2: Increases all allies' Speed by 100% for 1 turn
+Level 3: Gain 33% charge if an enemy is summoned mid-battle",-,-,-
+Motion Tracker,Single - Any,42,"Level 1: Bonus Action. Increases target's damage taken by 15%. Limit of one.
+Level 2: Target's Agility decreased by 35%
+Level 3: Target's damage taken increased by additional 15%",-,-,Tracking Sensor
+Pulse Rifle,Single - Any,-,"Level 1: Deals 30-50 [Energy] damage 3 times. Reload after 3 uses.
+Level 2: Ignores 50% of target Toughness and Discipline
+Level 3: Increased to 4 hits",-,-,-
+Personal Shield,Self,-,"Level 1: Bonus Action. 70% of damage taken is converted to [MP] damage. Toggleable.
+Level 2: Doubles MP regeneration per turn
+Level 3: 50% of [Healing] received is converted to MP healing until MP is full",-,-,-
+Xeno Hunter,Passive,-,"Level 1: Deals 25% increased damage to non-human enemies.
+Level 2: Deal 50% increased damage to Anomaly enemies
+Level 3: Take 20% decreased damage from non-human enemies",-,-,-
+Fire Team,Passive,-,"Level 1: Automatically fire Pulse Rifle at the same target when an ally in the same row as Carmen uses a [Ranged] attack.
+Level 2: Pulse Rifle deals 15% increased damage
+Level 3: Ally's attack is always a critical hit",-,-,-
+Duratanium Armor,Passive,-,"Level 1: 50% Chance to negate [Energy] damage taken.
+Level 2: Reduces [Fire] [Ice] and [Lightning] damage taken by 20%
+Level 3: Cannot be critically hit by [Physical] damage",-,-,-
+Drone Launcher,Self,-,"Level 1: Access deployable drones.
+Level 2: All deployable drones gain +50% to all attributes
+Level 3: First drone laucnhed is deployable",-,-,-
+Medical Drone,Self,?,"Level 1: Summons an automated drone that heals and revives allies. Lasts 5 turns.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Utility Drone,Self,?,"Level 1: Summons a drone that supports allies in various ways. Lasts 5 turns.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Volatile Drone,Self,?,"Level 1: Summons a drone that attacks enemies and eventually explodes.
+Level 2: N/A
+Level 3: N/A",-,-,-
+Pulse Grenade,Cross - Any,-,"Level 1: Deals 150-200 [Energy] and [Stun] damage to target enemies. One use.
+Level 2: Two uses
+Level 3: Three uses",-,-,Nanocarbon Screws
+Cryo Grenade,Cross - Any,-,"Level 1: Deals 150-220 [Ice] damage to target enemies. One use.
+Level 2: Lowers target speed and agility by 75% for 2 turns
+Level 3: 2 uses",-,-,-
+Burning Skin,Passive,-,"Level 1: When hit by a [Melee] attack, return 1x Focus [Fire] damage to attacker.
+Level 2: N/A
+Level 3: N/A",-,-,Burning Ember
+isolate.exe,Single - Any,-,"Level 1: Target non-boss cannot act or be shifted for 3 turns, and takes 1x Focus [Lightning] damage every turn. 1 use.
+Level 2: N/A
+Level 3: N/A",-,-,CENCOM Manual
+Core Surge,Passive,-,"Level 1: Grants Free Turn, Doubles POW and SPD, but decreases TGH by 50% and deals 10% max HP self [Lightning] damage. Activates at 50% HP.
+Level 2: N/A
+Level 3: N/A",-,-,Devastator Core
+Telekinesis,Single - Any,,"Level 1: Deals 1.33x Focus [Physical] damage and shifts target randomly. Also deals 66% damage to enemy the target is shifted into.
+Level 2: N/A
+Level 3: N/A",-,-,Eldritch Hourglass
+Cold Crush,Cross - Melee,80,"Level 1: Deals 1.0x Power [Physical] and 0.5x Power [Ice] damage.
+Level 2: N/A
+Level 3: N/A",-,-,Frozen Fist
+Gamma Wave,All - Party,27,"Level 1: Decreases all enemy Speed and Toughness by 15%, and deals 0.5x Focus [Poison] damage over time for 6 turns. Cannot miss.
+Level 2: N/A
+Level 3: N/A",-,-,Gamma Shard
+Barricade,Self,-,"Level 1: Randomly taunt 3 enemies and nullify up to 8 hits until next turn, reflecting [Physical] damage back to melee attackers. 2 turn charge.
+Level 2: N/A
+Level 3: N/A",-,-,Shield Fragment
+Spinning Blade,Adjacent - Any,60,"Level 1: Deals 1.5x Power [Physical] damage to enemies adjacent to target.
+Level 2: N/A
+Level 3: N/A",-,-,Shredder Saw
+Boast,Self,79,"Level 1: Bonus Action. Increases Focus by 15% and taunt 3 random targets.
+Level 2: N/A
+Level 3: N/A",-,-,Sinner's Mask
+Claim,All - Party,73,"Level 1: Deals 1.0x Focus [Dark] damage to all enemies and allies, and recovers HP/MP based on damage dealt.
+Level 2: N/A
+Level 3: N/A",-,-,Sinner's Mask
+Show Off,All - Party,71,"Level 1: Deals 1.0x Focus [Holy] damage and decreases target Technique by 25%.
+Level 2: N/A
+Level 3: N/A",-,-,Sinner's Mask
+Carapace,Passive,-,"Level 1: Blocks up to 2x Toughness damage. Incoming damage decreased by 50% while active.
+Level 2: N/A
+Level 3: N/A",-,-,Terror Hide
+Venom Spray,All - Party,90,"Level 1: Deals 0.4x Focus [Poison] damage to targets, and 0.2x Focus [Poison] damage over time for 3 turns. Increases target's [Poison] damage taken by 25%.
+Level 2: N/A
+Level 3: N/A",-,-,Venom Spray
+Meteor Strike,All - Party,184,"Level 1: Deals 1.5x Focus [Physical] and 1.25x Focus [Fire] damage to all enemies. Long turn delay.
+Level 2: N/A
+Level 3: N/A",-,-,-
