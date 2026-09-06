@@ -1,0 +1,8 @@
+{
+  "note": "Source-of-truth files managed externally; never overwritten by tooling. On an intentional update, rebuild with: node tools/build-data.mjs --relock",
+  "files": {
+    "class.csv": {
+      "sha256": "f3673dbf2ef6fa14ac76c6eaf73cfd9d04a6cb6ac36b16ec9f2e91742385c95a"
+    }
+  }
+}
