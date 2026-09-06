@@ -1,0 +1,16 @@
+building_id,bundle_menu,tier,name,desc,long_desc,icon,items
+inn,brewery,0,Brewery Pack,2x Ale,Drinks from the Inn to restore Stamina.,brewery,Ale;Ale
+inn,brewery,1,Brewery Pack,"2x Ale, 1x Mead",Drinks from the Inn to restore Stamina.,brewery,Ale;Ale;Mead
+inn,brewery,2,Brewery Pack,"2x Ale, 2x Mead",Drinks from the Inn to restore Stamina.,brewery,Ale;Ale;Mead;Mead
+inn,storage,0,Cleansing Pack,"2x Antidote, 1x C.Water","Antidotes to cure Poison, and C.Water for everything else.",bundle_cleansing,Antidote;Antidote;CleansingWater
+inn,storage,1,Bomb Pack,3x D.Bomb,Bomb foes or find hidden passages with these D.Bombs.,bundle_bomb,Bomb;Bomb;Bomb
+inn,storage,2,Power Pack,3x P.Core,Power up machines you find with these Power Cores.,bundle_power,PowerCore;PowerCore;PowerCore
+inn,storage,3,Stealth Pack,3x Stealth,Escape battles with these Stealth Field Generators.,bundle_stealth,StealthGen;StealthGen;StealthGen
+inn,storage,4,Caffeine Pack,3x Coffee,Combat sleep effects with these Coffees.,bundle_caffeine,Coffee;Coffee;Coffee
+lab,drone,0,Drone Pack,2x Utility Drone,Utility Drones to support allies.,drone,UtilityDroneItem;UtilityDroneItem
+lab,drone,1,Drone Pack,"2x Util Drone, 1x Med Drone",Util and Med Drones to support allies.,drone,UtilityDroneItem;UtilityDroneItem;MedicalDroneItem;MedicalDroneItem
+lab,drone,2,Drone Pack,"2x Util Drone, 1x Med Drone",Util and Med Drones to support allies.,drone,UtilityDroneItem;UtilityDroneItem;MedicalDroneItem;MedicalDroneItem
+nano,medical,0,Nano Meds Pack,3x Nano-Meds,Medkits from the Nano Lab to restore HP.,nano_medical,NanoMedkit;NanoMedkit;NanoMedkit
+temple,winery,0,Winery Pack,2x Wine,Wine from the Temple to revive an ally with full HP.,winery,Wine;Wine
+temple,winery,1,Winery Pack,3x Wine,Wine from the Temple to revive an ally with full HP.,winery,Wine;Wine;Wine
+temple,winery,2,Winery Pack,3x Wine,Wine from the Temple to revive an ally with full HP.,winery,Wine;Wine;Wine
