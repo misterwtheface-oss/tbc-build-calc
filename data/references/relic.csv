@@ -1,248 +1,248 @@
-relic_id,type,name,datamine_name,old_name,short_name,effect,granted_skill,unlock_class_id,source_method,availability,icon_key,data_version,coefficients,int_params
-Apollo,gem,Apollo's Token,Apollo's Token,Apollo's Token,,Increases Focus and Discipline by +5 and +15%.,,,Mission Reward,-,apollo,,1.15;5.0,
-Ares,gem,Ares Gem,Ares Gem,Ares Gem,,Increases Power and Toughness by +5 and +15%.,,,Mission Reward,-,ares,,1.15;5.0,
-Artemis,gem,Artemis Gem,Artemis Gem,Artemis Gem,,Increases Agility and Technique by +5 and 15%.,,,Mission Reward,-,artemis,,1.15;5.0,
-Athena,gem,Athena Token,Athena Token,Athena Token,,Increases Power and Wisdom by +5 and +15%.,,,Mission Reward,-,athena,,1.15;5.0,
-Diana,gem,Diana's Gem,Diana's Gem,Diana's Gem,,"Increases Technique by +10 and +25%, but decreases Agility by 10%.",,,Mission Reward,-,diana,,0.9;1.25;10.0,
-Hades,gem,Hades Gem,Hades Gem,Hades Gem,,Increases Focus and Toughness by +5 and +15%.,,,Mission Reward,-,hades,,1.15;5.0,
-Hera,gem,Hera's Diadem,Hera's Diadem,Hera's Diadem,,Increases Discipline and Wisdom by +5 and +15%.,,,Mission Reward,-,hera,,1.15;5.0,
-Hermes,gem,Hermes Wing,Hermes Wing,,,Increases Speed and Agility by +5 and +15%.,,,,,hermes,,1.15;5.0,
-Mars,gem,Mars' Gem,Mars' Gem,Mars' Gem,,"Increases Power by +10 and +25%, but decreases Endurance by 10%.",,,Mission Reward,-,mars,,0.9;1.25;10.0,
-Mercury,gem,Mercury's Caduceus,Mercury's Caduceus,Mercury's Caduceus,,"Increases Speed by +10 and +25%, but decreases Toughness by 10%.",,,Mission Reward,-,mercury,,0.9;1.25;10.0,
-Poseidon,gem,Poseidon's Trident,Poseidon's Trident,Poseidon's Trident,,Increases Power and Focus by +5 and +15%.,,,Mission Reward,-,poseidon,,1.15;5.0,
-Sol,gem,Sol's Gem,Sol's Gem,Sol's Gem,,"Increases Focus by +10 and +25%, but decreases Wisdom by 10%.",,,Mission Reward,-,sol,,0.9;1.25;10.0,
-Swiftness,gem,Swiftness Totem,Swiftness Totem,Swiftness Totem,,Using a SkillType.Attack skill has a 15% chance to grant a Free Turn.,,,Mission Reward,-,swiftness,,15.0,
-Vulcan,gem,Vulcan's Obsidian,Vulcan's Obsidian,Vulcan's Obsidian,,"Increases Toughness by +10 and +25%, but decreases Power by 10%.",,,Mission Reward,-,vulcan,,0.9;1.25;10.0,
-Zeus,gem,Zeus Gem,Zeus Gem,Zeus Gem,,Increases all attributes by +5 and 5%.,,,Mission Reward,-,zeus,,1.05;5.0,
-AbrahamsLocket,relic,Abraham's Locket,Abraham's Locket,Abraham's Locket,Abe's Locket,Decreases taken damage based on current HP up to 50%.,,vampire_hunter,Class Quest,Act 3,abrahams_locket,,0.5;1.0,
-AgentsWatch,relic,Agent's Watch,Agent's Watch,Agent's Watch,Agents Watch,Decreases turn delay of SkillType.Attack skills by 10%. Grants Disarm skill.,Disarm,secret_service,Class Quest,Post Act 3,agents_watch,,0.9;1.0,
-AlacrityImplant,relic,Alacrity Implant,Alacrity Implant,Alacrity Implant,Alacrity,Increases Technique by 0.35x Speed. Grants Frenzy skill.,Frenzy,super_soldier,Class Quest,Act 1,alacrity_implant,,0.35,
-AncientSling,relic,Ancient Sling,Ancient Sling,,Ancient Slg,Power and Technique increased by +25 against Extreme Danger and Boss battles.,,,,,ancient_sling,,25.0,
-AngelsWing,relic,Angel's Feather,Angels Wing,Angel's Feather,,"Prevents being downed and casts Holy Shield on self when critical, once per battle.",,angel,,,,,,2;7
-AnkhStaff,relic,Ankh Staff,Ankh Staff,Ankh Staff,,Increases Bleedout time for allies by 2 turns.,,jackal,Class Quest,Act 1,ankh_staff,,,5
-Antagonist,relic,Antagonist,Antagonist,Antagonist,,Heal for 10% of maximum HP whenever you deal SkillType.Stun damage.,,clown,Class Quest,Post Act 1,antagonist,,0.1;0.5,
-ArcaneVision,relic,Arcane Vision,Arcane Vision,Arcane Vision,Arcane Vis,Increases Technique by 0.5x Focus.,,spellblade,Class Quest,Act 3,arcane_vision,,0.5,
-AromaticMask,relic,Aromatic Mask,Aromatic Mask,Aromatic Mask,Aroma Mask,Gain 3 Resist before every turn.,,plague_doctor,Class Quest,Act 1,aromatic_mask,,,
-AsarielsTouch,relic,Asariel's Halo,Asariel's Halo,Asariel's Halo,Asariel Halo,Healed allies receive 15% increased healing for 3 turns. Grants Mend skill.,Mend,angel,Class Quest,Post Act 2,,,0.15,
-AssassinSpirit,relic,Assassin Spirit,Assassin Spirit,Assassin Spirit,AssassinSprt,"When an enemy is downed, 35% chance to gain a Free Turn.",,assassin,Class Quest,Act 1,assassin_spirit,,35.0,
-Forge,relic,Forge Emblem,Assassin Spirit,,Forge,Decreases SkillType.Fire damage taken by 25%. Grants Warm Up skill.,Warm Up,,Class Quest,Act 1,forge,,0.75,
-Attunement,relic,Attunement,Attunement,Attunement,,Adds up to 1x MP Cost to SkillType.Spell hits. Grants Moonbeam skill.,Moonbeam,druid,Class Quest,Act 3,attunement,,,
-Pamphlet,relic,AutoMedico Pamphlet,AutoMedico Pamphlet,AutoMedico Pamphlet,,Increases Particles gained from battle by 10%.,,med_bot,Class Quest,Act 2,pamphlet,,1.1,
-Hestia,relic,Hestia's Flame,Available Packs,Hestia's Flame,Begin,Increases Endurance and Wisdom by +5 and +15%.,,,,,pyx,,1.15;5.0,
-BansheesWail,relic,Banshee's Wail,Banshee's Wail,Banshee's Wail,Banshee Wail,SkillType.Sonic skill damage gains 25% piercing. Grants Wail skill.,Wail,banshee,Class Quest,Act 2,banshees_wail,,0.25;1.0,
-Barbarism,relic,Barbarism Totem,Barbarism Totem,Barbarism Totem,,Decreases MP cost of SkillType.Attack skills by 50% but decreases Wisdom by 25%.,,barbarian,Class Quest,Act 2,barbarism,,0.5;0.75,
-BattlePlan,relic,Battle Plans,Battle Plans,Battle Plans,,Increases Wisdom by +15 and 25%. Grants Strategize skill.,Strategize,general,Class Quest,Act 2,battle_plans,,1.25;15.0,
-Warhorn,relic,Viking Warhorn,BigGameHunter,Viking Warhorn,,Increases Max HP by 20%. Grants Battle Cry skill.,Battle Cry,viking,,,misses,,1.2,
-BioticBattery,relic,Biotic Battery,Biotic Battery,Biotic Battery,,"Self SkillType.Healing received also creates a shield, blocking up to 35% Max HP damage. Grants Reserve Battery.",,,Class Quest,Act 5,biotic_battery,,,2;3;4
-BlackBeret,relic,Black Beret,Black Beret,Black Beret,Blk Beret,"Increases all attributes by +1 for every 20 damage blocked by this hero's skills, up to +50.",,mime,Class Quest,Post Act 4,black_beret,,50.0,
-BlitzersSpeed,relic,Blitzer's Speed,Blitzer's Speed,Blitzer's Speed,Blitzer Spd,Gain 15% increased Speed for the first three turns of battle. Grants Blitz Stance skill.,Blitz Stance,linebacker,Class Quest,Post Act 1,,,1.15,
-BloodyCloth,relic,Bloody Cloth,Bloody Cloth,Bloody Cloth,Bld Cloth,"Sacrificing HP increases Endurance based on percent sacrificed, up to +150.",,blood_zealot,Class Quest,Act 4,,,,
-Blueberry,relic,Blueberry,Blueberry,Blueberry,,Increases MP Healing output by 40%.,,pixie,Class Quest,Post Act 3,blueberry,,0.4,
-BoosterShot,relic,Booster Shot,Booster Shot,Booster Shot,,Increase SkillType.Healing skill strength by 20% for each Resist stack on target.,,doctor,Class Quest,Post Act 3,booster_shot,,0.2,
-BoxingGlove,relic,Boxing Glove,Boxing Glove,Boxing Glove,,Deal 30% added SkillType.Stun damage with SkillType.Attack skills.,,boxer,Class Quest,Post Act 2,boxing_glove,,0.3,
-BrandsRosary,relic,Brand's Rosary,Brand's Rosary,Brand's Rosary,Rosary,"Increases Power by 0.35x Focus, and Focus by 0.35x Power.",,cleric,Class Quest,Act 2,brands_rosary,,0.35,
-JacquesKnife,relic,Jacques' Knife,Brand's Rosary,Jacques' Knife,Rosary,Critical hits gain 35% piercing. Grants Throw Knife skill.,Throw Knife,chef,Class Quest,Act 2,brands_rosary,,0.35;1.0,
-BrawlersHeart,relic,Brawler's Heart,Brawler's Heart,Brawler's Heart,Brawler Heart,Toughness and SkillType.Healing received increased by 50% when at critical HP.,,brawler,Class Quest,Act 5,brawlers_heart,,0.5;1.5,
-BrimmedGlasses,relic,Brimmed Glasses,Brimmed Glasses,Brimmed Glasses,Brim Glasses,"Increases Speed by 0.5x Focus, but decreases Technique by 10%.",,chemist,Class Quest,Act 4,brimmed_glasses,,0.5;0.9,
-BurningEmber,relic,Burning Ember,Burning Ember,Burning Ember,Brn Ember,Boss Relic. Deal 25% added SkillType.Fire damage with SkillType.Melee skill hits. Grants Burning Skin passive.,,,Boss Reward,-,burning_ember,,0.25,
-BuzzardsSaw,relic,Buzzard's Saw,Buzzard's Saw,Buzzard's Saw,Buzzsaw,Chance to gain a Free Turn after SkillType.Gadget skills. Grants Chainsaw skill.,Chainsaw,raider,Class Quest,Act 1,buzzards_saw,,20.0,
-CalebsMalice,relic,Caleb's Malice,Caleb's Malice,Caleb's Malice,,Returns 50% of direct damage taken as SkillType.Dark damage to attacker.,,dark_knight,Class Quest,Act 2,calebs_malice,,0.5,
-CencomManual,relic,CENCOM Manual,CENCOM Manual,CENCOM Manual,CENCOM Mnl,Boss Relic. Increases SkillType.Lightning damage dealt by 15%. Grants isolate.exe skill.,,,Boss Reward,-,cencom_manual,,0.15,
-CereanSalve,relic,Cerean Salve,Cerean Salve,Cerean Salve,Cer Salve,"Increases Toughness by +15 when hit by SkillType.Attack skills, up to +150.",,cactus,Class Quest,Act 5,cerean_salve,,15.0,
-ChancesVest,relic,Chance's Vest,Chance's Vest,Chance's Vest,Chance Vest,Grants Gambler's Luck passive.,,gambler,Class Quest,Act 5,chances_vest,,0.25;1.0,
-CharmersVeil,relic,Charmer's Veil,Charmer's Veil,Charmer's Veil,Charm Veil,Increases SkillType.Sleep and SkillType.Stun damage dealt by 25%. Grants Charm skill.,Charm,snake_charmer,Class Quest,Act 4,charmers_veil,,0.25,
-ChefsToque,relic,Chef's Toque,Chef's Toque,Chef's Toque,Chef Toque,"When channeling, reduce damage taken by 25%.",,chef,Class Quest,Act 4,chefs_toque,,0.75,
-ChemistBeaker,relic,Chemist Beaker,Chemist Beaker,Chemist Beaker,Beaker,Increases damage and healing of Items by 25%. Grants Mix.,,chemist,Class Quest,Act 4,chemist_beaker,,0.25,
-CombatCPU,relic,Combat CPU,Combat CPU,Combat CPU,CPU,"Converts 50% of Focus into Power, but automatically acts in battle.",,combat_bot,Class Quest,Act 5,combat_cpu,,0.5,
-CombatHelmet,relic,Combat Helmet,Combat Helmet,Combat Helmet,C. Helmet,Damage taken cannot be critical damage.,,marine,Class Quest,Act 1,,,,
-CurtisRhythm,relic,Curtis' Rhythm,Curtis' Rhythm,Curtis' Rhythm,CurtisRhythm,Every other SkillType.Attack skill deals 50% increased damage.,,boxer,Class Quest,Post Act 2,,,0.5,
-DansBottle,relic,Dan's Bottle,Dan's Bottle,Dan's Bottle,Dan's Bottle,Hits with SkillType.Attack skills deal up to 5% Current HP SkillType.Physical damage over time for 3 turns. Grants Whiskey skill.,Whiskey,,Class Quest,Act 1,,,0.05,
-DanielasHat,relic,Daniela's Hat,Daniela's Hat,Daniela's Hat,,Heal self for 20% Max HP when Resisting a SkillType.Debuff.,,cop,Class Quest,Act 5,danielas_hat,,0.2,3
-DarkFervor,relic,Dark Fervor,Dark Fervor,Dark Fervor,,Gain turn progress equal to half of sacrificed HP percent.,,fallen_angel,Class Quest,Act 4,dark_fervor,,50.0,
-DarkHeart,relic,Dark Heart,Dark Heart,Dark Heart,,Dealing SkillType.Dark damage heals you for 35% of the damage. Grants Darkblade passive.,,dark_knight,Class Quest,Act 2,dark_heart,,0.35,
-DarkSigil,relic,Dark Sigil,Dark Sigil,Dark Sigil,,Converts 35% of healing received into MP healing. Grants Soultap.,,hellbinder,Class Quest,Act 4,dark_sigil,,0.1;0.35;0.65,
-Handbook,relic,Demon Handbook,Demon Handbook,Demon Handbook,,Gain 3 stacks of Demon Shield at start of battle.,,hellbinder,Class Quest,Act 4,handbook,,,
-DevastatorCore,relic,Devastator Core,Devastator Core,Devastator Core,Dvstr Core,Boss Relic. Grants Core Surge passive.,,,Boss Reward,-,devastator_core,,,
-DevilsHorn,relic,Devil's Horn,Devil's Horn,Devil's Horn,Devil Horn,Prevents being downed and gain Haste when critical once per battle.,,devil,Class Quest,Act 4,,,,
-DispellingWand,relic,Dispelling Wand,Dispelling Wand,Dispelling Wand,Dispel Wand,Increases SkillType.Energy and SkillType.Sonic damage dealt by 25%. Grants Shatter skill.,Shatter,rune_scribe,Class Quest,Act 4,dispelling_wand,,0.25,
-DragonTattoo,relic,Dragon Tattoo,Dragon Tattoo,Dragon Tattoo,Dragon Tat,Increases SkillType.Fire and SkillType.Stun damage dealt by 25%. Grants Intimidate skill.,Intimidate,yakuza,Class Quest,Act 3,dragon_tattoo,,0.25,
-DrexsShield,relic,Drex's Shield,Drex's Shield,Drex's Shield,Drex Shield,"Reduces taken damage based on missing MP, up to 50%. Grants Bone Shield skill.",Bone Shield,undead,Class Quest,Act 2,drexs_shield,,0.5;1.0,
-DroneParts,relic,Drone Parts,Drone Parts,,,Automatically summon a random Cultist Drone before this hero's first turn in battle.,,,,,drone_parts,,0.25,3
-DruidicStaff,relic,Druidic Staff,Druidic Staff,Druidic Staff,Druid Staff,Increases damage and healing of SkillType.Spell skills by 15%.,,druid,Class Quest,Act 3,druidic_staff,,0.15,
-DuctTape,relic,Duct Tape,Duct Tape,,,"SkillType.Gadget skills deal 25% increased direct damage or healing, but have uses decreased by 1 (min 1).",,,,,duct_tape,,0.25,
-VampiricTouch,relic,Edgard's Cape,Edgard's Cape,Edgard's Cape,Edgard Cape,Prevents applied SkillType.Debuff effects from being dispelled. Grants Dark Bond skill.,Dark Bond,vampire,Class Quest,Act 4,edgards_cape,,,
-EldarScroll,relic,Eldar's Scroll,Eldar's Scroll,Eldar's Scroll,Eldar's Scrl,Decreases MP cost of SkillType.Debuff skills by 35%. Grants Dark Words.,,devil,Class Quest,Act 4,eldars_scroll,,0.65,
-Hourglass,relic,Eldritch Hourglass,Eldritch Hourglass,Eldritch Hourglass,,Boss Relic. Increase instability at the start of your turn. Grants Telekinesis skill.,Telekinesis,,Boss Reward,-,hourglass,,6.0,
-ElgeonsChill,relic,Elgeon's Chill,Elgeon's Chill,Elgeon's Chill,Elgeon's Chl,Increases SkillType.Ice damage by 15%. Grants Blizzard skill.,Blizzard,ice_mage,Class Quest,Act 2,elgeons_chill,,0.15,
-EnergyBracer,relic,Energy Bracer,Energy Bracer,Energy Bracer,E. Bracer,"Gain 20% of SkillType.MP damage taken as Discipline, up to +150.",,sentinel,Class Quest,Act 1,energy_bracer,,,
-ExtremeEnergy,relic,EXTREME Energy,EXTREME Energy,,EXTREME Egy,Increases speed by 10%. Take 90% decreased SkillType.Sleep damage.,,,,,extreme_energy,,0.1;1.1,
-EztlisMask,relic,Eztli's Mask,Eztli's Mask,Eztli's Mask,Eztli Mask,Increases SkillType.Healing power on self by 25%. Grants Bloodthirsty passive.,,jaguar,Class Quest,Post Act 3,etzlis_mask,,0.25,
-WhiteFace,relic,Face Paint,Face Paint,Face Paint,,Heal self for 25% Max HP after interrupting an enemy. Grants Prank skill.,Prank,mime,Class Quest,Post Act 4,face_paint,,0.25,
-FallenSpear,relic,Fallen Spear,Fallen Spear,Fallen Spear,,Sacrifice 20% HP every turn and increases all attributes based on missing HP up to +50.,,fallen_angel,Class Quest,Act 4,fallen_spear,,-0.2;25.0,
-FencersRiposte,relic,Fencer's Rapier,Fencer's Rapier,Fencer's Riposte,Rapier,Damage gains 50% more piercing against enemies you have Taunted.,,musketeer,,,riposte,,0.5;1.0,
-FloralSeed,relic,Floral Seed,Floral Seed,Floral Seed,,Your SkillType.Buff skills last an extra turn on allies. Grants Regrowth skill.,Regrowth,dryad,Class Quest,Act 3,floral_seed,,1.0,3;2;4
-MorphCore,relic,Morph Core,Frost Ray,Morph Core,Frost Ray,Deals 1.2x Focus SkillType.Ice damage and decreases target Speed by 50% for 1 turn.,,morph,,,,,,
-FrozenFist,relic,Frozen Fist,Frozen Fist,Frozen Fist,Frz Fist,Boss Relic. Deal 25% added SkillType.Ice damage with SkillType.Melee skill hits. Grants Cold Crush skill.,Cold Crush,,Boss Reward,-,frozen_fist,,0.25,
-GammaShard,relic,Gamma Shard,Gamma Shard,Gamma Shard,,Boss Relic. Increases SkillType.Poison damage dealt by 20%. Grants Gamma Wave skill.,Gamma Wave,,Boss Reward,-,gamma_shard,,0.2,
-GelatinousGoo,relic,Gelatinous Goo,Gelatinous Goo,Gelatinous Goo,Gel Goo,Boss Relic. Converts 80% of Toughness and Discipline into Endurance.,,,Boss Reward,-,gelatinous_goo,,0.2;0.8,
-GeneralsStar,relic,General's Star,General's Star,General's Star,General Str,Automatically gain Protect from front row ally.,,general,Class Quest,Act 2,generals_star,,,2;7;3;5
-GnawingFang,relic,Gnawing Fang,Gnawing Fang,Gnawing Fang,Gnaw Fang,Deal 25% added SkillType.Physical damage with SkillType.Attack skill hits.,,vampire,Class Quest,Act 4,gnawing_fang,,0.25,
-GrahamsCigar,relic,Graham's Cigar,Graham's Cigar,Graham's Cigar,Cigar,"Take 5% decreased damage for each SkillType.Debuff on enemy, up to 50%.",,banker,Class Quest,Act 4,grahams_cigar,,0.05;0.5;1.0,
-GurusBeads,relic,Guru's Beads,Guru's Beads,Guru's Beads,,Grants Mantra passive.,,guru,Class Quest,Act 5,gurus_beads,,,
-H34LEmitter,relic,H34L Emitter,H34L Emitter,H34L Emitter,H34L Emtr,Increases SkillType.Healing output of SkillType.Gadget skills by 35%. Grants Heal Beam skill.,Heal Beam,med_bot,Class Quest,Act 2,h34l_emitter,,0.35,
-H4RMEmitter,relic,H4RM Emitter,H4RM Emitter,H4RM Emitter,H4RM Emtr,"Increases Focus by +10 after each hit with a SkillType.Gadget skill, up to 10 stacks. Grants H4RM Beam skill.",H4RM Beam,combat_bot,Class Quest,Act 5,,,10.0,
-HardenedStone,relic,Hardened Stone,Hardened Stone,Hardened Stone,HardStone,Boss Relic. Converts 80% of Speed and Agility into Toughness.,,,Boss Reward,-,hardened_stone,,0.2;0.8,
-HarrysMedkit,relic,Harry's Medkit,Harry's Medkit,Harry's Medkit,Harry's Mdkt,Increase SkillType.Healing skill strength by 7.5% for each SkillType.Debuff on target. Grants Medkit skill.,Medkit,medic,Class Quest,Act 1,harrys_medkit,,0.075,
-HavocAI,relic,HavocAI Coprocessor,HavocAI Coprocessor,HavocAI Coprocessor,,Increases Wisdom by 50% of battle Instability percentage.,,,Class Quest,Act 5,havoc_ai,,0.008;0.5;1.0,
-HerosHeart,relic,Hero's Heart,Hero's Heart,Hero's Heart,Hero Heart,Increases all attributes by 15% for each currently downed ally or empty party slot.,,sentrybot,Class Quest,Act 5,heros_heart,,0.15;1.0;1.15,
-HolyBlade,relic,Holy Blade,Holy Blade,Holy Blade,,Increases SkillType.Holy damage by 15% and deal an additional 25% SkillType.Holy damage with SkillType.Attack skills.,,paladin,Class Quest,Act 3,holy_blade,,0.15;0.25,
-HonorCode,relic,Honor Code,Honor Code,Honor Code,,"Decreases damage taken by 35%, but die when downed instead of bleeding out.",,yakuza,Class Quest,Act 3,honor_code,,0.65,
-HornedHelmet,relic,Horned Helmet,Horned Helmet,Horned Helmet,Horned Helm,SkillType.Attack skills gain 25% increased piercing.,,viking,Class Quest,Act 2,horned_helmet,,0.25;1.0,
-SoulConduit,relic,Soul Conduit,Hpn,Soul Conduit,Soul Cndt,Boss relic. Gain 20% of the attributes from Downed allies.,,,,,soul_conduit,,,
-HuntersBlood,relic,Hunter's Blood,Hunter's Blood,Hunter's Blood,Hunter Blood,Increases damage dealt by up to 50% based on missing HP. Grants Blood Trance skill.,Blood Trance,vampire_hunter,Class Quest,Act 3,hunters_blood,,0.5;1.0,
-CactusTrimming,relic,Cactus Trimming,Iana's Bow,Cactus Trimming,Iana's Bow,"Deal 5% increased SkillType.Attack damage for each SkillType.Debuff on target, up to 50%. Grants Needle Volley skill.",Needle Volley,cactus,Class Quest,Start,judges_robes,,0.05,
-IanasBow,relic,Iana's Bow,Iana's Bow,Iana's Bow,Iana's Bow,"Increases Technique by +15 after each hit with SkillType.Attack, up to 10 stacks. Grants Eagle Eye skill.",Eagle Eye,ranger,Class Quest,Start,,,15.0,
-ImmortalSoul,relic,Immortal Soul,Immortal Soul,Immortal Soul,,Decreases taken damage based on missing HP up to 50%.,,immortal,Class Quest,Act 1,immortal_soul,,0.5;1.0,
-GlowingCoal,relic,Infernal Coal,Infernal Coal,Infernal Coal,Infnl Coal,Gain 35% piercing with SkillType.Fire damage from skills. Grants Flame Jet skill.,Flame Jet,fire_spirit_big,Class Quest,Post Act 4,infernal_coal,,0.35;1.0,
-Inferno,relic,Inferno Gem,Inferno Gem,Inferno Gem,,Converts 35% of damage taken into SkillType.Fire damage.,,fire_mage,Class Quest,Start,inferno,,0.35;0.65,
-InquisitorsMask,relic,Inquisitor's Mask,Inquisitor's Mask,Inquisitor's Mask,Inqstr Mask,"Increases Wisdom by +10 after applying a SkillType.Debuff, up to 10 stacks. Grants Strike Fear skill.",Strike Fear,inquisitor,Class Quest,Act 5,,,10.0,3
-Ionizer,relic,Ionizer,Ionizer,Ionizer,,Adds 25% bonus piercing SkillType.Energy damage when you deal SkillType.Fire SkillType.Ice or SkillType.Lightning damage.,,maelstrom,Class Quest,Post Act 1,ionizer,,0.25;1.0,
-IronGut,relic,Iron Gut,Iron Gut,Iron Gut,,Using a SkillType.Alcohol skill also restores 10% Max HP.,,,Class Quest,Act 1,iron_gut,,0.1,
-IshikawaGarb,relic,Ishikawa's Garb,Ishikawa's Garb,Ishikawa's Garb,IshiGarb,Gain up to 50% increased Agility based on turn progress. Grants Acrobatics passive.,,ninja,Class Quest,Act 2,ninja_garb,,0.5;1.0,
-JacksRum,relic,Jack's Rum,Jack's Rum,Jack's Rum,Jack's Rum,Increases all attributes by 15% when under the effects of SkillType.Alcohol skills. Grants Rum skill.,Rum,pirate,Class Quest,Act 1,,,1.15,
-JacksonsDogTags,relic,Jackson's Dog Tags,Jackson Tags,Jackson's Dog Tags,,Deal 25% increased damage to enemies with lower HP.,,pirate,,,jacksons_dogtags,,0.25,
-JaguarClaws,relic,Jaguar Claws,Jaguar Claws,Jaguar Claws,,"Increases all damage by up to 50%, based on target's missing HP.",,jaguar,Class Quest,Post Act 3,jaguar_claws,,0.5,
-JavedsSpear,relic,Javed's Spear,Javed's Spear,Javed's Spear,Javed's Spr,Increases Toughness and Technique by 20%. Grants Bulwark skill.,Bulwark,immortal,Class Quest,Act 1,javeds_spear,,1.2,
-JedsCap,relic,Jed's Cap,Jed's Cap,Jed's Cap,,Increases Technique by +15 and +25%. Grants Track skill.,Track,pioneer,Class Quest,Act 2,jeds_cap,,1.25;15.0,
-JestersCap,relic,Jester's Cap,Jester's Cap,Jester's Cap,,Damage and healing dealt are randomly multiplied by either 0.5x or 2x.,,jester,Class Quest,Post Act 2,jesters_cap,,0.5;2.0;50.0,
-JudgesRobes,relic,Judge's Robes,Judge's Robes,Judge's Robes,,Heal self for 10% Max HP whenever you apply a SkillType.Debuff to an enemy.,,judge,Class Quest,Act 5,judges_robes,,0.1,3
-KatesDuster,relic,Kate's Duster,Kate's Duster,Kate's Duster,Kate's Dstr,Dispel one SkillType.Debuff effect after dodging. Grants Combat Roll.,,gunslinger,Class Quest,Act 4,kates_duster,,,
-SamuraiBlade,relic,Kenjiro's Katana,Kenjiro's Katana,Kenjiro's Katana,,Dealing SkillType.MP damage heals MP equal to 35% of the damage. Grants Sever Soul skill.,Sever Soul,samurai,Class Quest,Act 3,katana,,0.35,
-KiarasVoice,relic,Kiara's Voice,Kiaras Voice,Kiara's Voice,,SkillType.Sonic damage hits decrease enemy Toughness by 10% for three turns.Stacks.,,banshee,Class Quest,Act 2,,,0.9,
-KineticShieldGen,relic,Kinetic Shield Gen,Kinetic Shield,Kinetic Shield Gen,,Grants Kinetic Barrier skill.,Kinetic Barrier,pirate,,,juggernauts_shield,,,
-KnightTraining,relic,Knight Training,Knight Training,Knight Training,Knight Trng,"Increases Power, Toughness, and Technique by 15%.",,knight,Class Quest,Start,knight_training,,1.15,
-KnuckleDuster,relic,Knuckle Duster,Knuckle Duster,,Knuckle Dst,"SkillType.Melee skill hits gain 35% increased critical damage, but decreases TEC by 10%. Grants Wallop skill.",Wallop,,,,knuckle_duster,,0.35;0.9,
-Incense,relic,Incense,Korr's Solitude,Incense,Solitude,Increases Wisdom by 0.25x Focus.,,guru,Class Quest,Act 2,korrs_solitude,,0.25,
-KorrsSolitude,relic,Korr's Solitude,Korr's Solitude,Korr's Solitude,Solitude,Grants level 3 Lone Wolf passive.,,sasquatch,Class Quest,Act 2,korrs_solitude,,,
-KrakenHide,relic,Kraken Hide,Kraken Hide,Kraken Hide,,Boss Relic. Decreases taken damage by 5% for each living ally without this relic.,,,Boss Reward,-,kraken_hide,,0.05;1.0,
-LichRing,relic,Krethik's Ring,Krethik's Ring,Krethik's Ring,Krethik Ring,Increases Wisdom by 0.35x Endurance.,,lich,Class Quest,Post Act 2,lich_ring,,0.35,
-LabCoat,relic,Lab Coat,Lab Coat,Lab Coat,,Adds up to .5x Wisdom to SkillType.Gadget damage.,,inventor,Class Quest,Act 5,lab_coat,,0.5,
-LichFinger,relic,Lich Finger,Lich Finger,Lich Finger,Lich Fingr,Decreases turn delay of SkillType.Spell skills by 10%. Grants Wither skill.,Wither,lich,Class Quest,Post Act 2,lich_finger,,0.9;1.0,
-LightningRod,relic,Lightning Rod,Lightning Rod,,Lit Rod,Decreases SkillType.Lightning damage taken by 50%. Grants Lightning Strike skill.,Lightning Strike,,,,lightning_rod,,0.5,
-LizardScale,relic,Lizard Scale,Lizard Scale,Lizard Scale,,Increases SkillType.Healing received by 25%. Grants Shed Skin skill.,Shed Skin,lizardman,Class Quest,Act 1,lizard_scale,,0.25,
-LoadedDie,relic,Loaded Die,Loaded Die,Loaded Die,,Increases hit chance and critical hit chance by 50%.,,gunslinger,Class Quest,Act 4,loaded_die,,1.5,
-PiratesGuile,relic,Pirate's Guile,LootGoblin,Pirate's Guile,Loot Goblin,"Increases Speed and Agility based on missing HP, up to double.",,pirate,,,rares,,2.0,
-LuciensMight,relic,Lucien's Might,Lucien's Might,Lucien's Might,Lucien Might,Summons gain an additional 50% of your attributes.,,shaman,Class Quest,Act 3,luciens_might,,0.5,
-BoneCharm,relic,Bone Charm,LuckyJoker,Bone Charm,Lucky Joker,Reduces SkillType.MP and SkillType.Dark damage received by 25%.,,necromancer,Class Quest,Act 5,lucky_joker,,0.75,
-LumianBattery,relic,Lumian Battery,Lumian Battery,Lumian Battery,,SkillType.Energy damage dealt gains 25% piercing.,,lumian,Class Quest,Act 5,lumian_battery,,0.25;1.0,
-LydiasAnkh,relic,Lydia's Ankh,Lydia's Ankh,Lydia's Ankh,Lydia's Ankh,"Healing allies increases your Discipline by 20% of the healing done, up to +150. Grants Renewal skill.",Renewal,priestess,Class Quest,Start,,,,
-MagesWisdom,relic,Mage's Crystal,Mage's Crystal,Mage's Crystal,Mage Crystal,"Increases Focus by 65%, but can no longer gain Free Turn.",,ice_mage,Class Quest,Act 2,mages_wisdom,,1.65,
-MagicWand,relic,Magic Wand,Magic Wand,,,"When gaining a SkillType.Buff, dispel one SkillType.Debuff if possible.",,magician,,,magic_wand,,,3
-MarinesRucksack,relic,Marine's Rucksack,Marine's Rucksack,Marine's Rucksack,Rucksack,Increases SkillType.Gadget skill uses by 1. Grants Grenade skill.,Grenade,marine,Class Quest,Act 1,rucksack,,,
-MartyrSpike,relic,Martyr's Spike,Martyr's Spike,Martyr's Spike,,Increases healing output by up to 50% based on missing HP. Grants Blood Shield skill.,Blood Shield,blood_zealot,Class Quest,Act 4,martyr_spike,,0.5;1.0,
-MathiasHat,relic,Mathias' Hat,Mathias' Hat,Mathias' Hat,,Adds up to .5x Technique to SkillType.Gadget damage.,,steam_lord,Class Quest,Act 4,mathias_hat,,0.5,
-MedicBackpack,relic,Medic Backpack,Medic Backpack,Medic Backpack,Med Backpack,Heals supported ally every turn for 0.65x Focus. Grants Support skill.,Support,medic,Class Quest,Act 1,medic_backpack,,,
-MelodicScore,relic,Melodic Score,Melodic Score,Melodic Score,,Increases Technique by 25% with an active SkillType.Song. Grants Melody skill.,Melody,bard,Class Quest,Act 3,melodic_score,,,
-Minerva,relic,Minerva's Icon,Minerva's Staff,Minerva's Icon,MinervaStaff,"Increase Wisdom by +10 and +25%, but lowers Discipline by 10%.",,,Class Quest,Act 3,minervas_staff,,0.9;1.25;10.0,
-MinervasStaff,relic,Minerva's Staff,Minerva's Staff,Minerva's Staff,MinervaStaff,Converts 50% of Discipline into Wisdom.,,witch,Class Quest,Act 3,minervas_staff,,0.5,
-MoneyBag,relic,Money Bag,Money Bag,Money Bag,,Damage dealt gains 5% piercing for each SkillType.Debuff on you. Max 50%. Grants Bash.,Bash,banker,Class Quest,Act 4,,,0.05;0.5;1.0,
-MusketeersMusket,relic,Musketeer's Musket,Musket,Musketeer's Musket,Musketeer's Musket,Converts 25% of Speed into Power. Grants Musket skill.,Musket,musketeer,,,musket,,0.25;0.75,
-NanoCarbonScrews,relic,Nanocarbon Screws,Nanocarbon Screws,Nanocarbon Screws,Nano Screws,Decreases turn delay of SkillType.Gadget skills by 20%. Grants Pulse Grenade skill.,Pulse Grenade,space_marine,Class Quest,Act 5,nanocarbon_screws,,0.8;1.0,
-Necronomicon,relic,Necronomicon,Necronomicon,Necronomicon,,Increases SkillType.Dark damage dealt by 25%. Grants Grave's Call skill.,,necromancer,Class Quest,Act 2,necronomicon,,0.25,
-NinjasRuse,relic,Ninja's Ruse,Ninja's Ruse,Ninja's Ruse,,"Chance to reduce damage by 50%, equal to dodge chance.",,ninja,Class Quest,Act 2,ninjas_ruse,,0.5,
-NoviceSpellbook,relic,Novice Spellbook,Novice Spellbook,,Novice Splbk,"SkillType.Spell skills deal 0-20% increased output, but cost 25% increased MP. Grants random basic SkillType.Spell each battle.",,,,,novice_spellbook,,0.2;1.25;2.0;3.0,2;7;3
-HolyWater,relic,Holy Water,NTe,Holy Water,Holy Water,Damage taken from Undead decreased by 35%. Grants Consecrate skill.,Consecrate,cleric,,,holy_water,,0.65,3
-Oakheart,relic,Oakheart,Oakheart,Oakheart,,"Boss Relic. Reduces maximum HP, damage taken, and healing received by 50%.",,,Boss Reward,-,oakheart,,0.5,
-OdraksFury,relic,Odrak's Claymore,Odrak's Claymore,Odrak's Claymore,Odrak Claymr,Increases SkillType.Physical damage dealt by 25%. Grants Cleave skill.,Cleave,barbarian,Class Quest,Act 2,odraks_claymore,,0.25,
-OgsSpear,relic,Og's Spear,Og's Spear,Og's Spear,,Adds up to .5x Power to SkillType.Ranged damage. Grants Throw Spear skill.,Throw Spear,caveman,Class Quest,Act 2,ogs_spear,,0.5,
-OttosBoots,relic,Otto's Boots,Otto's Boots,Otto's Boots,,Decreases SkillType.Lightning and SkillType.Poison damage taken by 25%. Grants Spring Boots skill.,Spring Boots,inventor,Class Quest,Act 5,alfreds_boots,,0.75,
-PaddedHelmet,relic,Padded Helmet,Padded Helmet,Padded Helmet,Padded Helm,Converts 35% of SkillType.Physical damage taken into SkillType.Stun damage.,,linebacker,Class Quest,Post Act 1,padded_helmet,,0.35;0.65,
-PainLimiter,relic,Pain Limiter,Pain Limiter,Pain Limiter,Pain Lmtr,"Sacrificing HP increases Focus based on percent sacrificed, up to +100.",,inquisitor,Class Quest,Act 5,,,,
-PillBottle,relic,Pill Bottle,Pill Bottle,Pill Bottle,Pill Bottle,Increases damage and healing by 25% when under the effects of SkillType.Alcohol skills.,,doctor,Class Quest,Post Act 3,terror_hide,,0.2,
-PlagueKnife,relic,Plague Knife,Plague Knife,Plague Knife,Plague Knife,Hits with SkillType.Attack skills decrease target's SkillType.Healing received by 25% for 2 turns. Grants Incision skill.,Incision,plague_doctor,Class Quest,Act 1,,,0.75,
-Pocketwatch,relic,Pocket Watch,Pocket Watch,,Pkt Watch,Deal 10% added SkillType.MP damage when dealing SkillType.Sleep damage. Grants Hypnotize skill.,Hypnotize,magician,,,pocket_watch,,0.1,
-PoliceBadge,relic,Police Badge,Police Badge,Police Badge,,Damage taken decreased by 10% for each Protected ally. Grants Protect skill.,Protect,cop,Class Quest,Act 5,police_badge,,0.1;1.0,
-PotShard,relic,Pot Shard,Pot Shard,Pot Shard,,Take 5% less damage for each SkillType.Buff on you. Up to 35%.,,fire_spirit_big,Class Quest,Post Act 4,pot_shard,,0.05;0.35;1.0,
-PricelessTreasure,relic,Priceless Treasure,Priceless Treasure,,Treasure,Time Break Tech particle cost reduced by 50% when used by this hero.,,keekuko,,,priceless_treasure,,0.5,
-PriestessGarb,relic,Priestess Garb,Priestess Garb,Priestess Garb,Prstess Garb,"Increases SkillType.Healing power by 10%, and decreases SkillType.Dark damage taken by 25%.",,priestess,Class Quest,Start,priestess_garb,,0.1;0.75,
-PrimalBond,relic,Primal Bond,Primal Bond,Primal Bond,,Gain 25% of the attributes from your summon.,,caveman,Class Quest,Act 2,primal_bond,,0.25,
-MichaelsClaw,relic,Moonstone,Pursuer Bracer,Moonstone,Pursuer Brc,Increases damage dealt by up to 25% with an active SkillType.Aspect skill.,,wolfman,Class Quest,Act 3,pursuer_bracer,,0.25,
-PursuerBracer,relic,Pursuer Bracer,Pursuer Bracer,Pursuer Bracer,Pursuer Brc,Increases hit chance of SkillType.Ranged skills by 50%. Grants Wrist Laser skill.,Wrist Laser,pursuer,Class Quest,Act 3,pursuer_bracer,,1.5,
-MagicSatchel,relic,Magic Satchel,R-NP,Magic Satchel,Satchel,Converts 25% of Toughness to Agility. Grants Pixie Dust skill.,Pixie Dust,pixie,,,magic_satchel,,0.25;0.75,
-RadiantMote,relic,Radiant Mote,Radiant Mote,Radiant Mote,,Increases dodge chance by up to 50% based on missing HP. Grants Blind skill.,Blind,lumian,Class Quest,Act 5,radiant_mote,,0.5;1.0,
-RaidersEdge,relic,Raider's Edge,Raider's Edge,Raider's Edge,Raider Edge,Heal for 20-25% of Max HP when an enemy is Downed.,,raider,Class Quest,Act 1,raiders_edge,,0.05;0.2,
-RalfsFlute,relic,Ralf's Flute,Ralf's Flute,Ralf's Flute,,Chance to gain a Free Turn after a critical hit. Grants Anthem.,,jester,Class Quest,Post Act 2,ralfs_flute,,20.0,
-RareHeirloom,relic,Rare Heirloom,Rare Heirloom,,Heirloom,"Whenever an enemy gains a free turn, gain one as well.",,keekuko,,,rare_heirloom,,,
-Rebreather,relic,Rebreather,Rebreather,Rebreather,,Gain turn progress from redirected damage. Grants Protect.,,firefighter,Class Quest,Act 4,rebreather,,,
-RedBalloon,relic,Red Balloon,Red Balloon,Red Balloon,,Negates first direct damage taken after each turn. Grants Balloon skill.,Balloon,clown,Class Quest,Post Act 1,,,,
-DivasInfluence,relic,Red Rose,Red Rose,Red Rose,,Taunt effects from this hero last until dispelled.,,diva,Class Quest,Post Act 4,red_rose,,,
-RenesCane,relic,Rene's Cane,Rene's Cane,Rene's Cane,,Increases Focus by 0.35x Discipline.,,bokor,Class Quest,Act 4,renes_cane,,0.35,
-Revenge,relic,Revenge Token,Revenge Token,Revenge Token,Revenge Token,"Increases Power by 20%, but decreases Endurance by 10%, after being revived. Stacks up to 10 times.",,super_soldier,Class Quest,Act 1,,,0.2;0.9;1.0,
-RitualDagger,relic,Ritual Dagger,Ritual Dagger,,Ritual Dgr,Deal and take 25% increased SkillType.Dark damage. Grants Ritual skill.,Ritual,,,,ritual_dagger,,0.25,
-RockFist,relic,Rock Fist,Rock Fist,Rock Fist,,Increases Power by 0.35x Toughness.,,golem,Class Quest,Act 4,rock_fist,,0.35,
-RockersIntensity,relic,Rocker's Intensity,Rocker's Intensity,Rocker's Intensity,Rock Intnsty,"Increases all damage by 25%, but also increases MP costs by 50%.",,rocker,Class Quest,Act 1,rockers_intensity,,0.25;1.5,
-RomanCassis,relic,Roman Cassis,Roman Cassis,Roman Cassis,Roman Cassis,"Increase Power by +10 whenever OWNER.NAME dodges, up to 15 stacks.",,gladiator,Class Quest,Act 5,,,10.0,
-RootClipping,relic,Root Clipping,Root Clipping,,Root Clip,Restore 5-10% Max HP and gain 1 Resist per turn. Grants Rooted passive.,,,,,root_clipping,,0.05,
-RunedStone,relic,Runed Stone,Runed Stone,Runed Stone,Rune Stone,Increases maximum MP by 50%.,,golem,Class Quest,Act 4,runed_stone,,1.5,
-RunedVestments,relic,Runed Vestments,Runed Vestments,Runed Vestaments,Runed Vstmt,Converts 35% of damage taken into SkillType.MP damage.,,rune_scribe,,,runed_vestments,,0.35;0.65,
-RunicMail,relic,Runic Mail,Runic Mail,Runic Mail,,Decreases damage taken from SkillType.Spell skills by 35%. Grants Spellscreen skill.,Spellscreen,spellblade,Class Quest,Act 3,runic_mail,,0.65,
-RupertsGavel,relic,Rupert's Gavel,Rupert's Gavel,Rupert's Gavel,Rupert's Gavel,SkillType.Attack skill hits decrease enemy Power by 5% for three turns. Stacks. Grants Judgment skill.,Judgment,judge,Class Quest,Act 5,,,0.95,
-LeonsSword,relic,Leon's Sword,S Sword,Leon's Sword,,Hits with SkillType.Attack skills have a 33% chance to taunt non-boss enemies. Grants Guard Strike skill.,Guard Strike,knight,,,s_sword,,33.0,2;7
-SafetyBook,relic,Safety Manual,Safety Manual,Safety Manual,Safety Mnl,Reduces MP cost of SkillType.Buff skills by 50%.,,firefighter,Class Quest,Act 4,safety_book,,0.5,
-SamuelsSixgun,relic,Samuel's Sixgun,Samuel's Sixgun,Samuel's Sixgun,Samuel's Gun,Damage is increased by 20% for each critical HP ally.,,,Class Quest,Act 1,samuels_sixgun,,0.2,
-LuckyJoker,relic,Lucky Joker,Sasquatch Grip,Lucky Joker,Sas. Grip,Increases critical hit chance by 25% for each SkillType.Debuff on the target.,,gambler,Class Quest,Act 2,sasquatch_grip,,0.25;1.0,
-SasquatchGrip,relic,Sasquatch Grip,Sasquatch Grip,Sasquatch Grip,Sas. Grip,Halves chance to miss with SkillType.Attack skills. Grants Toss skill.,Toss,sasquatch,Class Quest,Act 2,sasquatch_grip,,0.5,
-MasterScout,relic,Scout's Flag,Scout's Flag,Scout's Flag,Scout Flag,Gain 100% increased Speed for the first turn of battle.,,ranger,Class Quest,Start,,,,
-BardsFocus,relic,Seb's Lute,Seb's Lute,Seb's Lute,Vzh4,Increases Technique by up to 50% based on current HP.,,bard,Class Quest,Act 3,sebs_lute,,0.5;1.0,
-SentinelCore,relic,Sentinel Core,Sentinel Core,Sentinel Core,Sent. Core,Increases Discipline based on missing MP. Grants Energy Lance skill.,Energy Lance,sentinel,Class Quest,Act 1,sentinel_core,,0.6,
-ServiceKevlar,relic,Service Kevlar,Service Kevlar,Service Kevlar,Svc Kevlar,Limits HP damage taken per hit to 25% of Max HP.,,secret_service,Class Quest,Post Act 3,service_kevlar,,0.25,
-ShamanicMind,relic,Shamanic Wand,Shamanic Wand,Shamanic Wand,Shaman Wand,"When channeling, gain 25% of Max MP at start of turn.",,shaman,Class Quest,Act 3,shamans_wand,,0.25,
-MonksResolve,relic,Shaolin Robe,Shaolin Robe,Shaolin Robe,,Decreases damage taken from hits by 0.15x Discipline.,,monk,Class Quest,Start,shaolin_garb,,0.15;1.0,
-ShatteredVanity,relic,Shattered Vanity,Shattered Vanity,Shattered Vanity,Shatter Vnty,Boss Relic. Grants Mirror Image skill. Decreases all attributes by 15%.,Mirror Image,,Boss Reward,-,shattered_vanity,,0.85,
-SirensTouch,relic,Shell Charm,Shell Charm,Shell Charm,,SkillType.Sleep damage dealt gains 50% piercing.,,siren,Class Quest,Act 3,shell_charm,,0.5;1.0,
-ShepherdsSpirit,relic,Shepherd's Spirit,Shepherd's Spirit,Shephard's Spirit,Shepherd Sprt,Increases MP healing received by 25%. Grants Locust Swarm skill.,Locust Swarm,jackal,,,shepherds_spirit,,0.25,
-SheriffBadge,relic,Sheriff Badge,Sheriff Badge,Sheriff Badge,Shrf Badge,Take 5% less damage for each SkillType.Debuff on you. Up to 35%. Grants Shake Off skill.,Shake Off,,Class Quest,Act 1,sheriff_badge,,0.05;0.35;1.0,
-ShieldFragment,relic,Shield Fragment,Shield Fragment,Shield Fragment,Shld Frag,Boss Relic. Grants Barricade skill.,Barricade,,Boss Reward,-,shield_fragment,,,
-ShredderSaw,relic,Shredder Saw,Shredder Saw,Shredder Saw,,Boss Relic. Automatically use Spinning Blade for free on a random target at start of turn. Grants Spinning Blade.,,,Boss Reward,-,shredder_saw,,,
-ShroomCap,relic,Shroom Cap,Shroom Cap,Shroom Cap,,Boss Relic. Deals 2.5x Focus SkillType.Sleep damage to attacker when hit by SkillType.Attack skills.,,,Boss Reward,-,shroom_cap,,2.5,
-SinnersMask,relic,Sinner's Mask,Sinner's Mask,Sinner's Mask,Sin Mask,"Boss Relic. Grants Boast, Claim and Show Off skills.",,,Boss Reward,-,sinners_mask,,,
-SladesGuitar,relic,Slade's Guitar,Slade's Guitar,Slade's Guitar,Slade Guitar,SkillType.Sonic skills have reduced turn delay and reset SkillType.Sleep counter on all enemies and allies. Grants Power Ballad skill.,Power Ballad,rocker,Class Quest,Act 1,slades_guitar,,0.65;1.0,
-SmithTraining,relic,Smith's Training,Smith's Training,Smith's Training,Smith Trng,Increases Toughness by 15% for 3 turns when using a SkillType.Buff skill. Grants Whetstone skill.,Whetstone,blacksmith,Class Quest,Act 1,,,1.15,
-SnakeVenom,relic,Snake Venom,Snake Venom,Snake Venom,,Increases SkillType.Poison damage by 15% and piercing by 50%.,,snake_charmer,Class Quest,Act 4,snake_venom,,0.15;0.5;1.0,
-MendingSpirit,relic,Mending Spirit,SnakeVenom,Mending Spirit,Snake Venom,MP healing received also restores 35% as HP.,,samurai,Class Quest,Act 4,snake_venom,,0.1;0.35,
-SophiasGlass,relic,Sophia's Glass,Sophia's Glass,Sophia's Glass,Sophia Gls,Adds up to .5x Technique to SkillType.Sonic damage. Grants Screech skill.,Screech,diva,Class Quest,Post Act 4,sophias_glass,,0.5,
-Dionysus,relic,Dionysus' Staff,Special Missions,Dionysus' Staff,Act Missions,Increases Focus and Agility by +5 and +15%.,,,,,special_missions,,1.15;5.0,
-StormVisor,relic,Storm Visor,Storm Visor,Storm Visor,Storm Vsr,Increases hit chance of SkillType.Spell skills by 50%. Grants Ball Lightning skill.,Ball Lightning,maelstrom,Class Quest,Post Act 1,storm_visor,,1.5,
-SpiderEgg,relic,Spider Egg,SummonBond,Spider Egg,Spider Egg,Boss Relic. Automatically summon a Spiderling in battle.,,,,,spider_egg,,0.25,
-TanksGlove,relic,Tank's Glove,Tanks Glove,Tank's Glove,,Gain +25 Power for 3 turns when missing with a SkillType.Attack skill hit. Grants Clobber skill.,Clobber,brawler,Class Quest,Act 5,,,25.0,
-TerrorHide,relic,Terror Hide,Terror Hide,Terror Hide,,Boss Relic. Decreases SkillType.Poison damage taken by 50%. Grants Carapace passive.,,,Boss Reward,-,terror_hide,,0.5,
-Toolbox,relic,Toolbox,Toolbox,,,SkillType.Gadget skills randomly deal 0-20% increased damage or healing. Grants a random SkillType.Gadget skill every battle.,,,,,toolbox,,0.2,
-TrackingSensor,relic,Tracking Sensor,Tracking Sensor,Tracking Sensor,Track Sensor,Damage dealt by counter attacks increased by 25%. Grants Motion Tracker skill.,Motion Tracker,sentrybot,Class Quest,Act 5,tracking_sensor,,0.25,
-TrainersSigil,relic,Trainer's Sigil,Trainer's Sigil,,Trn Sigilg,This hero's summon gains 50% increased speed for 3 turns after summoning.,,beastmaster,,,,,0.75;1.5,
-GhalibsWhip,relic,Trainer's Whip,Trainer's Whip,,Trn Whip,SkillType.Attack skill hits decrease enemy TGH and DSC by 10% for 3 turns. Stacks. 2x effect vs Beasts. Grants Whip.,,beastmaster,,,,,0.2;0.8;0.9,3
-UndeadSoul,relic,Undead Soul,Undead Soul,Undead Soul,,"Reduce Stamina loss by 35%, but also receive 50% less healing.",,undead,Class Quest,Act 2,undead_soul,,0.5;0.65,
-Unobtainium,relic,Unobtainium,Unobtnm,Unobtainium,,Heal MP for 10% of SkillType.Melee skill hit damage dealt.,,morph,,,unobtainium,,0.1;0.5,
-UtilityBelt,relic,Utility Belt,Utility Belt,Utility Belt,Util Belt,"The first SkillType.Gadget skill used per battle does not consume a use, and counts as a Bonus Action. Grants Smoke Bomb.",,steam_lord,Class Quest,Act 4,,,,
-DryadsWill,relic,Valerian Root,Valerian Root,Valerian Root,Valerian,Decreases turn delay of SkillType.Debuff skills by 35%.,,dryad,Class Quest,Act 3,valerian_root,,0.65;1.0,
-VenomSac,relic,Venom Sac,Venom Sac,Venom Spray,,Boss Relic. Grants Venom Spray skill.,Venom Spray,,,,venom_sac,,,
-ViggosGladius,relic,Viggo's Gladius,Viggo's Gladius,Viggo's Gladius,Viggo Gladius,"Increases Discipline by +10 after each hit with SkillType.Melee skill, up to 10 stacks. Grants Martial Prodigy passive.",,gladiator,Class Quest,Act 5,,,10.0,
-VikkisVulstaff,relic,Vikki's Vulstaff,Vikki's Vulstaff,Vikki's Vulstaff,,"Increases Agility based on missing HP, up to 50%. Grants Retreat skill.",Retreat,vul,Class Quest,Act 2,vulstaff,,0.5;1.0,
-VipersSuit,relic,Viper's Suit,Viper's Suit,Viper's Suit,Viper Suit,"When hidden, gain 25% of Max MP at start of turn. Grants Ambush skill.",Ambush,wraith,Class Quest,Act 3,vipers_suit,,0.25,
-VoidCrystal,relic,Void Crystal,Void Crystal,,,Take 33% current HP SkillType.Dark damage after every turn. Grants Void Blast skill.,Void Blast,,,,void_crystal,,0.33,
-VoodooTalisman,relic,Voodoo Talisman,Voodoo Talisman,Voodoo Talisman,Vdoo Tlsmn,Reduces MP cost of SkillType.Spell skills by 25%. Grants Haunt skill.,Haunt,bokor,Class Quest,Act 4,voodoo_talisman,,0.75,
-VulCunning,relic,Vul Cunning,Vul Cunning,Vul Cunning,,"Increases damage to enemies based on their chance to miss you, up to 100%.",,vul,Class Quest,Act 2,vul_cunning,,1.0,2;7
-VulcansHammer,relic,Vulcan's Hammer,Vulcan's Hammer,Vulcan's Hammer,Vulcan Hamr,Gain +10 Power for each SkillType.Buff on you.,,blacksmith,Class Quest,Act 1,vulcans_hammer,,,
-WakingWater,relic,Waking Water,Waking Water,Waking Water,,Healing also removes Sleep counter from allies. Grants Healing Rain skill.,Healing Rain,siren,Class Quest,Act 3,waking_water,,,
-WenshosGift,relic,Wensho's Gift,Wensho's Gift,Wensho's Gift,Wensho's Gft,Increases SkillType.Healing skill power by 25%. Grants Meditate skill.,Meditate,monk,Class Quest,Start,wenshos_gift,,0.25,
-WilliamsZeal,relic,William's Penance,William's Penance,William's Penance,,Increases all attributes by 5% (up to 25%) for each SkillType.Buff skill used. Grants Divine Shield skill.,Divine Shield,paladin,Class Quest,Act 3,williams_zeal,,0.05;1.0,
-WinterCoat,relic,Winter Coat,Winter Coat,Winter Coat,,Decreases SkillType.Ice damage taken by 50%.,,pioneer,Class Quest,Act 2,winter_coat,,0.5,
-WitchsGrimoire,relic,Witch's Grimoire,Witch's Grimoire,Witch's Grimoire,,Your SkillType.Debuff skills last twice as long. Grants Curse skill.,Curse,witch,Class Quest,Act 3,eai,,,3;2;4
-WolfsFerocity,relic,Wolf's Fang,Wolf's Fang,Wolf's Fang,,Adds up to 5% of target's current HP to SkillType.Melee damage. Grants Howl skill.,Howl,wolfman,Class Quest,Act 3,wolf_fang,,0.05,
-WraithSword,relic,Wraith Sword,Wraith Sword,Wraith Sword,,Deal 25% added SkillType.Energy damage with SkillType.Attack skill hits.,,wraith,Class Quest,Act 3,wraith_sword,,0.25,
-WrestlersWill,relic,Wrestler's Will,Wrestler's Will,Wrestler's Will,Wrestler Wl,Reduce the duration of SkillType.Debuff effects on you by 1 turn. Minimum of 1 turn.,,wrestler,Class Quest,Start,wrestlers_will,,1.0,2;3;4
-XenoSquadBadge,relic,XenoSquad Badge,XenoSquad Badge,XenoSquad Badge,Xeno Badge,Increases critical hit chance and critical hit damage vs non-human enemies by 50%.,,space_marine,Class Quest,Act 5,xenosquad_badge,,0.5;1.5,
-XorkziGambit,relic,Xorkzi's Gambit,Xorkzi's Gambit,Xorkzi's Gambit,XorkGambit,"Critical hits deal 50% increased damage, but non-critical hits deal 35% decreased damage.",,pursuer,Class Quest,Act 3,xorkzi_gambit,,0.5;0.65,
-YukikosDagger,relic,Yukiko's Dagger,Yukiko's Dagger,Yukiko's Dagger,Yukiko Daggr,Increases Power by 0.25x Technique. Grants Execute skill.,Execute,assassin,Class Quest,Act 1,yukikos_dagger,,0.25,
-ZanesPassion,relic,Zane's Passion,Zane's Passion,Zane's Passion,Zane Passion,SkillType.Spell skills have a 20% chance to grant a Free Turn. Grants the Fire Blast skill.,,fire_mage,Class Quest,Start,zanes_passion,,20.0,
-ZekesBoots,relic,Zeke's Boots,Zeke's Boots,Zeke's Boots,,Increases SkillType.Stun damage by 35%. Grants Dropkick skill.,Dropkick,wrestler,Class Quest,Start,zekes_boots,,0.35,
-SethsToxin,relic,Seth's Toxin,Zone Defense,Seth's Toxin,Zone D,"When hit by an SkillType.Attack skill, attacker takes 5% Max HP SkillType.Poison damage over time for 3 turns. Stacks.",,lizardman,,,,,0.05,3
+relic_id,type,name,short_name,effect,effect_short,granted_skill,unlock_class_id,source_method,availability,sprite_path,param
+Apollo,gem,Apollo's Token,Apollo,Increases Focus and Discipline by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/apollo.png,[1.15;5.0]
+Ares,gem,Ares Gem,Ares,Increases Power and Toughness by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/ares.png,[1.15;5.0]
+Artemis,gem,Artemis Gem,Artemis,Increases Agility and Technique by +5 and 15%.,-,-,-,Mission Reward,-,assets/relic/artemis.png,[1.15;5.0]
+Athena,gem,Athena Token,Athena,Increases Power and Wisdom by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/athena.png,[1.15;5.0]
+Diana,gem,Diana's Gem,Diana,"Increases Technique by +10 and +25%, but decreases Agility by 10%.",-,-,-,Mission Reward,-,assets/relic/diana.png,[0.9;1.25;10.0]
+Hades,gem,Hades Gem,Hades,Increases Focus and Toughness by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/hades.png,[1.15;5.0]
+Hera,gem,Hera's Diadem,Hera,Increases Discipline and Wisdom by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/hera.png,[1.15;5.0]
+Hermes,gem,Hermes Wing,Hermes,Increases Speed and Agility by +5 and +15%.,-,-,-,-,-,assets/relic/hermes.png,[1.15;5.0]
+Mars,gem,Mars' Gem,Mars,"Increases Power by +10 and +25%, but decreases Endurance by 10%.",-,-,-,Mission Reward,-,assets/relic/mars.png,[0.9;1.25;10.0]
+Mercury,gem,Mercury's Caduceus,Mercury,"Increases Speed by +10 and +25%, but decreases Toughness by 10%.",Increases SPD by +10 and +25%. Decreases TGH by 10%.,-,-,Mission Reward,-,assets/relic/mercury.png,[0.9;1.25;10.0]
+Poseidon,gem,Poseidon's Trident,Poseidon,Increases Power and Focus by +5 and +15%.,-,-,-,Mission Reward,-,assets/relic/poseidon.png,[1.15;5.0]
+Sol,gem,Sol's Gem,Sol,"Increases Focus by +10 and +25%, but decreases Wisdom by 10%.",-,-,-,Mission Reward,-,assets/relic/sol.png,[0.9;1.25;10.0]
+Swiftness,gem,Swiftness Totem,Swiftness,Using a SkillType.Attack skill has a 15% chance to grant a Free Turn.,SkillType.Attack skills sometimes grant a Free Turn.,-,-,Mission Reward,-,assets/relic/swiftness.png,[15.0]
+Vulcan,gem,Vulcan's Obsidian,Vulcan,"Increases Toughness by +10 and +25%, but decreases Power by 10%.",-,-,-,Mission Reward,-,assets/relic/vulcan.png,[0.9;1.25;10.0]
+Zeus,gem,Zeus Gem,Zeus,Increases all attributes by +5 and 5%.,-,-,-,Mission Reward,-,assets/relic/zeus.png,[1.05;5.0]
+AbrahamsLocket,relic,Abraham's Locket,Abe's Locket,Decreases taken damage based on current HP up to 50%.,-,-,vampire_hunter,Class Quest,Act 3,assets/relic/abrahams_locket.png,[0.5;1.0]
+AgentsWatch,relic,Agent's Watch,Agents Watch,Decreases turn delay of SkillType.Attack skills by 10%. Grants Disarm skill.,Decreases turn delay of SkillType.Attack skills. Grants Disarm.,Disarm,secret_service,Class Quest,Post Act 3,assets/relic/agents_watch.png,[0.9;1.0]
+AlacrityImplant,relic,Alacrity Implant,Alacrity,Increases Technique by 0.35x Speed. Grants Frenzy skill.,-,Frenzy,super_soldier,Class Quest,Act 1,assets/relic/alacrity_implant.png,[0.35]
+AncientSling,relic,Ancient Sling,Ancient Slg,Power and Technique increased by +25 against Extreme Danger and Boss battles.,POW and TEC increased by +25 vs Extreme Danger and Boss battles.,-,-,-,-,assets/relic/ancient_sling.png,[25.0]
+AngelsWing,relic,Angel's Feather,-,"Prevents being downed and casts Holy Shield on self when critical, once per battle.",-,-,angel,-,-,assets/relic/angels_feather.png,[2;7]
+AnkhStaff,relic,Ankh Staff,-,Increases Bleedout time for allies by 2 turns.,-,-,jackal,Class Quest,Act 1,assets/relic/ankh_staff.png,[5]
+Antagonist,relic,Antagonist,-,Heal for 10% of maximum HP whenever you deal SkillType.Stun damage.,-,-,clown,Class Quest,Post Act 1,assets/relic/antagonist.png,[0.1;0.5]
+ArcaneVision,relic,Arcane Vision,Arcane Vis,Increases Technique by 0.5x Focus.,Increases Technique by 0.5x Focus.,-,spellblade,Class Quest,Act 3,assets/relic/arcane_vision.png,[0.5]
+AromaticMask,relic,Aromatic Mask,Aroma Mask,Gain 3 Resist before every turn.,-,-,plague_doctor,Class Quest,Act 1,assets/relic/aromatic_mask.png,-
+AsarielsTouch,relic,Asariel's Halo,Asariel Halo,Healed allies receive 15% increased healing for 3 turns. Grants Mend skill.,-,Mend,angel,Class Quest,Post Act 2,assets/relic/asariels_halo.png,[0.15]
+AssassinSpirit,relic,Assassin Spirit,AssassinSprt,"When an enemy is downed, 35% chance to gain a Free Turn.",-,-,assassin,Class Quest,Act 1,assets/relic/assassin_spirit.png,[35.0]
+Forge,relic,Forge Emblem,Forge,Decreases SkillType.Fire damage taken by 25%. Grants Warm Up skill.,Decreases SkillType.Fire damage taken. Grants Warm Up skill.,Warm Up,-,Class Quest,Act 1,assets/relic/forge.png,[0.75]
+Attunement,relic,Attunement,-,Adds up to 1x MP Cost to SkillType.Spell hits. Grants Moonbeam skill.,-,Moonbeam,druid,Class Quest,Act 3,assets/relic/attunement.png,-
+Pamphlet,relic,AutoMedico Pamphlet,Pamphlet,Increases Particles gained from battle by 10%.,-,-,med_bot,Class Quest,Act 2,assets/relic/pamphlet.png,[1.1]
+Hestia,relic,Hestia's Flame,Begin,Increases Endurance and Wisdom by +5 and +15%.,-,-,-,-,-,assets/relic/pyx.png,[1.15;5.0]
+BansheesWail,relic,Banshee's Wail,Banshee Wail,SkillType.Sonic skill damage gains 25% piercing. Grants Wail skill.,-,Wail,banshee,Class Quest,Act 2,assets/relic/banshees_wail.png,[0.25;1.0]
+Barbarism,relic,Barbarism Totem,Barbarism,Decreases MP cost of SkillType.Attack skills by 50% but decreases Wisdom by 25%.,Decreases MP cost of SkillType.Attack skills but decreases Wisdom.,-,barbarian,Class Quest,Act 2,assets/relic/barbarism.png,[0.5;0.75]
+BattlePlan,relic,Battle Plans,-,Increases Wisdom by +15 and 25%. Grants Strategize skill.,-,Strategize,general,Class Quest,Act 2,assets/relic/battle_plans.png,[1.25;15.0]
+Warhorn,relic,Viking Warhorn,Warhorn,Increases Max HP by 20%. Grants Battle Cry skill.,-,Battle Cry,viking,-,-,assets/relic/misses.png,[1.2]
+BioticBattery,relic,Biotic Battery,Blocks up to ,"Self SkillType.Healing received also creates a shield, blocking up to 35% Max HP damage. Grants Reserve Battery.",Self SkillType.Healing also creates a shield. Grants Reserve Battery.,-,-,Class Quest,Act 5,assets/relic/biotic_battery.png,[2;3;4]
+BlackBeret,relic,Black Beret,Blk Beret,"Increases all attributes by +1 for every 20 damage blocked by this hero's skills, up to +50.","Gain +1 to all attributes for every 20 damage blocked, up to +50.",-,mime,Class Quest,Post Act 4,assets/relic/black_beret.png,[50.0]
+BlitzersSpeed,relic,Blitzer's Speed,Blitzer Spd,Gain 15% increased Speed for the first three turns of battle. Grants Blitz Stance skill.,-,Blitz Stance,linebacker,Class Quest,Post Act 1,assets/relic/blitzers_speed.png,[1.15]
+BloodyCloth,relic,Bloody Cloth,Bld Cloth,"Sacrificing HP increases Endurance based on percent sacrificed, up to +150.",-,-,blood_zealot,Class Quest,Act 4,assets/relic/bloody_cloth.png,-
+Blueberry,relic,Blueberry,-,Increases MP Healing output by 40%.,-,-,pixie,Class Quest,Post Act 3,assets/relic/blueberry.png,[0.4]
+BoosterShot,relic,Booster Shot,-,Increase SkillType.Healing skill strength by 20% for each Resist stack on target.,Increase SkillType.Healing based on target's Resist stacks,-,doctor,Class Quest,Post Act 3,assets/relic/booster_shot.png,[0.2]
+BoxingGlove,relic,Boxing Glove,-,Deal 30% added SkillType.Stun damage with SkillType.Attack skills.,-,-,boxer,Class Quest,Post Act 2,assets/relic/boxing_glove.png,[0.3]
+BrandsRosary,relic,Brand's Rosary,Rosary,"Increases Power by 0.35x Focus, and Focus by 0.35x Power.",-,-,cleric,Class Quest,Act 2,assets/relic/brands_rosary.png,[0.35]
+JacquesKnife,relic,Jacques' Knife,Rosary,Critical hits gain 35% piercing. Grants Throw Knife skill.,-,Throw Knife,chef,Class Quest,Act 2,assets/relic/brands_rosary.png,[0.35;1.0]
+BrawlersHeart,relic,Brawler's Heart,Brawler Heart,Toughness and SkillType.Healing received increased by 50% when at critical HP.,-,-,brawler,Class Quest,Act 5,assets/relic/brawlers_heart.png,[0.5;1.5]
+BrimmedGlasses,relic,Brimmed Glasses,Brim Glasses,"Increases Speed by 0.5x Focus, but decreases Technique by 10%.",-,-,chemist,Class Quest,Act 4,assets/relic/brimmed_glasses.png,[0.5;0.9]
+BurningEmber,relic,Burning Ember,Brn Ember,Boss Relic. Deal 25% added SkillType.Fire damage with SkillType.Melee skill hits. Grants Burning Skin passive.,Deal 25% added SkillType.Fire with SkillType.Melee skill hits. Grants Burning Skin.,-,-,Boss Reward,-,assets/relic/burning_ember.png,[0.25]
+BuzzardsSaw,relic,Buzzard's Saw,Buzzsaw,Chance to gain a Free Turn after SkillType.Gadget skills. Grants Chainsaw skill.,-,Chainsaw,raider,Class Quest,Act 1,assets/relic/buzzards_saw.png,[20.0]
+CalebsMalice,relic,Caleb's Malice,CalebsMalice,Returns 50% of direct damage taken as SkillType.Dark damage to attacker.,-,-,dark_knight,Class Quest,Act 2,assets/relic/calebs_malice.png,[0.5]
+CencomManual,relic,CENCOM Manual,CENCOM Mnl,Boss Relic. Increases SkillType.Lightning damage dealt by 15%. Grants isolate.exe skill.,Increases SkillType.Lightning damage dealt by 15%. Grants isolate.exe skill.,-,-,Boss Reward,-,assets/relic/cencom_manual.png,[0.15]
+CereanSalve,relic,Cerean Salve,Cer Salve,"Increases Toughness by +15 when hit by SkillType.Attack skills, up to +150.",Increases Toughness by +15 when hit by SkillType.Attack skills.,-,cactus,Class Quest,Act 5,assets/relic/cerean_salve.png,[15.0]
+ChancesVest,relic,Chance's Vest,Chance Vest,Grants Gambler's Luck passive.,-,-,gambler,Class Quest,Act 5,assets/relic/chances_vest.png,[0.25;1.0]
+CharmersVeil,relic,Charmer's Veil,Charm Veil,Increases SkillType.Sleep and SkillType.Stun damage dealt by 25%. Grants Charm skill.,Increases SkillType.Sleep and SkillType.Stun damage by 25%. Grants Charm.,Charm,snake_charmer,Class Quest,Act 4,assets/relic/charmers_veil.png,[0.25]
+ChefsToque,relic,Chef's Toque,Chef Toque,"When channeling, reduce damage taken by 25%.",-,-,chef,Class Quest,Act 4,assets/relic/chefs_toque.png,[0.75]
+ChemistBeaker,relic,Chemist Beaker,Beaker,Increases damage and healing of Items by 25%. Grants Mix.,Increases damage and healing of Items. Grants Mix.,-,chemist,Class Quest,Act 4,assets/relic/chemist_beaker.png,[0.25]
+CombatCPU,relic,Combat CPU,CPU,"Converts 50% of Focus into Power, but automatically acts in battle.",-,-,combat_bot,Class Quest,Act 5,assets/relic/combat_cpu.png,[0.5]
+CombatHelmet,relic,Combat Helmet,C. Helmet,Damage taken cannot be critical damage.,-,-,marine,Class Quest,Act 1,assets/relic/combat_helmet.png,-
+CurtisRhythm,relic,Curtis' Rhythm,CurtisRhythm,Every other SkillType.Attack skill deals 50% increased damage.,-,-,boxer,Class Quest,Post Act 2,assets/relic/curtis_rhythm.png,[0.5]
+DansBottle,relic,Dan's Bottle,Dan's Bottle,Hits with SkillType.Attack skills deal up to 5% Current HP SkillType.Physical damage over time for 3 turns. Grants Whiskey skill.,-,Whiskey,-,Class Quest,Act 1,assets/relic/dans_bottle.png,[0.05]
+DanielasHat,relic,Daniela's Hat,-,Heal self for 20% Max HP when Resisting a SkillType.Debuff.,-,-,cop,Class Quest,Act 5,assets/relic/danielas_hat.png,[0.2;3]
+DarkFervor,relic,Dark Fervor,-,Gain turn progress equal to half of sacrificed HP percent.,Gain turn progress equal to half of sacrificed HP pct.,-,fallen_angel,Class Quest,Act 4,assets/relic/dark_fervor.png,[50.0]
+DarkHeart,relic,Dark Heart,-,Dealing SkillType.Dark damage heals you for 35% of the damage. Grants Darkblade passive.,Dealing SkillType.Dark damage heals you. Grants Darkblade passive.,-,dark_knight,Class Quest,Act 2,assets/relic/dark_heart.png,[0.35]
+DarkSigil,relic,Dark Sigil,-,Converts 35% of healing received into MP healing. Grants Soultap.,Converts healing received into MP healing. Grants Soultap.,-,hellbinder,Class Quest,Act 4,assets/relic/dark_sigil.png,[0.1;0.35;0.65]
+Handbook,relic,Demon Handbook,Handbook,Gain 3 stacks of Demon Shield at start of battle.,-,-,hellbinder,Class Quest,Act 4,assets/relic/handbook.png,-
+DevastatorCore,relic,Devastator Core,Dvstr Core,Boss Relic. Grants Core Surge passive.,Grants Core Surge passive.,-,-,Boss Reward,-,assets/relic/devastator_core.png,-
+DevilsHorn,relic,Devil's Horn,Devil Horn,Prevents being downed and gain Haste when critical once per battle.,-,-,devil,Class Quest,Act 4,assets/relic/devils_horn.png,-
+DispellingWand,relic,Dispelling Wand,Dispel Wand,Increases SkillType.Energy and SkillType.Sonic damage dealt by 25%. Grants Shatter skill.,Increases SkillType.Energy and SkillType.Sonic damage by 25%. Grants Shatter.,Shatter,rune_scribe,Class Quest,Act 4,assets/relic/dispelling_wand.png,[0.25]
+DragonTattoo,relic,Dragon Tattoo,Dragon Tat,Increases SkillType.Fire and SkillType.Stun damage dealt by 25%. Grants Intimidate skill.,Increases SkillType.Fire and SkillType.Stun damage by 25%. Grants Intimidate.,Intimidate,yakuza,Class Quest,Act 3,assets/relic/dragon_tattoo.png,[0.25]
+DrexsShield,relic,Drex's Shield,Drex Shield,"Reduces taken damage based on missing MP, up to 50%. Grants Bone Shield skill.",Reduces taken damage based on missing MP. Grants Bone Shield skill.,Bone Shield,undead,Class Quest,Act 2,assets/relic/drexs_shield.png,[0.5;1.0]
+DroneParts,relic,Drone Parts,SapperDrone,Automatically summon a random Cultist Drone before this hero's first turn in battle.,Automatically summon a random Cultist Drone before first turn.,-,-,-,-,assets/relic/drone_parts.png,[0.25;3]
+DruidicStaff,relic,Druidic Staff,Druid Staff,Increases damage and healing of SkillType.Spell skills by 15%.,-,-,druid,Class Quest,Act 3,assets/relic/druidic_staff.png,[0.15]
+DuctTape,relic,Duct Tape,-,"SkillType.Gadget skills deal 25% increased direct damage or healing, but have uses decreased by 1 (min 1).","SkillType.Gadget skills deal 25% increased output, but have uses decreased by 1.",-,-,-,-,assets/relic/duct_tape.png,[0.25]
+VampiricTouch,relic,Edgard's Cape,Edgard Cape,Prevents applied SkillType.Debuff effects from being dispelled. Grants Dark Bond skill.,Prevents SkillType.Debuff effects from being dispelled. Grants Dark Bond.,Dark Bond,vampire,Class Quest,Act 4,assets/relic/edgards_cape.png,-
+EldarScroll,relic,Eldar's Scroll,Eldar's Scrl,Decreases MP cost of SkillType.Debuff skills by 35%. Grants Dark Words.,-,-,devil,Class Quest,Act 4,assets/relic/eldars_scroll.png,[0.65]
+Hourglass,relic,Eldritch Hourglass,Hourglass,Boss Relic. Increase instability at the start of your turn. Grants Telekinesis skill.,Increase instability at the start of your turn. Grants Telekinesis.,Telekinesis,-,Boss Reward,-,assets/relic/hourglass.png,[6.0]
+ElgeonsChill,relic,Elgeon's Chill,Elgeon's Chl,Increases SkillType.Ice damage by 15%. Grants Blizzard skill.,Increases SkillType.Ice damage. Grants Blizzard skill.,Blizzard,ice_mage,Class Quest,Act 2,assets/relic/elgeons_chill.png,[0.15]
+EnergyBracer,relic,Energy Bracer,E. Bracer,"Gain 20% of SkillType.MP damage taken as Discipline, up to +150.",-,-,sentinel,Class Quest,Act 1,assets/relic/energy_bracer.png,-
+ExtremeEnergy,relic,EXTREME Energy,EXTREME Egy,Increases speed by 10%. Take 90% decreased SkillType.Sleep damage.,-,-,-,-,-,assets/relic/extreme_energy.png,[0.1;1.1]
+EztlisMask,relic,Eztli's Mask,Eztli Mask,Increases SkillType.Healing power on self by 25%. Grants Bloodthirsty passive.,-,-,jaguar,Class Quest,Post Act 3,assets/relic/etzlis_mask.png,[0.25]
+WhiteFace,relic,Face Paint,-,Heal self for 25% Max HP after interrupting an enemy. Grants Prank skill.,Heal self for 25% Max HP after interrupting an enemy. Grants Prank.,Prank,mime,Class Quest,Post Act 4,assets/relic/face_paint.png,[0.25]
+FallenSpear,relic,Fallen Spear,-,Sacrifice 20% HP every turn and increases all attributes based on missing HP up to +50.,"Sacrifice HP every turn, increases attributes based on missing HP.",-,fallen_angel,Class Quest,Act 4,assets/relic/fallen_spear.png,[-0.2;25.0]
+FencersRiposte,relic,Fencer's Rapier,Rapier,Damage gains 50% more piercing against enemies you have Taunted.,-,-,musketeer,-,-,assets/relic/riposte.png,[0.5;1.0]
+FloralSeed,relic,Floral Seed,-,Your SkillType.Buff skills last an extra turn on allies. Grants Regrowth skill.,-,Regrowth,dryad,Class Quest,Act 3,assets/relic/floral_seed.png,[1.0;3;2;4]
+MorphCore,relic,Morph Core,Frost Ray,Deals 1.2x Focus SkillType.Ice damage and decreases target Speed by 50% for 1 turn.,-,-,morph,-,-,assets/relic/morph_core.png,-
+FrozenFist,relic,Frozen Fist,Frz Fist,Boss Relic. Deal 25% added SkillType.Ice damage with SkillType.Melee skill hits. Grants Cold Crush skill.,Deal 25% added SkillType.Ice with SkillType.Melee skill hits. Grants Cold Crush.,Cold Crush,-,Boss Reward,-,assets/relic/frozen_fist.png,[0.25]
+GammaShard,relic,Gamma Shard,-,Boss Relic. Increases SkillType.Poison damage dealt by 20%. Grants Gamma Wave skill.,Increases SkillType.Poison damage dealt by 20%. Grants Gamma Wave skill.,Gamma Wave,-,Boss Reward,-,assets/relic/gamma_shard.png,[0.2]
+GelatinousGoo,relic,Gelatinous Goo,Gel Goo,Boss Relic. Converts 80% of Toughness and Discipline into Endurance.,-,-,-,Boss Reward,-,assets/relic/gelatinous_goo.png,[0.2;0.8]
+GeneralsStar,relic,General's Star,General Str,Automatically gain Protect from front row ally.,-,-,general,Class Quest,Act 2,assets/relic/generals_star.png,[2;7;3;5]
+GnawingFang,relic,Gnawing Fang,Gnaw Fang,Deal 25% added SkillType.Physical damage with SkillType.Attack skill hits.,Deal 25% added SkillType.Physical with SkillType.Attack skill hits.,-,vampire,Class Quest,Act 4,assets/relic/gnawing_fang.png,[0.25]
+GrahamsCigar,relic,Graham's Cigar,Cigar,"Take 5% decreased damage for each SkillType.Debuff on enemy, up to 50%.",Take decreased damage for each SkillType.Debuff on enemy.,-,banker,Class Quest,Act 4,assets/relic/grahams_cigar.png,[0.05;0.5;1.0]
+GurusBeads,relic,Guru's Beads,Guru's Beads,Grants Mantra passive.,-,-,guru,Class Quest,Act 5,assets/relic/gurus_beads.png,-
+H34LEmitter,relic,H34L Emitter,H34L Emtr,Increases SkillType.Healing output of SkillType.Gadget skills by 35%. Grants Heal Beam skill.,Increases SkillType.Gadget healing by 35%. Gain Heal Beam.,Heal Beam,med_bot,Class Quest,Act 2,assets/relic/h34l_emitter.png,[0.35]
+H4RMEmitter,relic,H4RM Emitter,H4RM Emtr,"Increases Focus by +10 after each hit with a SkillType.Gadget skill, up to 10 stacks. Grants H4RM Beam skill.",-,H4RM Beam,combat_bot,Class Quest,Act 5,assets/relic/h4rm_emitter.png,[10.0]
+HardenedStone,relic,Hardened Stone,HardStone,Boss Relic. Converts 80% of Speed and Agility into Toughness.,-,-,-,Boss Reward,-,assets/relic/hardened_stone.png,[0.2;0.8]
+HarrysMedkit,relic,Harry's Medkit,Harry's Mdkt,Increase SkillType.Healing skill strength by 7.5% for each SkillType.Debuff on target. Grants Medkit skill.,Increase SkillType.Healing based on target's Debuffs. Grants Medkit skill.,Medkit,medic,Class Quest,Act 1,assets/relic/harrys_medkit.png,[0.075]
+HavocAI,relic,HavocAI Coprocessor,HavocAI,Increases Wisdom by 50% of battle Instability percentage.,-,-,-,Class Quest,Act 5,assets/relic/havoc_ai.png,[0.008;0.5;1.0]
+HerosHeart,relic,Hero's Heart,Hero Heart,Increases all attributes by 15% for each currently downed ally or empty party slot.,All attributes +15% for each currently downed ally or empty slot.,-,sentrybot,Class Quest,Act 5,assets/relic/heros_heart.png,[0.15;1.0;1.15]
+HolyBlade,relic,Holy Blade,-,Increases SkillType.Holy damage by 15% and deal an additional 25% SkillType.Holy damage with SkillType.Attack skills.,Increases SkillType.Holy damage and deal extra SkillType.Holy damage with SkillType.Attack skills.,-,paladin,Class Quest,Act 3,assets/relic/holy_blade.png,[0.15;0.25]
+HonorCode,relic,Honor Code,-,"Decreases damage taken by 35%, but die when downed instead of bleeding out.","Decreases dmg taken by 35%, but die immediately when downed.",-,yakuza,Class Quest,Act 3,assets/relic/honor_code.png,[0.65]
+HornedHelmet,relic,Horned Helmet,Horned Helm,SkillType.Attack skills gain 25% increased piercing.,-,-,viking,Class Quest,Act 2,assets/relic/horned_helmet.png,[0.25;1.0]
+SoulConduit,relic,Soul Conduit,Soul Cndt,Boss relic. Gain 20% of the attributes from Downed allies.,-,-,-,-,-,assets/relic/soul_conduit.png,-
+HuntersBlood,relic,Hunter's Blood,Hunter Blood,Increases damage dealt by up to 50% based on missing HP. Grants Blood Trance skill.,Increases dmg by up to 50% based on missing HP. Grants Blood Trance.,Blood Trance,vampire_hunter,Class Quest,Act 3,assets/relic/hunters_blood.png,[0.5;1.0]
+CactusTrimming,relic,Cactus Trimming,Iana's Bow,"Deal 5% increased SkillType.Attack damage for each SkillType.Debuff on target, up to 50%. Grants Needle Volley skill.",Deal +5% SkillType.Attack damage for each SkillType.Debuff on target. Grants Needle Volley.,Needle Volley,cactus,Class Quest,Start,assets/relic/judges_robes.png,[0.05]
+IanasBow,relic,Iana's Bow,Iana's Bow,"Increases Technique by +15 after each hit with SkillType.Attack, up to 10 stacks. Grants Eagle Eye skill.",-,Eagle Eye,ranger,Class Quest,Start,assets/relic/ianas_bow.png,[15.0]
+ImmortalSoul,relic,Immortal Soul,Immortal,Decreases taken damage based on missing HP up to 50%.,-,-,immortal,Class Quest,Act 1,assets/relic/immortal_soul.png,[0.5;1.0]
+GlowingCoal,relic,Infernal Coal,Infnl Coal,Gain 35% piercing with SkillType.Fire damage from skills. Grants Flame Jet skill.,Gain 35% piercing with SkillType.Fire damage from skills. Grants Flame Jet.,Flame Jet,fire_spirit_big,Class Quest,Post Act 4,assets/relic/infernal_coal.png,[0.35;1.0]
+Inferno,relic,Inferno Gem,Inferno,Converts 35% of damage taken into SkillType.Fire damage.,-,-,fire_mage,Class Quest,Start,assets/relic/inferno.png,[0.35;0.65]
+InquisitorsMask,relic,Inquisitor's Mask,Inqstr Mask,"Increases Wisdom by +10 after applying a SkillType.Debuff, up to 10 stacks. Grants Strike Fear skill.",-,Strike Fear,inquisitor,Class Quest,Act 5,assets/relic/inquisitors_mask.png,[10.0;3]
+Ionizer,relic,Ionizer,-,Adds 25% bonus piercing SkillType.Energy damage when you deal SkillType.Fire SkillType.Ice or SkillType.Lightning damage.,-,-,maelstrom,Class Quest,Post Act 1,assets/relic/ionizer.png,[0.25;1.0]
+IronGut,relic,Iron Gut,IronGut,Using a SkillType.Alcohol skill also restores 10% Max HP.,-,-,-,Class Quest,Act 1,assets/relic/iron_gut.png,[0.1]
+IshikawaGarb,relic,Ishikawa's Garb,IshiGarb,Gain up to 50% increased Agility based on turn progress. Grants Acrobatics passive.,Increased Agility based on turn progress. Grants Acrobatics passive.,-,ninja,Class Quest,Act 2,assets/relic/ninja_garb.png,[0.5;1.0]
+JacksRum,relic,Jack's Rum,Jack's Rum,Increases all attributes by 15% when under the effects of SkillType.Alcohol skills. Grants Rum skill.,-,Rum,pirate,Class Quest,Act 1,assets/relic/jacks_rum.png,[1.15]
+JacksonsDogTags,relic,Jackson's Dog Tags,Jackson Tags,Deal 25% increased damage to enemies with lower HP.,-,-,pirate,-,-,assets/relic/jacksons_dogtags.png,[0.25]
+JaguarClaws,relic,Jaguar Claws,-,"Increases all damage by up to 50%, based on target's missing HP.",Increases all damage based on target's missing HP.,-,jaguar,Class Quest,Post Act 3,assets/relic/jaguar_claws.png,[0.5]
+JavedsSpear,relic,Javed's Spear,Javed's Spr,Increases Toughness and Technique by 20%. Grants Bulwark skill.,-,Bulwark,immortal,Class Quest,Act 1,assets/relic/javeds_spear.png,[1.2]
+JedsCap,relic,Jed's Cap,-,Increases Technique by +15 and +25%. Grants Track skill.,-,Track,pioneer,Class Quest,Act 2,assets/relic/jeds_cap.png,[1.25;15.0]
+JestersCap,relic,Jester's Cap,-,Damage and healing dealt are randomly multiplied by either 0.5x or 2x.,Damage and healing dealt are randomly multiplied by either 0.5x or 2x.,-,jester,Class Quest,Post Act 2,assets/relic/jesters_cap.png,[0.5;2.0;50.0]
+JudgesRobes,relic,Judge's Robes,-,Heal self for 10% Max HP whenever you apply a SkillType.Debuff to an enemy.,-,-,judge,Class Quest,Act 5,assets/relic/judges_robes.png,[0.1;3]
+KatesDuster,relic,Kate's Duster,Kate's Dstr,Dispel one SkillType.Debuff effect after dodging. Grants Combat Roll.,Dispel SkillType.Debuff after dodging. Grants Combat Roll.,-,gunslinger,Class Quest,Act 4,assets/relic/kates_duster.png,-
+SamuraiBlade,relic,Kenjiro's Katana,Katana,Dealing SkillType.MP damage heals MP equal to 35% of the damage. Grants Sever Soul skill.,Dealing SkillType.MP damage heals MP for 35% of the dmg. Grants Sever Soul.,Sever Soul,samurai,Class Quest,Act 3,assets/relic/katana.png,[0.35]
+KiarasVoice,relic,Kiara's Voice,-,SkillType.Sonic damage hits decrease enemy Toughness by 10% for three turns.Stacks.,-,-,banshee,Class Quest,Act 2,assets/relic/kiaras_voice.png,[0.9]
+KineticShieldGen,relic,Kinetic Shield Gen,Kinetic Shield,Grants Kinetic Barrier skill.,-,Kinetic Barrier,pirate,-,-,assets/relic/juggernauts_shield.png,-
+KnightTraining,relic,Knight Training,Knight Trng,"Increases Power, Toughness, and Technique by 15%.",-,-,knight,Class Quest,Start,assets/relic/knight_training.png,[1.15]
+KnuckleDuster,relic,Knuckle Duster,Knuckle Dst,"SkillType.Melee skill hits gain 35% increased critical damage, but decreases TEC by 10%. Grants Wallop skill.","SkillType.Melee hits gain +35% crit dmg, but -10% TEC. Grants Wallop.",Wallop,-,-,-,assets/relic/knuckle_duster.png,[0.35;0.9]
+Incense,relic,Incense,Solitude,Increases Wisdom by 0.25x Focus.,-,-,guru,Class Quest,Act 2,assets/relic/korrs_solitude.png,[0.25]
+KorrsSolitude,relic,Korr's Solitude,Solitude,Grants level 3 Lone Wolf passive.,-,-,sasquatch,Class Quest,Act 2,assets/relic/korrs_solitude.png,-
+KrakenHide,relic,Kraken Hide,-,Boss Relic. Decreases taken damage by 5% for each living ally without this relic.,-,-,-,Boss Reward,-,assets/relic/kraken_hide.png,[0.05;1.0]
+LichRing,relic,Krethik's Ring,Krethik Ring,Increases Wisdom by 0.35x Endurance.,-,-,lich,Class Quest,Post Act 2,assets/relic/lich_ring.png,[0.35]
+LabCoat,relic,Lab Coat,-,Adds up to .5x Wisdom to SkillType.Gadget damage.,-,-,inventor,Class Quest,Act 5,assets/relic/lab_coat.png,[0.5]
+LichFinger,relic,Lich Finger,Lich Fingr,Decreases turn delay of SkillType.Spell skills by 10%. Grants Wither skill.,-,Wither,lich,Class Quest,Post Act 2,assets/relic/lich_finger.png,[0.9;1.0]
+LightningRod,relic,Lightning Rod,Lit Rod,Decreases SkillType.Lightning damage taken by 50%. Grants Lightning Strike skill.,Decreases SkillType.Lightning damage taken by 50%. Grants Lightning Strike.,Lightning Strike,-,-,-,assets/relic/lightning_rod.png,[0.5]
+LizardScale,relic,Lizard Scale,-,Increases SkillType.Healing received by 25%. Grants Shed Skin skill.,-,Shed Skin,lizardman,Class Quest,Act 1,assets/relic/lizard_scale.png,[0.25]
+LoadedDie,relic,Loaded Die,-,Increases hit chance and critical hit chance by 50%.,Increases hit chance and critical chance by 50%.,-,gunslinger,Class Quest,Act 4,assets/relic/loaded_die.png,[1.5]
+PiratesGuile,relic,Pirate's Guile,Loot Goblin,"Increases Speed and Agility based on missing HP, up to double.",Increases Speed and Agility based on missing HP.,-,pirate,-,-,assets/relic/rares.png,[2.0]
+LuciensMight,relic,Lucien's Might,Lucien Might,Summons gain an additional 50% of your attributes.,-,-,shaman,Class Quest,Act 3,assets/relic/luciens_might.png,[0.5]
+BoneCharm,relic,Bone Charm,Lucky Joker,Reduces SkillType.MP and SkillType.Dark damage received by 25%.,-,-,necromancer,Class Quest,Act 5,assets/relic/lucky_joker.png,[0.75]
+LumianBattery,relic,Lumian Battery,-,SkillType.Energy damage dealt gains 25% piercing.,-,-,lumian,Class Quest,Act 5,assets/relic/lumian_battery.png,[0.25;1.0]
+LydiasAnkh,relic,Lydia's Ankh,Lydia's Ankh,"Healing allies increases your Discipline by 20% of the healing done, up to +150. Grants Renewal skill.",-,Renewal,priestess,Class Quest,Start,assets/relic/lydias_ankh.png,-
+MagesWisdom,relic,Mage's Crystal,Mage Crystal,"Increases Focus by 65%, but can no longer gain Free Turn.",-,-,ice_mage,Class Quest,Act 2,assets/relic/mages_wisdom.png,[1.65]
+MagicWand,relic,Magic Wand,-,"When gaining a SkillType.Buff, dispel one SkillType.Debuff if possible.",-,-,magician,-,-,assets/relic/magic_wand.png,[3]
+MarinesRucksack,relic,Marine's Rucksack,Rucksack,Increases SkillType.Gadget skill uses by 1. Grants Grenade skill.,-,Grenade,marine,Class Quest,Act 1,assets/relic/rucksack.png,-
+MartyrSpike,relic,Martyr's Spike,MartyrSpike,Increases healing output by up to 50% based on missing HP. Grants Blood Shield skill.,Increases SkillType.Healing by up to 50% based on missing HP. Grants Blood Shield.,Blood Shield,blood_zealot,Class Quest,Act 4,assets/relic/martyr_spike.png,[0.5;1.0]
+MathiasHat,relic,Mathias' Hat,-,Adds up to .5x Technique to SkillType.Gadget damage.,-,-,steam_lord,Class Quest,Act 4,assets/relic/mathias_hat.png,[0.5]
+MedicBackpack,relic,Medic Backpack,Med Backpack,Heals supported ally every turn for 0.65x Focus. Grants Support skill.,Heals supported ally every turn. Grants Support skill.,Support,medic,Class Quest,Act 1,assets/relic/medic_backpack.png,-
+MelodicScore,relic,Melodic Score,MelodicScore,Increases Technique by 25% with an active SkillType.Song. Grants Melody skill.,-,Melody,bard,Class Quest,Act 3,assets/relic/melodic_score.png,-
+Minerva,relic,Minerva's Icon,MinervaStaff,"Increase Wisdom by +10 and +25%, but lowers Discipline by 10%.",-,-,-,Class Quest,Act 3,assets/relic/minervas_staff.png,[0.9;1.25;10.0]
+MinervasStaff,relic,Minerva's Staff,MinervaStaff,Converts 50% of Discipline into Wisdom.,-,-,witch,Class Quest,Act 3,assets/relic/minervas_staff.png,[0.5]
+MoneyBag,relic,Money Bag,-,Damage dealt gains 5% piercing for each SkillType.Debuff on you. Max 50%. Grants Bash.,Damage gains 5% piercing for each SkillType.Debuff on you. Max 50%.,Bash,banker,Class Quest,Act 4,assets/relic/money_bag.png,[0.05;0.5;1.0]
+MusketeersMusket,relic,Musketeer's Musket,Musketeer's Musket,Converts 25% of Speed into Power. Grants Musket skill.,-,Musket,musketeer,-,-,assets/relic/musket.png,[0.25;0.75]
+NanoCarbonScrews,relic,Nanocarbon Screws,Nano Screws,Decreases turn delay of SkillType.Gadget skills by 20%. Grants Pulse Grenade skill.,Decreases turn delay of SkillType.Gadget skills. Grants Pulse Grenade.,Pulse Grenade,space_marine,Class Quest,Act 5,assets/relic/nanocarbon_screws.png,[0.8;1.0]
+Necronomicon,relic,Necronomicon,-,Increases SkillType.Dark damage dealt by 25%. Grants Grave's Call skill.,-,-,necromancer,Class Quest,Act 2,assets/relic/necronomicon.png,[0.25]
+NinjasRuse,relic,Ninja's Ruse,-,"Chance to reduce damage by 50%, equal to dodge chance.",-,-,ninja,Class Quest,Act 2,assets/relic/ninjas_ruse.png,[0.5]
+NoviceSpellbook,relic,Novice Spellbook,Novice Splbk,"SkillType.Spell skills deal 0-20% increased output, but cost 25% increased MP. Grants random basic SkillType.Spell each battle.","SkillType.Spell skills deal +0-20% output, but cost +25% MP. Grants random SkillType.Spell.",-,-,-,-,assets/relic/novice_spellbook.png,[0.2;1.25;2.0;3.0;2;7;3]
+HolyWater,relic,Holy Water,Holy Water,Damage taken from Undead decreased by 35%. Grants Consecrate skill.,-,Consecrate,cleric,-,-,assets/relic/holy_water.png,[0.65;3]
+Oakheart,relic,Oakheart,-,"Boss Relic. Reduces maximum HP, damage taken, and healing received by 50%.",-,-,-,Boss Reward,-,assets/relic/oakheart.png,[0.5]
+OdraksFury,relic,Odrak's Claymore,Odrak Claymr,Increases SkillType.Physical damage dealt by 25%. Grants Cleave skill.,Increases SkillType.Physical damage dealt. Grants Cleave skill.,Cleave,barbarian,Class Quest,Act 2,assets/relic/odraks_claymore.png,[0.25]
+OgsSpear,relic,Og's Spear,-,Adds up to .5x Power to SkillType.Ranged damage. Grants Throw Spear skill.,-,Throw Spear,caveman,Class Quest,Act 2,assets/relic/ogs_spear.png,[0.5]
+OttosBoots,relic,Otto's Boots,-,Decreases SkillType.Lightning and SkillType.Poison damage taken by 25%. Grants Spring Boots skill.,Decreases SkillType.Lightning and SkillType.Poison damage taken by 25%. Grants Spring Boots.,Spring Boots,inventor,Class Quest,Act 5,assets/relic/alfreds_boots.png,[0.75]
+PaddedHelmet,relic,Padded Helmet,Padded Helm,Converts 35% of SkillType.Physical damage taken into SkillType.Stun damage.,-,-,linebacker,Class Quest,Post Act 1,assets/relic/padded_helmet.png,[0.35;0.65]
+PainLimiter,relic,Pain Limiter,Pain Lmtr,"Sacrificing HP increases Focus based on percent sacrificed, up to +100.",-,-,inquisitor,Class Quest,Act 5,assets/relic/pain_limiter.png,-
+PillBottle,relic,Pill Bottle,Pill Bottle,Increases damage and healing by 25% when under the effects of SkillType.Alcohol skills.,-,-,doctor,Class Quest,Post Act 3,assets/relic/terror_hide.png,[0.2]
+PlagueKnife,relic,Plague Knife,Plague Knife,Hits with SkillType.Attack skills decrease target's SkillType.Healing received by 25% for 2 turns. Grants Incision skill.,-,Incision,plague_doctor,Class Quest,Act 1,assets/relic/plague_knife.png,[0.75]
+Pocketwatch,relic,Pocket Watch,Pkt Watch,Deal 10% added SkillType.MP damage when dealing SkillType.Sleep damage. Grants Hypnotize skill.,Deal 10% added SkillType.MP damage with SkillType.Sleep damage. Grants Hypnotize.,Hypnotize,magician,-,-,assets/relic/pocket_watch.png,[0.1]
+PoliceBadge,relic,Police Badge,-,Damage taken decreased by 10% for each Protected ally. Grants Protect skill.,Damage taken decreased by 10% per Protected ally. Grants Protect.,Protect,cop,Class Quest,Act 5,assets/relic/police_badge.png,[0.1;1.0]
+PotShard,relic,Pot Shard,-,Take 5% less damage for each SkillType.Buff on you. Up to 35%.,-,-,fire_spirit_big,Class Quest,Post Act 4,assets/relic/pot_shard.png,[0.05;0.35;1.0]
+PricelessTreasure,relic,Priceless Treasure,Treasure,Time Break Tech particle cost reduced by 50% when used by this hero.,-,-,keekuko,-,-,assets/relic/priceless_treasure.png,[0.5]
+PriestessGarb,relic,Priestess Garb,Prstess Garb,"Increases SkillType.Healing power by 10%, and decreases SkillType.Dark damage taken by 25%.","Increases SkillType.Healing power by 10%, and SkillType.Dark damage taken by 25%.",-,priestess,Class Quest,Start,assets/relic/priestess_garb.png,[0.1;0.75]
+PrimalBond,relic,Primal Bond,-,Gain 25% of the attributes from your summon.,-,-,caveman,Class Quest,Act 2,assets/relic/primal_bond.png,[0.25]
+MichaelsClaw,relic,Moonstone,Pursuer Brc,Increases damage dealt by up to 25% with an active SkillType.Aspect skill.,-,-,wolfman,Class Quest,Act 3,assets/relic/pursuer_bracer.png,[0.25]
+PursuerBracer,relic,Pursuer Bracer,Pursuer Brc,Increases hit chance of SkillType.Ranged skills by 50%. Grants Wrist Laser skill.,-,Wrist Laser,pursuer,Class Quest,Act 3,assets/relic/pursuer_bracer.png,[1.5]
+MagicSatchel,relic,Magic Satchel,Satchel,Converts 25% of Toughness to Agility. Grants Pixie Dust skill.,-,Pixie Dust,pixie,-,-,assets/relic/magic_satchel.png,[0.25;0.75]
+RadiantMote,relic,Radiant Mote,-,Increases dodge chance by up to 50% based on missing HP. Grants Blind skill.,-,Blind,lumian,Class Quest,Act 5,assets/relic/radiant_mote.png,[0.5;1.0]
+RaidersEdge,relic,Raider's Edge,Raider Edge,Heal for 20-25% of Max HP when an enemy is Downed.,-,-,raider,Class Quest,Act 1,assets/relic/raiders_edge.png,[0.05;0.2]
+RalfsFlute,relic,Ralf's Flute,-,Chance to gain a Free Turn after a critical hit. Grants Anthem.,-,-,jester,Class Quest,Post Act 2,assets/relic/ralfs_flute.png,[20.0]
+RareHeirloom,relic,Rare Heirloom,Heirloom,"Whenever an enemy gains a free turn, gain one as well.",-,-,keekuko,-,-,assets/relic/rare_heirloom.png,-
+Rebreather,relic,Rebreather,-,Gain turn progress from redirected damage. Grants Protect.,-,-,firefighter,Class Quest,Act 4,assets/relic/rebreather.png,-
+RedBalloon,relic,Red Balloon,Red Bloon,Negates first direct damage taken after each turn. Grants Balloon skill.,-,Balloon,clown,Class Quest,Post Act 1,assets/relic/red_balloon.png,-
+DivasInfluence,relic,Red Rose,-,Taunt effects from this hero last until dispelled.,-,-,diva,Class Quest,Post Act 4,assets/relic/red_rose.png,-
+RenesCane,relic,Rene's Cane,-,Increases Focus by 0.35x Discipline.,-,-,bokor,Class Quest,Act 4,assets/relic/renes_cane.png,[0.35]
+Revenge,relic,Revenge Token,Revenge Token,"Increases Power by 20%, but decreases Endurance by 10%, after being revived. Stacks up to 10 times.",-,-,super_soldier,Class Quest,Act 1,assets/relic/revenge.png,[0.2;0.9;1.0]
+RitualDagger,relic,Ritual Dagger,Ritual Dgr,Deal and take 25% increased SkillType.Dark damage. Grants Ritual skill.,-,Ritual,-,-,-,assets/relic/ritual_dagger.png,[0.25]
+RockFist,relic,Rock Fist,-,Increases Power by 0.35x Toughness.,-,-,golem,Class Quest,Act 4,assets/relic/rock_fist.png,[0.35]
+RockersIntensity,relic,Rocker's Intensity,Rock Intnsty,"Increases all damage by 25%, but also increases MP costs by 50%.","Increases all damage, but also MP costs.",-,rocker,Class Quest,Act 1,assets/relic/rockers_intensity.png,[0.25;1.5]
+RomanCassis,relic,Roman Cassis,Roman Cassis,"Increase Power by +10 whenever OWNER.NAME dodges, up to 15 stacks.",-,-,gladiator,Class Quest,Act 5,assets/relic/roman_cassis.png,[10.0]
+RootClipping,relic,Root Clipping,Root Clip,Restore 5-10% Max HP and gain 1 Resist per turn. Grants Rooted passive.,-,-,-,-,-,assets/relic/root_clipping.png,[0.05]
+RunedStone,relic,Runed Stone,Rune Stone,Increases maximum MP by 50%.,-,-,golem,Class Quest,Act 4,assets/relic/runed_stone.png,[1.5]
+RunedVestments,relic,Runed Vestments,Runed Vstmt,Converts 35% of damage taken into SkillType.MP damage.,-,-,rune_scribe,-,-,assets/relic/runed_vestments.png,[0.35;0.65]
+RunicMail,relic,Runic Mail,-,Decreases damage taken from SkillType.Spell skills by 35%. Grants Spellscreen skill.,Decreases damage taken from SkillType.Spell skills by 35%. Grants Spellscreen.,Spellscreen,spellblade,Class Quest,Act 3,assets/relic/runic_mail.png,[0.65]
+RupertsGavel,relic,Rupert's Gavel,Rupert's Gavel,SkillType.Attack skill hits decrease enemy Power by 5% for three turns. Stacks. Grants Judgment skill.,-,Judgment,judge,Class Quest,Act 5,assets/relic/ruperts_gavel.png,[0.95]
+LeonsSword,relic,Leon's Sword,Leon's Swrd,Hits with SkillType.Attack skills have a 33% chance to taunt non-boss enemies. Grants Guard Strike skill.,Hits with SkillType.Attack skills sometimes taunt enemies. Grants Guard Strike.,Guard Strike,knight,-,-,assets/relic/s_sword.png,[33.0;2;7]
+SafetyBook,relic,Safety Manual,Safety Mnl,Reduces MP cost of SkillType.Buff skills by 50%.,-,-,firefighter,Class Quest,Act 4,assets/relic/safety_book.png,[0.5]
+SamuelsSixgun,relic,Samuel's Sixgun,Samuel's Gun,Damage is increased by 20% for each critical HP ally.,-,-,-,Class Quest,Act 1,assets/relic/samuels_sixgun.png,[0.2]
+LuckyJoker,relic,Lucky Joker,Sas. Grip,Increases critical hit chance by 25% for each SkillType.Debuff on the target.,-,-,gambler,Class Quest,Act 2,assets/relic/sasquatch_grip.png,[0.25;1.0]
+SasquatchGrip,relic,Sasquatch Grip,Sas. Grip,Halves chance to miss with SkillType.Attack skills. Grants Toss skill.,-,Toss,sasquatch,Class Quest,Act 2,assets/relic/sasquatch_grip.png,[0.5]
+MasterScout,relic,Scout's Flag,Scout Flag,Gain 100% increased Speed for the first turn of battle.,-,-,ranger,Class Quest,Start,assets/relic/master_scout.png,-
+BardsFocus,relic,Seb's Lute,Vzh4,Increases Technique by up to 50% based on current HP.,-,-,bard,Class Quest,Act 3,assets/relic/sebs_lute.png,[0.5;1.0]
+SentinelCore,relic,Sentinel Core,Sent. Core,Increases Discipline based on missing MP. Grants Energy Lance skill.,-,Energy Lance,sentinel,Class Quest,Act 1,assets/relic/sentinel_core.png,[0.6]
+ServiceKevlar,relic,Service Kevlar,Svc Kevlar,Limits HP damage taken per hit to 25% of Max HP.,-,-,secret_service,Class Quest,Post Act 3,assets/relic/service_kevlar.png,[0.25]
+ShamanicMind,relic,Shamanic Wand,Shaman Wand,"When channeling, gain 25% of Max MP at start of turn.",-,-,shaman,Class Quest,Act 3,assets/relic/shamans_wand.png,[0.25]
+MonksResolve,relic,Shaolin Robe,-,Decreases damage taken from hits by 0.15x Discipline.,-,-,monk,Class Quest,Start,assets/relic/shaolin_garb.png,[0.15;1.0]
+ShatteredVanity,relic,Shattered Vanity,Shatter Vnty,Boss Relic. Grants Mirror Image skill. Decreases all attributes by 15%.,Grants Mirror Image skill. Decreases all attributes by 15%.,Mirror Image,-,Boss Reward,-,assets/relic/shattered_vanity.png,[0.85]
+SirensTouch,relic,Shell Charm,-,SkillType.Sleep damage dealt gains 50% piercing.,-,-,siren,Class Quest,Act 3,assets/relic/shell_charm.png,[0.5;1.0]
+ShepherdsSpirit,relic,Shepherd's Spirit,Shepherd Sprt,Increases MP healing received by 25%. Grants Locust Swarm skill.,-,Locust Swarm,jackal,-,-,assets/relic/shepherds_spirit.png,[0.25]
+SheriffBadge,relic,Sheriff Badge,Shrf Badge,Take 5% less damage for each SkillType.Debuff on you. Up to 35%. Grants Shake Off skill.,Take less damage for each SkillType.Debuff on you. Grants Shake Off skill.,Shake Off,-,Class Quest,Act 1,assets/relic/sheriff_badge.png,[0.05;0.35;1.0]
+ShieldFragment,relic,Shield Fragment,Shld Frag,Boss Relic. Grants Barricade skill.,-,Barricade,-,Boss Reward,-,assets/relic/shield_fragment.png,-
+ShredderSaw,relic,Shredder Saw,Shredder,Boss Relic. Automatically use Spinning Blade for free on a random target at start of turn. Grants Spinning Blade.,Use Spinning Blade at start of turn. Grants Spinning Blade.,-,-,Boss Reward,-,assets/relic/shredder_saw.png,-
+ShroomCap,relic,Shroom Cap,-,Boss Relic. Deals 2.5x Focus SkillType.Sleep damage to attacker when hit by SkillType.Attack skills.,Boss Relic. Deals 2.5x Focus SkillType.Sleep damage when hit by SkillType.Attack skills.,-,-,Boss Reward,-,assets/relic/shroom_cap.png,[2.5]
+SinnersMask,relic,Sinner's Mask,Sin Mask,"Boss Relic. Grants Boast, Claim and Show Off skills.",-,-,-,Boss Reward,-,assets/relic/sinners_mask.png,-
+SladesGuitar,relic,Slade's Guitar,Slade Guitar,SkillType.Sonic skills have reduced turn delay and reset SkillType.Sleep counter on all enemies and allies. Grants Power Ballad skill.,SkillType.Sonic skills have reduced delay and reset SkillType.Sleep on all. Grants Pwr Ballad.,Power Ballad,rocker,Class Quest,Act 1,assets/relic/slades_guitar.png,[0.65;1.0]
+SmithTraining,relic,Smith's Training,Smith Trng,Increases Toughness by 15% for 3 turns when using a SkillType.Buff skill. Grants Whetstone skill.,-,Whetstone,blacksmith,Class Quest,Act 1,assets/relic/smith_training.png,[1.15]
+SnakeVenom,relic,Snake Venom,-,Increases SkillType.Poison damage by 15% and piercing by 50%.,Increases SkillType.Poison damage by 15% and pierce by 50%.,-,snake_charmer,Class Quest,Act 4,assets/relic/snake_venom.png,[0.15;0.5;1.0]
+MendingSpirit,relic,Mending Spirit,Snake Venom,MP healing received also restores 35% as HP.,-,-,samurai,Class Quest,Act 4,assets/relic/snake_venom.png,[0.1;0.35]
+SophiasGlass,relic,Sophia's Glass,Sophia Gls,Adds up to .5x Technique to SkillType.Sonic damage. Grants Screech skill.,-,Screech,diva,Class Quest,Post Act 4,assets/relic/sophias_glass.png,[0.5]
+Dionysus,relic,Dionysus' Staff,Act Missions,Increases Focus and Agility by +5 and +15%.,-,-,-,-,-,assets/relic/special_missions.png,[1.15;5.0]
+StormVisor,relic,Storm Visor,Storm Vsr,Increases hit chance of SkillType.Spell skills by 50%. Grants Ball Lightning skill.,Increases hit chance of SkillType.Spell skills. Grants Ball Lightning skill.,Ball Lightning,maelstrom,Class Quest,Post Act 1,assets/relic/storm_visor.png,[1.5]
+SpiderEgg,relic,Spider Egg,Spider Egg,Boss Relic. Automatically summon a Spiderling in battle.,-,-,-,-,-,assets/relic/spider_egg.png,[0.25]
+TanksGlove,relic,Tank's Glove,-,Gain +25 Power for 3 turns when missing with a SkillType.Attack skill hit. Grants Clobber skill.,-,Clobber,brawler,Class Quest,Act 5,assets/relic/tanks_glove.png,[25.0]
+TerrorHide,relic,Terror Hide,-,Boss Relic. Decreases SkillType.Poison damage taken by 50%. Grants Carapace passive.,Decreases SkillType.Poison damage taken by 50%. Grants Carapace.,-,-,Boss Reward,-,assets/relic/terror_hide.png,[0.5]
+Toolbox,relic,Toolbox,-,SkillType.Gadget skills randomly deal 0-20% increased damage or healing. Grants a random SkillType.Gadget skill every battle.,SkillType.Gadget skills deal 0-20% increased output. Grants random SkillType.Gadget skill.,-,-,-,-,assets/relic/toolbox.png,[0.2]
+TrackingSensor,relic,Tracking Sensor,Track Sensor,Damage dealt by counter attacks increased by 25%. Grants Motion Tracker skill.,Damage dealt by counters increased by 25%. Grants Motion Tracker.,Motion Tracker,sentrybot,Class Quest,Act 5,assets/relic/tracking_sensor.png,[0.25]
+TrainersSigil,relic,Trainer's Sigil,Trn Sigilg,This hero's summon gains 50% increased speed for 3 turns after summoning.,-,-,beastmaster,-,-,assets/relic/trainers_sigil.png,[0.75;1.5]
+GhalibsWhip,relic,Trainer's Whip,Trn Whip,SkillType.Attack skill hits decrease enemy TGH and DSC by 10% for 3 turns. Stacks. 2x effect vs Beasts. Grants Whip.,-,-,beastmaster,-,-,assets/relic/trainers_whip.png,[0.2;0.8;0.9;3]
+UndeadSoul,relic,Undead Soul,-,"Reduce Stamina loss by 35%, but also receive 50% less healing.",-,-,undead,Class Quest,Act 2,assets/relic/undead_soul.png,[0.5;0.65]
+Unobtainium,relic,Unobtainium,Unobtnm,Heal MP for 10% of SkillType.Melee skill hit damage dealt.,-,-,morph,-,-,assets/relic/unobtainium.png,[0.1;0.5]
+UtilityBelt,relic,Utility Belt,Util Belt,"The first SkillType.Gadget skill used per battle does not consume a use, and counts as a Bonus Action. Grants Smoke Bomb.",-,-,steam_lord,Class Quest,Act 4,assets/relic/utility_belt.png,-
+DryadsWill,relic,Valerian Root,Valerian,Decreases turn delay of SkillType.Debuff skills by 35%.,-,-,dryad,Class Quest,Act 3,assets/relic/valerian_root.png,[0.65;1.0]
+VenomSac,relic,Venom Sac,-,Boss Relic. Grants Venom Spray skill.,Grants Venom Spray skill.,Venom Spray,-,-,-,assets/relic/venom_sac.png,-
+ViggosGladius,relic,Viggo's Gladius,Viggo Gladius,"Increases Discipline by +10 after each hit with SkillType.Melee skill, up to 10 stacks. Grants Martial Prodigy passive.",-,-,gladiator,Class Quest,Act 5,assets/relic/viggos_gladius.png,[10.0]
+VikkisVulstaff,relic,Vikki's Vulstaff,Vulstaff,"Increases Agility based on missing HP, up to 50%. Grants Retreat skill.",Increases Agility based on missing HP. Grants Retreat skill.,Retreat,vul,Class Quest,Act 2,assets/relic/vulstaff.png,[0.5;1.0]
+VipersSuit,relic,Viper's Suit,Viper Suit,"When hidden, gain 25% of Max MP at start of turn. Grants Ambush skill.","When hidden, gain 25% of Max MP at start of turn. Grants Ambush.",Ambush,wraith,Class Quest,Act 3,assets/relic/vipers_suit.png,[0.25]
+VoidCrystal,relic,Void Crystal,-,Take 33% current HP SkillType.Dark damage after every turn. Grants Void Blast skill.,Take 33% current HP SkillType.Dark damage every turn. Grants Void Blast.,Void Blast,-,-,-,assets/relic/void_crystal.png,[0.33]
+VoodooTalisman,relic,Voodoo Talisman,Vdoo Tlsmn,Reduces MP cost of SkillType.Spell skills by 25%. Grants Haunt skill.,-,Haunt,bokor,Class Quest,Act 4,assets/relic/voodoo_talisman.png,[0.75]
+VulCunning,relic,Vul Cunning,-,"Increases damage to enemies based on their chance to miss you, up to 100%.",Increases damage to enemies based on their chance to miss you.,-,vul,Class Quest,Act 2,assets/relic/vul_cunning.png,[1.0;2;7]
+VulcansHammer,relic,Vulcan's Hammer,Vulcan Hamr,Gain +10 Power for each SkillType.Buff on you.,-,-,blacksmith,Class Quest,Act 1,assets/relic/vulcans_hammer.png,-
+WakingWater,relic,Waking Water,-,Healing also removes Sleep counter from allies. Grants Healing Rain skill.,Healing also removes Sleep counter from allies. Grants Healing Rain.,Healing Rain,siren,Class Quest,Act 3,assets/relic/waking_water.png,-
+WenshosGift,relic,Wensho's Gift,Wensho's Gft,Increases SkillType.Healing skill power by 25%. Grants Meditate skill.,-,Meditate,monk,Class Quest,Start,assets/relic/wenshos_gift.png,[0.25]
+WilliamsZeal,relic,William's Penance,Penance,Increases all attributes by 5% (up to 25%) for each SkillType.Buff skill used. Grants Divine Shield skill.,Increases attributes after SkillType.Buff skills. Grants Divine Shield.,Divine Shield,paladin,Class Quest,Act 3,assets/relic/williams_zeal.png,[0.05;1.0]
+WinterCoat,relic,Winter Coat,-,Decreases SkillType.Ice damage taken by 50%.,-,-,pioneer,Class Quest,Act 2,assets/relic/winter_coat.png,[0.5]
+WitchsGrimoire,relic,Witch's Grimoire,Grimoire,Your SkillType.Debuff skills last twice as long. Grants Curse skill.,-,Curse,witch,Class Quest,Act 3,assets/relic/eai.png,[3;2;4]
+WolfsFerocity,relic,Wolf's Fang,-,Adds up to 5% of target's current HP to SkillType.Melee damage. Grants Howl skill.,Adds up to 5% of target's current HP to SkillType.Melee damage. Grants Howl.,Howl,wolfman,Class Quest,Act 3,assets/relic/wolf_fang.png,[0.05]
+WraithSword,relic,Wraith Sword,WraithSword,Deal 25% added SkillType.Energy damage with SkillType.Attack skill hits.,Deal 25% added SkillType.Energy with SkillType.Attack skill hits.,-,wraith,Class Quest,Act 3,assets/relic/wraith_sword.png,[0.25]
+WrestlersWill,relic,Wrestler's Will,Wrestler Wl,Reduce the duration of SkillType.Debuff effects on you by 1 turn. Minimum of 1 turn.,Reduce the duration of SkillType.Debuff effects on you by 1 turn.,-,wrestler,Class Quest,Start,assets/relic/wrestlers_will.png,[1.0;2;3;4]
+XenoSquadBadge,relic,XenoSquad Badge,Xeno Badge,Increases critical hit chance and critical hit damage vs non-human enemies by 50%.,Increases crit chance and crit damage vs non-human enemies by 50%.,-,space_marine,Class Quest,Act 5,assets/relic/xenosquad_badge.png,[0.5;1.5]
+XorkziGambit,relic,Xorkzi's Gambit,XorkGambit,"Critical hits deal 50% increased damage, but non-critical hits deal 35% decreased damage.","Critical hits deal +50% damage, but non-crits deal -35% damage.",-,pursuer,Class Quest,Act 3,assets/relic/xorkzi_gambit.png,[0.5;0.65]
+YukikosDagger,relic,Yukiko's Dagger,Yukiko Daggr,Increases Power by 0.25x Technique. Grants Execute skill.,Increases Power based on Technique. Grants Execute skill.,Execute,assassin,Class Quest,Act 1,assets/relic/yukikos_dagger.png,[0.25]
+ZanesPassion,relic,Zane's Passion,Zane Passion,SkillType.Spell skills have a 20% chance to grant a Free Turn. Grants the Fire Blast skill.,SkillType.Spell skills sometimes grant a Free Turn. Grants Fire Blast.,-,fire_mage,Class Quest,Start,assets/relic/zanes_passion.png,[20.0]
+ZekesBoots,relic,Zeke's Boots,-,Increases SkillType.Stun damage by 35%. Grants Dropkick skill.,Increases SkillType.Stun damage. Grants Dropkick skill.,Dropkick,wrestler,Class Quest,Start,assets/relic/zekes_boots.png,[0.35]
+SethsToxin,relic,Seth's Toxin,Zone D,"When hit by an SkillType.Attack skill, attacker takes 5% Max HP SkillType.Poison damage over time for 3 turns. Stacks.",-,-,lizardman,-,-,assets/relic/seths_toxin.png,[0.05;3]
