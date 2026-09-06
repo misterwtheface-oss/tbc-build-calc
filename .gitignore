@@ -2,3 +2,7 @@ node_modules/
 .DS_Store
 *.log
 Progress.md
+
+# relic icons kept locally but not tracked (unassigned / purpose TBD)
+assets/relic/frozen_heart.png
+assets/relic/empty.png
