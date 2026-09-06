@@ -35,17 +35,56 @@ function table(file) {
 }
 const num = v => (v === '' || v == null ? null : Number(v));
 
+// Load a table with a strict schema: exact header set, required/unique key,
+// numeric columns must parse. Throws (fails the build) on any drift so header
+// changes or typos in the source-of-truth CSVs surface immediately.
+function loadValidated(file, schema) {
+  const p = join(REF, file);
+  if (!existsSync(p)) throw new Error(`[${file}] missing at ${p}`);
+  const raw = parseCSV(readFileSync(p, 'utf8')).filter(r => r.some(c => c !== ''));
+  const head = raw.shift() || [];
+  const want = new Set(schema.columns), got = new Set(head);
+  const missing = schema.columns.filter(c => !got.has(c));
+  const unexpected = head.filter(c => !want.has(c));
+  if (missing.length || unexpected.length) {
+    throw new Error(`[${file}] header mismatch — expected exactly [${schema.columns.join(', ')}]` +
+      (missing.length ? `\n  missing: ${missing.join(', ')}` : '') +
+      (unexpected.length ? `\n  unexpected: ${unexpected.join(', ')}` : ''));
+  }
+  const rows = raw.map(r => Object.fromEntries(head.map((h, i) => [h, r[i] ?? ''])));
+  const seen = new Set();
+  const errs = [];
+  rows.forEach((r, i) => {
+    const ln = i + 2;                                   // 1-based incl. header
+    const key = r[schema.key];
+    if (!key) errs.push(`row ${ln}: empty ${schema.key}`);
+    else if (seen.has(key)) errs.push(`row ${ln}: duplicate ${schema.key} "${key}"`);
+    else seen.add(key);
+    for (const c of schema.numeric || []) {
+      if (r[c] === '' || !Number.isFinite(Number(r[c]))) errs.push(`row ${ln} (${key}): non-numeric ${c}="${r[c]}"`);
+    }
+  });
+  if (errs.length) throw new Error(`[${file}] ${errs.length} row error(s):\n  ${errs.slice(0, 20).join('\n  ')}`);
+  return rows;
+}
+
 // ---- classes (team roster) ----
-const classes = table('class.csv').map(r => ({
+const CLASS_SCHEMA = {
+  key: 'class_id',
+  columns: ['class_id', 'class_name', 'character_name', 'source_act',
+            'pow', 'foc', 'spd', 'tgh', 'dsc', 'agi', 'end', 'wis', 'tec',
+            'sprite_path', 'data_version'],
+  numeric: ['pow', 'foc', 'spd', 'tgh', 'dsc', 'agi', 'end', 'wis', 'tec'],
+};
+const classes = loadValidated('class.csv', CLASS_SCHEMA).map(r => ({
   id: r.class_id,
   name: r.class_name,
   character: r.character_name,
   act: r.source_act,
   base: { pow: num(r.pow), foc: num(r.foc), spd: num(r.spd), tgh: num(r.tgh), dsc: num(r.dsc),
           agi: num(r.agi), end: num(r.end), wis: num(r.wis), tec: num(r.tec) },
-  hpOverride: num(r.hp_override), mpOverride: num(r.mp_override),
   sprite: r.sprite_path, version: r.data_version,
-})).filter(c => c.id);
+}));
 
 // ---- supporting tables (loaded for later features) ----
 const relics = table('relic.csv');

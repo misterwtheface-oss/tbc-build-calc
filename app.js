@@ -42,7 +42,7 @@
         slot.append(el('span', 'plus', '+'), el('span', 'add-label', 'Assign'));
         slot.onclick = () => openPicker(i);
       } else {
-        const c = byId(cid); const d = derive(c.base, { hp: c.hpOverride, mp: c.mpOverride });
+        const c = byId(cid); const d = derive(c.base);
         const rm = el('button', 'remove', '✕'); rm.title = 'Remove';
         rm.onclick = e => { e.stopPropagation(); team[i] = null; if (selected === i) selected = null; save(); render(); };
         const img = el('img', 'portrait'); img.src = c.sprite; img.alt = c.name; img.loading = 'lazy';
@@ -62,7 +62,7 @@
     const box = $('#readout');
     if (selected == null || !team[selected]) { box.hidden = true; return; }
     box.hidden = false;
-    const c = byId(team[selected]); const b = c.base; const d = derive(b, { hp: c.hpOverride, mp: c.mpOverride });
+    const c = byId(team[selected]); const b = c.base; const d = derive(b);
     const S = (k, v, cls = '') => `<div class="stat ${cls}"><div class="k">${k}</div><div class="v">${v}</div></div>`;
     box.innerHTML = `
       <div class="rt-head">
