@@ -1,37 +1,48 @@
-item_id,name,effect,icon_key,data_version
-AcceleratorDroneItem,Accel. Drn,Summons a drone that occasionally grants an ally a Free Turn. Lasts 4 turns.,accelerator_drone,
-AgilityInfuser,Agility Infuser,,,
-Ale,Ale,Restores 15 stamina for one ally.,ale,
-AmplifierDroneItem,Amp. Drone,Summons a drone that occasionally doubles an ally's POW and FCS. Lasts 6 turns.,amplifier_drone,
-Antidote,Antidote,,,
-BloodContract,Blood Cnt.,Target gains Dark Bargain skill for the rest of the mission.,blood_contract,
-Bomb,Bomb,,,
-Book,Book,,,
-Camp,Camp,,,
-CelestialCall,Cel. Call,Target gains Meteor Strike skill for the rest of of the mission.,celestial_call,
-CleansingWater,Cleansing Water,,,
-Coffee,Coffee,,,
-EnduranceInfuser,Endurance Infuser,,,
-EnergyDroneItem,Energy Drone Item,,,
-Ether,Ether,,,
-FocusInfuser,Focus Infuser,,,
-Mead,Mead,Restores 25 stamina for one ally.,mead,
-MedicalDroneItem,Medical Drone Item,,,
-MedkitItem,Medkit Item,Target gains Medkit skill for the rest of battle. Grants Free Turn.,medkit,
-NanoMedkit,Nano Medkit,,,
-PowerCore,P.Core,Powers up and activates Machinery.,power_core,
-ParalysisDroneItem,Paralysis Drone Item,,,
-Potion,Potion,,,
-PowerInfuser,Power Infuser,,,
-Revive,Revive,,,
-RitualRites,Ritual Rites,Target gains Ritual skill for the rest of the mission.,ritual_rites,
-Wine,Sacramental Wine,Revives an ally with full HP and grants them a Free Turn.,wine,
-SappingGlove,Sapping Glove,,,
-Scanner,Scanner,,,
-ShieldDroneItem,Shield Drn,Summons a drone that occasionally applies a shield to an ally. Lasts 5 turns.,shield_drone,
-SoulGems,Soul Gems,,soul_gem,
-SpeedInfuser,Speed Infuser,,,
-StealthGen,Stealth,The entire party escapes from a non-boss battle.,stealthgen,
-Supplies,Supplies,,,
-UtilityDroneItem,Util. Drn,Summons a drone that supports allies in various ways. Lasts 6 turns.,utility_drone,
-VolatileDroneItem,Vol. Drone,Summons a drone that attacks enemies and eventually explodes.,volatile_drone,
+item_id,name,short_name,effect,effect_short,granted_skill,category,sprite_path,param
+AcceleratorDroneItem,Accelerator Drone,Accel. Drn,Summons a drone that occasionally grants an ally a Free Turn. Lasts 4 turns.,Summons a drone that occasionally grants an ally a Free Turn. Lasts 3 turns.,-,item,assets/item/accelerator_drone.png,[3.0]
+AdrenalBoost,Adrenal Boost,AdrenalBoost,-,-,-,modifier,assets/item/bundle.png,-
+AgilityInfuser,Agility Infuser,Agi Infuser,Target permanently gains +25 Agility for the rest of the mission.,-,-,item,-,-
+Ale,Ale,-,Restores 15 stamina for one ally.,-,-,item,assets/item/ale.png,[0.15;1.0]
+AmplifierDroneItem,Amplifier Drone,Amp. Drone,Summons a drone that occasionally doubles an ally's POW and FCS. Lasts 6 turns.,Summons a drone that occasionally doubles an ally's POW and FCS. Lasts 5 turns.,-,item,assets/item/amplifier_drone.png,[3.0]
+Antidote,Antidote,-,Dispels SkillType.Poison effects from target and grants SkillType.Poison immunity for 5 turns.,-,-,item,assets/item/antidote.png,[0.2;0.3;0.6;1.0;2.0;3;2;4]
+Antivenom,Antivenom,-,-,-,-,modifier,assets/item/bundle.png,-
+Beacon,Beacon,-,Applies Distortion that increases particles gained but also increases enemy level.,-,-,modifier,-,-
+BloodContract,Blood Contract,Blood Cnt.,Target gains Dark Bargain skill for the rest of the mission.,-,-,item,assets/item/blood_contract.png,-
+Bomb,Disintegration Bomb,D. Bomb,"Deals 220-280 SkillType.Physical, 125-175 SkillType.Stun, and 80-120 SkillType.Fire damage to all enemies.","Deals 330-420 SkillType.Physical, 125-175 SkillType.Stun, and 80-120 SkillType.Fire damage to all enemies.",-,item,assets/item/bomb.png,[0.75;1.0;2.0;3.0]
+Book,Book,-,Skill training book. Use via Skills menu.,-,-,item,assets/item/si_.png,-
+Camp,Stimulant Pod,Stim Pod,Restores 10 stamina for all allies.,-,-,item,assets/item/stimulant_pod.png,[0.1;1.0]
+CelestialCall,Celestial Call,Cel. Call,Target gains Meteor Strike skill for the rest of of the mission.,-,-,item,assets/item/celestial_call.png,[3]
+CleansingWater,Cleansing Water,Cleanse,Dispels all SkillType.Debuff from target and grants 3 Resist.,-,-,item,assets/item/cleansing_water.png,[0.3;0.6;1.0;2.0]
+Coffee,Coffee,-,"Resets target's sleep counter, and nullifies SkillType.Sleep damage taken by target for 5 turns.","Resets target's sleep counter, and nullifies SkillType.Sleep damage taken by target for 3 turns.",-,item,assets/item/coffee.png,[0.3;2.0]
+DBombExplosion,-,-,-,-,-,item,-,-
+DBombSprite,-,-,-,-,-,item,assets/item/blink.png,[0.01;0.25;0.3;0.5;4.0;20.0]
+ElementalShield,Elemental Shield,ElementalShield,-,-,-,modifier,assets/item/bundle.png,-
+EnduranceInfuser,Endurance Infuser,End Infuser,Target permanently gains +25 Endurance for the rest of the mission.,-,-,item,-,-
+EnergyDroneItem,Energy Drone,Energy Drn,Summons a drone that occasionally fully restores an ally's MP. Lasts 6 turns.,Summons a drone that occasionally fully restores an ally's MP. Lasts 5 turns.,-,item,assets/item/energy_drone.png,[3.0]
+Ether,Snack,-,Restores 75% of target ally's MP and 3% stamina.,Restores 75% of target ally's MP.,-,item,assets/item/snack.png,[0.03;0.5;1.0;1.5;3.0]
+FocusInfuser,Focus Infuser,Fcs Infuser,Target permanently gains +25 Focus for the rest of the mission.,-,-,item,-,-
+Mead,Mead,-,Restores 25 stamina for one ally.,-,-,item,assets/item/mead.png,[0.25;1.0]
+MedicalDroneItem,Medical Drone,Med Drone,Summons an automated drone that heals and revives allies. Lasts 6 turns.,Summons an automated drone that heals and revives allies. Lasts 5 turns.,-,item,assets/item/healing_drone.png,[3.0]
+MedkitItem,Medkit,-,Target gains Medkit skill for the rest of battle. Grants Free Turn.,-,-,item,assets/item/medkit.png,-
+Meteor,Celestial Call,CelestialCall,-,-,-,modifier,assets/item/bundle.png,-
+NanoMedkit,Nano-Meds,-,-,-,-,item,assets/item/nano_medkit.png,[0.15;0.2;0.5;2.0;3.0]
+NeuralEnhancer,Neural Enhancer,NeuralEnhancer,-,-,-,modifier,assets/item/bundle.png,-
+ParalysisDroneItem,Paralysis Drone,Prls Drone,Summons a drone that occasionally resets an enemy's turn progress. Lasts 5 turns.,Summons a drone that occasionally resets an enemy's turn progress. Lasts 4 turns.,-,item,assets/item/paralysis_drone.png,[3.0]
+Potion,Medicine,-,Restores 50% of target ally's HP.,Restores 33% of target ally's HP.,-,item,assets/item/medicine.png,[0.33;0.5;1.0;1.25;1.5;2.0]
+PowerCore,Power Core,P.Core,Powers up and activates Machinery.,-,-,item,assets/item/power_core.png,-
+PowerInfuser,Power Infuser,Pow Infuser,Target permanently gains +25 Power for the rest of the mission.,-,-,item,-,-
+ProtectionCharm,Protection Charm,ProtectionCharm,-,-,-,modifier,assets/item/bundle.png,-
+Revive,Revives a downed ally.,Revive,-,-,-,item,assets/item/revive.png,[0.2]
+RitualRites,Ritual Rites,Ritual,Target gains Ritual skill for the rest of the mission.,-,-,item,assets/item/ritual_rites.png,-
+SappingGlove,Sapping Glove,Sap Glv,Target gains Drain Punch skill for the rest of the mission.,-,-,item,assets/item/sapping_glove.png,-
+ScanLock,Scan Lock,ScanLock,-,-,-,modifier,assets/item/bundle.png,-
+Scanner,Scanner,-,"All enemies' HP, MP, and Attributes become visible.",-,-,item,assets/item/scanner.png,[1.5;1.6]
+ShieldDroneItem,Shield Drone,Shield Drn,Summons a drone that occasionally applies a shield to an ally. Lasts 5 turns.,Summons a drone that occasionally applies a shield to an ally. Lasts 4 turns.,-,item,assets/item/shield_drone.png,[3.0]
+SoulGems,Soul Gems,-,"Soul Gems, used in the crafting of Relics.",-,-,item,assets/item/soul_gem.png,-
+SpeedInfuser,Speed Infuser,Spd Infuser,Target permanently gains +25 Speed for the rest of the mission.,-,-,item,-,-
+StealthGen,Stealth,-,The entire party escapes from a non-boss battle.,Stealth Field Generator,-,item,assets/item/stealthgen.png,[1.35]
+Supplies,Particles,-,"Temporal Particles, used to manifest objects and affect the timeline.",-,-,item,assets/item/particle_icon.png,-
+Transmog,Transmogrifier,Transmitter,Applies Distortion that converts books and relics into particles and soul gems on defeat.,-,-,modifier,-,-
+UtilityDroneItem,Utility Drone,Util. Drn,Summons a drone that supports allies in various ways. Lasts 6 turns.,Summons a drone that supports allies in various ways. Lasts 5 turns.,-,item,assets/item/utility_drone.png,[3.0]
+VolatileDroneItem,Volatile Drone,Vol. Drone,Summons a drone that attacks enemies and eventually explodes.,-,-,item,assets/item/volatile_drone.png,-
+Wine,Sacramental Wine,Wine,Revives an ally with full HP and grants them a Free Turn.,Revives an ally with full HP.,-,item,assets/item/wine.png,[0.2;3.0]
