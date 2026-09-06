@@ -1,54 +1,91 @@
-term,definition
-Agility,"Agility increases the chance of evading attacks, and reduces the chance of being critically hit."
-Aspect,Skills that change available default skills used by certain heroes.
-Attack,Direct attacks against an enemy.
-Attribute Caps,"After an attribute is increased by more than 100% of base, additional increases will have less and less effect."
-Attributes,Attributes determine the strength and weakness of a character. Hero attributes will vary somewhat from mission to mission.
-Bonus Actions,"Each character can use one Bonus Action per turn, without losing their turn. However, they can still trigger most turn-related effects."
-Booze,"Skills related to getting drunk, usually increasing attributes in exchange for losing control."
-Buff,"Skills that provide buffs to allies, helping them."
-Buffs,"Some skills, items, or relics can apply buffs to a character. Buffs are beneficial, and increase stats or activate special effects. Buff skills are denoted by a SkillType.Buff icon."
-Damage Types,"There are several damage types, wich are resisted in different ways, and apply different effects to enemies."
-Dark,Skills related to the Ancient realm. Dark skills often steal HP or damage MP.
-Debuff,"Skills that provide debuffs to enemies, hindering them."
-Discipline,"Discipline is non-physical resistance. Discipline reduces damage taken from SkillType.Holy SkillType.Dark and SkillType.Energy attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
-Endurance,"Endurance determines maximum HP. If endurance is modified in battle, the character's current HP will be adjusted to a matching percentage of max HP."
-Enemy Types,"There are seven main enemy types in Time Break Chronicles. Various skills and town upgrades will affect your ability to fight each type, so make sure to check descriptions for more info."
-Energy,"Usually the skills of future-era heroes, often dealing Energy damage."
-Fire,"Flame-based skills, most often attacks that deal Fire damage."
-Focus,Focus determines damage done by non-physical attacks. Most spells and utility attacks use Focus.
-Gadget,"Gadgets are usually limited-use skills, which can only be replenished by certain skills or leaving battle. Gadget attacks often have fixed-value damage."
-Healing,Usually skills that restore HP or provide other buffs.
-Hero Quests,"Every hero has a list of unique quests, which are objectives they would like to complete in order to improve their abilities. Usually, these quests are completed by meeting goals in battle."
-Hero Rescue,"During your adventures, you will come across heroes who are in need of rescue. If you can help them escape their captors, they will be unlocked forever, and may be used in future missions."
-Holy,"Skills that have a divine source, often dealing Holy damage or healing allies."
-Ice,"Cold-based skills, most often attacks that deal Ice damage."
-Infinite Relics,"By completing certain Hero Quests, relics can become Infinite. This will allow you bind the Infinite Relic to as many heroes as you would like for free."
-Lightning,"Electrical skills, most often attacks that deal Lightning damage."
-MP,Skills related to the manipulation of MP.
-MP Healing,MP restoration. Sometimes reduced by certain effects.
-Melee,Usually attacks that hit enemies in melee range.
-Mission Failure,"A mission is failed if all of your allies are dead or downed at the same time, not including summons."
-Passive,"Innate traits or passive abilities, which cannot be actively selected for use in battle."
-Physical,Skills that deal or block Physical damage.
-Piercing,Skills that ignore a percentage of Toughness and Discipline reductions when calculating damage. Piercing can range from 0% (no piercing) to 100% (ignores 100% of TGH/DSC).
-Poison,Often skills that apply Poison damage over time.
-Power,Power determines the damage done by physical attacks. Most melee attacks use Power.
-Quinn Particles,"Particles are the basic currency of Time Break Chronicles, and manifest objects in its universe."
-Ranged,Usually non-magical attacks that hit enemies in any position.
-Redirect,Skills that redirect damage from one source to another.
-Relics,"Relics are powerful items you may find during your adventures, and heroes you rescue come equipped with two relics."
-Resist,"Characters will sometimes gain stacks of Resist, denoted by a EffectIcon.resist icon. Each stack of Resist will block one incoming dispellable SkillType.Debuff, before being consumed."
-Skill Types,"All skills have at least one type, denoted by the icons in the skills menu. Some effects or skills will only apply to skills with a particular type."
-Sleep,"Damage that slowly makes the target fall asleep, causing them to lose their turn. Characters with higher Wisdom fall asleep more slowly. Taking damage reduces the current sleep timer, and the timer also falls over time. Sleep damage is decreased by 50% for each time a character has already fallen asleep."
-Song,Battle hymns and the like. Only one song can be active at a time for the entire party.
-Sonic,Sound based skills. Attacks of this type usually deal Sonic damage.
-Speed,Speed determines how often a character can act in battle. A high-speed character will gain turn progress more quickly than a low-speed character.
-Spell,Magical abilities. Attacks of this type can usually hit enemies in any position.
-Stamina,"As you traverse through portals in a mission, heroes other than Claire will lose stamina."
-Stance,Stance changing skills used by certain heroes. Only one Stance can be active at time per hero.
-Stun,Skills that deal or mitigate Stun damage.
-Summon,Skills that summon a pet or other character into a hero's summon slot. Only one Summon can be active at a time.
-Technique,Technique increases the chance of landing attacks and the chance that they will be a critical hit.
-Toughness,"Toughness is physical resistance. It reduces damage taken from SkillType.Physical  SkillType.Poison and SkillType.Sonic attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
-Wisdom,"Wisdom determines maximum MP. If wisdom is modified in battle, the character's current MP will be adjusted to a matching percentage of max MP."
+category,term,definition
+attributes,Attributes,Attributes determine the strength and weakness of a character. Hero attributes will vary somewhat from mission to mission.
+attributes,EffectIcon.power_up Power,Power determines the damage done by physical attacks. Most melee attacks use Power.
+attributes,EffectIcon.toughness_up Toughness,"Toughness is physical resistance. It reduces damage taken from SkillType.Physical  SkillType.Poison and SkillType.Sonic attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
+attributes,EffectIcon.endurance_up Endurance,"Endurance determines maximum HP. If endurance is modified in battle, the character's current HP will be adjusted to a matching percentage of max HP."
+attributes,EffectIcon.focus_up Focus,Focus determines damage done by non-physical attacks. Most spells and utility attacks use Focus.
+attributes,EffectIcon.discipline_up Discipline,"Discipline is non-physical resistance. Discipline reduces damage taken from SkillType.Holy SkillType.Dark and SkillType.Energy attacks, and partially reduces damage from SkillType.Fire SkillType.Ice and SkillType.Lightning attacks."
+attributes,EffectIcon.wisdom_up Wisdom,"Wisdom determines maximum MP. If wisdom is modified in battle, the character's current MP will be adjusted to a matching percentage of max MP."
+attributes,EffectIcon.speed_up Speed,Speed determines how often a character can act in battle. A high-speed character will gain turn progress more quickly than a low-speed character.
+attributes,EffectIcon.agility_up Agility,"Agility increases the chance of evading attacks, and reduces the chance of being critically hit."
+attributes,EffectIcon.technique_up Technique,Technique increases the chance of landing attacks and the chance that they will be a critical hit.
+attributes,Attribute Caps,"After an attribute is increased by more than 100% of base, additional increases will have less and less effect."
+basics,Sprite.particle_icon Quinn Particles,"Particles are the basic currency of Time Break Chronicles, and manifest objects in its universe."
+basics,"Particles are earned every time you enter a portal during a mission, and are gathered passively by rescued allies in town while you adventure.","They can be used to purchase items from Vending Machines, upgrade your town, and power Time Break Techs."
+basics,Mission Failure,"A mission is failed if all of your allies are dead or downed at the same time, not including summons."
+basics,"Any particles collected in the mission will be lost forever. However, you will still recover skill books and relics you collected during the mission.",*Mission Success
+basics,"Defeating the final boss in a mission will allow you to return to town with all the relics, skill books, and particles you have collected during the mission.",*Time Break Techs
+basics,Time Break Techs are very powerful skills that can turn the tide of a battle.,"Any hero may use a Time Break tech, but instead of MP, these skills require particles to power. The more you use a tech during a mission, the more particles it will cost."
+basics,Stamina,"As you traverse through portals in a mission, heroes other than Claire will lose stamina."
+basics,"Lowered stamina will result in reduced attributes for the affected hero. Stamina can be restored with certain items, or by resting at a camp site.",*Bleed Out
+basics,"If a hero loses all of their HP, they will be Downed and will begin to bleed out, with a countdown of 3 turns.","However, you still have a chance to save them. You can revive them by using an item or revive skill. They will also be automatically revived if you win the battle before the countdown ends."
+basics,"If the countdown reaches zero, the hero will die and be removed from your party for the mission.","Claire will not bleed out. As long as other heroes are alive, she will be revived if you win the battle."
+basics,Hero Rescue,"During your adventures, you will come across heroes who are in need of rescue. If you can help them escape their captors, they will be unlocked forever, and may be used in future missions."
+basics,"Rescuing allies also increases your passive particle generation rate, and grants access to more Time Break Techs.",*Instability
+basics,"As a battle progresses, local space-time will become more and more unstable due to the energy expended in the battle. Instability increases the damage dealt by both allies and enemies.",*Confluence Crystal
+basics,"You may come across large purple crystals in your missions. These crystals will supply you with particles, and will allow you to receive a reinforcement hero from your reserves in town.",*Skill Points
+basics,"Skill Points are the main way that heroes can improve their skills. Skill Points are earned via collecting XP from defeating enemies, or by completing Hero Quests.","Skills can also be trainied by using an Encyclopedia, an item you may find during your journey. Train skills in the hero's Skills menu by selecting the skill, and then selecting Train."
+basics,Hero Quests,"Every hero has a list of unique quests, which are objectives they would like to complete in order to improve their abilities. Usually, these quests are completed by meeting goals in battle."
+basics,"Heroes involved in the quest's goals must be alive, but not necessarily conscious, at the end of the battle in order for the quest goal completion to count.","Completing will award that hero Skill Points, and may also award an Infinite Relic. Quests are not available in Singularity mode."
+basics,Relics,"Relics are powerful items you may find during your adventures, and heroes you rescue come equipped with two relics."
+basics,"Relics gain their power through a link to a hero's consciousness, and must be bound to that hero to be used. Due to their inner power, only one of each type of Relic may be bound to a single hero.","Once bound, a relic may be unequipped, but it cannot be bound to another hero, so choose carefully!"
+basics,Infinite Relics,"By completing certain Hero Quests, relics can become Infinite. This will allow you bind the Infinite Relic to as many heroes as you would like for free."
+basics,Infinite Relics are not available in Singularity mode.,*Town Progress
+basics,"In Chronicle mode, you will notice a Town Progress meter at the bottom of the Town. As this meter fills up, it will grant various bonuses, such as new buildings or new skills.",Every hero rescued and every skill improvement for heroes other than Claire will add +1 to the meter's progress.
+damage_types,Damage Types,"There are several damage types, wich are resisted in different ways, and apply different effects to enemies."
+damage_types,SkillType.Physical Physical,Basic damage. Reduced by the target's Toughness attribute.
+damage_types,SkillType.Poison Poison,Often applied as a damage-over-time effect. Reduced by the target's Toughness attribute. Mechanical targets are immune.
+damage_types,SkillType.Sonic Sonic,"Damage caused by sound, it usually cannot miss. Reduced by the target's Toughness attribute."
+damage_types,SkillType.Stun Stun,"Damage that decreases the target's turn progress, instead of HP. Reduced by the target's Toughness attribute."
+damage_types,SkillType.Sleep Sleep,"Damage that slowly makes the target fall asleep, causing them to lose their turn. Characters with higher Wisdom fall asleep more slowly. Taking damage reduces the current sleep timer, and the timer also falls over time. Sleep damage is decreased by 50% for each time a character has already fallen asleep."
+damage_types,SkillType.Fire Fire,The burn of heat and flames. Reduced by the target's Discipline and Toughness attributes.
+damage_types,SkillType.Ice Ice,Cold damage from ice and snow. Often paired with other effects. Reduced by the target's Discipline and Toughness attributes. Deals 50% extra damage to plants.
+damage_types,SkillType.Lightning Lightning,Electrical damage. Reduced by the target's Discipline and Toughness attributes. Deals double damage to mechanical enemies.
+damage_types,SkillType.Holy Holy,Damage from a divine source. Reduced by the target's Discipline attribute. Deals 50% extra damage to undead.
+damage_types,SkillType.Dark Dark,"Damage stemming from the Ancient realm, often used by Cultists. Reduced by the target's Discipline attribute."
+damage_types,SkillType.Energy Energy,Usually applied by future weapons. Reduced by the target's Discipline attribute.
+damage_types,SkillType.MP MP,"Damage directed at an enemy's MP, intead of HP. Reduced by the target's Discipline attribute."
+damage_types,SkillType.Healing Healing,HP restoration. Sometimes reduced by certain effects.
+damage_types,SkillType.MPHealing MP Healing,MP restoration. Sometimes reduced by certain effects.
+damage_types,SkillType.Piercing Piercing,Ignores a percentage of Toughness and Discipline reductions when calculating final damage. Piercing can range from 0% (no piercing) to 100% (ignores 100% of TGH/DSC).
+enemy_types,Enemy Types,"There are seven main enemy types in Time Break Chronicles. Various skills and town upgrades will affect your ability to fight each type, so make sure to check descriptions for more info."
+enemy_types,"Note that your heroes also have one of these types. The hero's status menu will display their type, along with their attributes.",*Sprite.human Humans
+enemy_types,"Normal humans and humanoids. Humans have no particular strengths or weaknesses, but can often be quite versatile.",*Sprite.beast Beasts
+enemy_types,"Animals and monsters. Beasts become more dangerous when they reach critical HP levels, doubling their Speed and Power.",*Sprite.mechanical Mechanical
+enemy_types,"Robots, drones, mechs, etc. Mechanical enemies are immune to SkillType.Poison and SkillType.Sleep damage, but take double SkillType.Lightning damage.",*Sprite.undead Undead
+enemy_types,"Unholy abominations such as zombies, ghosts, and vampires. Undead enemies do not bleed out and often revive themselves, but take 50% extra damage from SkillType.Holy attacks.",*Sprite.plant Plant
+enemy_types,"Plants and plant-based life from the forest. Plant enemies regain some HP every turn through photosynthesis, but take 50% extra damage from SkillType.Ice attacks.",*Sprite.demon Demon
+enemy_types,"Demons straight from the depths of Hell. Demon enemies are able to dispel SkillType.Buff effects with SkillType.Attack skills, and gain stacks of damage nullifying Demon Shield.",*Sprite.anomaly Anomaly
+resist,SkillType.Buff Buffs,"Some skills, items, or relics can apply buffs to a character. Buffs are beneficial, and increase stats or activate special effects. Buff skills are denoted by a SkillType.Buff icon."
+resist,You can view information on buffs or debuffs in battle by selecting the Status Info option.,*SkillType.Debuff Debuffs
+resist,"Some skills, items, or relics can apply debuffs to a character. Debuffs are detrimental, and decrease stats or activate negative effects. Debuff skills are denoted by a SkillType.Debuff icon.","Some debuffs are dispellable, and others are not. Dispellable debuffs can be removed by skills or items, while non-dispellable debuffs cannot."
+resist,EffectIcon.resist Resist,"Characters will sometimes gain stacks of Resist, denoted by a EffectIcon.resist icon. Each stack of Resist will block one incoming dispellable SkillType.Debuff, before being consumed."
+skill_types,Skill Types,"All skills have at least one type, denoted by the icons in the skills menu. Some effects or skills will only apply to skills with a particular type."
+skill_types,Bonus Actions,"Each character can use one Bonus Action per turn, without losing their turn. However, they can still trigger most turn-related effects."
+skill_types,SkillType.Passive Passive,"Innate traits or passive abilities, which cannot be actively selected for use in battle."
+skill_types,SkillType.Attack Attack,Direct attacks against an enemy.
+skill_types,SkillType.Spell Spell,Magical abilities. Attacks of this type can usually hit enemies in any position.
+skill_types,SkillType.Melee Melee,Usually attacks that hit enemies in melee range.
+skill_types,SkillType.Ranged Ranged,Usually non-magical attacks that hit enemies in any position.
+skill_types,SkillType.Physical Physical,Skills that deal or block Physical damage.
+skill_types,SkillType.Fire Fire,"Flame-based skills, most often attacks that deal Fire damage."
+skill_types,SkillType.Ice Ice,"Cold-based skills, most often attacks that deal Ice damage."
+skill_types,SkillType.Lightning Lightning,"Electrical skills, most often attacks that deal Lightning damage."
+skill_types,SkillType.Poison Poison,Often skills that apply Poison damage over time.
+skill_types,SkillType.Sonic Sonic,Sound based skills. Attacks of this type usually deal Sonic damage.
+skill_types,SkillType.Holy Holy,"Skills that have a divine source, often dealing Holy damage or healing allies."
+skill_types,SkillType.Dark Dark,Skills related to the Ancient realm. Dark skills often steal HP or damage MP.
+skill_types,SkillType.Energy Energy,"Usually the skills of future-era heroes, often dealing Energy damage."
+skill_types,SkillType.Stun Stun,Skills that deal or mitigate Stun damage.
+skill_types,SkillType.Healing Healing,Usually skills that restore HP or provide other buffs.
+skill_types,SkillType.MP MP,Skills related to the manipulation of MP.
+skill_types,SkillType.Buff Buff,"Skills that provide buffs to allies, helping them."
+skill_types,SkillType.Debuff Debuff,"Skills that provide debuffs to enemies, hindering them."
+skill_types,SkillType.Redirect Redirect,Skills that redirect damage from one source to another.
+skill_types,SkillType.Aspect Aspect,Skills that change available default skills used by certain heroes.
+skill_types,SkillType.Alcohol Booze,"Skills related to getting drunk, usually increasing attributes in exchange for losing control."
+skill_types,SkillType.Gadget Gadget,"Gadgets are usually limited-use skills, which can only be replenished by certain skills or leaving battle. Gadget attacks often have fixed-value damage."
+skill_types,SkillType.Piercing Piercing,Skills that ignore a percentage of Toughness and Discipline reductions when calculating damage. Piercing can range from 0% (no piercing) to 100% (ignores 100% of TGH/DSC).
+skill_types,SkillType.Song Song,Battle hymns and the like. Only one song can be active at a time for the entire party.
+skill_types,SkillType.Stance Stance,Stance changing skills used by certain heroes. Only one Stance can be active at time per hero.
+skill_types,SkillType.Summon Summon,Skills that summon a pet or other character into a hero's summon slot. Only one Summon can be active at a time.
