@@ -132,8 +132,10 @@ weakhearted,WeakHearted,Weak Hearted,Weak Hearted,ally,3,True,Resolute,Permanent
 weakness,Weakness,Weakness,Weakness,party,0,True,-,Power and Toughness are decreased by -5.,-,-,[5.0],json-name
 zealous,Zealous,Zealous,Zealous,ally,3,False,-,"MP regeneration in battle is increased by 500%, but 25% chance to lose control.",-,-,[5.0;25.0],json-name
 mercilessmechs,mercilessmechs,Merciless Mechs,MeanMechs,party,0,true,-,Mechanical enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,-,untagged-json
+bluntedammo,bluntedammo,Blunted Ammo,Blunt Ammo,party,1,true,"[""SharpAmmo""]",Allies suffer 50% decreased critical hit chance with SkillType.Ranged skills.,-,-,-,untagged-json
 herbiculture,herbiculture,Herbiculture,Herbiculture,party,0,true,-,Cultist enemies gain Vine Armor trait: Increases Toughness by 50% of Focus.,-,-,-,untagged-json
 timebreakroulette,timebreakroulette,Time Break Roulette,Break Roulette,party,1,false,-,Time Break Techs have a 10% chance to take 0 particles.,-,-,-,untagged-json
+enragedbeasts,enragedbeasts,Enraged Beasts,Enraged Beasts,party,0,true,-,Beast enemies Frenzy at start of battle: Increases Speed by 50% and damage by 35% for 3 turns.,-,-,-,untagged-json
 spoilsofwar,spoilsofwar,Spoils of War,Spoils,party,2,false,-,Gain 25% more particles from battles.,-,-,-,untagged-json
 unstoppableanomalies,unstoppableanomalies,Unstoppable Anomalies,ThickAnomaly,party,0,true,-,Anomaly enemies gain Thick Skull trait: Immune to SkillType.Stun damage.,-,-,-,untagged-json
 mercilessplants,mercilessplants,Merciless Plants,MeanPlants,party,0,true,-,Plant enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,-,untagged-json
@@ -143,6 +145,8 @@ imparmytactics,imparmytactics,Imp Army Tactics,Imp Army,party,0,true,-,Imp enemi
 ancientsprotection,ancientsprotection,Ancient's Protection,Ancient Prt,party,0,true,-,Enemies take 15% decreased damage.,-,-,-,untagged-json
 carnivorousplants,carnivorousplants,Carnivorous Plants,CarnivorePlants,party,0,true,-,Plant enemies gain Predator trait: Increases Power by up to 100% based on current health.,-,-,-,untagged-json
 callofthevoid,callofthevoid,Call of the Void,Call of Void,party,0,true,-,Anomaly enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,-,untagged-json
+turno,turno,Turno,Turbo,-,-,-,-,All allies gain 100% increased speed for 1 turn and grants a random ally a free turn.,-,-,-,untagged-json
+bluntedweaponry,bluntedweaponry,Blunted Weaponry,Blunt Weaponry,party,1,true,"[""HonedEdge""]",Allies suffer 50% decreased critical hit chance with SkillType.Melee attacks.,-,-,-,untagged-json
 ghostlycult,ghostlycult,Ghostly Cult,Ghostly Cult,party,0,true,-,Cultist enemies gain Ethereal at start of battle: Immune to damage until first turn.,-,-,-,untagged-json
 demoniccult,demoniccult,Demonic Cult,Demonic Cult,party,0,true,-,Cultist enemies gain Demon type bonuses.,-,-,-,untagged-json
 toxiccultists,toxiccultists,Toxic Cultists,Toxic Cult,party,0,true,-,"Cultist enemies gain Toxic Skin: When hit by a SkillType.Melee Attack, poison the attacker.",-,-,-,untagged-json
