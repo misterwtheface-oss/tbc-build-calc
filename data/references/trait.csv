@@ -63,7 +63,7 @@ rockshell,rockshell,Rock Shell,Rock Shell,-,-,-,-,Living snow changes forms at c
 shattershell,shattershell,Shatter Shell,Shatter Shell,-,-,-,-,"Removes Frozen Blob's frozen shell, increasing its speed and dealing SkillType.Ice damage.",-,-,[0.5;0.7;0.9;1.0;3.0],name,-
 solarpower,solarpower,Solar Power,Solar Power,-,-,-,-,Gain +25% to focus and +30 to speed after every turn.,-,-,[1.25;30.0],name,-
 soulnexus,soulnexus,Soul Nexus,Soul Nexus,-,-,-,-,Allies cannot bleed out. Gain 50% of ally's Power and Endurance on their death.,-,-,[0.2],name,-
-spectral,spectral,spectral,-,-,-,-,-,-,-,-,[0.25;0.5;0.8],FLAG:Jagged Edge|Feud|Intangible|Furious Flames|Major League Arm,Jagged Edge|Feud|Intangible|Furious Flames|Major League Arm
+spectral,spectral,Intangible,Intangible,-,-,-,-,Decreases damage taken by 95% for one turn.,-,-,[0.25;0.5;0.8],manual,-
 spidergrowth,spidergrowth,Spider Growth,Spider Growth,-,-,-,-,"Gain Speed, Endurance, and Focus at the start of turn.",-,-,[10.0;15.0;18.0;6],name,-
 spidermother,spidermother,Mother's Rage,Mother's Rage,-,-,-,-,Gain Power and counter attack with Sweep Attack whenever a Spiderling or Egg is killed.,-,-,[20.0],size+sim,-
 spikybody,spikybody,Spiky Body,Spiky,-,-,-,-,"When hit by a SkillType.Melee Attack, return SkillType.Physical damage to attacker based on Toughness.",-,-,[0.5],name,-

@@ -36,28 +36,28 @@ elementalist,Elementalist,Elementalist,Elementalist,party,3,False,Bruiser,"Skill
 elementalshield,ElementalShield,Elemental Shield,Shield,party,3,False,-,Allies take 25% decreased SkillType.Fire SkillType.Lightning and SkillType.Ice damage.,-,-,[0.75],name,-
 elusive,Elusive,Elusive,Elusive,ally,3,False,-,"30% chance for incoming damage to miss, but max HP is reduced by 15%.",-,-,[0.85;30.0],name,-
 empowered,Empowered,Empowered,Empowered,ally,3,False,-,All attributes increased by 10%.,-,-,[1.1],name,-
-anomalylastgasp,AnomalyLastGasp,Anomaly Last Gasp,-,-,-,-,-,-,-,-,[3;2;7],FLAG:Evil Cleansed|Trash Talker|Call of the Void|Bon Appetit|Ruthless,Evil Cleansed|Trash Talker|Call of the Void|Bon Appetit|Ruthless
-anomalyskull,AnomalySkull,No-Sell,No-Sell,-,-,-,-,"The first time Zeke is critical, blocks up to 50% Max HP damage from hits.",Dispels all SkillType.Debuff,Fully charges Finisher,[2;7;3],size+sim,-
-beastallforone,BeastAllForOne,Get the Rope,-,-,-,-,-,"Use Samuel's Posse skill twice in a single Extreme Danger or Boss battle, and win the battle.",-,-,[2;7;3],size+sim,-
+anomalylastgasp,AnomalyLastGasp,Call of the Void,Call of Void,party,0,True,-,Anomaly enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,[3;2;7],size+sim,-
+anomalyskull,AnomalySkull,Unstoppable Anomalies,ThickAnomaly,party,0,True,-,Anomaly enemies gain Thick Skull trait: Immune to SkillType.Stun damage.,-,-,[2;7;3],size+sim,-
+beastallforone,BeastAllForOne,Pack Hunters,Pack Hnt,party,0,True,-,Beast enemies gain All For One trait: Gain 5% of all attributes from all allies.,-,-,[2;7;3],size+sim,-
 beastfrenzy,BeastFrenzy,Enraged Beasts,Enraged Beasts,party,0,True,-,Beast enemies Frenzy at start of battle: Increases Speed by 50% and damage by 35% for 3 turns.,-,-,[3;2;7],size+sim,-
 beastshield,BeastShield,Beast Shield,Beast Shield,party,0,True,-,Beast enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],name,-
 cultistbarkskin,CultistBarkskin,All Bark,All Bark,party,0,True,-,Cultist enemies gain Barkskin at start of battle: Blocks up to 0.5x Focus SkillType.Physical damage taken for 3 turns.,-,-,[3;2;7],size+sim,-
 cultistdemon,CultistDemon,Demonic Cult,Demonic Cult,party,0,True,-,Cultist enemies gain Demon type bonuses.,-,-,[3;2;7],size+sim,-
 cultistdischarge,CultistDischarge,Elecrified Cultists,Electric Cult,enemy,0,True,-,Cultists cast Discharge when downed: Deal SkillType.Lightning damage to all enemies.,-,-,[3;2;7],size+sim,-
-cultistethereal,CultistEthereal,Time Break Technician,Break Technician,party,2,False,Wastefulness,Time Break Techs cost 25% fewer particles.,-,-,[3;2;7],size+sim,-
+cultistethereal,CultistEthereal,Ghostly Cult,Ghostly Cult,party,0,True,-,Cultist enemies gain Ethereal at start of battle: Immune to damage until first turn.,-,-,[3;2;7],size+sim,-
 cultistlastgasp,CultistLastGasp,Last Gasp,Last Gasp,party,0,True,-,Cultist enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,[3;2;7],size+sim,-
 cultistshroud,CultistShroud,Cultist Shroud,Cultist Shroud,party,0,True,-,Cultist enemies gain Dark Shroud at start of battle: Increased dodge chance and HP regen for 2 turns.,-,-,[3;2;7],name,-
 cultisttoxic,CultistToxic,Toxic Cultists,Toxic Cult,party,0,True,-,"Cultist enemies gain Toxic Skin: When hit by a SkillType.Melee Attack, poison the attacker.",-,-,[3;2;7],size+sim,-
-cultistvinearmor,CultistVineArmor,It's in the Name,-,-,-,-,-,"Have Otto's KillBot strike the final blow on 3 total enemies, in winning battles.",-,-,[3;2;7],size+sim,-
-demonflamewreath,DemonFlameWreath,Entertainer,Entertainer,-,-,-,-,Gain +10 Technique after every skill use.,Allies regenerate MP after OWNER.NAME gets a critical hit,Allies are healed for 5% of their Max HP after OWNER.NAME gets a critical hit,[2;7;3],size+sim,-
+cultistvinearmor,CultistVineArmor,Herbiculture,Herbiculture,party,0,True,-,Cultist enemies gain Vine Armor trait: Increases Toughness by 50% of Focus.,-,-,[3;2;7],size+sim,-
+demonflamewreath,DemonFlameWreath,Sulfuric Air,Sulfuric Air,enemy,0,True,-,Demons gain Flame Wreath: Blocks SkillType.Melee damage and deals SkillType.Fire damage to attackers. Activates at less than 50% HP.,-,-,[2;7;3],size+sim,-
 demonshield,DemonShield,Demon Shield,Demon Shield,enemy,0,True,-,Demon enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],name,-
 impallforone,ImpAllForOne,Imp Army Tactics,Imp Army,party,0,True,-,Imp enemies gain All For One trait: Gain 5% of all attributes from all allies.,-,-,[2;7;3],size+sim,-
 ionizedmetal,IonizedMetal,Ionized Metal,IonMetal,party,0,True,-,Mechanical enemies take 50% less non-SkillType.Physical damage.,-,-,[0.5;3],name,-
-lessdamage,LessDamage,Less Damage,-,-,-,-,-,-,-,-,[0.85],FLAG:Ancient's Protection|Tentacle Shield|Steadfast|Light 'em Up,Ancient's Protection|Tentacle Shield|Steadfast|Light 'em Up
+lessdamage,LessDamage,Ancient's Protection,Ancient Prt,party,0,True,-,Enemies take 15% decreased damage.,-,-,[0.85],size+sim,-
 mechmerciless,MechMerciless,Merciless Mechs,MeanMechs,party,0,True,-,Mechanical enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,[2;7;3],size+sim,-
-moredamage,MoreDamage,Invigorated,Invigorated,ally,0,False,-,Restore some HP and MP when gaining a free turn.,-,-,[1.15],size+sim,-
+moredamage,MoreDamage,Ancient's Power,Ancient Pwr,party,0,True,-,Enemies deal 15% increased damage and healing.,-,-,[1.15],size+sim,-
 plantmerciless,PlantMerciless,Merciless Plants,MeanPlants,party,0,True,-,Plant enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,[2;7;3],size+sim,-
-plantpredator,PlantPredator,Outbreak,-,-,-,-,-,"Have 3 or more stacks of Ambroise's Plague skill on at least 8 enemies or allies at once, in a single winning battle.",-,-,[2;7;3],size+sim,-
+plantpredator,PlantPredator,Carnivorous Plants,CarnivorePlants,party,0,True,-,Plant enemies gain Predator trait: Increases Power by up to 100% based on current health.,-,-,[2;7;3],size+sim,-
 plantshield,PlantShield,Shielded Plants,Plant Shield,party,0,True,-,Plant enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],size+sim,-
 undeadhardkill,UndeadHardKill,Resilient Dead,Resilient Dead,party,0,True,-,Undead enemies gain Hard To Kill trait: Can only be downed by damage over 10% of max HP.,-,-,[3;2;7],size+sim,-
 undeadrage,UndeadRage,Undead Rage,Undead Rage,party,0,True,-,Undead enemies gain Blood Rage trait: Increased Power and decreased Technique when at critical HP.,-,-,[3;2;7],name,-
