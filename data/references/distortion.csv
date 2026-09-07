@@ -1,161 +1,163 @@
-distortion_id,codename,name,short_name,type,rarity,negative,exclusions,level_1,level_2,level_3,param,text_source
-adrenalboost,AdrenalBoost,Adrenal Boost,Adr. Boost,party,3,False,-,Allies lose 25% less stamina.,-,-,[0.75],json-name
-antivenom,Antivenom,Antivenom,Shield,party,3,False,-,Allies take 40% decreased SkillType.Poison damage.,-,-,[0.6],json-name
-apathy,Apathy,Apathy,Apathy,party,0,True,-,Focus and Discipline are decreased by -5.,-,-,[5.0],json-name
-archaeologist,Archaeologist,Archaeologist,Archaeologist,party,3,False,-,"20% increased chance to find relics in battle rewards, but receive 10% fewer particles from battles.",-,-,[0.9;1.0;20.0],json-name
-battlehardened,BattleHardened,Battle Hardened,Battle Hardened,party,0,False,-,The first damage taken by the party each battle is negated.,-,-,-,json-name
-battleready,BattleReady,Battle Ready,Battle Ready,party,0,False,-,The first damage an ally deals in each battle is increased by 50%.,-,-,[1.5],json-name
-beastshield,BeastShield,Beast Shield,Beast Shield,party,0,True,-,Beast enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],json-name
-beastslayer,BeastSlayer,Beast Slayer,Beast Slayer,party,3,False,-,"Deal 25% increased damage to Beast enemies, but 15% reduced damage to Mechanical and Undead enemies.",-,-,[0.25;0.85],json-name
-blessedblade,BlessedBlade,Blessed Blade,Blessed,party,2,False,-,Allies deal 0.3x Focus added SkillType.Holy damage with direct SkillType.Melee attacks.,-,-,[0.3],json-name
-bloodbond,BloodBond,Blood Bond,Blood Bond,ally,3,False,-,"Take 10% HP SkillType.Physical damage after every turn, but fully restore HP and gain a Free Turn when scoring a killing blow.",-,-,[0.1],json-name
-bloodlust,Bloodlust,Bloodlust,Bloodlust,party,3,False,-,Restore 30% HP when scoring a killing blow.,-,-,[0.3],json-name
-bruiser,Bruiser,Bruiser,Bruiser,party,3,False,Elementalist,"SkillType.Physical and SkillType.Stun damage dealt is increased by 50%, but SkillType.Fire SkillType.Lightning SkillType.Ice SkillType.Dark and SkillType.Holy damage dealt is reduced by 30%.",-,-,[0.5;0.7],json-name
-bumbling,Bumbling,Bumbling,Bumbling,ally,0,True,-,"Technique is decreased by -10, and Skills cost 25% more MP.",-,-,[1.25;10.0],json-name
-burnbright,BurnBright,Burn Bright,Burn Bright,ally,3,False,-,"All attributes are increased by +50%, but hero dies immediately if downed, instead of bleeding out.",-,-,[1.5],json-name
-cache,Cache,Cache,Cache,party,0,False,-,Immediately gain 50 particles.,-,-,-,json-name
-capacitor,Capacitor,Capacitor,Capacitor,party,1,False,-,"Every tenth ally skill used costs 1 MP, if it would usually cost more.",-,-,-,json-name
-chargedarmor,ChargedArmor,Charged Armor,Chg Armor,ally,3,False,-,"When hit by a SkillType.Melee Attack, return SkillType.Lightning damage to attacker based on Toughness that can jump to adjacent enemies.",-,-,-,json-name
-chargedfield,ChargedField,Charged Field,Charged Field,all,1,False,-,All SkillType.Lightning damage is doubled.,-,-,[2.0],json-name
-cloudedvision,CloudedVision,Clouded Vision,Clouded Vision,party,2,True,-,Allies suffer 25% decreased hit chance with SkillType.Ranged attacks.,-,-,[0.25],json-name
-clumsy,Clumsy,Clumsy,Clumsy,ally,1,True,-,"Agility is decreased by -10, and have a 6% chance to stumble when acting in battle.",-,-,[6.0;10.0;2;7],json-name
-crusher,Crusher,Crusher,Crusher,party,2,False,-,Deal double SkillType.Stun damage.,-,-,[1.0],json-name
-crystalhunter,CrystalHunter,Crystal Hunter,Crystal Hunter,party,1,False,-,Gain 25% more particles from confluence crystals.,-,-,[0.5;1.25],json-name
-cultistshroud,CultistShroud,Cultist Shroud,Cultist Shroud,party,0,True,-,Cultist enemies gain Dark Shroud at start of battle: Increased dodge chance and HP regen for 2 turns.,-,-,[3;2;7],json-name
-cursed,Cursed,Cursed,Cursed,party,3,True,-,Chance to gain additional negative distortions is increased by 50%.,-,-,-,json-name
-darkinfusion,DarkInfusion,Dark Infusion,Dark Infusion,ally,3,False,-,"No longer lose stamina, but max HP is reduced by 30%.",-,-,[0.7],json-name
-demonshield,DemonShield,Demon Shield,Demon Shield,enemy,0,True,-,Demon enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],json-name
-depreciation,Depreciation,Depreciation,Depreciation,party,0,True,-,Immediately lose 25 particles.,-,-,-,json-name
-distorted,Distorted,Distorted,Distorted,party,3,False,-,Chance to gain additional distortions is increased by 50%.,-,-,-,json-name
-divineinspiration,DivineInspiration,Divine Inspiration,Divine Insp.,party,2,False,-,All allied SkillType.Holy skills gain +1 level for this mission.,-,-,-,json-name
-efficient,Efficient,Efficient,Efficent,random,2,False,Malaise,Skills cost 25% less MP.,-,-,[0.75],json-name
-elementalist,Elementalist,Elementalist,Elementalist,party,3,False,Bruiser,"SkillType.Fire SkillType.Lightning and SkillType.Ice damage dealt is doubled, but SkillType.Physical damage dealt is reduced by 25%.",-,-,[0.75;1.0],json-name
-elementalshield,ElementalShield,Elemental Shield,Shield,party,3,False,-,Allies take 25% decreased SkillType.Fire SkillType.Lightning and SkillType.Ice damage.,-,-,[0.75],json-name
-elusive,Elusive,Elusive,Elusive,ally,3,False,-,"30% chance for incoming damage to miss, but max HP is reduced by 15%.",-,-,[0.85;30.0],json-name
-empowered,Empowered,Empowered,Empowered,ally,3,False,-,All attributes increased by 10%.,-,-,[1.1],json-name
-energized,Energized,Energized,Energized,party,2,False,-,Allies deal 0.25x Focus added SkillType.Energy damage with SkillType.Attack skills.,-,-,[0.25],json-name
-ennui,Ennui,Ennui,Ennui,ally,2,True,-,Focus and Discipline are decreased by -15.,-,-,[15.0],json-name
-extinguished,Extinguished,Extinguished,Extinguished,party,1,True,SoulFire,All allied SkillType.Fire skills lose -1 level for this mission.,-,-,-,json-name
-feeble,Feeble,Feeble,Feeble,ally,2,True,-,Power and Toughness are decreased by -15.,-,-,[15.0],json-name
-fireeater,FireEater,Fire Eater,Fire Eater,ally,3,False,-,SkillType.Fire damage taken is decreased by 50% and converted into SkillType.Healing.,-,-,[0.5],json-name
-fizzle,Fizzle,Fizzle,Fizzle,party,0,True,Sapper,Disintegration Bombs deal 50% damage in battle.,-,-,[0.5],json-name
-focused,Focused,Focused,Focused,party,0,False,-,Focus is increased by +8.,-,-,[8.0],json-name
-frailty,Frailty,Frailty,Frailty,enemy,2,True,-,Enemies gain 25% increased critical hit chance.,-,-,[0.25],json-name
-frozenarmor,FrozenArmor,Frozen Armor,Frz Armor,ally,3,False,-,Start battle with a shield that blocks 300 damage and deals 100-150 SkillType.Ice damage to all enemies when it breaks. Speed is decreased by 35% while active.,-,-,[0.65;1.0;2;3;4],json-name
-fury,Fury,Fury,Fury,random,3,False,-,25% chance to attack a random melee target after using an SkillType.Attack skill.,-,-,[25.0;2;7],json-name
-gadgeteer,Gadgeteer,Gadgeteer,Gadgeteer,party,3,False,-,SkillType.Gadget skills deal 25% increased damage and healing.,-,-,[0.25],json-name
-gauntletrunner,GauntletRunner,Gauntlet Runner,G'let Runner,all,3,False,-,"Allied Speed and Agility are increased by +40 and +10%, but enemies gain +10% increased Power and Focus.",-,-,[1.1;40.0],json-name
-glasscannon,GlassCannon,Glass Cannon,Glass Cannon,ally,3,False,-,"Power and Focus are increased by +30 and +25%, but Toughness and Discipline are decreased by -50%.",-,-,[0.5;1.25;30.0],json-name
-glutton,Glutton,Glutton,Glutton,party,0,True,Gourmet,Snacks restore half of their usual amount of MP.,-,-,[0.5],json-name
-gourmet,Gourmet,Gourmet,Gourmet,party,0,False,Glutton,Snacks restore double their usual amount of MP.,-,-,-,json-name
-healthyaura,HealthyAura,Healthy Aura,Healthy Aura,party,3,False,-,"All allies gain HP regen in battle, but enemies gain +25 increased Power.",-,-,[0.03;0.04;25.0],json-name
-heavyfist,HeavyFist,Heavy Fist,Heavy Fist,ally,1,False,-,Grants Wallop skill in battle: Deals 1.33x Power SkillType.Physical damage and sends target to the back row. Also deals 66% damage to back row target.,-,-,-,json-name
-hemophilia,Hemophilia,Hemophilia,Hemophilia,party,2,True,-,Enemy critical hits have a 40% chance to cause SkillType.Physical damage over time for 3 turns.,-,-,[0.1;40.0;3],json-name
-hemorrhage,Hemorrhage,Hemorrhage,Hemorrhage,ally,3,True,-,HP is only restored to 80% after a battle.,-,-,-,json-name
-highdensity,HighDensity,High Density,High Density,party,3,False,-,"Toughness and Endurance are increased by +15 and +10%, but Speed and Agility are decreased by 10%.",-,-,[0.9;1.1;15.0],json-name
-hightoxicity,HighToxicity,High Toxicity,High Toxicity,party,2,False,-,All allied SkillType.Poison skills gain +1 level for this mission.,-,-,-,json-name
-honededge,HonedEdge,Honed Edge,Honed Edge,party,0,False,BluntWeaponry,Allies gain 15% increased critical hit chance with SkillType.Melee skills.,-,-,[0.15],json-name
-ineffectual,Ineffectual,Ineffectual,Ineffectual,enemy,2,True,-,Enemies have a 5% chance to survive a killing blow with 1 HP.,-,-,[5.0],json-name
-infected,Infected,Infected,Infected,ally,3,True,-,Receive 60% decreased healing in combat.,-,-,[0.4],json-name
-initiative,Initiative,Initiative,Initiative,party,3,False,-,One random ally gains a free turn at the start of every battle.,-,-,-,json-name
-innertalent,InnerTalent,Inner Talent,Inner Talent,party,1,False,-,Skills have a 10% chance to cost 0 MP on use.,-,-,-,json-name
-insulated,Insulated,Insulated,Insulated,ally,3,False,-,Decrease SkillType.Lightning and SkillType.Ice damage taken by 25%.,-,-,[0.75],json-name
-invigorated,Invigorated,Invigorated,Invigorated,ally,0,False,-,Restore some HP and MP when gaining a free turn.,-,-,-,json-name
-ionizedmetal,IonizedMetal,Ionized Metal,IonMetal,party,0,True,-,Mechanical enemies take 50% less non-SkillType.Physical damage.,-,-,[0.5;3],json-name
-jaggededge,JaggedEdge,Jagged Edge,Jagged Edge,party,1,False,-,Critical hits dealt by allies gain an additional 50% increased damage.,-,-,[0.5],json-name
-lethargy,Lethargy,Lethargy,Lethargy,ally,2,True,-,Speed and Agility are decreased by -15.,-,-,[15.0],json-name
-lionheart,LionHeart,Lion Heart,Lion Heart,ally,3,False,-,All attributes increased by 15% in Extreme Danger battles.,-,-,[1.15],json-name
-madness,Madness,Madness,Madness,ally,3,False,-,"All attributes increased by +15%, but hero has a 20% chance to lose control and attack a random target, including allies.",-,-,[1.15;20.0;2;7],json-name
-magical,Magical,Magical,Magical,party,0,False,Skeptical,Allies gain 25% increased SkillType.Spell skill damage.,-,-,[0.25],json-name
-magnetic,Magnetic,Magnetic,Magnetic,party,3,False,-,Gain 15% more particles from entering conduit space portals.,-,-,[0.5;1.15],json-name
-malaise,Malaise,Malaise,Malaise,party,1,True,Efficient,Skills cost 50% extra MP.,-,-,[1.5],json-name
-malpractice,Malpractice,Malpractice,Malpractice,party,1,True,Onslaught,All allied healing reduced by 35% for this mission.,-,-,[0.65],json-name
-metallicbody,MetallicBody,Metallic Body,Metallic Body,ally,3,False,-,"Take 50% decreased SkillType.Physical and SkillType.Stun damage, but 50% increased damage from SkillType.Lightning SkillType.Fire and SkillType.Ice.",-,-,[0.5],json-name
-neuralenhancer,NeuralEnhancer,Neural Enhancer,Enhancer,party,3,False,-,Allies gain 25% more XP.,-,-,[1.25],json-name
-ogre,Ogre,Ogre,Ogre,ally,3,False,-,"Power and Endurance are increased by +40 and +10%, but 10% chance to stumble when acting in battle.",-,-,[1.1;10.0;40.0;2;7],json-name
-onslaught,Onslaught,Onslaught,Onslaught,party,3,False,Transcendent,"All allied SkillType.Attack skills gain +1 level for this mission and Power is increased by +15%, but Focus is decreased by -10%.",-,-,[0.9;1.15],json-name
-overburdened,Overburdened,Overburdened,Overburdened,party,0,True,-,Lose 5% more stamina when traveling through portals in conduit space.,-,-,[1.05],json-name
-particlereaction,ParticleReaction,Particle Reaction,Part. Reaction,party,3,False,-,Immediately gain a bonus of 50% of collected particles.,-,-,[0.5],json-name
-pestilence,Pestilence,Pestilence,Pestilence,-,-,-,-,Deals 0.35x Focus SkillType.Poison and SkillType.Dark damage over time. Uses all Bat's Fur and Toad Cap.,Lasts 1 extra turn for each Bat's Fur,Decreases target attributes by 5% for each Toad Cap,[0.5],json-name
-pharmacist,Pharmacist,Pharmacist,Pharmacist,party,2,False,Infected,Medicine and Nano-Meds heal for double their usual amount in battle.,-,-,[2.0],json-name
-phaseshifted,PhaseShifted,Phase Shifted,Phase Shifted,ally,1,False,-,Grants Intangible skill in battle: Decreases damage taken by 95% for one turn. One use per battle.,-,-,-,json-name
-precision,Precision,Precision,Precision,party,0,False,-,Gain 50% increased hit chance with SkillType.Melee attacks.,-,-,[0.5],json-name
-protectioncharm,ProtectionCharm,Protection Charm,Protection,party,3,False,-,Allies start battle with 3 Resist.,-,-,-,json-name
-pyromania,Pyromania,Pyromania,Pyromania,party,3,False,-,"Allied SkillType.Fire skills cost 1 MP, but SkillType.Ice and SkillType.Lightning skills cost double MP.",-,-,-,json-name
-redhaze,RedHaze,Red Haze,Red Haze,all,3,False,-,"Allies gain +33% increased Power and Focus, but enemies gain +10% increased Power and Focus.",-,-,[1.1;1.33],json-name
-regenerative,Regenerative,Regenerative,Regenerative,party,3,False,-,"Allies gain a small amount of health regeneration in battle, every turn.",-,-,[0.01;0.02],json-name
-resolute,Resolute,Resolute,Resolute,ally,3,False,WeakHearted,Permanently gain +2 Toughness for the rest of the mission when receiving a critical hit.,-,-,-,json-name
-resourceful,Resourceful,Resourceful,Resourceful,party,1,False,-,SkillType.Gadget skills gain +1 use.,-,-,-,json-name
-restful,Restful,Restful,Restful,party,1,False,Restless,Gain 25% more stamina when using a camp site.,-,-,[1.25],json-name
-restless,Restless,Restless,Restless,party,1,True,Restful,Gain 15% less stamina when using a camp site.,-,-,[0.85],json-name
-ruthless,Ruthless,Ruthless,Ruthless,party,3,False,-,Deal 20% increased damage to enemies afflicted by a SkillType.Debuff.,-,-,[0.2],json-name
-sadistic,Sadistic,Sadistic,Sadistic,ally,3,False,-,15% chance to gain a Free Turn after an enemy has a SkillType.Debuff applied to them.,-,-,[15.0;2;3;4],json-name
-sapper,Sapper,Sapper,Sapper,party,0,False,Fizzle,Disintegration Bombs deal double damage in battle.,-,-,[2.0],json-name
-scanlock,ScanLock,Scan Lock,Scan,party,3,False,-,"Enemy HP, MP and attributes are visible in battle.",-,-,-,json-name
-scrounger,Scrounger,Scrounger,Scrounger,party,2,False,-,33% increased chance to find extra items in battle rewards.,-,-,[1.0;33.0],json-name
-searingheat,SearingHeat,Searing Heat,Searing Heat,all,1,False,-,All SkillType.Fire damage is doubled.,-,-,[2.0],json-name
-secondwind,SecondWind,Second Wind,Second Wind,party,3,False,-,All allies immediately gain 15% stamina. Stamina can increase beyond 100% in this way.,-,-,[0.15],json-name
-sharpammo,SharpAmmo,Sharp Ammo,Sharp Ammo,party,0,False,BluntAmmo,Allies gain 15% increased critical hit chance with SkillType.Ranged skills.,-,-,[0.15],json-name
-skeptical,Skeptical,Skeptical,Skeptical,party,0,True,Magical,Allies suffer 20% decreased SkillType.Spell skill damage.,-,-,[0.8],json-name
-slowstarter,SlowStarter,Slow Starter,Slow Starter,ally,3,False,-,"Power and Focus start battle reduced by 30%, but increase by 10% after every turn.",-,-,[0.1;1.0],json-name
-sluggish,Sluggish,Sluggish,Sluggish,party,1,True,-,Lose 5 Speed and Agility.,-,-,-,json-name
-snakeeater,SnakeEater,Snake Eater,Snake Eater,ally,3,False,-,"Resist all resistable SkillType.Poison based SkillType.Debuff effects, and decrease SkillType.Poison damage taken by 70%.",-,-,[0.3;5],json-name
-sniper,Sniper,Sniper,Sniper,party,0,False,-,Gain 50% increased hit chance with SkillType.Ranged attacks.,-,-,[0.5],json-name
-soulfire,SoulFire,Soul Fire,Soul Fire,party,2,False,Extinguished,All allied SkillType.Fire skills gain +1 level for this mission.,-,-,-,json-name
-soultap,SoulTap,SoulTap,SoulTap,ally,2,False,-,Gain 2% Stamina when scoring a killing blow in battle.,-,-,[0.02],json-name
-sparkingblade,SparkingBlade,Sparking Blade,Sparking,party,2,False,-,Allies deal 0.3x Focus added SkillType.Lightning damage with direct SkillType.Melee attacks.,-,-,[0.3],json-name
-speedster,Speedster,Speedster,Speedster,ally,3,False,Stalwart,"Speed and Agility are increased by +40, but Power and Focus are decreased by -10%.",-,-,[0.9;40.0],json-name
-stable,Stable,Stable,Stable,party,3,False,-,Instability increases at half the normal rate.,-,-,-,json-name
-stalwart,Stalwart,Stalwart,Stalwart,ally,3,False,Speedster,"Toughness and Discipline are increased by +40, but Power and Focus are decreased by -10%.",-,-,[0.9;40.0],json-name
-steadfast,Steadfast,Steadfast,Steadfast,party,3,False,-,Allies gain 1 Resist at the start of every turn.,-,-,-,json-name
-stoneshield,StoneShield,Stone Shield,Stn Shield,party,3,False,-,"All allies take 20% decreased damage, but also deal 10% decreased damage.",-,-,[0.8;0.9],json-name
-stoneskin,StoneSkin,Stone Skin,Stone Skin,ally,3,False,-,"Toughness, Endurance, and Discipline are increased by +50 and +20%, but healing received is decreased by 75%.",-,-,[0.25;1.2;50.0],json-name
-stonesword,StoneSword,Stone Sword,Stn Swrd,party,3,False,-,"All allies deal 20% increased damage, but also take 10% increased damage.",-,-,[0.1;0.2],json-name
-storageleak,StorageLeak,Storage Leak,Storage Leak,party,1,True,-,Immediately lose 25% of collected particles.,-,-,[-0.25;0.5],json-name
-strong,Strong,Strong,Strong,party,0,False,-,Power is increased by +8.,-,-,[8.0],json-name
-supportive,Supportive,Supportive,Supportive,ally,3,False,-,15% chance to gain a Free Turn after an ally has a SkillType.Debuff applied to them.,-,-,[15.0;2;3;4],json-name
-surprise,Surprise,Surprise,Surprise,enemy,1,True,-,One random enemy gains a free turn at the start of every battle.,-,-,-,json-name
-talented,Talented,Talented,Talented,ally,1,False,-,Skills have a 25% chance to cost 0 MP on use.,-,-,-,json-name
-thorns,Thorns,Thorns,Thorns,party,1,False,-,Reflect 5% of SkillType.Melee damage received back to the attacker.,-,-,[0.05;0.5],json-name
-tireless,Tireless,Tireless,Tireless,party,0,False,-,Lose 10% less stamina when traveling through portals in conduit space.,-,-,[0.9],json-name
-toxicstrike,ToxicStrike,Toxic Strike,Toxic Strike,party,1,False,-,Deal 40% increased damage to enemies afflicted by a SkillType.Poison effect.,-,-,-,json-name
-transcendent,Transcendent,Transcendent,Transcendent,party,3,False,Onslaught,"All allied SkillType.Spell skills gain +1 level for this mission and Focus is increased by 15%, but Power is decreased by -10%.",-,-,[0.9;1.15],json-name
-undeadrage,UndeadRage,Undead Rage,Undead Rage,party,0,True,-,Undead enemies gain Blood Rage trait: Increased Power and decreased Technique when at critical HP.,-,-,[3;2;7],json-name
-undying,Undying,Undying,Undying,party,2,False,-,Allies have a 10% chance to survive a killing blow with 1 HP.,-,-,[10.0],json-name
-vampiric,Vampiric,Vampiric,Vampiric,ally,2,False,-,20% of SkillType.Physical skill damage dealt is converted into SkillType.Healing on self.,-,-,[0.2],json-name
-venomous,Venomous,Venomous,Venomous,party,2,False,-,SkillType.Attack skills have a 20% chance to apply stacking SkillType.Poison damage over time for 3 turns.,-,-,[0.1;20.0],json-name
-vigor,Vigor,Vigor,Vigor,party,3,False,-,Allies gain +50% increased Power when their HP is full.,-,-,[1.0;1.5],json-name
-volatile,Volatile,Volatile,Volatile,ally,3,False,-,15% chance to lose control and either Stumble or unleash a powerful SkillType.Energy attack that hits all enemies.,-,-,[0.015;0.15;0.5;0.65;1.5;26.0],json-name
-volatilecultists,VolatileCultists,Volatile Cultists,Voltl Cult,enemy,0,True,-,Cultists cast Burnout when downed: Deal SkillType.Fire damage to all enemies.,-,-,[3;2;7],json-name
-wastefulness,Wastefulness,Wastefulness,Wastefulness,party,2,False,BreakTechnician,Time Break Techs cost 50% more particles.,-,-,[0.5;1.5],json-name
-weakhearted,WeakHearted,Weak Hearted,Weak Hearted,ally,3,True,Resolute,Permanently lose -1 Toughness for the rest of the mission when receiving a critical hit.,-,-,-,json-name
-weakness,Weakness,Weakness,Weakness,party,0,True,-,Power and Toughness are decreased by -5.,-,-,[5.0],json-name
-zealous,Zealous,Zealous,Zealous,ally,3,False,-,"MP regeneration in battle is increased by 500%, but 25% chance to lose control.",-,-,[5.0;25.0],json-name
-mercilessmechs,mercilessmechs,Merciless Mechs,MeanMechs,party,0,true,-,Mechanical enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,-,untagged-json
-bluntedammo,bluntedammo,Blunted Ammo,Blunt Ammo,party,1,true,"[""SharpAmmo""]",Allies suffer 50% decreased critical hit chance with SkillType.Ranged skills.,-,-,-,untagged-json
-herbiculture,herbiculture,Herbiculture,Herbiculture,party,0,true,-,Cultist enemies gain Vine Armor trait: Increases Toughness by 50% of Focus.,-,-,-,untagged-json
-timebreakroulette,timebreakroulette,Time Break Roulette,Break Roulette,party,1,false,-,Time Break Techs have a 10% chance to take 0 particles.,-,-,-,untagged-json
-enragedbeasts,enragedbeasts,Enraged Beasts,Enraged Beasts,party,0,true,-,Beast enemies Frenzy at start of battle: Increases Speed by 50% and damage by 35% for 3 turns.,-,-,-,untagged-json
-spoilsofwar,spoilsofwar,Spoils of War,Spoils,party,2,false,-,Gain 25% more particles from battles.,-,-,-,untagged-json
-unstoppableanomalies,unstoppableanomalies,Unstoppable Anomalies,ThickAnomaly,party,0,true,-,Anomaly enemies gain Thick Skull trait: Immune to SkillType.Stun damage.,-,-,-,untagged-json
-mercilessplants,mercilessplants,Merciless Plants,MeanPlants,party,0,true,-,Plant enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,-,untagged-json
-particlebeacon,particlebeacon,Particle Beacon,Beacon,party,3,false,-,"Enemy attributes are increased, but gain 20% more particles from battle rewards.",-,-,-,untagged-json
-allbark,allbark,All Bark,All Bark,party,0,true,-,Cultist enemies gain Barkskin at start of battle: Blocks up to 0.5x Focus SkillType.Physical damage taken for 3 turns.,-,-,-,untagged-json
-imparmytactics,imparmytactics,Imp Army Tactics,Imp Army,party,0,true,-,Imp enemies gain All For One trait: Gain 5% of all attributes from all allies.,-,-,-,untagged-json
-ancientsprotection,ancientsprotection,Ancient's Protection,Ancient Prt,party,0,true,-,Enemies take 15% decreased damage.,-,-,-,untagged-json
-carnivorousplants,carnivorousplants,Carnivorous Plants,CarnivorePlants,party,0,true,-,Plant enemies gain Predator trait: Increases Power by up to 100% based on current health.,-,-,-,untagged-json
-callofthevoid,callofthevoid,Call of the Void,Call of Void,party,0,true,-,Anomaly enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,-,untagged-json
-turno,turno,Turno,Turbo,-,-,-,-,All allies gain 100% increased speed for 1 turn and grants a random ally a free turn.,-,-,-,untagged-json
-bluntedweaponry,bluntedweaponry,Blunted Weaponry,Blunt Weaponry,party,1,true,"[""HonedEdge""]",Allies suffer 50% decreased critical hit chance with SkillType.Melee attacks.,-,-,-,untagged-json
-ghostlycult,ghostlycult,Ghostly Cult,Ghostly Cult,party,0,true,-,Cultist enemies gain Ethereal at start of battle: Immune to damage until first turn.,-,-,-,untagged-json
-demoniccult,demoniccult,Demonic Cult,Demonic Cult,party,0,true,-,Cultist enemies gain Demon type bonuses.,-,-,-,untagged-json
-toxiccultists,toxiccultists,Toxic Cultists,Toxic Cult,party,0,true,-,"Cultist enemies gain Toxic Skin: When hit by a SkillType.Melee Attack, poison the attacker.",-,-,-,untagged-json
-packhunters,packhunters,Pack Hunters,Pack Hnt,party,0,true,-,Beast enemies gain All For One trait: Gain 5% of all attributes from all allies.,-,-,-,untagged-json
-resilientdead,resilientdead,Resilient Dead,Resilient Dead,party,0,true,-,Undead enemies gain Hard To Kill trait: Can only be downed by damage over 10% of max HP.,-,-,-,untagged-json
-ancientspower,ancientspower,Ancient's Power,Ancient Pwr,party,0,true,-,Enemies deal 15% increased damage and healing.,-,-,-,untagged-json
-timebreaktechnician,timebreaktechnician,Time Break Technician,Break Technician,party,2,false,"[""Wastefulness""]",Time Break Techs cost 25% fewer particles.,-,-,-,untagged-json
-hungrydead,hungrydead,Hungry Dead,Hungry Dead,party,0,true,-,Undead enemies gain Life Steal trait: Restore HP based on damage dealt.,-,-,-,untagged-json
-shieldedplants,shieldedplants,Shielded Plants,Plant Shield,party,0,true,-,Plant enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,-,untagged-json
-scholar,scholar,Scholar,Scholar,party,3,false,-,"XP gained is increased by 25%, but receive 15% fewer particles from battles.",-,-,-,untagged-json
-transmitter,transmitter,Transmitter,Transmitr,party,3,false,-,Transmits 25% of stored particles to Town every encounter.,-,-,-,untagged-json
-lastgasp,lastgasp,Last Gasp,Last Gasp,party,0,true,-,Cultist enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,-,untagged-json
+distortion_id,codename,name,short_name,type,rarity,negative,exclusions,level_1,level_2,level_3,param,link_method,candidates
+adrenalboost,AdrenalBoost,Adrenal Boost,Adr. Boost,party,3,False,-,Allies lose 25% less stamina.,-,-,[0.75],name,-
+antivenom,Antivenom,Antivenom,Shield,party,3,False,-,Allies take 40% decreased SkillType.Poison damage.,-,-,[0.6],name,-
+apathy,Apathy,Apathy,Apathy,party,0,True,-,Focus and Discipline are decreased by -5.,-,-,[5.0],name,-
+archaeologist,Archaeologist,Archaeologist,Archaeologist,party,3,False,-,"20% increased chance to find relics in battle rewards, but receive 10% fewer particles from battles.",-,-,[0.9;1.0;20.0],name,-
+battlehardened,BattleHardened,Battle Hardened,Battle Hardened,party,0,False,-,The first damage taken by the party each battle is negated.,-,-,-,name,-
+battleready,BattleReady,Battle Ready,Battle Ready,party,0,False,-,The first damage an ally deals in each battle is increased by 50%.,-,-,[1.5],name,-
+beacon,Beacon,Particle Beacon,Beacon,party,3,False,-,"Enemy attributes are increased, but gain 20% more particles from battle rewards.",-,-,[1.2],size+sim,-
+beastslayer,BeastSlayer,Beast Slayer,Beast Slayer,party,3,False,-,"Deal 25% increased damage to Beast enemies, but 15% reduced damage to Mechanical and Undead enemies.",-,-,[0.25;0.85],name,-
+berserk,Berserk,Berserker's Rage,Berserk,party,3,False,-,"A random ally gains HP regeneration and +25 Power, but 50% chance to lose control. Resets every battle.",-,-,[25.0;50.0],size+sim,-
+blessedblade,BlessedBlade,Blessed Blade,Blessed,party,2,False,-,Allies deal 0.3x Focus added SkillType.Holy damage with direct SkillType.Melee attacks.,-,-,[0.3],name,-
+bloodbond,BloodBond,Blood Bond,Blood Bond,ally,3,False,-,"Take 10% HP SkillType.Physical damage after every turn, but fully restore HP and gain a Free Turn when scoring a killing blow.",-,-,[0.1],name,-
+bloodlust,Bloodlust,Bloodlust,Bloodlust,party,3,False,-,Restore 30% HP when scoring a killing blow.,-,-,[0.3],name,-
+bluntammo,BluntAmmo,Blunted Ammo,Blunt Ammo,party,1,True,SharpAmmo,Allies suffer 50% decreased critical hit chance with SkillType.Ranged skills.,-,-,[0.5],size+sim,-
+bluntweaponry,BluntWeaponry,Blunted Weaponry,Blunt Weaponry,party,1,True,HonedEdge,Allies suffer 50% decreased critical hit chance with SkillType.Melee attacks.,-,-,[0.5],size+sim,-
+breakroulette,BreakRoulette,Time Break Roulette,Break Roulette,party,1,False,-,Time Break Techs have a 10% chance to take 0 particles.,-,-,-,size+sim,-
+breaktechnician,BreakTechnician,Time Break Technician,Break Technician,party,2,False,Wastefulness,Time Break Techs cost 25% fewer particles.,-,-,[0.5;0.75],size+sim,-
+bruiser,Bruiser,Bruiser,Bruiser,party,3,False,Elementalist,"SkillType.Physical and SkillType.Stun damage dealt is increased by 50%, but SkillType.Fire SkillType.Lightning SkillType.Ice SkillType.Dark and SkillType.Holy damage dealt is reduced by 30%.",-,-,[0.5;0.7],name,-
+bumbling,Bumbling,Bumbling,Bumbling,ally,0,True,-,"Technique is decreased by -10, and Skills cost 25% more MP.",-,-,[1.25;10.0],name,-
+burnbright,BurnBright,Burn Bright,Burn Bright,ally,3,False,-,"All attributes are increased by +50%, but hero dies immediately if downed, instead of bleeding out.",-,-,[1.5],name,-
+cache,Cache,Cache,Cache,party,0,False,-,Immediately gain 50 particles.,-,-,-,name,-
+capacitor,Capacitor,Capacitor,Capacitor,party,1,False,-,"Every tenth ally skill used costs 1 MP, if it would usually cost more.",-,-,-,name,-
+chargedarmor,ChargedArmor,Charged Armor,Chg Armor,ally,3,False,-,"When hit by a SkillType.Melee Attack, return SkillType.Lightning damage to attacker based on Toughness that can jump to adjacent enemies.",-,-,-,name,-
+chargedfield,ChargedField,Charged Field,Charged Field,all,1,False,-,All SkillType.Lightning damage is doubled.,-,-,[2.0],name,-
+cloudedvision,CloudedVision,Clouded Vision,Clouded Vision,party,2,True,-,Allies suffer 25% decreased hit chance with SkillType.Ranged attacks.,-,-,[0.25],name,-
+clumsy,Clumsy,Clumsy,Clumsy,ally,1,True,-,"Agility is decreased by -10, and have a 6% chance to stumble when acting in battle.",-,-,[6.0;10.0;2;7],name,-
+crusher,Crusher,Crusher,Crusher,party,2,False,-,Deal double SkillType.Stun damage.,-,-,[1.0],name,-
+crystalhunter,CrystalHunter,Crystal Hunter,Crystal Hunter,party,1,False,-,Gain 25% more particles from confluence crystals.,-,-,[0.5;1.25],name,-
+cursed,Cursed,Cursed,Cursed,party,3,True,-,Chance to gain additional negative distortions is increased by 50%.,-,-,-,name,-
+darkinfusion,DarkInfusion,Dark Infusion,Dark Infusion,ally,3,False,-,"No longer lose stamina, but max HP is reduced by 30%.",-,-,[0.7],name,-
+depreciation,Depreciation,Depreciation,Depreciation,party,0,True,-,Immediately lose 25 particles.,-,-,-,name,-
+distorted,Distorted,Distorted,Distorted,party,3,False,-,Chance to gain additional distortions is increased by 50%.,-,-,-,name,-
+divineinspiration,DivineInspiration,Divine Inspiration,Divine Insp.,party,2,False,-,All allied SkillType.Holy skills gain +1 level for this mission.,-,-,-,name,-
+efficient,Efficient,Efficient,Efficent,random,2,False,Malaise,Skills cost 25% less MP.,-,-,[0.75],name,-
+elementalist,Elementalist,Elementalist,Elementalist,party,3,False,Bruiser,"SkillType.Fire SkillType.Lightning and SkillType.Ice damage dealt is doubled, but SkillType.Physical damage dealt is reduced by 25%.",-,-,[0.75;1.0],name,-
+elementalshield,ElementalShield,Elemental Shield,Shield,party,3,False,-,Allies take 25% decreased SkillType.Fire SkillType.Lightning and SkillType.Ice damage.,-,-,[0.75],name,-
+elusive,Elusive,Elusive,Elusive,ally,3,False,-,"30% chance for incoming damage to miss, but max HP is reduced by 15%.",-,-,[0.85;30.0],name,-
+empowered,Empowered,Empowered,Empowered,ally,3,False,-,All attributes increased by 10%.,-,-,[1.1],name,-
+anomalylastgasp,AnomalyLastGasp,Anomaly Last Gasp,-,-,-,-,-,-,-,-,[3;2;7],FLAG:Evil Cleansed|Trash Talker|Call of the Void|Bon Appetit|Ruthless,Evil Cleansed|Trash Talker|Call of the Void|Bon Appetit|Ruthless
+anomalyskull,AnomalySkull,No-Sell,No-Sell,-,-,-,-,"The first time Zeke is critical, blocks up to 50% Max HP damage from hits.",Dispels all SkillType.Debuff,Fully charges Finisher,[2;7;3],size+sim,-
+beastallforone,BeastAllForOne,Get the Rope,-,-,-,-,-,"Use Samuel's Posse skill twice in a single Extreme Danger or Boss battle, and win the battle.",-,-,[2;7;3],size+sim,-
+beastfrenzy,BeastFrenzy,Enraged Beasts,Enraged Beasts,party,0,True,-,Beast enemies Frenzy at start of battle: Increases Speed by 50% and damage by 35% for 3 turns.,-,-,[3;2;7],size+sim,-
+beastshield,BeastShield,Beast Shield,Beast Shield,party,0,True,-,Beast enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],name,-
+cultistbarkskin,CultistBarkskin,All Bark,All Bark,party,0,True,-,Cultist enemies gain Barkskin at start of battle: Blocks up to 0.5x Focus SkillType.Physical damage taken for 3 turns.,-,-,[3;2;7],size+sim,-
+cultistdemon,CultistDemon,Demonic Cult,Demonic Cult,party,0,True,-,Cultist enemies gain Demon type bonuses.,-,-,[3;2;7],size+sim,-
+cultistdischarge,CultistDischarge,Elecrified Cultists,Electric Cult,enemy,0,True,-,Cultists cast Discharge when downed: Deal SkillType.Lightning damage to all enemies.,-,-,[3;2;7],size+sim,-
+cultistethereal,CultistEthereal,Time Break Technician,Break Technician,party,2,False,Wastefulness,Time Break Techs cost 25% fewer particles.,-,-,[3;2;7],size+sim,-
+cultistlastgasp,CultistLastGasp,Last Gasp,Last Gasp,party,0,True,-,Cultist enemies gain Last Gasp at start of battle: Automatically take an extra turn when downed.,-,-,[3;2;7],size+sim,-
+cultistshroud,CultistShroud,Cultist Shroud,Cultist Shroud,party,0,True,-,Cultist enemies gain Dark Shroud at start of battle: Increased dodge chance and HP regen for 2 turns.,-,-,[3;2;7],name,-
+cultisttoxic,CultistToxic,Toxic Cultists,Toxic Cult,party,0,True,-,"Cultist enemies gain Toxic Skin: When hit by a SkillType.Melee Attack, poison the attacker.",-,-,[3;2;7],size+sim,-
+cultistvinearmor,CultistVineArmor,It's in the Name,-,-,-,-,-,"Have Otto's KillBot strike the final blow on 3 total enemies, in winning battles.",-,-,[3;2;7],size+sim,-
+demonflamewreath,DemonFlameWreath,Entertainer,Entertainer,-,-,-,-,Gain +10 Technique after every skill use.,Allies regenerate MP after OWNER.NAME gets a critical hit,Allies are healed for 5% of their Max HP after OWNER.NAME gets a critical hit,[2;7;3],size+sim,-
+demonshield,DemonShield,Demon Shield,Demon Shield,enemy,0,True,-,Demon enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],name,-
+impallforone,ImpAllForOne,Imp Army Tactics,Imp Army,party,0,True,-,Imp enemies gain All For One trait: Gain 5% of all attributes from all allies.,-,-,[2;7;3],size+sim,-
+ionizedmetal,IonizedMetal,Ionized Metal,IonMetal,party,0,True,-,Mechanical enemies take 50% less non-SkillType.Physical damage.,-,-,[0.5;3],name,-
+lessdamage,LessDamage,Less Damage,-,-,-,-,-,-,-,-,[0.85],FLAG:Ancient's Protection|Tentacle Shield|Steadfast|Light 'em Up,Ancient's Protection|Tentacle Shield|Steadfast|Light 'em Up
+mechmerciless,MechMerciless,Merciless Mechs,MeanMechs,party,0,True,-,Mechanical enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,[2;7;3],size+sim,-
+moredamage,MoreDamage,Invigorated,Invigorated,ally,0,False,-,Restore some HP and MP when gaining a free turn.,-,-,[1.15],size+sim,-
+plantmerciless,PlantMerciless,Merciless Plants,MeanPlants,party,0,True,-,Plant enemies gain Merciless trait: Deal 50% increased damage against critical HP enemies.,-,-,[2;7;3],size+sim,-
+plantpredator,PlantPredator,Outbreak,-,-,-,-,-,"Have 3 or more stacks of Ambroise's Plague skill on at least 8 enemies or allies at once, in a single winning battle.",-,-,[2;7;3],size+sim,-
+plantshield,PlantShield,Shielded Plants,Plant Shield,party,0,True,-,Plant enemies gain Ancient Shield: Take 50% decreased damage when at critical HP.,-,-,[2;7;3],size+sim,-
+undeadhardkill,UndeadHardKill,Resilient Dead,Resilient Dead,party,0,True,-,Undead enemies gain Hard To Kill trait: Can only be downed by damage over 10% of max HP.,-,-,[3;2;7],size+sim,-
+undeadrage,UndeadRage,Undead Rage,Undead Rage,party,0,True,-,Undead enemies gain Blood Rage trait: Increased Power and decreased Technique when at critical HP.,-,-,[3;2;7],name,-
+undeadsteal,UndeadSteal,Hungry Dead,Hungry Dead,party,0,True,-,Undead enemies gain Life Steal trait: Restore HP based on damage dealt.,-,-,[3;2;7],size+sim,-
+volatilecultists,VolatileCultists,Volatile Cultists,Voltl Cult,enemy,0,True,-,Cultists cast Burnout when downed: Deal SkillType.Fire damage to all enemies.,-,-,[3;2;7],name,-
+energized,Energized,Energized,Energized,party,2,False,-,Allies deal 0.25x Focus added SkillType.Energy damage with SkillType.Attack skills.,-,-,[0.25],name,-
+ennui,Ennui,Ennui,Ennui,ally,2,True,-,Focus and Discipline are decreased by -15.,-,-,[15.0],name,-
+extinguished,Extinguished,Extinguished,Extinguished,party,1,True,SoulFire,All allied SkillType.Fire skills lose -1 level for this mission.,-,-,-,name,-
+feeble,Feeble,Feeble,Feeble,ally,2,True,-,Power and Toughness are decreased by -15.,-,-,[15.0],name,-
+fireeater,FireEater,Fire Eater,Fire Eater,ally,3,False,-,SkillType.Fire damage taken is decreased by 50% and converted into SkillType.Healing.,-,-,[0.5],name,-
+fizzle,Fizzle,Fizzle,Fizzle,party,0,True,Sapper,Disintegration Bombs deal 50% damage in battle.,-,-,[0.5],name,-
+focused,Focused,Focused,Focused,party,0,False,-,Focus is increased by +8.,-,-,[8.0],name,-
+frailty,Frailty,Frailty,Frailty,enemy,2,True,-,Enemies gain 25% increased critical hit chance.,-,-,[0.25],name,-
+frozenarmor,FrozenArmor,Frozen Armor,Frz Armor,ally,3,False,-,Start battle with a shield that blocks 300 damage and deals 100-150 SkillType.Ice damage to all enemies when it breaks. Speed is decreased by 35% while active.,-,-,[0.65;1.0;2;3;4],name,-
+fury,Fury,Fury,Fury,random,3,False,-,25% chance to attack a random melee target after using an SkillType.Attack skill.,-,-,[25.0;2;7],name,-
+gadgeteer,Gadgeteer,Gadgeteer,Gadgeteer,party,3,False,-,SkillType.Gadget skills deal 25% increased damage and healing.,-,-,[0.25],name,-
+gauntletrunner,GauntletRunner,Gauntlet Runner,G'let Runner,all,3,False,-,"Allied Speed and Agility are increased by +40 and +10%, but enemies gain +10% increased Power and Focus.",-,-,[1.1;40.0],name,-
+glasscannon,GlassCannon,Glass Cannon,Glass Cannon,ally,3,False,-,"Power and Focus are increased by +30 and +25%, but Toughness and Discipline are decreased by -50%.",-,-,[0.5;1.25;30.0],name,-
+glutton,Glutton,Glutton,Glutton,party,0,True,Gourmet,Snacks restore half of their usual amount of MP.,-,-,[0.5],name,-
+gourmet,Gourmet,Gourmet,Gourmet,party,0,False,Glutton,Snacks restore double their usual amount of MP.,-,-,-,name,-
+healthyaura,HealthyAura,Healthy Aura,Healthy Aura,party,3,False,-,"All allies gain HP regen in battle, but enemies gain +25 increased Power.",-,-,[0.03;0.04;25.0],name,-
+heavyfist,HeavyFist,Heavy Fist,Heavy Fist,ally,1,False,-,Grants Wallop skill in battle: Deals 1.33x Power SkillType.Physical damage and sends target to the back row. Also deals 66% damage to back row target.,-,-,-,name,-
+hemophilia,Hemophilia,Hemophilia,Hemophilia,party,2,True,-,Enemy critical hits have a 40% chance to cause SkillType.Physical damage over time for 3 turns.,-,-,[0.1;40.0;3],name,-
+hemorrhage,Hemorrhage,Hemorrhage,Hemorrhage,ally,3,True,-,HP is only restored to 80% after a battle.,-,-,-,name,-
+highdensity,HighDensity,High Density,High Density,party,3,False,-,"Toughness and Endurance are increased by +15 and +10%, but Speed and Agility are decreased by 10%.",-,-,[0.9;1.1;15.0],name,-
+hightoxicity,HighToxicity,High Toxicity,High Toxicity,party,2,False,-,All allied SkillType.Poison skills gain +1 level for this mission.,-,-,-,name,-
+honededge,HonedEdge,Honed Edge,Honed Edge,party,0,False,BluntWeaponry,Allies gain 15% increased critical hit chance with SkillType.Melee skills.,-,-,[0.15],name,-
+ineffectual,Ineffectual,Ineffectual,Ineffectual,enemy,2,True,-,Enemies have a 5% chance to survive a killing blow with 1 HP.,-,-,[5.0],name,-
+infected,Infected,Infected,Infected,ally,3,True,-,Receive 60% decreased healing in combat.,-,-,[0.4],name,-
+initiative,Initiative,Initiative,Initiative,party,3,False,-,One random ally gains a free turn at the start of every battle.,-,-,-,name,-
+innertalent,InnerTalent,Inner Talent,Inner Talent,party,1,False,-,Skills have a 10% chance to cost 0 MP on use.,-,-,-,name,-
+insulated,Insulated,Insulated,Insulated,ally,3,False,-,Decrease SkillType.Lightning and SkillType.Ice damage taken by 25%.,-,-,[0.75],name,-
+invigorated,Invigorated,Invigorated,Invigorated,ally,0,False,-,Restore some HP and MP when gaining a free turn.,-,-,-,name,-
+jaggededge,JaggedEdge,Jagged Edge,Jagged Edge,party,1,False,-,Critical hits dealt by allies gain an additional 50% increased damage.,-,-,[0.5],name,-
+lethargy,Lethargy,Lethargy,Lethargy,ally,2,True,-,Speed and Agility are decreased by -15.,-,-,[15.0],name,-
+librarian,Librarian,Big Beatdown,-,-,-,-,-,"Use Tank's Beat Down skill with 10 stacks of Resolve on a Boss enemy, and win the battle.",-,-,[0.85;1.25],size+sim,-
+lionheart,LionHeart,Lion Heart,Lion Heart,ally,3,False,-,All attributes increased by 15% in Extreme Danger battles.,-,-,[1.15],name,-
+madness,Madness,Madness,Madness,ally,3,False,-,"All attributes increased by +15%, but hero has a 20% chance to lose control and attack a random target, including allies.",-,-,[1.15;20.0;2;7],name,-
+magical,Magical,Magical,Magical,party,0,False,Skeptical,Allies gain 25% increased SkillType.Spell skill damage.,-,-,[0.25],name,-
+magnetic,Magnetic,Magnetic,Magnetic,party,3,False,-,Gain 15% more particles from entering conduit space portals.,-,-,[0.5;1.15],name,-
+malaise,Malaise,Malaise,Malaise,party,1,True,Efficient,Skills cost 50% extra MP.,-,-,[1.5],name,-
+malpractice,Malpractice,Malpractice,Malpractice,party,1,True,Onslaught,All allied healing reduced by 35% for this mission.,-,-,[0.65],name,-
+metallicbody,MetallicBody,Metallic Body,Metallic Body,ally,3,False,-,"Take 50% decreased SkillType.Physical and SkillType.Stun damage, but 50% increased damage from SkillType.Lightning SkillType.Fire and SkillType.Ice.",-,-,[0.5],name,-
+neuralenhancer,NeuralEnhancer,Neural Enhancer,Enhancer,party,3,False,-,Allies gain 25% more XP.,-,-,[1.25],name,-
+ogre,Ogre,Ogre,Ogre,ally,3,False,-,"Power and Endurance are increased by +40 and +10%, but 10% chance to stumble when acting in battle.",-,-,[1.1;10.0;40.0;2;7],name,-
+onslaught,Onslaught,Onslaught,Onslaught,party,3,False,Transcendent,"All allied SkillType.Attack skills gain +1 level for this mission and Power is increased by +15%, but Focus is decreased by -10%.",-,-,[0.9;1.15],name,-
+overburdened,Overburdened,Overburdened,Overburdened,party,0,True,-,Lose 5% more stamina when traveling through portals in conduit space.,-,-,[1.05],name,-
+particlereaction,ParticleReaction,Particle Reaction,Part. Reaction,party,3,False,-,Immediately gain a bonus of 50% of collected particles.,-,-,[0.5],name,-
+pestilence,Pestilence,Pestilence,Pestilence,-,-,-,-,Deals 0.35x Focus SkillType.Poison and SkillType.Dark damage over time. Uses all Bat's Fur and Toad Cap.,Lasts 1 extra turn for each Bat's Fur,Decreases target attributes by 5% for each Toad Cap,[0.5],name,-
+pharmacist,Pharmacist,Pharmacist,Pharmacist,party,2,False,Infected,Medicine and Nano-Meds heal for double their usual amount in battle.,-,-,[2.0],name,-
+phaseshifted,PhaseShifted,Phase Shifted,Phase Shifted,ally,1,False,-,Grants Intangible skill in battle: Decreases damage taken by 95% for one turn. One use per battle.,-,-,-,name,-
+precision,Precision,Precision,Precision,party,0,False,-,Gain 50% increased hit chance with SkillType.Melee attacks.,-,-,[0.5],name,-
+protectioncharm,ProtectionCharm,Protection Charm,Protection,party,3,False,-,Allies start battle with 3 Resist.,-,-,-,name,-
+pyromania,Pyromania,Pyromania,Pyromania,party,3,False,-,"Allied SkillType.Fire skills cost 1 MP, but SkillType.Ice and SkillType.Lightning skills cost double MP.",-,-,-,name,-
+redhaze,RedHaze,Red Haze,Red Haze,all,3,False,-,"Allies gain +33% increased Power and Focus, but enemies gain +10% increased Power and Focus.",-,-,[1.1;1.33],name,-
+regenerative,Regenerative,Regenerative,Regenerative,party,3,False,-,"Allies gain a small amount of health regeneration in battle, every turn.",-,-,[0.01;0.02],name,-
+resolute,Resolute,Resolute,Resolute,ally,3,False,WeakHearted,Permanently gain +2 Toughness for the rest of the mission when receiving a critical hit.,-,-,-,name,-
+resourceful,Resourceful,Resourceful,Resourceful,party,1,False,-,SkillType.Gadget skills gain +1 use.,-,-,-,name,-
+restful,Restful,Restful,Restful,party,1,False,Restless,Gain 25% more stamina when using a camp site.,-,-,[1.25],name,-
+restless,Restless,Restless,Restless,party,1,True,Restful,Gain 15% less stamina when using a camp site.,-,-,[0.85],name,-
+ruthless,Ruthless,Ruthless,Ruthless,party,3,False,-,Deal 20% increased damage to enemies afflicted by a SkillType.Debuff.,-,-,[0.2],name,-
+sadistic,Sadistic,Sadistic,Sadistic,ally,3,False,-,15% chance to gain a Free Turn after an enemy has a SkillType.Debuff applied to them.,-,-,[15.0;2;3;4],name,-
+sapper,Sapper,Sapper,Sapper,party,0,False,Fizzle,Disintegration Bombs deal double damage in battle.,-,-,[2.0],name,-
+scanlock,ScanLock,Scan Lock,Scan,party,3,False,-,"Enemy HP, MP and attributes are visible in battle.",-,-,-,name,-
+scrounger,Scrounger,Scrounger,Scrounger,party,2,False,-,33% increased chance to find extra items in battle rewards.,-,-,[1.0;33.0],name,-
+searingheat,SearingHeat,Searing Heat,Searing Heat,all,1,False,-,All SkillType.Fire damage is doubled.,-,-,[2.0],name,-
+secondwind,SecondWind,Second Wind,Second Wind,party,3,False,-,All allies immediately gain 15% stamina. Stamina can increase beyond 100% in this way.,-,-,[0.15],name,-
+sharpammo,SharpAmmo,Sharp Ammo,Sharp Ammo,party,0,False,BluntAmmo,Allies gain 15% increased critical hit chance with SkillType.Ranged skills.,-,-,[0.15],name,-
+skeptical,Skeptical,Skeptical,Skeptical,party,0,True,Magical,Allies suffer 20% decreased SkillType.Spell skill damage.,-,-,[0.8],name,-
+slowstarter,SlowStarter,Slow Starter,Slow Starter,ally,3,False,-,"Power and Focus start battle reduced by 30%, but increase by 10% after every turn.",-,-,[0.1;1.0],name,-
+sluggish,Sluggish,Sluggish,Sluggish,party,1,True,-,Lose 5 Speed and Agility.,-,-,-,name,-
+snakeeater,SnakeEater,Snake Eater,Snake Eater,ally,3,False,-,"Resist all resistable SkillType.Poison based SkillType.Debuff effects, and decrease SkillType.Poison damage taken by 70%.",-,-,[0.3;5],name,-
+sniper,Sniper,Sniper,Sniper,party,0,False,-,Gain 50% increased hit chance with SkillType.Ranged attacks.,-,-,[0.5],name,-
+soulfire,SoulFire,Soul Fire,Soul Fire,party,2,False,Extinguished,All allied SkillType.Fire skills gain +1 level for this mission.,-,-,-,name,-
+soultap,SoulTap,SoulTap,SoulTap,ally,2,False,-,Gain 2% Stamina when scoring a killing blow in battle.,-,-,[0.02],name,-
+sparkingblade,SparkingBlade,Sparking Blade,Sparking,party,2,False,-,Allies deal 0.3x Focus added SkillType.Lightning damage with direct SkillType.Melee attacks.,-,-,[0.3],name,-
+speedster,Speedster,Speedster,Speedster,ally,3,False,Stalwart,"Speed and Agility are increased by +40, but Power and Focus are decreased by -10%.",-,-,[0.9;40.0],name,-
+spoils,Spoils,Spoils of War,Spoils,party,2,False,-,Gain 25% more particles from battles.,-,-,[1.25],size+sim,-
+stable,Stable,Stable,Stable,party,3,False,-,Instability increases at half the normal rate.,-,-,-,name,-
+stalwart,Stalwart,Stalwart,Stalwart,ally,3,False,Speedster,"Toughness and Discipline are increased by +40, but Power and Focus are decreased by -10%.",-,-,[0.9;40.0],name,-
+steadfast,Steadfast,Steadfast,Steadfast,party,3,False,-,Allies gain 1 Resist at the start of every turn.,-,-,-,name,-
+stoneshield,StoneShield,Stone Shield,Stn Shield,party,3,False,-,"All allies take 20% decreased damage, but also deal 10% decreased damage.",-,-,[0.8;0.9],name,-
+stoneskin,StoneSkin,Stone Skin,Stone Skin,ally,3,False,-,"Toughness, Endurance, and Discipline are increased by +50 and +20%, but healing received is decreased by 75%.",-,-,[0.25;1.2;50.0],name,-
+stonesword,StoneSword,Stone Sword,Stn Swrd,party,3,False,-,"All allies deal 20% increased damage, but also take 10% increased damage.",-,-,[0.1;0.2],name,-
+storageleak,StorageLeak,Storage Leak,Storage Leak,party,1,True,-,Immediately lose 25% of collected particles.,-,-,[-0.25;0.5],name,-
+strong,Strong,Strong,Strong,party,0,False,-,Power is increased by +8.,-,-,[8.0],name,-
+supportive,Supportive,Supportive,Supportive,ally,3,False,-,15% chance to gain a Free Turn after an ally has a SkillType.Debuff applied to them.,-,-,[15.0;2;3;4],name,-
+surprise,Surprise,Surprise,Surprise,enemy,1,True,-,One random enemy gains a free turn at the start of every battle.,-,-,-,name,-
+talented,Talented,Talented,Talented,ally,1,False,-,Skills have a 25% chance to cost 0 MP on use.,-,-,-,name,-
+thorns,Thorns,Thorns,Thorns,party,1,False,-,Reflect 5% of SkillType.Melee damage received back to the attacker.,-,-,[0.05;0.5],name,-
+tireless,Tireless,Tireless,Tireless,party,0,False,-,Lose 10% less stamina when traveling through portals in conduit space.,-,-,[0.9],name,-
+toxicstrike,ToxicStrike,Toxic Strike,Toxic Strike,party,1,False,-,Deal 40% increased damage to enemies afflicted by a SkillType.Poison effect.,-,-,-,name,-
+transcendent,Transcendent,Transcendent,Transcendent,party,3,False,Onslaught,"All allied SkillType.Spell skills gain +1 level for this mission and Focus is increased by 15%, but Power is decreased by -10%.",-,-,[0.9;1.15],name,-
+transmogrifier,Transmogrifier,Transmitter,Transmitr,party,3,False,-,Transmits 25% of stored particles to Town every encounter.,-,-,[0.25],size+sim,-
+undying,Undying,Undying,Undying,party,2,False,-,Allies have a 10% chance to survive a killing blow with 1 HP.,-,-,[10.0],name,-
+vampiric,Vampiric,Vampiric,Vampiric,ally,2,False,-,20% of SkillType.Physical skill damage dealt is converted into SkillType.Healing on self.,-,-,[0.2],name,-
+venomous,Venomous,Venomous,Venomous,party,2,False,-,SkillType.Attack skills have a 20% chance to apply stacking SkillType.Poison damage over time for 3 turns.,-,-,[0.1;20.0],name,-
+vigor,Vigor,Vigor,Vigor,party,3,False,-,Allies gain +50% increased Power when their HP is full.,-,-,[1.0;1.5],name,-
+volatile,Volatile,Volatile,Volatile,ally,3,False,-,15% chance to lose control and either Stumble or unleash a powerful SkillType.Energy attack that hits all enemies.,-,-,[0.015;0.15;0.5;0.65;1.5;26.0],name,-
+wastefulness,Wastefulness,Wastefulness,Wastefulness,party,2,False,BreakTechnician,Time Break Techs cost 50% more particles.,-,-,[0.5;1.5],name,-
+weakhearted,WeakHearted,Weak Hearted,Weak Hearted,ally,3,True,Resolute,Permanently lose -1 Toughness for the rest of the mission when receiving a critical hit.,-,-,-,name,-
+weakness,Weakness,Weakness,Weakness,party,0,True,-,Power and Toughness are decreased by -5.,-,-,[5.0],name,-
+zealous,Zealous,Zealous,Zealous,ally,3,False,-,"MP regeneration in battle is increased by 500%, but 25% chance to lose control.",-,-,[5.0;25.0],name,-
