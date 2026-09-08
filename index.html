@@ -49,7 +49,20 @@
   </div>
 </div>
 
+<!-- ===== Relic / gem selector overlay ===== -->
+<div class="overlay" id="relicOverlay" hidden>
+  <div class="overlay-scrim" data-close></div>
+  <div class="panel picker" role="dialog" aria-modal="true" aria-label="Equip a relic or gem">
+    <div class="panel-head">
+      <h2>Equip Relic / Gem <span class="muted" id="relicSlotLabel"></span></h2>
+      <input type="search" id="relicSearch" placeholder="Search relic, gem, or effect…" autocomplete="off" />
+      <button class="btn icon" data-close aria-label="Close">✕</button>
+    </div>
+    <div class="picker-grid" id="relicGrid"></div>
+  </div>
+</div>
+
 <script src="data/data.js"></script>
-<script src="app.js"></script>
+<script type="module" src="app.js"></script>
 </body>
 </html>

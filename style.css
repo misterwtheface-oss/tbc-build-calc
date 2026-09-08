@@ -157,6 +157,60 @@ h1,h2{margin:0;font-weight:700;letter-spacing:.02em}
 @keyframes rise{from{transform:translateY(24px);opacity:.6}to{transform:none;opacity:1}}
 @keyframes fade{from{opacity:0}to{opacity:1}}
 
+/* ---- relic / gem slots (mirror the game gem grid) ---- */
+.relic-slots{display:flex;gap:8px;flex-wrap:wrap}
+.relic-slot{
+  width:52px;height:52px;padding:0;border:none;cursor:pointer;border-radius:8px;
+  background-size:cover;background-position:center;image-rendering:pixelated;
+  display:grid;place-items:center;transition:.12s transform,.12s filter;
+}
+.relic-slot:hover{transform:translateY(-2px);filter:brightness(1.15)}
+.relic-slot.empty{background-image:url(assets/relic/gem_box_empty.png)}
+.relic-slot.empty span{font-size:22px;color:var(--edge2);font-weight:300}
+.relic-slot.filled{background-image:url(assets/relic/gem_box.png)}
+.relic-slot.filled img{width:40px;height:40px;object-fit:contain;image-rendering:pixelated}
+
+/* ---- effective-stat deltas ---- */
+.stat{position:relative}
+.stat.mod{border-color:var(--cyan-d)}
+.stat .basev{position:absolute;top:8px;right:8px;font-size:10px;color:var(--muted)}
+.stat .delta{font-size:10px;font-weight:700;margin-top:2px}
+.stat .delta.up{color:var(--util)} .stat .delta.down{color:var(--danger)}
+.slot .ministats .eqcount{color:var(--amber)}
+
+/* ---- equipped list ---- */
+.eq-list{list-style:none;margin:8px 0 0;padding:0;display:grid;gap:6px}
+.eq-list li{background:var(--bg2);border:1px solid var(--edge);border-radius:8px;padding:8px 10px;font-size:12px}
+.eq-list li.situational{border-style:dashed;opacity:.85}
+.eq-list .eq-name{font-weight:700;display:block}
+.eq-list .eq-eff{color:var(--muted);font-size:11px;line-height:1.35}
+.eq-list .eq-eff em{color:var(--amber);font-style:normal}
+
+/* ---- tag chips (filter icons; seed for info panels / traversal) ---- */
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin:6px 0 2px}
+.chip{
+  display:inline-flex;align-items:center;gap:4px;padding:2px 7px 2px 4px;
+  background:var(--bg2);border:1px solid var(--edge);border-radius:999px;
+  font-size:10px;color:var(--ink);line-height:1;cursor:default;user-select:none;
+}
+.chip img{width:14px;height:14px;image-rendering:pixelated;object-fit:contain}
+.chip[data-dim="damage_type"]{border-color:var(--pow)}
+.chip[data-dim="skill_type"]{border-color:var(--def)}
+.chip[data-dim="attribute"]{border-color:var(--util)}
+.chip[data-dim="status"]{border-color:var(--amber)}
+.chip[data-dim="enemy_type"]{border-color:var(--res)}
+.kit-chips{margin-bottom:4px}
+
+/* ---- relic picker cards ---- */
+.rcard{position:relative}
+.rcard .rtype{font-size:8px;letter-spacing:.1em;color:var(--cyan);font-weight:700}
+.rcard.situational .rtype{color:var(--muted)}
+.rcard .reff{font-size:9px;color:var(--muted);line-height:1.25;margin-top:2px}
+.rcard.equipped{opacity:.4;cursor:default;filter:grayscale(.6)}
+.rcard.equipped::after{content:"✓ equipped";position:absolute;top:4px;right:6px;font-size:9px;color:var(--cyan)}
+.picker-grid #relicGrid,.overlay #relicGrid{grid-template-columns:repeat(auto-fill,minmax(96px,1fr))}
+#relicGrid .rcard img{width:44px;height:44px}
+
 /* ---- desktop ---- */
 @media(min-width:760px){
   :root{--slot:128px}

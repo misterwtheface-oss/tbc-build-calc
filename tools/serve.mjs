@@ -6,7 +6,7 @@ import { dirname, join, extname, normalize } from 'node:path';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const PORT = Number(process.argv[2]) || 8080;
-const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.css': 'text/css',
+const MIME = { '.html': 'text/html', '.js': 'text/javascript', '.mjs': 'text/javascript', '.css': 'text/css',
   '.json': 'application/json', '.png': 'image/png', '.jpg': 'image/jpeg', '.svg': 'image/svg+xml' };
 
 createServer(async (req, res) => {

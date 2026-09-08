@@ -1,0 +1,1086 @@
+skill_id,name,category,level,mod_type,target_stat,value,element
+absorb,Absorb,enemy,1,stat_gain,Endurance,100%,
+absorbsoul,Absorb Soul,enemy,1,damage,Focus,0.75,Dark
+absorbsoul,Absorb Soul,enemy,1,heal,,,
+accelerate,Accelerate,drone,1,grant,,,
+acidcloud,Acid Cloud,defend,1,damage,Focus,0.33,Poison
+acidcloud,Acid Cloud,defend,1,status,Poison,3turn,
+acidcloud,Acid Cloud,defend,2,damage,Focus,0.3,Poison
+acidcloud,Acid Cloud,defend,2,status,Poison,3turn,
+acidspray,Acid Spray,root,1,damage,Focus,0.6,Poison;Fire
+acidspray,Acid Spray,root,1,status,Poison,,
+acidvial,Acid Vial,inventions,1,damage,,,Poison
+acidvial,Acid Vial,inventions,1,status,Poison,5turn,
+activate,Activate,enemy,1,summon,,,
+adrenalinerush,Adrenaline Rush,root,1,damage,,,
+adrenalinerush,Adrenaline Rush,root,2,stat_mod,Power,+50%,
+adrenalinerush,Adrenaline Rush,root,3,stat_mod,Toughness,+50%,
+advance,Advance,fight,3,damage,,,
+aimedshot,Aimed Shot,root,1,damage,Power,2,Physical
+aimedshot,Aimed Shot,root,2,damage,,,
+airstrike,Air Strike,root,1,damage,,,Physical;Fire
+airstrike,Air Strike,root,2,damage,,,Physical;Fire
+alarm,Alarm,root,1,grant,,,
+allrise,All Rise,root,1,heal,,,
+ambush,Ambush,root,1,damage,,,
+ambush,Ambush,root,2,stat_mod,Technique,+25%,
+ambush,Ambush,root,3,damage,,,
+ampitup,Amp it Up,root,1,damage,,,Sonic
+analyze,Analyze,fight,2,damage,,,
+annihilate,Annihilate,enemy,1,damage,Power,1,Energy
+anthem,Anthem,root,2,damage,,,
+arcaneconduit,Arcane Conduit,root,2,damage,,,Spell
+arcaneconduit,Arcane Conduit,root,3,damage,Focus,1,Energy
+arcticjet,Arctic Jet,root,1,damage,Focus,1.5,Physical;Ice
+arcticjet,Arctic Jet,root,2,damage,Focus,1.5,Physical;Ice
+armchainlaser,Arm Chain Laser,defend,1,damage,,,Energy
+armchainlaser,Arm Chain Laser,defend,2,damage,,,Energy
+armflamethrower,Arm Flmthrower,defend,1,damage,,,Fire
+armflamethrower,Arm Flmthrower,defend,2,damage,,,Fire
+armmissilepod,Arm Missile Pod,defend,1,damage,,,Physical
+armmissilepod,Arm Missile Pod,defend,2,damage,,,Physical
+armrailcannon,Arm Rail Cannon,defend,1,damage,,,Physical
+assigntarget,Assign Target,root,1,damage,,,
+astralmagic,Astral Magic,root,1,grant,,,
+autocrossbow,Auto Crossbow,root,1,damage,Power,0.65,Physical
+autocrossbow,Auto Crossbow,root,2,damage,Power,0.75,Physical
+autocrossbow,Auto Crossbow,root,3,damage,,,
+autocrossbow,Auto Crossbow,root,4,damage,,,
+backhand,Backhand,enemy,1,damage,,,Physical;Stun
+backhand,Backhand,enemy,1,status,Stun,,
+ballad,Ballad,root,3,damage,,,
+balloon,Balloon,defend,1,damage,,,
+balloon,Balloon,defend,1,heal,,,
+balloon,Balloon,defend,2,damage,,,Stun
+balloon,Balloon,defend,2,status,Stun,,
+bankrupt,Bankrupt,root,1,damage,,,
+bankrupt,Bankrupt,root,2,damage,,,
+bankrupt,Bankrupt,root,3,damage,,,
+bargain,Bargain,root,2,damage,,,
+barkskin,Barkskin,root,1,damage,,,Physical
+barricade,Barricade,enemy,1,damage,,,Physical
+bash,Bash,fight,1,damage,Power,1.35,Physical;Stun
+bash,Bash,fight,1,status,Stun,,
+bash,Bash,fight,2,damage,,,Stun
+bash,Bash,fight,2,status,Stun,,
+bash,Bash,fight,3,damage,,,Physical
+batsfur,Bat's Fur,root,1,damage,,,Dark
+battlecry,Battle Cry,root,3,heal,,,
+bearswat,Bear Swat,root,1,damage,Power,1.33,Physical
+bearswat,Bear Swat,root,2,damage,,,Physical
+beartrap,Bear Trap,root,2,damage,,,Physical
+beatdown,Beat Down,root,1,damage,Power,0.6,Physical
+beatdown,Beat Down,root,2,damage,Power,0.6,Physical
+beatdown,Beat Down,root,3,damage,Power,0.6,Stun
+beatdown,Beat Down,root,3,status,Stun,,
+belch,Belch,enemy,1,damage,Focus,1,Poison
+belch,Belch,enemy,1,status,Poison,,
+bigslam,Big Slam,enemy,1,damage,,,Physical;Stun;Poison
+bigslam,Big Slam,enemy,1,status,Stun,,
+bigslam,Big Slam,enemy,1,status,Poison,,
+binddarkimp,Bind Dark Imp,root,1,status,Channel,,
+bindmageimp,Bind Mage Imp,root,1,status,Channel,,
+bindredimp,Bind Red Imp,root,1,status,Channel,,
+biobomb,Biobomb,root,1,damage,,,Poison
+biobomb,Biobomb,root,1,status,Poison,5turn,
+biobomb,Biobomb,root,3,damage,,,
+blazingslam,Blazing Slam,enemy,1,damage,,,Fire;Poison
+blazingslam,Blazing Slam,enemy,1,status,Poison,,
+blessedwater,Blessed Water,root,1,damage,,,Holy
+blind,Blind,defend,1,damage,,,
+blitzstance,Blitz Stance,root,1,damage,Speed,0.5,
+blitzstance,Blitz Stance,root,2,stat_mod,Technique,+35%,
+blizzard,Blizzard,root,1,damage,Focus,0.5,Ice
+block,Block,defend,1,damage,,,Attack
+block,Block,defend,2,damage,,,
+block,Block,defend,3,damage,,,
+bloodessence,Blood Essence,root,1,heal,,,
+bloodessence,Blood Essence,root,2,stat_gain,healing done,10%,
+bloodlet,Bloodlet,defend,1,damage,,,Physical;Debuff
+bloodlet,Bloodlet,defend,2,damage,,,
+bloodlet,Bloodlet,defend,2,heal,,,
+bloodlet,Bloodlet,defend,3,damage,,,
+bloodshield,Blood Shield,root,1,damage,Focus,2.5,
+bloodshield,Blood Shield,root,2,damage,,,
+bloodshield,Blood Shield,root,3,stat_gain,current HP when cast,10%,
+bloodshield,Blood Shield,root,3,status,Shield,,
+bloodsuck,Bloodsuck,enemy,1,damage,Power,1.0,Physical
+bloodtrance,Blood Trance,defend,1,damage,,,Attack
+bloodtrance,Blood Trance,defend,2,damage,,,Attack
+bloodtrance,Blood Trance,defend,2,heal,,,
+bloom,Bloom,root,2,heal,,,
+boarspirit,Boar Spirit,root,1,summon,,,
+boarspirit,Boar Spirit,root,2,damage,,,
+boast,Boast,enemy,1,stat_mod,Focus,+15%,
+bodyblows,Body Blows,root,1,damage,Power,0.75,Physical
+boltgun,Boltgun,root,1,damage,MP,0.66,Physical
+bombpunch,Bomb Punch,enemy,1,damage,Focus,1,Fire
+boneshield,Bone Shield,defend,1,damage,Toughness,2.5,
+boneshield,Bone Shield,defend,2,damage,Toughness,1,Physical
+boneshield,Bone Shield,defend,3,damage,,,Physical
+bramblebulwark,Vine Guard,enemy,1,damage,,,
+bramblebulwark,Vine Guard,enemy,3,damage,,,Stun
+bramblebulwark,Vine Guard,enemy,3,status,Stun,,
+breakbones,Break Bones,root,1,damage,Power,1.35,Physical
+breakice,Break Ice,root,1,damage,Focus,0.75,Ice
+breakice,Break Ice,root,2,damage,Focus,0.75,Ice
+brewingstorm,Brewing Storm,enemy,1,damage,Focus,1,Lightning
+bsod,BSOD,enemy,1,damage,Focus,3.0,Lightning
+buboburst,Bubo Burst,root,2,heal,,,
+bulletpunch,Bullet Punch,enemy,1,damage,Power,0.1,Physical;Stun
+bulletpunch,Bullet Punch,enemy,1,damage,Focus,1,
+bulletpunch,Bullet Punch,enemy,1,status,Stun,,
+bulwark,Bulwark,root,1,damage,,,
+bulwark,Bulwark,root,2,damage,,,
+burn,Burn,enemy,1,damage,Focus,0.35,Fire
+burningfist,Burning Fist,root,1,damage,Power,0.8,Physical;Fire
+burningfist,Burning Fist,root,2,damage,Power,0.4,Fire
+burningfist,Burning Fist,root,3,damage,Power,0.6,
+callbomb,Call Bomb,enemy,1,summon,,,
+callcultist,Call Cultist,enemy,1,summon,,,
+calldrone,Call Drone,enemy,1,summon,,,
+callforbackup,Call For Backup,root,1,summon,,,
+callforbackup,Call For Backup,root,2,summon,,,
+callguardian,Call Guardian,enemy,1,summon,,,
+callimp,Call Imps,enemy,1,summon,,,
+callnurse,Call Nurse,root,1,summon,,,
+callscorpion,Call Scorpion,enemy,1,summon,,,
+callspiderlings,Call Spiderlings,enemy,1,summon,,,
+callspirits,Call Spirits,enemy,1,summon,,,
+callswarmer,Call Swarmer,enemy,1,summon,,,
+callundead,Call Undead,enemy,1,summon,,,
+callvoidzombie,Call Void,enemy,1,summon,,,
+callwolf,Call Wolf,enemy,1,summon,,,
+caltrops,Caltrops,root,1,damage,,,Physical;Melee
+cardthrow,Card Throw,fight,1,damage,Technique,1.0,Physical
+cardthrow,Card Throw,fight,2,damage,,,Physical
+cardthrow,Card Throw,fight,3,damage,,,
+cardthrowclub,Card Throw Club,fight,1,damage,,,
+cardthrowheart,Card Throw Heart,fight,1,damage,,,
+cardthrowheart,Card Throw Heart,fight,1,heal,,,
+cardthrowspade,Card Throw Spade,fight,1,damage,,,
+cauterize,Cauterize,root,1,damage,,,Debuff;Fire;Debuff
+cauterize,Cauterize,root,2,stat_mod,Toughness,+15%,
+cauterize,Cauterize,root,3,stat_mod,Endurance,+15%,
+cencomrepair,Cencom Repair,enemy,1,heal,,,
+chainlaser,Chain Laser,fight,1,damage,Power,0.5,Energy
+chainlaser,Chain Laser,fight,2,damage,Power,0.5,Energy
+chainlightning,Chain Lightning,root,1,damage,Focus,1.0,Lightning
+chainlightning,Chain Lightning,root,2,damage,Focus,1.0,Lightning
+chainlightninglich,Chain Lightning,defend,1,damage,Focus,1,Lightning
+chainlightninglich,Chain Lightning,defend,2,damage,Focus,1,Lightning
+chainsaw,Chainsaw,root,1,damage,,,Physical
+chainsaw,Chainsaw,root,2,damage,,,
+chakra,Chakra,root,1,heal,,,
+channel,Channel,enemy,1,damage,,,
+charge,Charge,root,1,damage,Power,1,Physical
+charge,Charge,root,2,damage,,,
+chargedfist,Charged Fist,inventions,1,damage,,,Lightning
+charm,Charm,defend,2,damage,,,
+chastise,Chastise,fight,1,damage,Focus,1.2,Holy
+chastise,Chastise,fight,2,damage,Focus,0.6,Holy
+chill,Chill,fight,1,damage,Focus,1,Ice
+chill,Chill,fight,2,stat_mod,Speed,-25%,
+chomp,Chomp,enemy,1,damage,Power,1.5,Physical
+chop,Chop,fight,1,damage,Power,1,Physical
+chop,Chop,fight,2,damage,,,
+chop,Chop,fight,3,damage,Power,1,Physical
+clawswipes,Claw Swipes,enemy,1,damage,Power,0.75,Physical
+cleanse,Cleanse,root,1,status,Poison,,
+cleanse,Cleanse,root,2,heal,,,
+cleave,Cleave,root,1,damage,Power,1,Physical
+cleave,Cleave,root,1,damage,Power,0.5,Physical
+cleave,Cleave,root,2,damage,,,Physical
+cleave,Cleave,root,3,status,Bleed,,
+clobber,Clobber,fight,1,damage,Power,1.5,Physical;Stun
+clobber,Clobber,fight,1,status,Stun,,
+clobber,Clobber,fight,2,damage,,,
+clobber,Clobber,fight,3,damage,,,
+clothesline,Clothesline,fight,1,damage,Power,1,Physical;Stun
+clothesline,Clothesline,fight,1,status,Stun,,
+clothesline,Clothesline,fight,2,stat_mod,Toughness,-15%,
+clothesline,Clothesline,fight,3,stat_mod,Speed,-15%,
+clownhammer,Clown Hammer,fight,1,damage,,,Stun
+clownhammer,Clown Hammer,fight,1,status,Stun,,
+clownhammer,Clown Hammer,fight,2,damage,,,
+coagulate,Coagulate,root,1,damage,,,Dark
+coagulate,Coagulate,root,2,damage,,,
+coagulate,Coagulate,root,3,damage,,,
+coldwallop,Snow Plow,enemy,1,damage,Focus,0.6,Ice
+combatroll,Combat Roll,root,4,heal,,,
+conduit,Conduit,enemy,1,damage,,,Dark
+conduit,Conduit,enemy,2,damage,,,
+consecrate,Consecrate,root,1,damage,Focus,1,Holy
+consecrate,Consecrate,root,2,damage,,,
+constrict,Constrict,enemy,1,damage,,,
+consumeegg,Consume Egg,enemy,1,heal,,,
+coresurge,Core Surge,enemy,1,damage,,,Lightning
+coresurge,Core Surge,enemy,1,stat_mod,Toughness,-25%,
+corruptionblast,Corruption Blast,enemy,1,damage,Focus,1.6,Dark
+cosmichorror,Cosmic Horror,enemy,1,damage,Focus,2,Stun
+cosmichorror,Cosmic Horror,enemy,1,status,Stun,,
+crusharmor,Crush Armor,root,1,damage,,,Physical
+crusharmor,Crush Armor,root,2,stat_mod,Toughness,-75%,
+crusharmor,Crush Armor,root,3,damage,,,Physical
+crushsoul,Crush Soul,root,1,damage,Power,1.35,MP
+crushsoul,Crush Soul,root,1,stat_mod,Discipline,-25%,
+cryogrenade,Cryo Grenade,root,1,damage,,,Ice
+cryoshot,Cryo Shot,enemy,1,damage,Power,1,Ice
+cryoshot,Cryo Shot,enemy,3,damage,,,Ice
+darkbargain,Dark Bargain,enemy,1,damage,,,Physical
+darkbargain,Dark Bargain,enemy,3,damage,,,Physical
+darkbond,Dark Bond,root,1,damage,,,
+darkbond,Dark Bond,root,3,damage,,,
+darkclaws,Dark Claws,enemy,1,damage,Power,0.75,Dark;MP
+darkestbargain,Darkest Bargain,enemy,1,damage,,,Physical
+darkflame,Dark Flame,root,1,damage,Focus,1,Dark;Fire
+darkflame,Dark Flame,root,2,damage,,,
+darkmatter,Dark Matter,enemy,1,damage,Focus,1.75,Dark
+darkmatterbomb,Dark Mtr Bomb,inventions,1,damage,,,Dark;MP
+darkmirror,Dark Mirror,enemy,1,summon,,,
+darkprism,Dark Prism,enemy,1,damage,,,Healing;Dark
+dazzle,Dazzle,fight,1,damage,Technique,1,Stun
+dazzle,Dazzle,fight,1,status,Stun,,
+dazzle,Dazzle,fight,2,damage,Technique,.5,MP
+dazzle,Dazzle,fight,3,damage,,,Stun
+dazzle,Dazzle,fight,3,status,Stun,,
+deathshroud,Death Shroud,root,2,stat_gain,Wisdom as Focus while active,100%,
+defend,Defend,defend,1,damage,,,
+desecrate,Desecrate,root,1,damage,Focus,1,Dark
+desecrate,Desecrate,root,2,damage,,,
+detonate,Detonate,enemy,1,damage,Power,10,Physical
+devastate,Devastate,enemy,1,damage,Power,3.0,Energy
+devour,Devour,enemy,1,damage,,,Physical
+direct,Direct,root,1,summon,,,
+direct,Direct,root,2,damage,,,
+directive,Directive,root,1,grant,,,
+directive,Directive,root,2,damage,,,
+disarm,Disarm,root,1,damage,Power,0.75,Physical
+disarm,Disarm,root,1,stat_mod,Power,-50%,
+disarm,Disarm,root,2,damage,,,Stun
+disarm,Disarm,root,2,status,Stun,,
+discard,Discard,enemy,1,damage,Focus,1.5,Holy
+disengage,Disengage,defend,1,heal,,,
+displacement,Displacement,root,1,grant,,,
+divineshield,Divine Shield,root,1,damage,,,
+divineshield,Divine Shield,root,4,damage,,,
+dokunoken,Dokunoken,enemy,1,damage,,,Physical;Physical;Poison
+dokunoken,Dokunoken,enemy,1,status,Poison,2turn,
+dominatemind,Dominate Mind,root,2,damage,,,
+doomprophecy,Doom Prophecy,fight,1,damage,Focus,3,Holy
+doomprophecy,Doom Prophecy,fight,3,damage,Focus,0.2,Holy
+dragonblade,Dragon Blade,fight,1,damage,Focus,0.5,Fire
+dragonrush,Dragon Rush,root,1,damage,Power,2,Physical;Fire
+dragonrush,Dragon Rush,root,2,damage,,,
+dragonrush,Dragon Rush,root,3,damage,,,
+dragunder,Drag Under,enemy,1,damage,,,Physical;Stun;Physical
+dragunder,Drag Under,enemy,1,status,Stun,,
+drainhusk,Drain Husk,enemy,1,damage,,,
+drainhusk,Drain Husk,enemy,1,heal,,,
+drainhusk,Drain Husk,enemy,1,grant,,,
+drainhusk,Drain Husk,enemy,2,damage,,,
+drainhusk,Drain Husk,enemy,2,heal,,,
+drainhusk,Drain Husk,enemy,2,grant,,,
+drainhusk,Drain Husk,enemy,3,damage,,,
+drainhusk,Drain Husk,enemy,3,heal,,,
+drainhusk,Drain Husk,enemy,3,grant,,,
+drainingcloud,Draining Cloud,map,1,damage,,,MP
+drainlife,Drain Life,root,1,damage,Focus,1.5,Dark
+drainlife,Drain Life,root,1,heal,,,
+drainlife,Drain Life,root,2,damage,,,
+drainlife,Drain Life,root,3,damage,,,
+drainpunch,Drain Punch,enemy,1,damage,Power,0.5,Physical;Dark
+drawsoul,Draw Soul,root,1,damage,,,MP
+drawsoul,Draw Soul,root,2,damage,,,
+dreamdust,Dream Dust,enemy,1,damage,Focus,5,Sleep
+dreamdust,Dream Dust,enemy,1,damage,Focus,2.5,Sleep
+dreamdust,Dream Dust,enemy,1,status,Sleep,,
+duel,Duel,root,2,damage,,,
+duel,Duel,root,3,damage,,,
+dynamite,Dynamite,root,1,damage,,,Physical;Fire
+eagleeye,Eagle Eye,root,1,damage,,,Attack
+eclipse,Eclipse,root,1,damage,Focus,1.5,Dark
+eclipse,Eclipse,root,2,damage,,,Dark
+eclipse,Eclipse,root,3,damage,,,
+eclipse,Eclipse,root,4,damage,,,
+electrify,Electrify,enemy,1,damage,Focus,0.5,Lightning
+elkspirit,Elk Spirit,root,1,summon,,,
+elkspirit,Elk Spirit,root,2,heal,,,
+emberbolt,Ember Bolt,root,1,damage,Focus,0.6,Physical
+emberbolt,Ember Bolt,root,2,damage,,,
+emberbolt,Ember Bolt,root,3,damage,,,
+empower,Empower,enemy,2,damage,,,
+encircle,Encircle,enemy,1,summon,,,
+energize,Energize,root,3,damage,,,
+energizer,Energizer,inventions,1,grant,,,
+energylance,Energy Lance,root,1,damage,Focus,2.5,Energy
+energywave,Energy Wave,root,1,damage,Focus,1.3,Energy
+energywave,Energy Wave,root,2,stat_mod,Technique,-25%,
+enfeeblingray,Enfeebling Ray,root,2,stat_mod,Toughness,-50%,
+enfeeblingray,Enfeebling Ray,root,3,stat_mod,Speed,-35%,
+enrage,Enrage,root,1,damage,,,Physical
+enrage,Enrage,root,2,stat_mod,Speed,+25%,
+enrage,Enrage,root,3,damage,,,
+enragebeast,Enrage Beast,enemy,1,grant,,,
+enragebeast,Enrage Beast,enemy,2,grant,,,
+enragebeast,Enrage Beast,enemy,3,grant,,,
+entangle,Entangle,enemy,1,damage,Power,1,Physical
+entomb,Entomb,root,1,damage,Focus,0.45,Physical
+entomb,Entomb,root,2,damage,,,Stun
+entomb,Entomb,root,2,status,Stun,,
+enzymes,Enzymes,enemy,1,damage,,,Physical
+enzymes,Enzymes,enemy,1,stat_mod,Toughness,-50%,
+execute,Execute,root,1,damage,Power,2.5,Physical
+explode,Explode,drone,1,damage,,,
+eyelaser,Eye Laser,root,1,damage,Power,2.5,Energy
+fade,Fade,root,1,damage,,,
+fade,Fade,root,2,damage,,,
+faithhealing,Faith Healing,root,2,heal,,,
+falchion,Falchion,fight,1,damage,,,
+falconscout,Falcon Scout,defend,1,damage,,,
+fallingleaf,Falling Leaf,defend,1,damage,Discipline,1.35,Physical
+fallingleaf,Falling Leaf,defend,2,damage,,,Lightning
+fanofblades,Fan of Blades,root,1,damage,Power,1,Physical
+fanofblades,Fan of Blades,root,2,damage,Power,1,Physical
+fanofblades,Fan of Blades,root,3,damage,,,
+fatalsting,Fatal Sting,enemy,1,damage,Power,6,Physical
+feedback,Feedback,root,1,damage,Focus,1,Energy
+feedback,Feedback,root,2,damage,,,Attack
+fight,Fight,fight,1,damage,,,
+fight,Fight,fight,2,damage,,,
+fireball,Fireball,root,1,damage,Focus,1.2,Fire
+fireball,Fireball,root,3,damage,Focus,0.6,Fire
+fireblast,Fire Blast,root,1,damage,Focus,0.65,Fire
+firehose,Firehose,root,1,damage,Power,1.5,Physical;Ice
+firehose,Firehose,root,2,damage,Power,1.5,Physical;Ice
+firestorm,Firestorm,enemy,1,damage,,,Fire
+flame,Flame,root,1,damage,Focus,1.5,Fire
+flamecoat,Flamecoat,root,1,damage,Focus,0.5,Fire
+flamecoat,Flamecoat,root,2,damage,Focus,0.5,Fire
+flamecoat,Flamecoat,root,3,damage,,,Fire
+flamejet,Flame Jet,root,1,damage,Focus,1,Fire
+flamejet,Flame Jet,root,2,damage,Focus,0.5,Fire
+flamejet,Flame Jet,root,3,damage,,,Fire
+flamerush,Flame Rush,enemy,1,damage,Focus,1.0,Fire
+flamerush,Flame Rush,enemy,1,damage,Focus,0.5,Fire
+flameshield,Flame Shield,defend,1,damage,Focus,0.35,Fire
+flameshield,Flame Shield,defend,2,damage,Focus,0.35,Fire
+flameshield,Flame Shield,defend,3,damage,Focus,0.5,Fire
+flameshield,Flame Shield,defend,4,damage,,,
+flameshield,Flame Shield,defend,5,damage,,,Fire
+flamethrower,Flamethrower,fight,1,damage,Power,1,Fire
+flamethrower,Flamethrower,fight,1,damage,Power,0.5,Fire
+flashheal,Flash Heal,root,1,heal,,,
+flashheal,Flash Heal,root,2,heal,,,
+flight,Flight,root,1,status,Guard,3turn,
+flight,Flight,root,2,stat_mod,Speed,+50%,
+flight,Flight,root,3,stat_mod,Power,+50%,
+flintlock,Flintlock,defend,1,damage,,,
+flit,Flit,defend,1,grant,,,
+flourish,Flourish,fight,1,damage,Power,1.25,Physical
+flourish,Flourish,fight,3,damage,,,Alcohol
+flurry,Flurry,fight,1,damage,Power,0.3,Physical
+forcefield,Forcefield,root,1,damage,,,
+foxfire,Foxfire,defend,1,damage,,,Fire
+foxfire,Foxfire,defend,2,heal,,,
+freezeray,Freeze Ray,root,1,damage,,,Ice
+freezeray,Freeze Ray,root,3,damage,,,Ice
+freezingwind,Freezing Wind,map,1,damage,,,Ice
+frenzy,Frenzy,defend,1,damage,,,
+frenzy,Frenzy,defend,1,stat_mod,Speed,+50%,
+frenzy,Frenzy,defend,2,damage,,,Stun;Sleep
+frenzy,Frenzy,defend,2,status,Stun,,
+frenzy,Frenzy,defend,2,status,Sleep,,
+frostray,Frost Ray,defend,1,damage,Focus,1.2,Ice
+frostray,Frost Ray,defend,1,stat_mod,Speed,-50%,
+frostray,Frost Ray,defend,2,damage,Focus,1.2,Ice
+frostshield,Frost Shield,root,1,damage,Focus,2,
+frostshield,Frost Shield,root,2,damage,,,Stun
+frostshield,Frost Shield,root,2,status,Stun,,
+froststrike,Frozen Kick,root,1,damage,Power,1.2,Physical;Ice
+froststrike,Frozen Kick,root,2,stat_mod,Toughness,-35%,
+froststrike,Frozen Kick,root,3,damage,,,Fire;Lightning;Ice
+frozenbomb,Frozen Bomb,enemy,1,damage,,,Ice
+frozensolid,Frozen Solid,enemy,1,stat_mod,Toughness,-50%,
+gammawave,Gamma Wave,enemy,1,damage,Focus,0.5,Poison
+gammawave,Gamma Wave,enemy,1,status,Poison,6turn,
+gather,Gather Shadows,enemy,1,damage,,,
+gather,Gather Shadows,enemy,1,status,channeling,,
+gavel,Gavel,fight,1,damage,,,Stun
+gavel,Gavel,fight,1,status,Stun,,
+gavel,Gavel,fight,2,damage,,,Debuff
+gaze,Gaze,enemy,1,damage,,,Dark
+geniusfrozen,Genius Frozen,transform,1,status,Frozen,,
+givetreat,Give Treat,root,3,summon,,,
+gladius,Gladius,fight,1,damage,Power,1.25,Physical
+gladius,Gladius,fight,2,damage,Power,1.25,Physical
+goadingstrike,Goading Strike,fight,1,damage,Power,1.35,Physical
+gore,Gore,fight,1,damage,,,Physical;Healing
+gore,Gore,fight,2,damage,,,Physical;Healing
+gore,Gore,fight,3,damage,,,Physical;Healing
+grab,Grab,root,1,damage,Speed,1,Physical
+grab,Grab,root,2,damage,,,Stun
+grab,Grab,root,2,status,Stun,,
+grab,Grab,root,3,damage,,,
+grandfinale,Grand Finale,root,2,damage,,,
+gravescall,Grave's Call,root,1,damage,Focus,5.5,Dark
+gravescall,Grave's Call,root,2,damage,Focus,2,Dark
+greatshell,Great Shell,defend,1,damage,Discipline,5,
+greatshell,Great Shell,defend,2,damage,,,
+grenade,Grenade,root,1,damage,,,Physical;Fire
+guardstrike,Guard Strike,root,1,damage,Power,0.66,Physical
+guitarsolo,Guitar Solo,root,1,damage,,,Sonic
+hack,Hack,root,1,damage,Focus,2,Stun
+hack,Hack,root,1,status,Stun,,
+hack,Hack,root,2,damage,,,Stun
+hack,Hack,root,2,status,Stun,,
+hack,Hack,root,4,damage,Focus,.75,Lightning
+halt,Halt,fight,3,damage,,,
+harmbeam,Beast Slayer,fight,1,damage,,,
+harvest,Harvest,fight,1,damage,,,Physical
+hatchmaggot,Hatch Maggot,enemy,1,summon,,,
+hatchspiderling,Hatch Spiderling,enemy,1,summon,,,
+haunt,Haunt,root,1,damage,Focus,0.5,Dark
+haunt,Haunt,root,2,damage,,,
+haymaker,Haymaker,root,1,damage,Power,1.35,Physical
+haymaker,Haymaker,root,2,damage,,,
+haymaker,Haymaker,root,3,damage,,,Stun
+haymaker,Haymaker,root,3,status,Stun,,
+healbeam,Heal Beam,drone,1,heal,,,
+healingaria,Healing Aria,root,1,heal,,,
+healingaria,Healing Aria,root,3,heal,,,
+healingrain,Healing Rain,root,1,heal,,,
+healingrain,Healing Rain,root,2,heal,,,
+healingtonic,Healing Tonic,root,1,heal,,,
+healingtonic,Healing Tonic,root,2,damage,,,Stun
+healingtonic,Healing Tonic,root,2,status,Stun,,
+healingvapors,Healing Vapors,root,1,damage,,,Poison
+healingvapors,Healing Vapors,root,1,status,Poison,3turn,
+healingvapors,Healing Vapors,root,3,heal,,,
+healingwisp,Healing Wisp,root,1,summon,,,
+healingwisp,Healing Wisp,root,2,stat_gain,your Focus,50%,
+healingword,Healing Word,root,1,heal,,,
+healingword,Healing Word,root,2,heal,,,
+healwave,Heal Wave,drone,1,heal,,,
+heatwaveskill,Heat Wave,enemy,1,damage,,,Fire
+heatwaveskill,Heat Wave,enemy,2,damage,,,Lightning
+heavyarmor,Heavy Armor,defend,1,grant,,,
+heavyarmor,Heavy Armor,defend,2,damage,,,
+heavycannon,Heavy Cannon,fight,1,damage,,,
+heavycannon,Heavy Cannon,fight,1,status,Stun,,
+heavyrocket,Heavy Rocket,enemy,1,damage,,,
+hellclaws,Hellclaws,root,1,damage,Power,0.35,Physical
+hex,Hex,fight,1,damage,,,
+hex,Hex,fight,2,damage,,,
+hex,Hex,fight,4,damage,Focus,3,Dark
+hibernate,Hibernate,root,1,stat_gain,max HP and MP,50%,
+hide,Hide,root,1,damage,,,
+hide,Hide,root,2,damage,,,
+hologram,Hologram,enemy,1,summon,,,
+holoprojector,Holo Projector,enemy,1,summon,,,
+holylance,Holy Lance,fight,1,damage,Power,1.25,Holy
+holyrays,Holy Rays,root,2,damage,,,
+holyshield,Holy Shield,root,1,damage,Focus,1,
+holyshield,Holy Shield,root,2,damage,,,
+holyshield,Holy Shield,root,2,heal,,,
+holyshield,Holy Shield,root,4,damage,,,
+holyshield,Holy Shield,root,4,heal,,,
+holywrath,Holy Wrath,root,1,damage,Power,1,Physical;Holy
+hook,Hook,root,1,damage,Power,0.5,Physical;Stun
+hook,Hook,root,1,status,Stun,,
+hook,Hook,root,2,damage,Power,0.5,Physical;Stun
+hook,Hook,root,2,status,Stun,,
+hotandsteamy,Hot and Steamy,enemy,1,damage,Power,1,Fire
+howl,Howl,enemy,2,damage,,,
+hyperbeam,Hyper Beam,root,1,damage,Power,2,Energy
+hyperbeam,Hyper Beam,root,2,damage,,,Energy
+hypeup,Hype Up,root,2,damage,,,
+hypnotize,Hypnotize,defend,1,damage,,,Sleep
+hypnotize,Hypnotize,defend,1,status,Sleep,3turn,
+hypnotize,Hypnotize,defend,2,damage,,,
+hypnotize,Hypnotize,defend,3,status,channeling,,
+ice,Ice,root,1,damage,Focus,1.5,Ice
+ice,Ice,root,2,damage,Focus,1,Stun
+ice,Ice,root,2,status,Stun,,
+ice,Ice,root,3,damage,,,
+icespike,Ice Spike,root,1,damage,Focus,0.8,Ice
+icevolley,Ice Volley,enemy,1,damage,,,Ice;Physical
+icicle,Icicle,fight,1,damage,Focus,1,Ice
+icyclaws,Icy Claws,fight,1,damage,,,Physical;Ice;Ice
+icygrasp,Icy Grasp,enemy,1,damage,Power,0.5,Ice
+illusion,Illusion,root,1,damage,,,
+illusion,Illusion,root,3,damage,,,Spell
+impale,Impale,root,1,damage,,,Physical
+impale,Impale,root,2,damage,,,
+impgrenade,Imp Grenade,enemy,1,damage,Power,0.5,Fire
+implosion,Implosion,root,1,damage,,,
+implosion,Implosion,root,2,heal,,,
+implosion,Implosion,root,3,damage,,,
+incision,Incision,root,1,damage,Power,0.85,Physical
+incision,Incision,root,1,stat_mod,Endurance,-20%,
+incision,Incision,root,2,damage,,,
+infernalbreath,Infernal Breath,enemy,1,damage,Focus,2.0,Fire
+injunction,Injunction,root,3,damage,Focus,0.35,MP
+inspire,Inspire,root,3,heal,,,
+intangible,Intangible,enemy,1,damage,,,
+intimidate,Intimidate,root,1,damage,Power,1.5,Stun
+intimidate,Intimidate,root,1,status,Stun,,
+intimidate,Intimidate,root,2,damage,,,
+invademind,Invade Mind,enemy,1,heal,,,
+invigoratehusk,Invigorate Husk,enemy,1,grant,,,
+invisiblewall,Invisible Wall,root,1,damage,,,
+invisiblewall,Invisible Wall,root,3,damage,,,
+invisiblewall,Invisible Wall,root,3,status,Shield,,
+ionblast,Ion Blast,fight,1,damage,Power,0.75,Energy
+ionblast,Ion Blast,fight,2,damage,Power,0.75,Energy
+ionblast,Ion Blast,fight,4,damage,Power,2,Stun
+ionblast,Ion Blast,fight,4,status,Stun,,
+irradiate,Irradiate,defend,1,heal,,,
+jab,Jab,fight,1,damage,Power,0.75,Physical
+jab,Jab,fight,2,damage,,,Attack
+joust,Joust,root,1,damage,Power,2,Physical
+joust,Joust,root,3,damage,,,
+judgment,Judgment,root,1,damage,Focus,2.0,Dark
+judgment,Judgment,root,2,damage,Focus,2.0,Dark
+judgment,Judgment,root,3,damage,,,Debuff
+juggle,Juggle,defend,1,damage,Technique,0.35,Stun
+juggle,Juggle,defend,1,status,Stun,,
+kappa,Kappa,root,1,damage,,,
+katana,Katana,fight,1,damage,Power,1,Physical
+katana,Katana,fight,2,damage,,,Physical
+katana,Katana,fight,3,damage,,,
+kill,Kill,root,1,damage,,,Physical
+kill,Kill,root,2,damage,,,
+kill,Kill,root,3,damage,,,
+killbeam,Kill Beam,root,1,damage,Power,2.5,Energy
+killbeam,Kill Beam,root,2,damage,Power,2.5,Energy
+kineticbarrier,Kinetic Barrier,defend,1,damage,,,
+kineticbarrier,Kinetic Barrier,defend,2,damage,,,
+kitsune,Kitsune,root,2,stat_gain,Discipline as Power and Agility while active,50%,
+krakenflail,Kraken Flail,enemy,1,damage,Power,0.75,Physical
+krakenroar,Kraken Roar,enemy,1,damage,,,Stun
+krakenroar,Kraken Roar,enemy,1,status,Stun,,
+kunai,Kunai,root,1,damage,Power,0.8,Physical
+laserpistol,Laser Pistol,fight,1,damage,Focus,1,Energy
+laserpistol,Laser Pistol,fight,2,damage,Focus,0.3,Fire
+laserpistol,Laser Pistol,fight,3,stat_mod,Technique,-20%,
+lastresort,Last Resort,enemy,1,damage,Power,5,Physical
+layonhands,Lay On Hands,root,1,heal,,,
+layonhands,Lay On Hands,root,2,stat_gain,OWNER,50%,
+leadstorm,Leadstorm,root,3,damage,,,
+lightbeam,Light Beam,fight,1,damage,Focus,1,Energy
+lightbeam,Light Beam,fight,2,stat_mod,Technique,-15%,
+lightbeam,Light Beam,fight,3,damage,,,
+lightblade,Light Blade,inventions,1,damage,,,Energy
+lightningstrike,Lightning Strike,enemy,1,damage,Focus,1.2,Lightning
+loan,Loan,root,1,grant,,,
+loan,Loan,root,3,damage,,,
+locustswarm,Locust Swarm,fight,1,damage,Focus,0.35,Physical;MP
+locustswarm,Locust Swarm,fight,2,damage,,,
+lovepotion,Love Potion,root,1,damage,,,
+lovepotion,Love Potion,root,2,damage,,,
+loverstrance,Lover's Trance,enemy,3,damage,,,
+lullaby,Lullaby,root,1,damage,,,
+lullaby,Lullaby,root,1,status,Sleep,3turn,
+lullaby,Lullaby,root,2,damage,,,
+lullaby,Lullaby,root,3,damage,,,
+m16,M16,fight,1,damage,,,Physical
+m16,M16,fight,2,damage,,,
+magmabomb,Magma Bomb,enemy,1,damage,,,Fire
+mark,Mark,fight,1,damage,,,
+mark,Mark,fight,2,damage,,,
+meditate,Meditate,defend,2,damage,,,
+medkit,Medkit,root,1,heal,,,
+melody,Melody,root,3,damage,,,MP
+meltarmor,Melt Armor,root,1,damage,Focus,0.45,Fire
+meltarmor,Melt Armor,root,2,damage,,,Fire;Physical
+menagerie,Menagerie,defend,1,summon,,,
+mend,Mend,root,1,heal,,,
+metabolism,Metabolism,tbreak,1,damage,,,Sleep
+metabolism,Metabolism,tbreak,1,status,Sleep,3turn,
+metamorphosis,Metamorphosis,enemy,1,summon,,,
+meteorstrike,Meteor Strike,enemy,1,damage,Focus,1.25,Fire
+mindshade,Mind Shade,enemy,1,damage,Focus,2.5,Dark
+mindshade,Mind Shade,enemy,1,heal,,,
+minilaser,Mini Laser,fight,1,damage,,,Energy
+mirage,Mirage,root,2,damage,,,
+mirrorimage,Mirror Image,root,1,damage,,,
+mirrorimage,Mirror Image,root,1,summon,,,
+mirrorimage,Mirror Image,root,4,damage,,,
+missilebarrage,Missile Barrage,enemy,1,damage,Power,0.6,Physical
+missilepod,Missile Pod,fight,1,damage,Power,0.35,Physical
+mitosis,Mitosis,enemy,1,summon,,,
+molotov,Molotov,root,1,damage,,,Fire
+molotov,Molotov,root,2,damage,,,
+monkeybanana,Monkey Banana,defend,1,heal,,,
+monkeyscratch,Monkey Scratch,fight,1,damage,Power,0.5,Physical
+motiontracker,Motion Tracker,fight,1,damage,,,
+motiontracker,Motion Tracker,fight,3,damage,,,
+mugennoken,Mugennoken,enemy,1,damage,Power,0.66,Physical
+naturemagic,Nature Magic,root,1,grant,,,
+needlebarrage,Needle Barrage,root,1,damage,Toughness,1,Physical
+needlebarrage,Needle Barrage,root,2,damage,Toughness,1,Physical
+needlevolley,Needle Volley,root,1,damage,Toughness,0.45,Physical
+needlevolley,Needle Volley,root,2,damage,Toughness,0.45,Physical
+newteye,Newt Eye,root,1,damage,,,Fire
+nightmare,Nightmare,enemy,1,damage,Focus,3,Dark
+nirvana,Nirvana,defend,3,damage,,,
+nourish,Nourish,enemy,1,heal,,,
+oathofjustice,Oath of Justice,root,3,damage,,,Holy
+oathofprotection,Oath of Protection,root,1,status,Shield,,
+oathofprotection,Oath of Protection,root,3,status,Shield,,
+oathofprotection,Oath of Protection,root,4,status,Taunt,,
+oathofprotection,Oath of Protection,root,4,status,Shield,,
+oathofrestoration,Oath of Restoration,root,4,heal,,,
+observe,Observe,enemy,2,damage,,,
+ooze,Ooze,enemy,1,damage,,,Poison;Poison
+ooze,Ooze,enemy,1,status,Poison,,
+ooze,Ooze,enemy,2,damage,,,Poison;Poison
+ooze,Ooze,enemy,2,status,Poison,,
+ooze,Ooze,enemy,3,damage,,,Poison;Poison
+ooze,Ooze,enemy,3,status,Poison,,
+overclock,Overclock,defend,1,stat_mod,Speed,+100%,
+overclock,Overclock,defend,2,damage,,,
+overpower,Overpower,root,1,damage,Power,2,Physical
+overpower,Overpower,root,1,status,Rage,,
+owlspirit,Owl Spirit,root,1,summon,,,
+painkillers,Painkillers,root,1,damage,,,
+painlash,Pain Lash,enemy,1,damage,Power,0.5,Physical
+pander,Pander,root,1,heal,,,
+pander,Pander,root,2,status,Taunt,,
+pander,Pander,root,3,damage,,,
+parasiticbond,Parasitic Bond,enemy,1,damage,,,
+peace,Peace,defend,1,damage,,,Physical
+penance,Penance,defend,1,heal,,,
+personalshield,Personal Shield,defend,1,damage,,,MP
+personalshield,Personal Shield,defend,4,status,Shield,,
+pestilence,Pestilence,root,1,damage,Focus,0.35,Poison;Dark
+pestilence,Pestilence,root,1,status,Poison,,
+phantomcut,Phantom Cut,root,1,damage,Power,0.45,Physical
+phantomcut,Phantom Cut,root,2,damage,Power,0.45,Physical
+piegun,Pie Gun,root,1,damage,,,Stun
+piegun,Pie Gun,root,1,status,Stun,,
+piegun,Pie Gun,root,2,damage,,,Stun
+piegun,Pie Gun,root,2,status,Stun,,
+pincushion,Pincushion,root,1,damage,,,Physical
+pincushion,Pincushion,root,2,damage,,,Physical
+pincushion,Pincushion,root,3,damage,,,
+pistol,Service Pistol,fight,1,damage,,,Physical
+pistol,Service Pistol,fight,2,damage,,,Physical
+pistol,Service Pistol,fight,3,damage,,,
+pistol,Service Pistol,fight,4,damage,,,
+pixiedust,Pixie Dust,fight,1,heal,,,
+pixiedust,Pixie Dust,fight,3,damage,,,Debuff;Sleep;Stun
+pixiedust,Pixie Dust,fight,3,status,Stun,,
+pixiedust,Pixie Dust,fight,3,status,Sleep,,
+plagueburst,Plague Burst,enemy,1,damage,Focus,1,Poison
+plagueburst,Plague Burst,enemy,1,status,Poison,,
+plaguepunch,Plague Punch,enemy,1,damage,Power,0.5,Physical
+plaguepunch,Plague Punch,enemy,1,damage,Focus,0.5,Poison
+plaguepunch,Plague Punch,enemy,1,status,Poison,,
+plunder,Plunder,root,1,damage,Power,3,Physical
+plunder,Plunder,root,2,damage,Power,3,Physical
+plunder,Plunder,root,4,damage,,,
+plunder,Plunder,root,4,heal,,,
+poisonclaws,Poison Claws,enemy,1,damage,Power,0.75,Poison
+poisonclaws,Poison Claws,enemy,1,status,Poison,,
+poisonsting,Poison Sting,enemy,1,damage,,,Poison
+poisonsting,Poison Sting,enemy,1,status,Poison,,
+poisonsting,Poison Sting,enemy,2,damage,,,Poison
+poisonsting,Poison Sting,enemy,2,status,Poison,,
+poisonsting,Poison Sting,enemy,3,damage,,,Poison
+poisonsting,Poison Sting,enemy,3,status,Poison,,
+posse,Posse,root,1,damage,,,
+possession,Possession,root,1,damage,,,
+possession,Possession,root,2,damage,,,Sonic
+possession,Possession,root,3,grant,,,
+potl,Pot L,defend,1,heal,,,
+potm,Pot M,defend,1,heal,,,
+pots,Pot S,defend,1,heal,,,
+potx,Pot X,defend,1,heal,,,
+pounce,Pounce,root,3,damage,,,
+powerballad,Power Ballad,root,3,damage,,,
+powerchord,Power Chord,root,1,damage,,,Sonic
+powerfist,Powerfist,fight,1,damage,Power,1,Physical
+powerfist,Powerfist,fight,2,damage,,,
+pr3dmissile,PR3D-Missile,root,1,damage,,,Physical
+prank,Prank,root,2,stat_mod,Technique,-20%,
+pray,Pray,fight,1,heal,,,
+prepare,Prepare,defend,3,damage,,,
+preparefood,Prepare Food,root,2,damage,,,
+prescribe,Prescribe,defend,2,heal,,,
+protect,Protect,defend,1,damage,,,
+protect,Protect,defend,2,damage,,,
+protect,Protect,defend,3,damage,,,
+psiwave,Psi Wave,enemy,1,damage,Focus,1,Dark
+pullrope,Pull Rope,root,1,damage,,,Stun
+pullrope,Pull Rope,root,1,status,Stun,,
+pullrope,Pull Rope,root,2,damage,,,
+pulsegrenade,Pulse Grenade,root,1,damage,,,Energy;Stun
+pulsegrenade,Pulse Grenade,root,1,status,Stun,,
+pulsemissile,Pulse Missile,enemy,1,damage,,,Energy
+pulserifle,Pulse Rifle,fight,1,damage,,,Energy
+pummel,Pummel,root,1,damage,Power,0.45,Physical
+pummel,Pummel,root,2,damage,Power,0.45,Physical
+pummel,Pummel,root,3,damage,,,Stun
+pummel,Pummel,root,3,status,Stun,,
+pupate,Pupate,enemy,1,damage,,,
+purge,Purge,enemy,1,damage,,,Lightning
+queensbite,Queen's Bite,enemy,1,damage,,,Poison;Poison;Poison
+queensbite,Queen's Bite,enemy,1,status,Poison,,
+quickshot,Quick Shot,fight,1,damage,,,Physical
+radioactivesludge,Radioactive Sludge,map,1,damage,,,Poison
+radioactivesludge,Radioactive Sludge,map,1,status,Poison,,
+railcannon,Rail Cannon,fight,1,damage,,,Physical
+rake,Rake,fight,1,damage,Power,0.45,Physical
+ravenous,Ravenous,enemy,1,damage,,,Melee
+ravenous,Ravenous,enemy,1,grant,,,
+reap,Reap,root,1,damage,Focus,1,Dark
+reap,Reap,root,2,damage,,,
+recklessattack,Reckless Attack,fight,1,damage,Power,1.5,Physical
+recklessattack,Reckless Attack,fight,3,damage,,,
+reflectorshield,Reflector Shield,root,1,damage,,,Ranged
+refresh,Refresh,root,4,heal,,,
+regrowth,Regrowth,root,1,heal,,,
+regrowth,Regrowth,root,2,stat_mod,Endurance,+35%,
+regrowth,Regrowth,root,3,heal,,,
+rekindle,Rekindle,root,1,damage,,,Attack;Fire
+rend,Rend,fight,1,damage,,,Physical
+renewal,Renewal,root,1,heal,,,
+repair,Repair,enemy,1,heal,,,
+repel,Repel,enemy,1,damage,Focus,0.75,Lightning
+restrainingorder,Restraining Order,root,2,stat_mod,speed,-35%,
+restrainingorder,Restraining Order,root,3,damage,,,
+retch,Retch,enemy,1,damage,Focus,1.0,Poison
+retch,Retch,enemy,1,damage,Focus,0.5,Poison
+retch,Retch,enemy,1,status,Poison,3turn,
+rete,Rete,root,1,damage,,,Stun
+rete,Rete,root,1,status,Stun,3turn,
+retreat,Retreat,defend,1,heal,,,
+retreat,Retreat,defend,3,heal,,,
+revitalizer,Revitalizer,inventions,1,heal,,,
+revolver,Revolver,fight,1,damage,,,Physical
+revolver,Revolver,fight,2,damage,,,Physical
+revolver,Revolver,fight,3,damage,,,
+riff,Riff,root,1,damage,,,Sonic
+ritual,Ritual,enemy,1,damage,Focus,1,Dark
+ritual,Ritual,enemy,1,heal,,,
+ritual,Ritual,enemy,2,heal,,,
+ritual,Ritual,enemy,3,heal,,,
+rocketburst,Rocket Burst,enemy,1,damage,Power,0.8,Physical
+rum,Rum,root,3,damage,,,
+runeenergy,Rune Energy,root,1,damage,Focus,1.5,Energy
+runeenergy,Rune Energy,root,2,damage,,,Energy
+runeheal,Rune Heal,root,1,heal,,,
+runesonic,Rune Sonic,root,1,damage,Focus,1.5,Sonic
+runesonic,Rune Sonic,root,2,damage,,,Sonic
+runestrike,Rune Strike,fight,1,damage,Power,0.8,Physical
+runestrike,Rune Strike,fight,1,stat_gain,Max MP,25%,
+runestun,Rune Stun,root,1,damage,Focus,1.5,Stun
+runestun,Rune Stun,root,1,status,Stun,,
+runestun,Rune Stun,root,2,damage,,,Stun
+runestun,Rune Stun,root,2,status,Stun,,
+safeguard,Safeguard,root,2,stat_gain,your attributes,25%,
+safeguard,Safeguard,root,3,status,Shield,,
+safeguard,Safeguard,root,3,status,channeling,,
+sawcleave,Saw Cleave,enemy,1,damage,Power,2,Physical
+sawcleave,Saw Cleave,enemy,1,damage,Power,1,Physical
+screech,Screech,fight,1,damage,Focus,1,Sonic
+searingheat,Searing Heat,map,1,damage,,,Fire
+servemeal,Serve Meal,root,1,heal,,,
+setdice10,Set Dice10,root,1,damage,Technique,3,Dark
+setdice3,Set Dice3,root,1,heal,,,
+setdice4,Set Dice4,root,1,grant,,,
+setdice6,Set Dice6,root,1,heal,,,
+setdice7,Set Dice7,root,1,damage,Technique,1.25,Dark
+setdice8,Set Dice8,root,1,status,Curse,,
+seversoul,Sever Soul,root,1,damage,Power,1.35,MP
+seversoul,Sever Soul,root,2,stat_mod,Discipline,-35%,
+shadowdriver,Shadow Driver,enemy,1,damage,Power,1.5,Physical
+shadowdriver,Shadow Driver,enemy,1,status,channeling,,
+shakeoff,Shake Off,root,3,heal,,,
+shaperune,Shape Rune,root,3,damage,,,
+shatter,Shatter,root,1,damage,Focus,0.75,Energy
+shield,Shield,drone,1,damage,,,
+shieldbash,Shield Bash,root,1,damage,Power,1,Physical;Stun
+shieldbash,Shield Bash,root,1,status,Stun,,
+shieldbash,Shield Bash,root,2,damage,,,
+shock,Shock,root,1,damage,Focus,1.5,Lightning
+shock,Shock,root,2,damage,,,
+shotgunblast,Shotgun Blast,root,1,damage,Power,1.25,Physical
+shotgunblast,Shotgun Blast,root,2,damage,,,Stun
+shotgunblast,Shotgun Blast,root,2,status,Stun,,
+shotgunblast,Shotgun Blast,root,3,damage,,,
+showoff,Show Off,enemy,1,damage,,,Physical;Dark;Energy
+shuriken,Shuriken,fight,1,damage,Power,0.45,Physical
+sicem,Sic 'em,root,1,grant,,,
+sicem,Sic 'em,root,2,damage,,,
+sicem,Sic 'em,root,3,damage,,,
+silvernet,Silver Net,root,1,damage,,,Stun;Holy
+silvernet,Silver Net,root,1,status,Stun,3turn,
+simmeringrage,Simmering Rage,enemy,1,damage,,,Fire
+siphonpunch,Siphon Punch,enemy,1,damage,Power,1,Physical;MP
+slash,Slash,fight,1,damage,Power,1,Physical
+slash,Slash,fight,2,damage,,,Physical
+sleepbomb,Sleep Bomb,root,1,damage,,,Sleep
+sleepbomb,Sleep Bomb,root,1,status,Sleep,,
+sleepbomb,Sleep Bomb,root,2,damage,,,
+sliceanddice,Slice and Dice,enemy,1,damage,Power,1.0,Physical
+slimebomb,Slime Bomb,enemy,1,damage,,,Physical;Stun
+slimebomb,Slime Bomb,enemy,1,status,Stun,,
+slimebomb,Slime Bomb,enemy,2,damage,,,Physical;Stun
+slimebomb,Slime Bomb,enemy,2,status,Stun,,
+slimebomb,Slime Bomb,enemy,3,damage,,,Physical;Stun
+slimebomb,Slime Bomb,enemy,3,status,Stun,,
+smartpistol,Smart Pistol,fight,1,damage,,,Physical
+smartpistol,Smart Pistol,fight,3,damage,,,Ranged
+smash,Smash,root,1,damage,Power,1.35,Physical;Stun
+smash,Smash,root,1,status,Stun,,
+smash,Smash,root,2,damage,,,Stun
+smash,Smash,root,2,status,Stun,3turn,
+smash,Smash,root,3,damage,,,Stun
+smash,Smash,root,3,status,Stun,,
+smite,Smite,fight,1,damage,Focus,0.5,Holy
+smite,Smite,fight,2,damage,,,
+smite,Smite,fight,3,damage,,,
+smog,Smog,enemy,1,damage,,,Poison
+smog,Smog,enemy,1,status,Poison,,
+snakeoil,Snake Oil,root,1,heal,,,
+snakeoil,Snake Oil,root,2,heal,,,
+snowdrone,Snow Drone,root,1,summon,,,
+snowstorm,Snow Storm,enemy,1,damage,Focus,1,Ice
+snowstorm,Snow Storm,enemy,1,heal,,,
+soulblast,Soul Blast,enemy,1,damage,Power,1.0,Physical
+soulbomb,Soul Bomb,enemy,1,damage,Focus,0.8,Dark;MP
+soulflay,Soulflay,root,1,damage,Power,1.35,MP
+soulflay,Soulflay,root,2,stat_mod,Discipline,-35%,
+soullance,Soul Lance,fight,1,damage,Power,1.25,Dark;MP
+sparkbomb,Spark Bomb,enemy,1,damage,,,Lightning
+spellscreen,Spellscreen,root,1,damage,Focus,1,
+spellscreen,Spellscreen,root,2,damage,,,
+spellscreen,Spellscreen,root,3,damage,,,Energy
+spiderlingbite,Spiderling Bite,enemy,1,damage,,,Poison
+spiderlingbite,Spiderling Bite,enemy,1,status,Poison,,
+spikebomb,Spike Bomb,inventions,1,damage,,,Physical;Physical
+spiritshield,Spirit Shield,root,1,damage,,,MP
+spiritshield,Spirit Shield,root,2,damage,,,
+spiritshield,Spirit Shield,root,4,status,Shield,,
+spiritwalk,Spirit Walk,root,1,damage,,,MP
+splash,Splash,fight,1,damage,Focus,1,Physical;Stun
+splash,Splash,fight,1,status,Stun,,
+splash,Splash,fight,2,stat_mod,Technique,-15%,
+splash,Splash,fight,3,stat_mod,Speed,-15%,
+splitarrow,Split Arrow,root,1,damage,,,Physical
+springboots,Spring Boots,inventions,1,damage,,,Physical
+stakebolt,Stakebolt,root,1,damage,Power,1.5,Physical
+stakebolt,Stakebolt,root,2,damage,Power,1.5,Physical
+stakebolt,Stakebolt,root,3,damage,,,
+stalk,Stalk,root,1,damage,,,
+stalk,Stalk,root,2,stat_mod,Technique,+25%,
+stalk,Stalk,root,3,damage,,,
+stampede,Stampede,root,1,damage,,,Physical
+stampede,Stampede,root,1,summon,,,
+stasisnet,Stasis Net,root,1,damage,,,Lightning;MP
+steammech,Steam Mech,root,2,damage,,,
+sting,Sting,enemy,1,damage,Power,2,Physical
+stomp,Stomp,enemy,1,damage,Power,1,Physical;Stun
+stomp,Stomp,enemy,1,status,Stun,,
+strafe,Strafe,root,1,damage,Power,1,Physical
+strafe,Strafe,root,1,damage,Power,0.5,Physical
+strafe,Strafe,root,2,damage,Power,1,Physical
+strangemoonlight,Strange Moonlight,map,1,damage,,,
+strategize,Strategize,root,2,damage,,,Sleep
+strategize,Strategize,root,2,status,Sleep,,
+strategize,Strategize,root,3,damage,,,Stun
+strategize,Strategize,root,3,status,Stun,,
+strikefear,Strike Fear,fight,1,damage,Focus,1.5,Stun
+strikefear,Strike Fear,fight,1,status,Stun,,
+stunburst,Stun Burst,enemy,1,damage,Power,1.5,Stun
+stunburst,Stun Burst,enemy,1,status,Stun,,
+stungrenade,Stun Grenade,root,1,damage,,,Stun
+stungrenade,Stun Grenade,root,1,status,Stun,,
+stungun,Stun Gun,root,1,damage,,,Stun
+stungun,Stun Gun,root,1,status,Stun,,
+stungun,Stun Gun,root,2,damage,,,Stun
+stungun,Stun Gun,root,2,status,Stun,3turn,
+stungun,Stun Gun,root,3,damage,,,Lightning
+stunshot,Stun Shot,enemy,1,damage,Power,2.0,Stun
+stunshot,Stun Shot,enemy,1,status,Stun,,
+subpoena,Subpoena,defend,2,damage,,,
+subsume,Subsume,enemy,1,damage,Power,2.0,Physical
+subsume,Subsume,enemy,1,heal,,,
+suggestion,Suggestion,root,2,damage,,,
+suggestion,Suggestion,root,3,damage,,,
+summonbear,Summon Bear,defend,1,damage,,,
+summonbear,Summon Bear,defend,1,summon,,,
+summonfalcon,Summon Falcon,defend,1,summon,,,
+summonmonkey,Summon Monkey,defend,1,heal,,,
+summonmonkey,Summon Monkey,defend,1,summon,,,
+summonmonkey,Summon Monkey,defend,2,summon,,,
+sunder,Sunder,enemy,1,damage,Focus,3,Dark
+sunder,Sunder,enemy,1,heal,,,
+sunder,Sunder,enemy,2,damage,,,Dark
+sunder,Sunder,enemy,2,heal,,,
+support,Support,defend,1,stat_gain,your attributes,25%,
+suppressingfire,Suppressing Fire,root,1,damage,Power,0.65,Physical
+suppressingfire,Suppressing Fire,root,1,stat_mod,Technique,-15%,
+suppressingfire,Suppressing Fire,root,2,damage,,,Stun
+suppressingfire,Suppressing Fire,root,2,status,Stun,,
+sweep,Sweep,root,1,damage,Power,1,Physical
+sweep,Sweep,root,1,damage,Power,0.5,Physical
+sweepattack,Sweep Attack,root,1,damage,Power,1,Physical
+sweepkick,Sweep Kick,root,1,damage,Power,2,Stun
+sweepkick,Sweep Kick,root,1,status,Stun,,
+sweepkick,Sweep Kick,root,2,damage,,,
+swipe,Swipe,enemy,1,damage,Power,1,Physical
+swipe,Swipe,enemy,2,damage,,,
+syrette,Syrette,root,1,damage,,,
+tarpit,Tar Pit,root,1,damage,Power,1,Physical
+taunt,Taunt,defend,2,damage,,,
+tear,Tear,root,1,damage,Power,1.35,Physical
+tear,Tear,root,3,stat_mod,Endurance,-15%,
+temper,Temper,root,1,damage,,,Physical
+temper,Temper,root,3,damage,,,
+tengu,Tengu,root,2,stat_gain,Discipline as Power and Focus while active,50%,
+tengu,Tengu,root,3,damage,,,
+terrify,Terrify,root,1,damage,Focus,2,Stun
+terrify,Terrify,root,1,status,Stun,,
+terrify,Terrify,root,3,damage,,,
+terrorbite,Terror Bite,enemy,1,damage,Power,1.5,Physical
+terrorbite,Terror Bite,enemy,2,damage,,,
+terrorbite,Terror Bite,enemy,3,damage,,,
+terrorspit,Terror Spit,enemy,1,damage,,,Poison;Stun
+terrorspit,Terror Spit,enemy,1,status,Stun,,
+terrorspit,Terror Spit,enemy,1,status,Poison,,
+thaw,Thaw,enemy,1,damage,,,Ice
+throwaxe,Throw Axe,root,1,damage,Power,0.75,Physical
+throwaxe,Throw Axe,root,2,damage,,,Physical
+throwblade,Throw Blade,fight,1,damage,Power,1,Physical
+throwblade,Throw Blade,fight,2,damage,,,
+throwknife,Throw Knife,root,1,damage,Power,1,Physical
+throwknife,Throw Knife,root,2,damage,,,
+throwskull,Throw Skull,root,1,damage,Power,0.8,Physical
+throwspear,Throw Spear,root,1,damage,Power,1.35,Physical
+throwspear,Throw Spear,root,2,damage,,,
+thunderhammer,Thunder Hammer,root,1,damage,Power,1.0,Physical;Lightning
+thunderhammer,Thunder Hammer,root,2,damage,Power,2.0,Stun
+thunderhammer,Thunder Hammer,root,2,status,Stun,,
+thunderhammer,Thunder Hammer,root,3,damage,Power,0.65,Lightning
+timedcharge,Timed Charge,root,1,damage,,,Physical
+timedcharge,Timed Charge,root,2,damage,,,Stun
+timedcharge,Timed Charge,root,2,status,Stun,,
+timesavant,Time Savant,root,1,status,Haste,,
+tinker,Tinker,root,1,damage,,,Gadget
+toadcap,Toad Cap,root,1,damage,,,Poison
+toadcap,Toad Cap,root,1,status,Poison,,
+toxicbomb,Toxic Bomb,enemy,1,damage,,,Poison;Poison
+toxicbomb,Toxic Bomb,enemy,1,status,Poison,,
+toxicbomb,Toxic Bomb,enemy,2,damage,,,Poison;Poison
+toxicbomb,Toxic Bomb,enemy,2,status,Poison,,
+toxicbomb,Toxic Bomb,enemy,3,damage,,,Poison;Poison
+toxicbomb,Toxic Bomb,enemy,3,status,Poison,,
+toxicmist,Toxic Mist,enemy,1,damage,,,Poison
+toxicmist,Toxic Mist,enemy,1,status,Poison,,
+toxicmist,Toxic Mist,enemy,2,damage,,,Poison
+toxicmist,Toxic Mist,enemy,2,status,Poison,,
+toxicmist,Toxic Mist,enemy,3,damage,,,Poison
+toxicmist,Toxic Mist,enemy,3,status,Poison,,
+toxicslam,Toxic Slam,enemy,1,damage,,,Poison;Poison
+toxicslam,Toxic Slam,enemy,1,status,Poison,,
+toxicspores,Toxic Spores,enemy,1,damage,,,Poison
+toxicspores,Toxic Spores,enemy,1,status,Poison,,
+toxicspores,Toxic Spores,enemy,2,damage,,,Poison
+toxicspores,Toxic Spores,enemy,2,status,Poison,,
+toxicspores,Toxic Spores,enemy,3,damage,,,Poison
+toxicspores,Toxic Spores,enemy,3,status,Poison,,
+track,Track,root,2,damage,,,
+track,Track,root,3,damage,,,
+trilaser,Tri Laser,enemy,1,damage,,,Energy;Fire
+truestrike,True Strike,root,3,damage,,,Attack
+tuneup,Tune Up,enemy,1,grant,,,
+tuneup,Tune Up,enemy,2,grant,,,
+tuneup,Tune Up,enemy,3,grant,,,
+turbo,Turbo,enemy,1,grant,,,
+ultralaser,Ultra Laser,enemy,1,damage,Power,1.5,Energy
+unload,Unload,root,1,damage,Power,0.75,Physical
+uppercut,Uppercut,root,1,damage,Power,1.5,Physical;Stun
+uppercut,Uppercut,root,1,status,Stun,,
+vengeance,Vengeance,enemy,1,damage,Focus,1.25,Lightning;Fire
+venombite,Venom Bite,root,1,damage,Power,0.5,Physical
+venombite,Venom Bite,root,1,status,Poison,3turn,
+venombite,Venom Bite,root,2,damage,,,Poison
+venombite,Venom Bite,root,2,status,Poison,,
+venombite,Venom Bite,root,3,damage,,,Poison;Attack
+venombite,Venom Bite,root,3,status,Poison,,
+venomspray,Venom Spray,enemy,1,damage,Focus,0.4,Poison
+venomspray,Venom Spray,enemy,1,damage,Focus,0.2,Poison
+venomspray,Venom Spray,enemy,1,status,Poison,3turn,
+ventsteam,Vent Steam,root,1,heal,,,
+vinegrasp,Vine Grasp,root,1,damage,Focus,0.75,Physical;Stun
+vinegrasp,Vine Grasp,root,1,status,Stun,,
+vinegrasp,Vine Grasp,root,2,stat_mod,Agility,-35%,
+vinegrasp,Vine Grasp,root,3,stat_mod,Speed,-35%,
+vinelash,Vine Lash,enemy,1,damage,Power,1.2,Physical
+vinelash,Vine Lash,enemy,2,damage,Power,1.2,Physical
+vinespear,Vine Spear,root,1,damage,Power,1.35,Physical
+voidbite,Void Bite,enemy,1,damage,Power,1,Dark
+voidbite,Void Bite,enemy,1,heal,,,
+voidblast,Void Blast,enemy,1,damage,Focus,1,Dark
+voidblast,Void Blast,enemy,2,damage,Focus,1,Dark
+voidstrike,Void Strike,enemy,1,damage,Focus,1.2,Dark
+wail,Wail,root,1,damage,Focus,0.25,Sonic
+wallop,Wallop,enemy,1,damage,Power,1.33,Physical
+wallop,Wallop,enemy,2,damage,,,Physical
+wandstrike,Wand Strike,enemy,1,damage,Power,1,Energy
+war,War,fight,1,damage,,,Physical
+war,War,fight,2,damage,,,
+warmonger,Warmonger,root,3,damage,,,
+weaponsplatform,Weapons Platform,fight,2,damage,,,Attack
+weaponsplatform,Weapons Platform,fight,3,damage,,,
+whetstone,Whetstone,root,1,damage,,,Attack
+whip,Whip,fight,1,damage,Power,1.2,Physical
+whip,Whip,fight,2,damage,,,Stun
+whip,Whip,fight,2,status,Stun,,
+whipshot,Whip Shot,root,1,damage,Power,0.75,Physical
+whipshot,Whip Shot,root,2,damage,Power,1,Stun
+whipshot,Whip Shot,root,2,status,Stun,,
+whipshot,Whip Shot,root,3,damage,,,
+whirlwind,Whirlwind,root,1,damage,Power,0.5,Lightning
+whiskey,Whiskey,root,2,damage,,,Stun
+whiskey,Whiskey,root,2,status,Stun,,
+whitewind,White Wind,root,1,heal,,,
+whitewind,White Wind,root,2,status,Stun,,
+whitewind,White Wind,root,2,status,Sleep,,
+wildswing,Wild Swing,fight,1,damage,Power,1,Physical
+windcutter,Wind Cutter,fight,1,damage,Power,1,Physical
+windcutter,Wind Cutter,fight,2,damage,Focus,1,Lightning
+wither,Wither,fight,1,damage,Focus,1,Dark
+wizzardrone,Wizzar Drone,root,1,summon,,,
+wound,Wound,root,1,damage,Power,1.35,Physical
+wound,Wound,root,3,stat_mod,Endurance,-15%,
+wraithstrike,Wraith Strike,fight,1,damage,Power,0.75,Physical
+wrench,Wrench,fight,1,damage,Power,1,Physical
+wrench,Wrench,fight,2,damage,,,
+wrench,Wrench,fight,3,damage,,,
+wristlaser,Wrist Laser,fight,1,damage,Power,1,Energy
+wristlaser,Wrist Laser,fight,2,damage,Power,0.3,Fire
+xendrossnap,Xendros Snap,enemy,1,damage,Focus,1.5,Dark
+yawn,Yawn,enemy,1,damage,Focus,4.0,Sleep
+yawn,Yawn,enemy,1,status,Sleep,,
+yawn,Yawn,enemy,1,heal,,,
+zappunch,Zap Punch,enemy,1,damage,Power,0.5,Physical
+zappunch,Zap Punch,enemy,1,damage,Focus,0.75,Lightning
+zapshot,Zap Shot,enemy,1,damage,Focus,1.25,Lightning;Stun
+zapshot,Zap Shot,enemy,1,status,Stun,,
+zentrance,Zen Trance,defend,1,damage,,,
+zentrance,Zen Trance,defend,1,stat_mod,Speed,-35%,
+zentrance,Zen Trance,defend,2,damage,,,
+zombiebite,Zombie Bite,root,1,damage,Power,0.5,Physical
+zombiebite,Zombie Bite,root,1,status,Poison,,
+zombiebite,Zombie Bite,root,2,damage,,,Poison
+zombiebite,Zombie Bite,root,2,status,Poison,,
+zombiebite,Zombie Bite,root,3,damage,,,
+zonedefense,Zone Defense,root,1,damage,,,
+zonedefense,Zone Defense,root,2,damage,,,
+zonedefense,Zone Defense,root,3,damage,,,
+zonedefense,Zone Defense,root,4,damage,,,
