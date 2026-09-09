@@ -3,7 +3,7 @@
    build-first view, two-root overlays (#overlay-root / #detail-overlay-root),
    statically-sized panels, pending→Confirm selection, event delegation,
    scroll-preserving refreshOverlay. Stat table per trait-and-stat-conventions.md. */
-import { computeEffective } from './engine.mjs';
+import { computeEffective } from './engine.mjs?v=027528b8';
 
 const TBC = window.TBC_DATA || { classes: [], relics: [], filters: [] };
 const $ = s => document.querySelector(s);
