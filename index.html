@@ -36,31 +36,10 @@
   </aside>
 </main>
 
-<!-- ===== Character selector overlay ===== -->
-<div class="overlay" id="pickerOverlay" hidden>
-  <div class="overlay-scrim" data-close></div>
-  <div class="panel picker" role="dialog" aria-modal="true" aria-label="Select a class">
-    <div class="panel-head">
-      <h2>Select Class <span class="muted" id="pickerSlotLabel"></span></h2>
-      <input type="search" id="pickerSearch" placeholder="Search class or character…" autocomplete="off" />
-      <button class="btn icon" data-close aria-label="Close">✕</button>
-    </div>
-    <div class="picker-grid" id="pickerGrid"></div>
-  </div>
-</div>
-
-<!-- ===== Relic / gem selector overlay ===== -->
-<div class="overlay" id="relicOverlay" hidden>
-  <div class="overlay-scrim" data-close></div>
-  <div class="panel picker" role="dialog" aria-modal="true" aria-label="Equip a relic or gem">
-    <div class="panel-head">
-      <h2>Equip Relic / Gem <span class="muted" id="relicSlotLabel"></span></h2>
-      <input type="search" id="relicSearch" placeholder="Search relic, gem, or effect…" autocomplete="off" />
-      <button class="btn icon" data-close aria-label="Close">✕</button>
-    </div>
-    <div class="picker-grid" id="relicGrid"></div>
-  </div>
-</div>
+<!-- Overlay layers (house style): #overlay-root = selectors (z100),
+     #detail-overlay-root = detail pages, stacked ABOVE (z200). Rendered by app.js. -->
+<div id="overlay-root" class="hidden" aria-hidden="true"></div>
+<div id="detail-overlay-root" class="hidden" aria-hidden="true"></div>
 
 <script src="data/data.js"></script>
 <script type="module" src="app.js"></script>

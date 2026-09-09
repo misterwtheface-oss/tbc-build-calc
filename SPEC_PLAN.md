@@ -54,7 +54,7 @@ Pure functions; imported by both `app.js` (browser) and `tools/test.mjs` (Node) 
 - [ ] Town/building boosts + boss-badge count → base stat boosts (fold into `base` per §1).
 
 ### P2 — nice-to-have
-- [~] **Filter UI** — tag chips (icon + label) render on the character readout + equipped relics (`tagChip()`); chips carry `data-tag`/`data-dim`. **Next:** make chips clickable → filter the relic/skill selectors + traverse to related entities (info panels).
+- [~] **Filter UI + detail panels** — tag chips (icon + label) render on the character readout + equipped relics (`tagChip()`); chips carry `data-tag`/`data-dim`. **Next:** make chips clickable → filter the relic/skill selectors + traverse to related entities (detail/info panels). **This feature carries the overlay-architecture alignment** (per the session-17 audit): build it on the house two-root overlays (`#overlay-root` z100 + `#detail-overlay-root` z200), event delegation (one handler/root + `data-action`), and Confirm/pending selection semantics — see `.claude/skills/build-calc-planner/references/ui-conventions.md`.
 - [ ] Adjacency / targeting reach by position; formation visualization.
 - [ ] Distortion (run-modifier) picker; trait system; glossary/tooltips surfacing the stat system.
 - [ ] Save/load/share builds (URL/code); enemy sprites when extracted; multi-form (Claire) switcher.
