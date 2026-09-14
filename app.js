@@ -3,7 +3,7 @@
    build-first view, two-root overlays (#overlay-root / #detail-overlay-root),
    statically-sized panels, pending→Confirm selection, event delegation,
    scroll-preserving refreshOverlay. Stat table per trait-and-stat-conventions.md. */
-import { computeEffective } from './engine.mjs?v=027528b8';
+import { computeEffective } from './engine.mjs?v=2ce7880d';
 
 const TBC = window.TBC_DATA || { classes: [], relics: [], filters: [] };
 const $ = s => document.querySelector(s);
@@ -11,14 +11,16 @@ const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': 
 
 // ---- config / lookups ----
 const N = 6, RELIC_SLOTS = 4;                 // confirmed: heroes bind up to 4 relics/gems
-const LINE = i => (i % 2 === 0 ? 'front' : 'back');
 const POSLABEL = ['F1', 'B1', 'F2', 'B2', 'F3', 'B3'];
 const STAT_KEYS = ['pow', 'foc', 'spd', 'tgh', 'dsc', 'agi', 'end', 'wis', 'tec'];
 const STAT_LABEL = { pow: 'Power', foc: 'Focus', spd: 'Speed', tgh: 'Toughness', dsc: 'Discipline',
   agi: 'Agility', end: 'Endurance', wis: 'Wisdom', tec: 'Technique' };
 const classById = new Map(TBC.classes.map(c => [c.id, c]));
 const relicById = new Map((TBC.relics || []).map(r => [r.id, r]));
-const classesSorted = TBC.classes.slice().sort((a, b) => a.name.localeCompare(b.name));
+// Class selector order = the emit order of TBC.classes, which build-data.mjs sorts from the
+// hand-authored references/roster_order.csv (unlisted classes fall back to act/story order).
+// Edit that CSV to change the roster layout.
+const classesSorted = TBC.classes.slice();
 const relicsSorted = (TBC.relics || []).slice().sort((a, b) => (a.name || a.id).localeCompare(b.name || b.id));
 
 // ---- tag → icon chips (association surfacing) ----
@@ -66,17 +68,17 @@ function renderGrid() {
   for (let i = 0; i < N; i++) {
     const s = team[i];
     if (!s) {
-      html += `<div class="slot empty" data-line="${LINE(i)}" data-action="open-class" data-slot="${i}">
+      html += `<div class="slot empty" data-action="open-class" data-slot="${i}">
         <span class="pos">${POSLABEL[i]}</span><span class="plus">+</span><span class="add-label">Assign</span></div>`;
     } else {
-      const c = classById.get(s.classId), d = effOf(s).derived;
+      const c = classById.get(s.classId);
       const nEq = (s.relics || []).filter(Boolean).length;
-      html += `<div class="slot filled${selected === i ? ' selected' : ''}" data-line="${LINE(i)}" data-action="select" data-slot="${i}">
+      html += `<div class="slot filled${selected === i ? ' selected' : ''}" data-action="select" data-slot="${i}">
         <span class="pos">${POSLABEL[i]}</span>
         <button class="remove" title="Remove" data-action="remove-slot" data-slot="${i}">✕</button>
         <div class="portrait"><img src="${esc(c.sprite)}" alt="${esc(c.name)}" loading="lazy" onerror="this.style.visibility='hidden'"></div>
         <span class="cname">${esc(c.name)}</span><span class="ccls">${esc(c.character)}</span>
-        <div class="ministats"><span>HP <b>${d.hp}</b></span><span>MP <b>${d.mp}</b></span>${nEq ? `<span class="eqcount">◆${nEq}</span>` : ''}</div>
+        ${nEq ? `<div class="ministats"><span class="eqcount">◆${nEq}</span></div>` : ''}
       </div>`;
     }
   }
@@ -133,7 +135,7 @@ function renderReadout() {
   box.innerHTML = `
     <div class="rt-head">
       <div class="portrait lg"><img src="${esc(c.sprite)}" alt="" onerror="this.style.visibility='hidden'"></div>
-      <div class="rt-id"><h2>${esc(c.name)}</h2><div class="sub">${esc(c.character)} · ${POSLABEL[selected]} (${LINE(selected)} line)</div></div>
+      <div class="rt-id"><h2>${esc(c.name)}</h2><div class="sub">${esc(c.character)} · ${POSLABEL[selected]}</div></div>
     </div>
     ${c.tags && c.tags.length ? `<div class="rt-section">KIT TAGS</div><div class="chips">${tagChips(c.tags)}</div>` : ''}
     <div class="rt-section">RELICS / GEMS</div>
@@ -152,7 +154,7 @@ function render() { renderGrid(); renderReadout(); }
 const SCROLLERS = ['.ovl-center-scroll', '.ovl-info', '.ovl-left', '.ovl-right-body'];
 
 function overlayTitle() {
-  if (ovl.kind === 'class') return `Select Class — ${POSLABEL[ovl.slot]} (${LINE(ovl.slot)})`;
+  if (ovl.kind === 'class') return `Select Class — ${POSLABEL[ovl.slot]}`;
   const c = classById.get(team[ovl.slot].classId);
   return `Equip Relic / Gem — ${esc(c.name)} · slot ${ovl.ri + 1}`;
 }
@@ -181,7 +183,6 @@ function openOverlay(kind, slot, ri) {
     </div>`;
   root.classList.remove('hidden'); root.setAttribute('aria-hidden', 'false');
   refreshOverlay();
-  root.querySelector('.ovl-search')?.focus();
 }
 
 function refreshOverlay() {

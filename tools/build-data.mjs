@@ -198,6 +198,45 @@ classes.forEach(c => {
     if (!Number.isFinite(c.base[k])) err(`class "${c.id}" non-numeric base ${k}`);
 });
 
+// Roster display order (class selector). The game exposes no explicit hero-layout order
+// (see _tbc_extract), so the SOURCE OF TRUTH is a hand-authored list, references/roster_order.csv
+// (one class_id per row, top→bottom). Classes absent from the list fall back BEHIND the
+// listed ones in act/story order (Start → Post Prologue → Act 1 → …). The classes array is
+// emitted in this final order, so the app just uses it as-is.
+orderClasses(classes);
+function orderClasses(list) {
+  const ACT_ORDER = ['Start', 'Post Prologue', 'Act 1', 'Post Act 1', 'Act 2', 'Post Act 2',
+    'Act 3', 'Post Act 3', 'Act 4', 'Post Act 4', 'Act 5', 'Post Act 5'];
+  const actIdx = c => { const i = ACT_ORDER.indexOf(c.act); return i < 0 ? ACT_ORDER.length : i; };
+  const origIdx = new Map(list.map((c, i) => [c.id, i]));
+  const heroFirst = new Map();
+  list.forEach((c, i) => heroFirst.set(c.character || '', Math.min(heroFirst.get(c.character || '') ?? Infinity, i)));
+  const actFallback = (a, b) =>                          // story order for anything unlisted
+    (actIdx(a) - actIdx(b)) || (heroFirst.get(a.character || '') - heroFirst.get(b.character || '')) || (origIdx.get(a.id) - origIdx.get(b.id));
+
+  const ids = new Set(list.map(c => c.id));
+  const rank = new Map();
+  if (existsSync(join(REF, 'roster_order.csv'))) {
+    const seen = new Set();
+    for (const row of table('roster_order.csv')) {
+      const id = (row.class_id || '').trim();
+      if (!id) continue;
+      if (!ids.has(id)) { warn(`roster_order.csv: unknown class_id "${id}" (ignored)`); continue; }
+      if (seen.has(id)) { warn(`roster_order.csv: duplicate class_id "${id}" (first position kept)`); continue; }
+      seen.add(id); rank.set(id, rank.size);
+    }
+    const missing = list.filter(c => !rank.has(c.id));
+    if (missing.length) warn(`roster_order.csv: ${missing.length} class(es) not listed — appended in act order (${missing.slice(0, 6).map(c => c.id).join(', ')}${missing.length > 6 ? ', …' : ''})`);
+  } else {
+    warn('roster_order.csv missing — using act/story order for the whole roster');
+  }
+  // listed classes first (by list position), then the rest in act-order fallback
+  list.sort((a, b) => {
+    const ra = rank.has(a.id) ? rank.get(a.id) : Infinity, rb = rank.has(b.id) ? rank.get(b.id) : Infinity;
+    return (ra - rb) || actFallback(a, b);
+  });
+}
+
 // Skills — skill_master.csv (861: computation + coefficients + text).
 const skills = table('skill_master.csv').map(r => ({
   id: r.skill_id, codename: r.codename, name: r.name, short: r.short_name,

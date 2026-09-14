@@ -1,0 +1,107 @@
+class_id,class_name,character,region
+genius,Physicist,Claire,Wanderers
+genius_tank,Armor,Claire,Wanderers
+genius_scavenger,Scavenger,Claire,Wanderers
+genius_frozen,Frozen,Claire,Wanderers
+genius_inscriber,Inscriber,Claire,Wanderers
+genius_occultist,Occultist,Claire,Wanderers
+genius_hacker,Hacker,Claire,Wanderers
+angel,Angel,Asariel,Wanderers
+beastmaster,Beastmaster,Ghalib,Wanderers
+boxer,Boxer,Curtis,Wanderers
+clown,Clown,Chuckles,Wanderers
+diva,Diva,Sophia,Wanderers
+doctor,Doctor,Ramesh,Wanderers
+fire_mage,Fire Mage,Zane,Wanderers
+fire_spirit_big,Fire Spirit,Igneo,Wanderers
+jaguar,Jaguar,Eztli,Wanderers
+jester,Jester,Ralf,Wanderers
+keekuko,Keekuko,Keekuko,Wanderers
+knight,Knight,Leon,Wanderers
+lich,Lich,Krethik,Wanderers
+linebacker,Linebacker,Paul,Wanderers
+maelstrom,Maelstrom,Cain,Wanderers
+magician,Magician,Oksana,Wanderers
+mime,Mime,Baptiste,Wanderers
+monk,Monk,Wensho,Wanderers
+morph,Morph,Alpha,Wanderers
+pixie,Pixie,Blueberry,Wanderers
+priestess,Priestess,Lydia,Wanderers
+ranger,Ranger,Iana,Wanderers
+secret_service,Secret Service,Agent,Wanderers
+wrestler,Wrestler,Zeke,Wanderers
+assassin,Assassin,Yukiko,Act One: Wasteland
+biker,Biker,Big Dan,Act One: Wasteland
+blacksmith,Blacksmith,Maximus,Act One: Wasteland
+immortal,Immortal,Javed,Act One: Wasteland
+jackal,Jackal Priest,Amenemhet,Act One: Wasteland
+lawbringer,Lawbringer,Samuel,Act One: Wasteland
+lizardman,Lizardman,Seth,Act One: Wasteland
+marine,Marine,Darius,Act One: Wasteland
+medic,Medic,Harry,Act One: Wasteland
+pirate,Pirate,Jack,Act One: Wasteland
+plague_doctor,Plague Doctor,Ambroise,Act One: Wasteland
+raider,Raider,Buzzard,Act One: Wasteland
+rocker,Rocker,Slade,Act One: Wasteland
+sentinel,Sentinel,Rafael,Act One: Wasteland
+super_soldier,Super Soldier,Carlos,Act One: Wasteland
+banshee,Banshee,Kiara,Act Two: Frozen Tundra
+barbarian,Barbarian,Odrak,Act Two: Frozen Tundra
+caveman,Caveman,Og,Act Two: Frozen Tundra
+cleric,Cleric,Brand,Act Two: Frozen Tundra
+undead,Cursed,Drex,Act Two: Frozen Tundra
+dark_knight,Dark Knight,Caleb,Act Two: Frozen Tundra
+general,General,George,Act Two: Frozen Tundra
+ice_mage,Ice Mage,Elgeon,Act Two: Frozen Tundra
+med_bot,Med Bot,MU-21,Act Two: Frozen Tundra
+necromancer,Necromancer,Sovras,Act Two: Frozen Tundra
+ninja,Ninja,Ishikawa,Act Two: Frozen Tundra
+pioneer,Pioneer,Jed,Act Two: Frozen Tundra
+sasquatch,Sasquatch,Korr,Act Two: Frozen Tundra
+viking,Viking,Thorg,Act Two: Frozen Tundra
+vul,Vul,Vikki,Act Two: Frozen Tundra
+bard,Bard,Seb,Act Three: Woodlands
+druid,Druid,Selyse,Act Three: Woodlands
+dryad,Dryad,Valeriya,Act Three: Woodlands
+musketeer,Musketeer,Alexandre,Act Three: Woodlands
+paladin,Paladin,William,Act Three: Woodlands
+pursuer,Pursuer,Xorkzi,Act Three: Woodlands
+samurai,Samurai,Kenjiro,Act Three: Woodlands
+shaman,Shaman,Lucien,Act Three: Woodlands
+siren,Siren,Raidne,Act Three: Woodlands
+spellblade,Spellblade,Gabrielle,Act Three: Woodlands
+vampire_hunter,Vampire Hunter,Abraham,Act Three: Woodlands
+witch,Witch,Minerva,Act Three: Woodlands
+wolfman,Woodsman,Michael,Act Three: Woodlands
+wraith,Wraith,Viper,Act Three: Woodlands
+yakuza,Yakuza,Kazuo,Act Three: Woodlands
+banker,Banker,Graham,Act Four: Hellfire
+blood_zealot,Blood Mage,Varyn,Act Four: Hellfire
+bokor,Bokor,Rene,Act Four: Hellfire
+snake_charmer,Charmer,Lila,Act Four: Hellfire
+chef,Chef,Jacques,Act Four: Hellfire
+chemist,Chemist,Olive,Act Four: Hellfire
+devil,Devil,Illia,Act Four: Hellfire
+fallen_angel,Fallen,Eligor,Act Four: Hellfire
+firefighter,Firefighter,Charlie,Act Four: Hellfire
+golem,Golem,Rock,Act Four: Hellfire
+gunslinger,Gunslinger,Kate,Act Four: Hellfire
+hellbinder,Hellbinder,Dave,Act Four: Hellfire
+rune_scribe,Rune Scribe,Emmy,Act Four: Hellfire
+steam_lord,Steam Engineer,Mathias,Act Four: Hellfire
+vampire,Vampire,Edgard,Act Four: Hellfire
+brawler,Brawler,Tank,Act Five: Future Frontier
+cactus,Cerean,Echinos,Act Five: Future Frontier
+combat_bot,Combat Bot,EXU-5,Act Five: Future Frontier
+cop,Cop,Daniela,Act Five: Future Frontier
+cyborg,Cyborg,SK-04A,Act Five: Future Frontier
+gambler,Gambler,Chance,Act Five: Future Frontier
+gladiator,Gladiator,Viggo,Act Five: Future Frontier
+guru,Guru,Sandeep,Act Five: Future Frontier
+inquisitor,Inquisitor,Haven,Act Five: Future Frontier
+inventor,Inventor,Otto,Act Five: Future Frontier
+judge,Judge,Rupert,Act Five: Future Frontier
+juggernaut,Juggernaut,Jackson,Act Five: Future Frontier
+lumian,Lumian,Luna,Act Five: Future Frontier
+sentrybot,Sentry Bot,Warden,Act Five: Future Frontier
+space_marine,Space Marine,Carmen,Act Five: Future Frontier
