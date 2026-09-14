@@ -215,7 +215,7 @@ function orderClasses(list) {
     (actIdx(a) - actIdx(b)) || (heroFirst.get(a.character || '') - heroFirst.get(b.character || '')) || (origIdx.get(a.id) - origIdx.get(b.id));
 
   const ids = new Set(list.map(c => c.id));
-  const rank = new Map();
+  const rank = new Map(), regionById = new Map();
   if (existsSync(join(REF, 'roster_order.csv'))) {
     const seen = new Set();
     for (const row of table('roster_order.csv')) {
@@ -223,7 +223,7 @@ function orderClasses(list) {
       if (!id) continue;
       if (!ids.has(id)) { warn(`roster_order.csv: unknown class_id "${id}" (ignored)`); continue; }
       if (seen.has(id)) { warn(`roster_order.csv: duplicate class_id "${id}" (first position kept)`); continue; }
-      seen.add(id); rank.set(id, rank.size);
+      seen.add(id); rank.set(id, rank.size); regionById.set(id, (row.region || '').trim());
     }
     const missing = list.filter(c => !rank.has(c.id));
     if (missing.length) warn(`roster_order.csv: ${missing.length} class(es) not listed — appended in act order (${missing.slice(0, 6).map(c => c.id).join(', ')}${missing.length > 6 ? ', …' : ''})`);
@@ -235,6 +235,7 @@ function orderClasses(list) {
     const ra = rank.has(a.id) ? rank.get(a.id) : Infinity, rb = rank.has(b.id) ? rank.get(b.id) : Infinity;
     return (ra - rb) || actFallback(a, b);
   });
+  for (const c of list) c.region = regionById.get(c.id) || '';   // selector section header
 }
 
 // Skills — skill_master.csv (861: computation + coefficients + text).

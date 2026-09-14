@@ -134,6 +134,23 @@ h1,h2{margin:0;font-weight:700;letter-spacing:.02em}
 .reff{color:var(--muted);font-size:12px;line-height:1.4;margin:0 0 6px}
 .detail-skills{font-size:12px;color:var(--ink);line-height:1.6}
 
+/* ---- readout info (ⓘ → hero skills) ---- */
+.rt-info{margin-left:auto;align-self:flex-start;flex-shrink:0;background:transparent;border:1px solid var(--edge2);border-radius:8px;
+  color:var(--cyan);font-size:16px;line-height:1;width:30px;height:30px;display:grid;place-items:center;cursor:pointer;
+  transition:.12s border-color,.12s transform}
+.rt-info:hover{border-color:var(--cyan);transform:translateY(-1px)}
+
+/* ---- hero skills overlay ---- */
+.hs-group{display:flex;flex-direction:column;gap:8px;margin-top:6px}
+.hs-card{background:var(--bg2);border:1px solid var(--edge);border-radius:10px;padding:10px 12px}
+.hs-card-head{display:flex;align-items:center;gap:8px;margin-bottom:2px}
+.hs-name{font-size:13px;font-weight:800}
+.hs-card .chips{margin:4px 0 2px}
+.sk-levels{display:flex;flex-direction:column;gap:5px;margin-top:6px}
+.sk-lvl{display:grid;grid-template-columns:auto 1fr;gap:8px;align-items:baseline;background:var(--panel);border:1px solid var(--edge);border-radius:8px;padding:7px 10px}
+.sk-lvl-n{font-size:10px;font-weight:800;color:var(--cyan);letter-spacing:.04em;white-space:nowrap}
+.sk-lvl-t{font-size:12px;color:var(--ink);line-height:1.4}
+
 /* ═══ OVERLAY SYSTEM (two roots; detail stacks above) ═══ */
 #overlay-root,#detail-overlay-root{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;padding:3vh 3vw;
   background:rgba(4,8,16,.72);backdrop-filter:blur(3px);z-index:100}
@@ -161,6 +178,9 @@ h1,h2{margin:0;font-weight:700;letter-spacing:.02em}
 .ovl-search:focus{outline:none;border-color:var(--cyan)}
 .ovl-center-scroll{flex:1;overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;padding:12px}
 .ovl-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(100px,1fr));gap:10px}
+.ovl-group-head{grid-column:1/-1;font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;
+  color:var(--cyan);padding:8px 2px 5px;margin-top:6px;border-bottom:1px solid var(--edge)}
+.ovl-grid>.ovl-group-head:first-child{margin-top:0}
 .ovl-card{aspect-ratio:1;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;background:var(--bg2);
   border:1px solid var(--edge);border-radius:8px;cursor:pointer;padding:6px 5px;position:relative;overflow:hidden}
 .ovl-card img{width:84%;height:84%;object-fit:contain;image-rendering:pixelated}
@@ -212,4 +232,5 @@ h1,h2{margin:0;font-weight:700;letter-spacing:.02em}
   .ovl-left{order:1}                                        /* stats after */
   .overlay-body:not(.has-selection) .ovl-center{height:100%}
   .overlay-body:not(.has-selection) .ovl-info{display:none}
+  .ovl-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:8px}   /* 4 heroes per row on phones */
 }

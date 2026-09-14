@@ -3,7 +3,7 @@
    build-first view, two-root overlays (#overlay-root / #detail-overlay-root),
    statically-sized panels, pending→Confirm selection, event delegation,
    scroll-preserving refreshOverlay. Stat table per trait-and-stat-conventions.md. */
-import { computeEffective } from './engine.mjs?v=2ce7880d';
+import { computeEffective } from './engine.mjs?v=3cc3a710';
 
 const TBC = window.TBC_DATA || { classes: [], relics: [], filters: [] };
 const $ = s => document.querySelector(s);
@@ -17,6 +17,9 @@ const STAT_LABEL = { pow: 'Power', foc: 'Focus', spd: 'Speed', tgh: 'Toughness',
   agi: 'Agility', end: 'Endurance', wis: 'Wisdom', tec: 'Technique' };
 const classById = new Map(TBC.classes.map(c => [c.id, c]));
 const relicById = new Map((TBC.relics || []).map(r => [r.id, r]));
+const skillById = new Map((TBC.skills || []).map(s => [s.id, s]));
+const modsBySkill = new Map();
+for (const m of (TBC.skillModifiers || [])) (modsBySkill.get(m.skillId) || modsBySkill.set(m.skillId, []).get(m.skillId)).push(m);
 // Class selector order = the emit order of TBC.classes, which build-data.mjs sorts from the
 // hand-authored references/roster_order.csv (unlisted classes fall back to act/story order).
 // Edit that CSV to change the roster layout.
@@ -132,10 +135,12 @@ function renderReadout() {
        ${r.tags && r.tags.length ? `<div class="chips">${tagChips(r.tags)}</div>` : ''}</li>`).join('')
     || '<li class="muted">No relics/gems equipped.</li>';
 
+  const hasSkills = c.skills && c.skills.length;
   box.innerHTML = `
     <div class="rt-head">
       <div class="portrait lg"><img src="${esc(c.sprite)}" alt="" onerror="this.style.visibility='hidden'"></div>
       <div class="rt-id"><h2>${esc(c.name)}</h2><div class="sub">${esc(c.character)} · ${POSLABEL[selected]}</div></div>
+      ${hasSkills ? `<button class="rt-info" data-action="hero-skills" data-slot="${selected}" title="View ${esc(c.name)}'s skills" aria-label="View skills">ⓘ</button>` : ''}
     </div>
     ${c.tags && c.tags.length ? `<div class="rt-section">KIT TAGS</div><div class="chips">${tagChips(c.tags)}</div>` : ''}
     <div class="rt-section">RELICS / GEMS</div>
@@ -195,9 +200,12 @@ function refreshOverlay() {
   let gridHtml = '';
   if (ovl.kind === 'class') {
     const list = classesSorted.filter(c => !q || (c.name + ' ' + c.character + ' ' + c.id).toLowerCase().includes(q));
-    gridHtml = list.map(c => `<div class="ovl-card${c.id === ovl.pending ? ' selected' : ''}" data-action="pick" data-id="${esc(c.id)}" title="${esc(c.name)}">
-      <img src="${esc(c.sprite)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span class="oc-name">${esc(c.name)}</span></div>`).join('')
-      || '<p class="muted">No matches.</p>';
+    let region = null;
+    gridHtml = list.map(c => {
+      const head = (c.region && c.region !== region) ? (region = c.region, `<div class="ovl-group-head">${esc(c.region)}</div>`) : '';
+      return head + `<div class="ovl-card${c.id === ovl.pending ? ' selected' : ''}" data-action="pick" data-id="${esc(c.id)}" title="${esc(c.name)}">
+        <img src="${esc(c.sprite)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'"><span class="oc-name">${esc(c.name)}</span></div>`;
+    }).join('') || '<p class="muted">No matches.</p>';
   } else {
     const equipped = new Set((team[ovl.slot].relics || []).filter(Boolean));
     const list = relicsSorted.filter(r => !q || ((r.name || '') + ' ' + (r.effect || '') + ' ' + r.type + ' ' + r.id).toLowerCase().includes(q));
@@ -265,6 +273,36 @@ function closeOverlay(commit) {
   render();
 }
 
+// ═══════════════════ HERO SKILLS OVERLAY (#detail-overlay-root) ═══════════════════
+// Full learnset with each skill's per-level descriptive text (accessed via the ⓘ on the readout).
+function skillCard(id) {
+  const sk = skillById.get(id); if (!sk) return '';
+  const levels = (sk.levels || []).map((t, i) =>
+    `<div class="sk-lvl"><span class="sk-lvl-n">Lv ${i + 1}</span><span class="sk-lvl-t">${esc(String(t).replace(/SkillType\./g, ''))}</span></div>`).join('');
+  return `<div class="hs-card">
+    <div class="hs-card-head"><span class="hs-name">${esc(sk.name)}</span></div>
+    ${sk.tags && sk.tags.length ? `<div class="chips">${tagChips(sk.tags)}</div>` : ''}
+    ${levels ? `<div class="sk-levels">${levels}</div>` : '<p class="muted">No description.</p>'}</div>`;
+}
+function openHeroSkills(classId) {
+  const c = classById.get(classId); if (!c) return;
+  const fset = new Set(c.fightSkills || []), dset = new Set(c.defendSkills || []);
+  const root = (c.skills || []).filter(id => !fset.has(id) && !dset.has(id));
+  const section = (label, ids) => (ids && ids.length)
+    ? `<div class="rt-section">${label}</div><div class="hs-group">${ids.map(skillCard).join('')}</div>` : '';
+  const body = (c.skills && c.skills.length)
+    ? section('Fight', c.fightSkills) + section('Defend', c.defendSkills) + section('Skills', root)
+    : '<p class="muted">No skills.</p>';
+  const rt = $('#detail-overlay-root');
+  rt.innerHTML = `<div class="overlay-panel" role="dialog" aria-modal="true">
+      <div class="overlay-header">
+        <h2>${esc(c.name)} — Skills</h2>
+        <button class="overlay-close" data-action="close-detail" aria-label="Close">&times;</button></div>
+      <div class="overlay-body"><div class="ovl-center"><div class="ovl-center-scroll detail-main">${body}</div></div></div>
+      <div class="overlay-footer"><button class="btn primary" data-action="close-detail">Close</button></div></div>`;
+  rt.classList.remove('hidden'); rt.setAttribute('aria-hidden', 'false');
+}
+
 // ═══════════════════ DETAIL OVERLAY (#detail-overlay-root, stacks above) ═══════════════════
 function openDetail(kind, id) {
   const root = $('#detail-overlay-root');
@@ -300,7 +338,26 @@ function closeDetail() {
 
 // ═══════════════════════════ EVENT DELEGATION ═══════════════════════════
 function act(e) { return e.target.closest('[data-action]'); }
+
+// Reopen the class selector on a slot via right-click (desktop) or long-press (touch) — lets
+// you swap a filled hero in place. `lpGuardUntil` swallows the synthetic click that follows a
+// long-press so it neither re-selects the slot nor dismisses the just-opened overlay.
+let lpTimer = null, lpGuardUntil = 0;
+const swapSlot = el => { const s = el.closest('.slot'); if (s) openOverlay('class', Number(s.dataset.slot)); };
+$('.stage').addEventListener('contextmenu', e => {
+  const s = e.target.closest('.slot'); if (!s) return;
+  e.preventDefault(); openOverlay('class', Number(s.dataset.slot));
+});
+$('.stage').addEventListener('touchstart', e => {
+  const s = e.target.closest('.slot');
+  if (!s || e.target.closest('[data-action="remove-slot"]')) return;
+  lpTimer = setTimeout(() => { lpTimer = null; lpGuardUntil = performance.now() + 700; swapSlot(s); }, 500);
+}, { passive: true });
+const cancelLP = () => { if (lpTimer) { clearTimeout(lpTimer); lpTimer = null; } };
+['touchmove', 'touchend', 'touchcancel'].forEach(ev => $('.stage').addEventListener(ev, cancelLP, { passive: true }));
+
 $('.stage').addEventListener('click', e => {
+  if (performance.now() < lpGuardUntil) { e.stopPropagation(); return; }   // swallow long-press ghost click
   const el = act(e); if (!el) return;
   const slot = Number(el.dataset.slot), ri = Number(el.dataset.ri);
   switch (el.dataset.action) {
@@ -309,11 +366,12 @@ $('.stage').addEventListener('click', e => {
     case 'remove-slot': team[slot] = null; if (selected === slot) selected = null; save(); render(); break;
     case 'open-relic': selected = slot; openOverlay('relic', slot, ri); break;
     case 'remove-relic': team[slot].relics[ri] = null; save(); render(); break;
+    case 'hero-skills': openHeroSkills(team[slot].classId); break;
   }
 });
 $('#overlay-root').addEventListener('click', e => {
   const el = act(e);
-  if (!el) { if (e.target.id === 'overlay-root') closeOverlay(false); return; }   // backdrop = dismiss
+  if (!el) { if (e.target.id === 'overlay-root' && performance.now() >= lpGuardUntil) closeOverlay(false); return; }   // backdrop = dismiss (not the long-press ghost click)
   switch (el.dataset.action) {
     case 'pick': ovl.pending = ovl.pending === el.dataset.id ? null : el.dataset.id; refreshOverlay(); break;
     case 'detail': openDetail(ovl.kind, el.dataset.id); break;
